@@ -18,7 +18,11 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="test_cwx.cpp">
+=======
+    <ClCompile Include="test_lty.cpp">
+>>>>>>> d9709eba3d9244c34979d495bc6b382724a8e7b6
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

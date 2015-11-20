@@ -63,7 +63,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="test_cwx.cpp" />
+=======
+    <ClCompile Include="test_lty.cpp" />
+>>>>>>> d9709eba3d9244c34979d495bc6b382724a8e7b6
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
