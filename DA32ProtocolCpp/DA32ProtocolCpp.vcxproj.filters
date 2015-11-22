@@ -68,6 +68,9 @@
     <ClInclude Include="include\json\writer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DA32Protocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\lib_json.lib" />

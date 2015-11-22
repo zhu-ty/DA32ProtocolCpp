@@ -1,4 +1,11 @@
 {
-	"name":"cwx",
-	"age":10
+	"id":1,
+	"type":"text",
+	"time":"2015.11.10 20:11:11",
+	"else":{},
+	"data":{
+		"name":"Cwx",
+		"text":"123,\\23´ó"
+	},
+	"md5":"a1d16ec13b789e457bf440be6eda56cc"
 }

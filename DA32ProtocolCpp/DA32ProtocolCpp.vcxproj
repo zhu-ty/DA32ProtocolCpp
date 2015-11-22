@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Client.h" />
+    <ClInclude Include="DA32Protocol.h" />
     <ClInclude Include="include\json\autolink.h" />
     <ClInclude Include="include\json\config.h" />
     <ClInclude Include="include\json\features.h" />

@@ -478,10 +478,8 @@ PUBLIC	?size@Value@Json@@QBEIXZ			; Json::Value::size
 PUBLIC	?asBool@Value@Json@@QBE_NXZ			; Json::Value::asBool
 PUBLIC	?asDouble@Value@Json@@QBENXZ			; Json::Value::asDouble
 PUBLIC	?asUInt@Value@Json@@QBEIXZ			; Json::Value::asUInt
-PUBLIC	?asCString@Value@Json@@QBEPBDXZ			; Json::Value::asCString
 PUBLIC	?type@Value@Json@@QBE?AW4ValueType@2@XZ		; Json::Value::type
 PUBLIC	?swap@Value@Json@@QAEXAAV12@@Z			; Json::Value::swap
-PUBLIC	??4Value@Json@@QAEAAV01@ABV01@@Z		; Json::Value::operator=
 PUBLIC	??1?$map@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@@std@@QAE@XZ ; std::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::~map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >
 PUBLIC	??_G?$map@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@@std@@QAEPAXI@Z ; std::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::`scalar deleting destructor'
 PUBLIC	??_ECommentInfo@Value@Json@@QAEPAXI@Z		; Json::Value::CommentInfo::`vector deleting destructor'
@@ -520,6 +518,8 @@ PUBLIC	?_Orphan_all@_Container_base0@std@@QAEXXZ	; std::_Container_base0::_Orpha
 PUBLIC	??AValue@Json@@QAEAAV01@PBD@Z			; Json::Value::operator[]
 PUBLIC	?asInt@Value@Json@@QBEHXZ			; Json::Value::asInt
 PUBLIC	?asString@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ ; Json::Value::asString
+PUBLIC	?asCString@Value@Json@@QBEPBDXZ			; Json::Value::asCString
+PUBLIC	??4Value@Json@@QAEAAV01@ABV01@@Z		; Json::Value::operator=
 PUBLIC	??1Value@Json@@QAE@XZ				; Json::Value::~Value
 PUBLIC	??0Value@Json@@QAE@W4ValueType@1@@Z		; Json::Value::Value
 PUBLIC	?null@Value@Json@@2V12@B			; Json::Value::null
@@ -1480,6 +1480,143 @@ $LN87@Value:
 	pop	ebp
 	ret	0
 ??1Value@Json@@QAE@XZ ENDP				; Json::Value::~Value
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+; File f:\program_files\vc\include\utility
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+; File f:\program_files\vc\include\utility
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+;	COMDAT ??4Value@Json@@QAEAAV01@ABV01@@Z
+_TEXT	SEGMENT
+_temp$ = -20						; size = 16
+_other$ = 8						; size = 4
+??4Value@Json@@QAEAAV01@ABV01@@Z PROC			; Json::Value::operator=, COMDAT
+; _this$ = ecx
+
+; 509  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 20					; 00000014H
+	push	ebx
+	push	esi
+
+; 510  :    Value temp( other );
+
+	push	DWORD PTR _other$[ebp]
+	mov	esi, ecx
+	lea	ecx, DWORD PTR _temp$[ebp]
+	call	??0Value@Json@@QAE@ABV01@@Z		; Json::Value::Value
+
+; 514  : 
+; 515  : void 
+; 516  : Value::swap( Value &other )
+; 517  : {
+; 518  :    ValueType temp = type_;
+
+	movsx	eax, BYTE PTR [esi+8]
+
+; 519  :    type_ = other.type_;
+
+	mov	ebx, DWORD PTR _temp$[ebp+8]
+
+; 520  :    other.type_ = temp;
+
+	xor	eax, ebx
+	mov	BYTE PTR [esi+8], bl
+; File f:\program_files\vc\include\utility
+
+; 47   : 	_Ty _Tmp = _Move(_Left);
+
+	mov	ecx, DWORD PTR [esi]
+	mov	edx, DWORD PTR [esi+4]
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+
+; 520  :    other.type_ = temp;
+
+	and	eax, 255				; 000000ffH
+	xor	ebx, eax
+; File f:\program_files\vc\include\utility
+
+; 48   : 	_Left = _Move(_Right);
+
+	mov	eax, DWORD PTR _temp$[ebp]
+	mov	DWORD PTR [esi], eax
+	mov	eax, DWORD PTR _temp$[ebp+4]
+	mov	DWORD PTR [esi+4], eax
+
+; 49   : 	_Right = _Move(_Tmp);
+
+	mov	DWORD PTR _temp$[ebp+4], edx
+	mov	DWORD PTR _temp$[ebp], ecx
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+
+; 522  :    int temp2 = allocated_;
+
+	mov	ecx, DWORD PTR [esi+8]
+	mov	edx, ecx
+	shl	edx, 23					; 00000017H
+	sar	edx, 31					; 0000001fH
+
+; 523  :    allocated_ = other.allocated_;
+
+	mov	eax, ecx
+
+; 524  :    other.allocated_ = temp2;
+
+	shl	edx, 8
+	xor	eax, ebx
+	xor	edx, ebx
+	and	eax, 256				; 00000100H
+	and	edx, 256				; 00000100H
+	xor	eax, ecx
+	xor	ebx, edx
+
+; 511  :    swap( temp );
+; 512  :    return *this;
+
+	lea	ecx, DWORD PTR _temp$[ebp]
+
+; 523  :    allocated_ = other.allocated_;
+
+	mov	DWORD PTR [esi+8], eax
+
+; 524  :    other.allocated_ = temp2;
+
+	mov	DWORD PTR _temp$[ebp+8], ebx
+
+; 511  :    swap( temp );
+; 512  :    return *this;
+
+	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
+	mov	eax, esi
+
+; 513  : }
+
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??4Value@Json@@QAEAAV01@ABV01@@Z ENDP			; Json::Value::operator=
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+;	COMDAT ?asCString@Value@Json@@QBEPBDXZ
+_TEXT	SEGMENT
+?asCString@Value@Json@@QBEPBDXZ PROC			; Json::Value::asCString, COMDAT
+; _this$ = ecx
+
+; 679  :    JSON_ASSERT( type_ == stringValue );
+; 680  :    return value_.string_;
+
+	mov	eax, DWORD PTR [ecx]
+
+; 681  : }
+
+	ret	0
+?asCString@Value@Json@@QBEPBDXZ ENDP			; Json::Value::asCString
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
@@ -4931,126 +5068,6 @@ _TEXT	ENDS
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ; File f:\program_files\vc\include\utility
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-; File f:\program_files\vc\include\utility
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-;	COMDAT ??4Value@Json@@QAEAAV01@ABV01@@Z
-_TEXT	SEGMENT
-_temp$ = -20						; size = 16
-_other$ = 8						; size = 4
-??4Value@Json@@QAEAAV01@ABV01@@Z PROC			; Json::Value::operator=, COMDAT
-; _this$ = ecx
-
-; 509  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 20					; 00000014H
-	push	ebx
-	push	esi
-
-; 510  :    Value temp( other );
-
-	push	DWORD PTR _other$[ebp]
-	mov	esi, ecx
-	lea	ecx, DWORD PTR _temp$[ebp]
-	call	??0Value@Json@@QAE@ABV01@@Z		; Json::Value::Value
-
-; 514  : 
-; 515  : void 
-; 516  : Value::swap( Value &other )
-; 517  : {
-; 518  :    ValueType temp = type_;
-
-	movsx	eax, BYTE PTR [esi+8]
-
-; 519  :    type_ = other.type_;
-
-	mov	ebx, DWORD PTR _temp$[ebp+8]
-
-; 520  :    other.type_ = temp;
-
-	xor	eax, ebx
-	mov	BYTE PTR [esi+8], bl
-; File f:\program_files\vc\include\utility
-
-; 47   : 	_Ty _Tmp = _Move(_Left);
-
-	mov	ecx, DWORD PTR [esi]
-	mov	edx, DWORD PTR [esi+4]
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 520  :    other.type_ = temp;
-
-	and	eax, 255				; 000000ffH
-	xor	ebx, eax
-; File f:\program_files\vc\include\utility
-
-; 48   : 	_Left = _Move(_Right);
-
-	mov	eax, DWORD PTR _temp$[ebp]
-	mov	DWORD PTR [esi], eax
-	mov	eax, DWORD PTR _temp$[ebp+4]
-	mov	DWORD PTR [esi+4], eax
-
-; 49   : 	_Right = _Move(_Tmp);
-
-	mov	DWORD PTR _temp$[ebp+4], edx
-	mov	DWORD PTR _temp$[ebp], ecx
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 522  :    int temp2 = allocated_;
-
-	mov	ecx, DWORD PTR [esi+8]
-	mov	edx, ecx
-	shl	edx, 23					; 00000017H
-	sar	edx, 31					; 0000001fH
-
-; 523  :    allocated_ = other.allocated_;
-
-	mov	eax, ecx
-
-; 524  :    other.allocated_ = temp2;
-
-	shl	edx, 8
-	xor	eax, ebx
-	xor	edx, ebx
-	and	eax, 256				; 00000100H
-	and	edx, 256				; 00000100H
-	xor	eax, ecx
-	xor	ebx, edx
-
-; 511  :    swap( temp );
-; 512  :    return *this;
-
-	lea	ecx, DWORD PTR _temp$[ebp]
-
-; 523  :    allocated_ = other.allocated_;
-
-	mov	DWORD PTR [esi+8], eax
-
-; 524  :    other.allocated_ = temp2;
-
-	mov	DWORD PTR _temp$[ebp+8], ebx
-
-; 511  :    swap( temp );
-; 512  :    return *this;
-
-	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
-	mov	eax, esi
-
-; 513  : }
-
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??4Value@Json@@QAEAAV01@ABV01@@Z ENDP			; Json::Value::operator=
-_TEXT	ENDS
-; Function compile flags: /Ogtp
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-; File f:\program_files\vc\include\utility
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ;	COMDAT ?swap@Value@Json@@QAEXAAV12@@Z
 _TEXT	SEGMENT
 _other$ = 8						; size = 4
@@ -5138,23 +5155,6 @@ _TEXT	SEGMENT
 
 	ret	0
 ?type@Value@Json@@QBE?AW4ValueType@2@XZ ENDP		; Json::Value::type
-_TEXT	ENDS
-; Function compile flags: /Ogtp
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-;	COMDAT ?asCString@Value@Json@@QBEPBDXZ
-_TEXT	SEGMENT
-?asCString@Value@Json@@QBEPBDXZ PROC			; Json::Value::asCString, COMDAT
-; _this$ = ecx
-
-; 679  :    JSON_ASSERT( type_ == stringValue );
-; 680  :    return value_.string_;
-
-	mov	eax, DWORD PTR [ecx]
-
-; 681  : }
-
-	ret	0
-?asCString@Value@Json@@QBEPBDXZ ENDP			; Json::Value::asCString
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
