@@ -27,7 +27,7 @@
     <ClCompile Include="Message.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="JSON.cpp">
+    <ClCompile Include="MyJson.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,8 +41,36 @@
     <ClInclude Include="Message.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="JSON.h">
+    <ClInclude Include="MyJson.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\json\autolink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\features.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\forwards.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\value.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\writer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\lib_json.lib" />
+    <Library Include="lib\lib_json_d.lib" />
   </ItemGroup>
 </Project>
