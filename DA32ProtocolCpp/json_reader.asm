@@ -32,8 +32,6 @@ PUBLIC	??_C@_02KNHHEEKP@?5?5?$AA@			; `string'
 PUBLIC	??_C@_0O@JBAGGIKP@?5for?5detail?4?6?$AA@	; `string'
 PUBLIC	??_C@_04JBAOJHKB@See?5?$AA@			; `string'
 PUBLIC	??_C@_0BC@KBDMBKEH@deque?$DMT?$DO?5too?5long?$AA@ ; `string'
-EXTRN	___report_rangecheckfailure:PROC
-EXTRN	_sprintf:PROC
 ;	COMDAT ??_C@_0BC@KBDMBKEH@deque?$DMT?$DO?5too?5long?$AA@
 CONST	SEGMENT
 ??_C@_0BC@KBDMBKEH@deque?$DMT?$DO?5too?5long?$AA@ DB 'deque<T> too long', 00H ; `string'
@@ -305,6 +303,7 @@ PUBLIC	?resize@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX
 PUBLIC	??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator+=
 PUBLIC	??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator+=
 PUBLIC	??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV01@@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator+=
+PUBLIC	??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator=
 PUBLIC	??1?$_Deque_const_iterator@V?$_Deque_val@U?$_Deque_simple_types@VErrorInfo@Reader@Json@@@std@@@std@@@std@@QAE@XZ ; std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<Json::Reader::ErrorInfo> > >::~_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<Json::Reader::ErrorInfo> > >
 PUBLIC	?getNextChar@Reader@Json@@AAEDXZ		; Json::Reader::getNextChar
 PUBLIC	?currentValue@Reader@Json@@AAEAAVValue@2@XZ	; Json::Reader::currentValue
@@ -43094,6 +43093,179 @@ _TEXT	SEGMENT
 ; _this$dead$ = ecx
 	ret	0
 ??1?$_Deque_const_iterator@V?$_Deque_val@U?$_Deque_simple_types@VErrorInfo@Reader@Json@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<Json::Reader::ErrorInfo> > >::~_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<Json::Reader::ErrorInfo> > >
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xstring
+;	COMDAT ??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z
+_TEXT	SEGMENT
+__Ptr$dead$ = 8						; size = 4
+??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z PROC ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator=, COMDAT
+; _this$ = ecx
+
+; 991  : 
+; 992  : 	_Myt& operator=(_Elem _Ch)
+; 993  : 		{	// assign 1 * _Ch
+; 994  : 		return (assign(1, _Ch));
+; 995  : 		}
+; 996  : 
+; 997  : 	_Myt& operator+=(const _Myt& _Right)
+; 998  : 		{	// append _Right
+; 999  : 		return (append(_Right));
+; 1000 : 		}
+; 1001 : 
+; 1002 : 	_Myt& operator+=(const _Elem *_Ptr)
+; 1003 : 		{	// append [_Ptr, <null>)
+; 1004 : 		return (append(_Ptr));
+; 1005 : 		}
+; 1006 : 
+; 1007 : 	_Myt& operator+=(_Elem _Ch)
+; 1008 : 		{	// append 1 * _Ch
+; 1009 : 		return (append((size_type)1, _Ch));
+; 1010 : 		}
+; 1011 : 
+; 1012 : 	_Myt& append(const _Myt& _Right)
+; 1013 : 		{	// append _Right
+; 1014 : 		return (append(_Right, 0, npos));
+; 1015 : 		}
+; 1016 : 
+; 1017 : 	_Myt& append(const _Myt& _Right,
+; 1018 : 		size_type _Roff, size_type _Count)
+; 1019 : 		{	// append _Right [_Roff, _Roff + _Count)
+; 1020 : 		if (_Right.size() < _Roff)
+; 1021 : 			_Xran();	// _Roff off end
+; 1022 : 		size_type _Num = _Right.size() - _Roff;
+; 1023 : 		if (_Num < _Count)
+; 1024 : 			_Count = _Num;	// trim _Count to size
+; 1025 : 		if (npos - this->_Mysize <= _Count)
+; 1026 : 			_Xlen();	// result too long
+; 1027 : 
+; 1028 : 		if (0 < _Count && _Grow(_Num = this->_Mysize + _Count))
+; 1029 : 			{	// make room and append new stuff
+; 1030 : 			_Traits::copy(this->_Myptr() + this->_Mysize,
+; 1031 : 				_Right._Myptr() + _Roff, _Count);
+; 1032 : 			_Eos(_Num);
+; 1033 : 			}
+; 1034 : 		return (*this);
+; 1035 : 		}
+; 1036 : 
+; 1037 : 	_Myt& append(const _Elem *_Ptr, size_type _Count)
+; 1038 : 		{	// append [_Ptr, _Ptr + _Count)
+; 1039 :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 1040 : 		if (_Count != 0)
+; 1041 : 			_DEBUG_POINTER(_Ptr);
+; 1042 :  #endif /* _ITERATOR_DEBUG_LEVEL == 2 */
+; 1043 : 
+; 1044 : 		if (_Inside(_Ptr))
+; 1045 : 			return (append(*this,
+; 1046 : 				_Ptr - this->_Myptr(), _Count));	// substring
+; 1047 : 		if (npos - this->_Mysize <= _Count)
+; 1048 : 			_Xlen();	// result too long
+; 1049 : 
+; 1050 : 		size_type _Num;
+; 1051 : 		if (0 < _Count && _Grow(_Num = this->_Mysize + _Count))
+; 1052 : 			{	// make room and append new stuff
+; 1053 : 			_Traits::copy(this->_Myptr() + this->_Mysize, _Ptr, _Count);
+; 1054 : 			_Eos(_Num);
+; 1055 : 			}
+; 1056 : 		return (*this);
+; 1057 : 		}
+; 1058 : 
+; 1059 : 	_Myt& append(const _Elem *_Ptr)
+; 1060 : 		{	// append [_Ptr, <null>)
+; 1061 : 		_DEBUG_POINTER(_Ptr);
+; 1062 : 		return (append(_Ptr, _Traits::length(_Ptr)));
+; 1063 : 		}
+; 1064 : 
+; 1065 : 	_Myt& append(size_type _Count, _Elem _Ch)
+; 1066 : 		{	// append _Count * _Ch
+; 1067 : 		if (npos - this->_Mysize <= _Count)
+; 1068 : 			_Xlen();	// result too long
+; 1069 : 
+; 1070 : 		size_type _Num;
+; 1071 : 		if (0 < _Count && _Grow(_Num = this->_Mysize + _Count))
+; 1072 : 			{	// make room and append new stuff using assign
+; 1073 : 			_Chassign(this->_Mysize, _Count, _Ch);
+; 1074 : 			_Eos(_Num);
+; 1075 : 			}
+; 1076 : 		return (*this);
+; 1077 : 		}
+; 1078 : 
+; 1079 : 	template<class _Iter>
+; 1080 : 		typename enable_if<_Is_iterator<_Iter>::value,
+; 1081 : 			_Myt&>::type
+; 1082 : 		append(_Iter _First, _Iter _Last)
+; 1083 : 		{	// append [_First, _Last), input iterators
+; 1084 : 		return (replace(end(), end(), _First, _Last));
+; 1085 : 		}
+; 1086 : 
+; 1087 : 	_Myt& append(const_pointer _First, const_pointer _Last)
+; 1088 : 		{	// append [_First, _Last), const pointers
+; 1089 : 		return (replace(end(), end(), _First, _Last));
+; 1090 : 		}
+; 1091 : 
+; 1092 : 	_Myt& append(const_iterator _First, const_iterator _Last)
+; 1093 : 		{	// append [_First, _Last), const_iterators
+; 1094 : 		return (replace(end(), end(), _First, _Last));
+; 1095 : 		}
+; 1096 : 
+; 1097 : 	_Myt& assign(const _Myt& _Right)
+; 1098 : 		{	// assign _Right
+; 1099 : 		return (assign(_Right, 0, npos));
+; 1100 : 		}
+; 1101 : 
+; 1102 : 	_Myt& assign(const _Myt& _Right,
+; 1103 : 		size_type _Roff, size_type _Count)
+; 1104 : 		{	// assign _Right [_Roff, _Roff + _Count)
+; 1105 : 		if (_Right.size() < _Roff)
+; 1106 : 			_Xran();	// _Roff off end
+; 1107 : 		size_type _Num = _Right.size() - _Roff;
+; 1108 : 		if (_Count < _Num)
+; 1109 : 			_Num = _Count;	// trim _Num to size
+; 1110 : 
+; 1111 : 		if (this == &_Right)
+; 1112 : 			erase((size_type)(_Roff + _Num)), erase(0, _Roff);	// substring
+; 1113 : 		else if (_Grow(_Num))
+; 1114 : 			{	// make room and assign new stuff
+; 1115 : 			_Traits::copy(this->_Myptr(),
+; 1116 : 				_Right._Myptr() + _Roff, _Num);
+; 1117 : 			_Eos(_Num);
+; 1118 : 			}
+; 1119 : 		return (*this);
+; 1120 : 		}
+; 1121 : 
+; 1122 : 	_Myt& assign(const _Elem *_Ptr, size_type _Count)
+; 1123 : 		{	// assign [_Ptr, _Ptr + _Count)
+; 1124 :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 1125 : 		if (_Count != 0)
+; 1126 : 			_DEBUG_POINTER(_Ptr);
+; 1127 :  #endif /* _ITERATOR_DEBUG_LEVEL == 2 */
+; 1128 : 
+; 1129 : 		if (_Inside(_Ptr))
+; 1130 : 			return (assign(*this,
+; 1131 : 				_Ptr - this->_Myptr(), _Count));	// substring
+; 1132 : 
+; 1133 : 		if (_Grow(_Count))
+; 1134 : 			{	// make room and assign new stuff
+; 1135 : 			_Traits::copy(this->_Myptr(), _Ptr, _Count);
+; 1136 : 			_Eos(_Count);
+; 1137 : 			}
+; 1138 : 		return (*this);
+; 1139 : 		}
+; 1140 : 
+; 1141 : 	_Myt& assign(const _Elem *_Ptr)
+; 1142 : 		{	// assign [_Ptr, <null>)
+; 1143 : 		_DEBUG_POINTER(_Ptr);
+; 1144 : 		return (assign(_Ptr, _Traits::length(_Ptr)));
+
+	push	0
+	push	OFFSET ??_C@_00CNPNBAHC@?$AA@
+	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
+
+; 989  : 		return (assign(_Ptr));
+; 990  : 		}
+
+	ret	4
+??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z ENDP ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator=
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\xstring

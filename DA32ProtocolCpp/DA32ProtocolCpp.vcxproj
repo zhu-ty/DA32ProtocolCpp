@@ -69,6 +69,7 @@
   <ItemGroup>
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="md5.cpp" />
     <ClCompile Include="Message.cpp" />
     <ClCompile Include="MyJson.cpp" />
     <ClCompile Include="Server.cpp" />
@@ -84,6 +85,7 @@
     <ClInclude Include="include\json\reader.h" />
     <ClInclude Include="include\json\value.h" />
     <ClInclude Include="include\json\writer.h" />
+    <ClInclude Include="md5.h" />
     <ClInclude Include="Message.h" />
     <ClInclude Include="MyJson.h" />
     <ClInclude Include="Server.h" />

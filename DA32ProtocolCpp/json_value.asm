@@ -457,7 +457,6 @@ PUBLIC	?begin@?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZStrin
 PUBLIC	??1?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@QAE@XZ ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::~_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >
 PUBLIC	??0?$map@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@@std@@QAE@ABV01@@Z ; std::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >
 PUBLIC	??0?$map@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@@std@@QAE@XZ ; std::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >
-PUBLIC	?length@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::length
 PUBLIC	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 PUBLIC	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD0@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 PUBLIC	?getComment@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4CommentPlacement@2@@Z ; Json::Value::getComment
@@ -478,6 +477,7 @@ PUBLIC	?size@Value@Json@@QBEIXZ			; Json::Value::size
 PUBLIC	?asBool@Value@Json@@QBE_NXZ			; Json::Value::asBool
 PUBLIC	?asDouble@Value@Json@@QBENXZ			; Json::Value::asDouble
 PUBLIC	?asUInt@Value@Json@@QBEIXZ			; Json::Value::asUInt
+PUBLIC	?asCString@Value@Json@@QBEPBDXZ			; Json::Value::asCString
 PUBLIC	?type@Value@Json@@QBE?AW4ValueType@2@XZ		; Json::Value::type
 PUBLIC	?swap@Value@Json@@QAEXAAV12@@Z			; Json::Value::swap
 PUBLIC	??1?$map@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@@std@@QAE@XZ ; std::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::~map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >
@@ -518,7 +518,6 @@ PUBLIC	?_Orphan_all@_Container_base0@std@@QAEXXZ	; std::_Container_base0::_Orpha
 PUBLIC	??AValue@Json@@QAEAAV01@PBD@Z			; Json::Value::operator[]
 PUBLIC	?asInt@Value@Json@@QBEHXZ			; Json::Value::asInt
 PUBLIC	?asString@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ ; Json::Value::asString
-PUBLIC	?asCString@Value@Json@@QBEPBDXZ			; Json::Value::asCString
 PUBLIC	??4Value@Json@@QAEAAV01@ABV01@@Z		; Json::Value::operator=
 PUBLIC	??1Value@Json@@QAE@XZ				; Json::Value::~Value
 PUBLIC	??0Value@Json@@QAE@W4ValueType@1@@Z		; Json::Value::Value
@@ -1600,23 +1599,6 @@ _other$ = 8						; size = 4
 	pop	ebp
 	ret	4
 ??4Value@Json@@QAEAAV01@ABV01@@Z ENDP			; Json::Value::operator=
-_TEXT	ENDS
-; Function compile flags: /Ogtp
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-;	COMDAT ?asCString@Value@Json@@QBEPBDXZ
-_TEXT	SEGMENT
-?asCString@Value@Json@@QBEPBDXZ PROC			; Json::Value::asCString, COMDAT
-; _this$ = ecx
-
-; 679  :    JSON_ASSERT( type_ == stringValue );
-; 680  :    return value_.string_;
-
-	mov	eax, DWORD PTR [ecx]
-
-; 681  : }
-
-	ret	0
-?asCString@Value@Json@@QBEPBDXZ ENDP			; Json::Value::asCString
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
@@ -5155,6 +5137,23 @@ _TEXT	SEGMENT
 
 	ret	0
 ?type@Value@Json@@QBE?AW4ValueType@2@XZ ENDP		; Json::Value::type
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+;	COMDAT ?asCString@Value@Json@@QBEPBDXZ
+_TEXT	SEGMENT
+?asCString@Value@Json@@QBEPBDXZ PROC			; Json::Value::asCString, COMDAT
+; _this$ = ecx
+
+; 679  :    JSON_ASSERT( type_ == stringValue );
+; 680  :    return value_.string_;
+
+	mov	eax, DWORD PTR [ecx]
+
+; 681  : }
+
+	ret	0
+?asCString@Value@Json@@QBEPBDXZ ENDP			; Json::Value::asCString
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
@@ -22103,22 +22102,6 @@ $LN41@basic_stri:
 	pop	ebp
 	ret	4
 ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z ENDP ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-_TEXT	ENDS
-; Function compile flags: /Ogtp
-; File f:\program_files\vc\include\xstring
-;	COMDAT ?length@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ
-_TEXT	SEGMENT
-?length@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ PROC ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::length, COMDAT
-; _this$ = ecx
-
-; 1728 : 		return (this->_Mysize);
-
-	mov	eax, DWORD PTR [ecx+16]
-
-; 1729 : 		}
-
-	ret	0
-?length@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ ENDP ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::length
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\map
