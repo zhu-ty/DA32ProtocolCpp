@@ -38,15 +38,6 @@
     <ClInclude Include="Client.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Server.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Message.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MyJson.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="include\json\autolink.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -74,7 +65,16 @@
     <ClInclude Include="DA32Protocol.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="md5.h">
+    <ClInclude Include="include\Message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MyJson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Server.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

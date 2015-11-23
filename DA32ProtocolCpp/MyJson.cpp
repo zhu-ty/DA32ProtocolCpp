@@ -1,4 +1,6 @@
 #include "include/MyJson.h"
+#include"include/md5.h"
+//辅助函数，将固定格式的字符串解析成时间结构tm
 tm convert_string_to_time_t(const std::string & time_string)  
 {  
     struct tm tm1;  
@@ -19,6 +21,8 @@ void MyJson::getJson(std::string charflow)
 {
 	Json::Reader reader;
     Json::Value root;
+	std::string md5_check;
+	char *p;
     if (!reader.parse(charflow, root, false))
     {
         return ;
@@ -32,6 +36,17 @@ void MyJson::getJson(std::string charflow)
 	_else=root["else"];
 	md5_s=root["md5"].asString();
 	time=convert_string_to_time_t(time_s);
+	p=(char*)&id;
+	md5_check=*p;
+	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
+	md5_check=md5_check+type_s+time_s+name+text;
+	MD5 md5(md5_check);
+	string result = md5.md5();
+	if (result!=md5_s)
+	{
+		//校验出错
+		cout<<"md5校验失败！！"<<endl;
+	}
 }
 
 void MyJson::getJson(istream& charflow)

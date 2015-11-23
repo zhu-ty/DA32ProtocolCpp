@@ -40,7 +40,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>G:\bighomework\cn_bhw\DA32ProtocolCpp\DA32ProtocolCpp\include;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -85,10 +87,10 @@
     <ClInclude Include="include\json\reader.h" />
     <ClInclude Include="include\json\value.h" />
     <ClInclude Include="include\json\writer.h" />
-    <ClInclude Include="md5.h" />
-    <ClInclude Include="Message.h" />
-    <ClInclude Include="MyJson.h" />
-    <ClInclude Include="Server.h" />
+    <ClInclude Include="include\md5.h" />
+    <ClInclude Include="include\Message.h" />
+    <ClInclude Include="include\MyJson.h" />
+    <ClInclude Include="include\Server.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\lib_json.lib" />
