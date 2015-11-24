@@ -17,7 +17,7 @@ MyJson::~MyJson(void)
 {
 }
 
-void MyJson::getJson(std::string charflow)
+bool MyJson::getJson(std::string charflow)
 {
 	Json::Reader reader;
     Json::Value root;
@@ -25,7 +25,7 @@ void MyJson::getJson(std::string charflow)
 	char *p;
     if (!reader.parse(charflow, root, false))
     {
-        return ;
+		return false;
     }
  
     name = root["data"]["name"].asString();
@@ -45,17 +45,23 @@ void MyJson::getJson(std::string charflow)
 	if (result!=md5_s)
 	{
 		//校验出错
+		cout<<"md5 should be:"<<result<<endl;
+		cout<<"now md5 is:"<<md5_s<<endl;
 		cout<<"md5校验失败！！"<<endl;
+		return false;
 	}
+	return true;
 }
 
-void MyJson::getJson(istream& charflow)
+bool MyJson::getJson(istream& charflow)
 {
 	Json::Reader reader;
     Json::Value root;
+	std::string md5_check;
+	char *p;
     if (!reader.parse(charflow, root, false))
     {
-        return ;
+		return false;
     }
  
     name = root["data"]["name"].asString();
@@ -66,14 +72,83 @@ void MyJson::getJson(istream& charflow)
 	_else=root["else"];
 	md5_s=root["md5"].asString();
 	time=convert_string_to_time_t(time_s);
+	p=(char*)&id;
+	md5_check=*p;
+	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
+	md5_check=md5_check+type_s+time_s+name+text;
+	MD5 md5(md5_check);
+	string result = md5.md5();
+	if (result!=md5_s)
+	{
+		//校验出错
+		cout<<"md5 should be:"<<result<<endl;
+		cout<<"now md5 is:"<<md5_s<<endl;
+		cout<<"md5校验失败！！"<<endl;
+		return false;
+	}
+	return true;
 }
 
 void MyJson::showJson_in_console()
 {
-	std::cout<<name<<std::endl;
-    std::cout<<id<<std::endl;
-	std::cout<<time_s<<std::endl;
-	std::cout<<text<<std::endl;
+	std::cout<<this->name<<std::endl;
+    std::cout<<this->id<<std::endl;
+	std::cout<<this->time_s<<std::endl;
+	std::cout<<this->text<<std::endl;
 
 	system("pause");
+}
+char* MyJson::PackJson(std::string input)
+{
+	std::string root;
+	std::string md5_check;
+	char*p;
+	int a;
+	//this->showJson_in_console();
+	root="{\"id\":1,\"type\":\""+this->type_s+"\",\"time\":\""+this->time_s+"\",\"else\":{},\"data\":{\"name\":\""+this->name+"\",\"text\":\"";
+	this->text=input;
+	p=(char*)&id;
+	md5_check=*p;
+	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
+	md5_check=md5_check+type_s+time_s+name+text;
+	MD5 md5(md5_check);
+	md5_s=md5.md5();
+	this->showJson_in_console();
+	/*进行输入处理
+	*/
+	int pos=0;
+	while(pos=this->text.find("\\",pos)+1)
+	{	
+		text.replace(pos-1,1,"\\\\");
+		pos++;
+	}
+	pos=0;
+	while(pos=this->text.find("\r",pos)+1)
+	{	
+		text.replace(pos-1,1,"\\\r");
+		pos++;
+	}
+	pos=0;
+	while(pos=this->text.find("\n",pos)+1)
+	{	
+		text.replace(pos-1,1,"\\\n");
+		pos++;
+	}
+	pos=0;
+	while(pos=this->text.find("\'",pos)+1)
+	{	
+		text.replace(pos-1,1,"\\\'");
+		pos++;
+	}
+	pos=0;
+	while(pos=this->text.find("\"",pos)+1)
+	{	
+		text.replace(pos-1,1,"\\\"");
+		pos++;
+	}
+	this->showJson_in_console();
+	root=root+text+"\"},\"md5\":\""+md5_s+"\"}";
+	p=new char[root.length()];
+	strcpy(p,root.c_str());
+	return p;
 }
