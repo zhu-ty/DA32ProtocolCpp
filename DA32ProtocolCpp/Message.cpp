@@ -3,6 +3,7 @@
 
 Message::Message(void)
 {
+
 }
 
 

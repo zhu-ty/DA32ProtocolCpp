@@ -12,7 +12,7 @@ int main()
 	test.id=1;
 
 	cout<<"输入要聊天信息：";
-	cin>>input;
+	getline(cin,input);
 	test.text=input;
 	packed=test.PackJson(input);
 	cout<<packed;//打包好的packed

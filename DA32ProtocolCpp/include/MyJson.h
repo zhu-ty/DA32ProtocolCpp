@@ -2,20 +2,21 @@
 #include <string>
 #include<fstream>
 #include "include/json/json.h"  
+
 using namespace std;
 //信息层类MyJson，包含了解Json包获取其中信息的操作，共有成员变量为信息层的数据。
 class MyJson
 {
 public:
 	std::string name,type_s,md5_s,time_s,text;
-	tm time; 
+	tm time_tm; 
 	int id;
 	Json::Value _else;
 
 public:
 	MyJson(void);
 	~MyJson(void);
-	//将该Json信息在命令行中显示
+	//将该Json信息在命令行中显示，可以便于调试
 	void showJson_in_console();
 	//解码Json信息的方式一，从一个字符串中获取
 	bool getJson(std::string charflow);

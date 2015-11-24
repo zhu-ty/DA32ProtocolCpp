@@ -1,5 +1,7 @@
 #include "include/MyJson.h"
+#include<time.h>
 #include"include/md5.h"
+
 //辅助函数，将固定格式的字符串解析成时间结构tm
 tm convert_string_to_time_t(const std::string & time_string)  
 {  
@@ -35,7 +37,7 @@ bool MyJson::getJson(std::string charflow)
 	text=root["data"]["text"].asString();
 	_else=root["else"];
 	md5_s=root["md5"].asString();
-	time=convert_string_to_time_t(time_s);
+	time_tm=convert_string_to_time_t(time_s);
 	p=(char*)&id;
 	md5_check=*p;
 	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
@@ -71,7 +73,7 @@ bool MyJson::getJson(istream& charflow)
 	text=root["data"]["text"].asString();
 	_else=root["else"];
 	md5_s=root["md5"].asString();
-	time=convert_string_to_time_t(time_s);
+	time_tm=convert_string_to_time_t(time_s);
 	p=(char*)&id;
 	md5_check=*p;
 	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
@@ -102,8 +104,12 @@ char* MyJson::PackJson(std::string input)
 {
 	std::string root;
 	std::string md5_check;
-	char*p;
-	int a;
+	char*p,t[20];
+	int a; 
+	time_t tt=time(NULL);
+	time_tm=*localtime(&tt);
+	strftime(t, 20 , "%Y.%m.%d %H:%M:%S", &time_tm);
+	time_s=t;
 	//this->showJson_in_console();
 	root="{\"id\":1,\"type\":\""+this->type_s+"\",\"time\":\""+this->time_s+"\",\"else\":{},\"data\":{\"name\":\""+this->name+"\",\"text\":\"";
 	this->text=input;
@@ -113,7 +119,7 @@ char* MyJson::PackJson(std::string input)
 	md5_check=md5_check+type_s+time_s+name+text;
 	MD5 md5(md5_check);
 	md5_s=md5.md5();
-	this->showJson_in_console();
+	//this->showJson_in_console();
 	/*进行输入处理
 	*/
 	int pos=0;
@@ -146,7 +152,7 @@ char* MyJson::PackJson(std::string input)
 		text.replace(pos-1,1,"\\\"");
 		pos++;
 	}
-	this->showJson_in_console();
+	//this->showJson_in_console();
 	root=root+text+"\"},\"md5\":\""+md5_s+"\"}";
 	p=new char[root.length()];
 	strcpy(p,root.c_str());
