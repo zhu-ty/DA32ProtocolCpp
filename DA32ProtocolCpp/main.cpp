@@ -1,28 +1,31 @@
 #include"DA32Protocol.h"
+
+
+vector<Client>clientList;
+Server domainServer;
+
+
+
+
 int main()
 {
-	MyJson test;
-	Json::Value _el;
-	ifstream ifs;
-	string input,packed;
-	//一些初始化操作
-	test.name="Cwx";
-	test.type_s="text";
-	test._else=_el;
-	test.id=1;
-
-	cout<<"输入要聊天信息：";
-	getline(cin,input);
-	test.text=input;
-	packed=test.PackJson(input);
-	cout<<packed;//打包好的packed
-	/*ifs.open("test/testjson.json");
-	assert(ifs.is_open());
-	if(!test.getJson(ifs)) return -1;
-	cout<<"from filestream"<<endl;
-	test.showJson_in_console();*/
-	cout<<"from charstream"<<endl;
-	test.getJson(packed);
-	test.showJson_in_console();
-    return 0;
+	string input;
+	if(domainServer.Init(3237))
+	{
+		domainServer.begin();
+		Client *newClient= new Client("127.0.0.1",3237);
+		clientList.push_back(*newClient);
+		while(1)
+		{
+			while(mtx_cout.try_lock()!=1);
+			cout<<"请输入一个测试文本！输入exit退出"<<endl;
+			mtx_cout.unlock();
+			cin>>input;
+			if(input=="exit") break;
+			newClient->sendData(input);	
+		}
+	}
+	system("pause");
+	clientList.clear();	
+	return 0;
 }

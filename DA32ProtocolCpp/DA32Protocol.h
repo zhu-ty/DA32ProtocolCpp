@@ -13,7 +13,14 @@
 #include"include/Message.h"
 #include"include/MyJson.h"
 #include"include/Server.h"
+#include<vector>
+#include<mutex>
 //TODO:添加你的头文件
 //eg:#include "xx.h"
    
 using namespace std; 
+
+extern mutex mtx_server_acceptlist;//用来保护acceptlist的互斥锁
+extern mutex mtx_cout;//用来保护cout的互斥锁
+extern mutex mtx_clientlist;
+extern mutex mtx_handle;

@@ -35,9 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Client.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="include\json\autolink.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -75,6 +72,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="include\Server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Client.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

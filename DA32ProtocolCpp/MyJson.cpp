@@ -1,7 +1,8 @@
 #include "include/MyJson.h"
 #include<time.h>
 #include"include/md5.h"
-
+#include<mutex>
+extern mutex mtx_cout;
 //辅助函数，将固定格式的字符串解析成时间结构tm
 tm convert_string_to_time_t(const std::string & time_string)  
 {  
@@ -94,11 +95,10 @@ bool MyJson::getJson(istream& charflow)
 void MyJson::showJson_in_console()
 {
 	std::cout<<this->name<<std::endl;
-    std::cout<<this->id<<std::endl;
+	std::cout<<this->id<<std::endl;
 	std::cout<<this->time_s<<std::endl;
 	std::cout<<this->text<<std::endl;
-
-	system("pause");
+	//system("pause");
 }
 char* MyJson::PackJson(std::string input)
 {

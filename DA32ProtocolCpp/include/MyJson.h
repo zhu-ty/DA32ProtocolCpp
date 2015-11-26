@@ -7,9 +7,12 @@ using namespace std;
 //信息层类MyJson，包含了解Json包获取其中信息的操作，共有成员变量为信息层的数据。
 class MyJson
 {
-public:
-	std::string name,type_s,md5_s,time_s,text;
+private:
 	tm time_tm; 
+	string md5_s,time_s,text;
+public:
+	std::string name,type_s;
+	
 	int id;
 	Json::Value _else;
 
