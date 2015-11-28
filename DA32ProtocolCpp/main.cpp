@@ -4,16 +4,23 @@
 vector<Client>clientList;
 Server domainServer;
 
-
-
-
 int main()
 {
 	string input;
-	if(domainServer.Init(3237))
+	Client *newClient;
+	if(domainServer.Init(3232))
 	{
 		domainServer.begin();
-		Client *newClient= new Client("127.0.0.1",3237);
+		cout<<"请输入对方的IP号："<<endl;
+		cin>>input;
+		try
+		{
+			newClient= new Client(input,3232);
+		}
+		catch(exception e)
+		{
+
+		}
 		clientList.push_back(*newClient);
 		while(1)
 		{

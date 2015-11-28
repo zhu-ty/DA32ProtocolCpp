@@ -70,42 +70,54 @@ DWORD WINAPI ReceiveThread(LPVOID lparam)
 	//主循环
 	while(1)
 	{
-		Message mess=Message();
-		MyJson infomation=MyJson();
-		rcv=server_p->receiveData(*ReceiveSocket);//接收信息，在这里线程会等待到接收到为止
-		infomation=mess.getContent(rcv);//这里完成了从字节层到信息层的解包
-		if(infomation.type_s=="exit")
+		try
 		{
-			infomation.showJson_in_console();
-			respond_client->~Client();
-			//注销这个客户端			
-			while(mtx_clientlist.try_lock()!=1);
-			vector<Client>::iterator itr = find(clientList.begin(),clientList.end(),*respond_client);
-			clientList.erase(itr);
-			mtx_clientlist.unlock();
-			//从客户端list中删除它
-			while(mtx_server_acceptlist.try_lock()!=1);
-			server_p->exitSocket(*ReceiveSocket);//在server中删除这个socket
-			mtx_server_acceptlist.unlock();
-			delete respond_client;//内存回收
-			respond_client=NULL;
-			return 0;
-		}
-		else
-		{
-			if(infomation.type_s=="text")
+			Message mess=Message();
+			MyJson infomation=MyJson();
+			rcv=server_p->receiveData(*ReceiveSocket);//接收信息，在这里线程会等待到接收到为止
+			infomation=mess.getContent(rcv);//这里完成了从字节层到信息层的解包
+			if(infomation.type_s=="exit")
 			{
-				respond_client->respend();
-				while(mtx_cout.try_lock()!=1);
-				cout<<"Server Receive:"<<endl;
 				infomation.showJson_in_console();
-				cout<<endl;
-				mtx_cout.unlock();
+				respond_client->~Client();
+				//注销这个客户端			
+				while(mtx_clientlist.try_lock()!=1);
+				vector<Client>::iterator itr = find(clientList.begin(),clientList.end(),*respond_client);
+				clientList.erase(itr);
+				mtx_clientlist.unlock();
+				//从客户端list中删除它
+				while(mtx_server_acceptlist.try_lock()!=1);
+				server_p->exitSocket(*ReceiveSocket);//在server中删除这个socket
+				mtx_server_acceptlist.unlock();
+				delete respond_client;//内存回收
+				respond_client=NULL;
+				return 0;
 			}
 			else
 			{
-				//TODO:对其他的包类型进行处理
+				if(infomation.type_s=="text")
+				{
+					respond_client->respend();
+					while(mtx_cout.try_lock()!=1);
+					cout<<"Server Receive:"<<endl;
+					infomation.showJson_in_console();
+					cout<<endl;
+					mtx_cout.unlock();
+				}
+				else
+				{
+					//TODO:对其他的包类型进行处理
+				}
 			}
+		}
+		catch(exception e)//TODO：应当处理此类异常！
+		{
+			cout<<e.what();
+			while(mtx_server_acceptlist.try_lock()!=1);
+			server_p->exitSocket(*ReceiveSocket);
+			mtx_server_acceptlist.unlock();
+			delete respond_client;
+			return -1;
 		}
 	}
 	while(mtx_server_acceptlist.try_lock()!=1);
@@ -208,7 +220,7 @@ bool Server::Init(int port_id)//加载字库等操作
 		system("pause");
 		return false;
 	}
-	cout<<"Server Created!"<<endl<<"Now,Listening``````"<<endl;
+	//cout<<"Server Created!"<<endl<<"Now,Listening``````"<<endl;
 	return true;
 }
 //创建独立的线程，让监听socket开始accpet
