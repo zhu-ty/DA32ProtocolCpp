@@ -77,6 +77,7 @@ DWORD WINAPI ReceiveThread(LPVOID lparam)
 				if (itr!=clientList.end())//如果找到了这个Client还活着，就杀了它
 				{
 					//itr->~Client();
+					itr->exit();
 					clientList.erase(itr);
 				}
 				server_p->exitSocket(*ReceiveSocket);//在server中删除这个socket

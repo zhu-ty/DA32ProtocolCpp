@@ -44,8 +44,7 @@ bool Client::newClient(string dest_ip,int dest_port)
 
 Client::~Client(void)
 {
-	exit();
-	closesocket(this->sockClient);
+
 	//WSACleanup();
 }
 
@@ -152,6 +151,7 @@ void Client::exit()
 	send(sockClient,ch,tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
 	delete[] ch;
 	delete[] lenth;
+	closesocket(this->sockClient);
 }
 //发送回包，发生在本机的服务器收到了一个text之后
 void Client::respend()
