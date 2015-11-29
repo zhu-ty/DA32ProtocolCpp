@@ -3,9 +3,9 @@
 #include"include\MyJson.h"
 #include<mutex>
 
-extern string myName;
-char Client::HEAD_CHAR[2] = {'\x32','\xA0'};
-char Client::RARE_CHAR[2] = {'\x42','\xF0'};
+char* Client::USERNAME;
+const char Client::HEAD_CHAR[2] = {'\x32','\xA0'};
+const char Client::RARE_CHAR[2] = {'\x42','\xF0'};
 
 byte* get_data_length(string data)
 {
@@ -72,7 +72,7 @@ void Client::sendData(string input)
 {
 	Message mess;
 	MyJson info;
-	info.name=myName;
+	info.name=USERNAME;
 	info.id=1;
 	info.type_s="text";
 	string tosend;

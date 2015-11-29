@@ -19,8 +19,9 @@ public:
 	const static int HEAD_LENTH=2;
 	const static int RARE_LENTH=2;
 	const static int WIEDTH_LENTH=8;
-	static char HEAD_CHAR[2];
-	static char RARE_CHAR[2];
+	const static char HEAD_CHAR[2];
+	const static char RARE_CHAR[2];
+	static char *USERNAME;
 
 	bool newClient(string dest_ip,int dest_port=3232);
 	Client();

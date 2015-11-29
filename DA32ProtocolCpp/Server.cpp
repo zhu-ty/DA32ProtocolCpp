@@ -91,7 +91,7 @@ string Server::receiveData(SOCKET torcv)
 	char rare[2];
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
 	{
-		bytesRecv = recv(torcv, recvbuf, 2, 0);
+		bytesRecv = recv(torcv, recvbuf, Client::HEAD_LENTH, 0);
 		try
 		{
 			if (recvbuf[0]!='\x32' || recvbuf[1]!='\xA0') bytesRecv=-1;//server运行到此处会阻塞，直到接收信息或触发异常
@@ -105,7 +105,7 @@ string Server::receiveData(SOCKET torcv)
 	bytesRecv=-1;
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
 	{
-		bytesRecv = recv(torcv, recvbuf, 8, 0);
+		bytesRecv = recv(torcv, recvbuf, Client::WIEDTH_LENTH, 0);
 	}
 	bytesRecv=-1;
 	UINT64 length=0;
@@ -123,7 +123,7 @@ string Server::receiveData(SOCKET torcv)
 	bytesRecv=-1;
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
 	{
-		bytesRecv = recv(torcv, rare, 2, 0);
+		bytesRecv = recv(torcv, rare, Client::RARE_LENTH, 0);
 	}
 	return recvbuf;
 }
@@ -132,7 +132,7 @@ void Server::exitSocket(SOCKET &toclose)
 {
 	vector<SOCKET>::iterator itr = find(sockAccept.begin(),sockAccept.end(),toclose);
 	closesocket(toclose);
-	sockAccept.erase(itr);
+	if(itr!=sockAccept.end())sockAccept.erase(itr);
 }
 //添加一个socket到列表中，这里添加的都是和一个Client链接的socket，需要外部锁
 void Server::addSocket(SOCKET &toadd)

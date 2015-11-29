@@ -155,10 +155,7 @@ _DATA	SEGMENT
 ??_R0?AVDefaultValueAllocator@Json@@@8 DD FLAT:??_7type_info@@6B@ ; Json::DefaultValueAllocator `RTTI Type Descriptor'
 	DD	00H
 	DB	'.?AVDefaultValueAllocator@Json@@', 00H
-?maxInt@Value@Json@@2HB DD 07fffffffH			; Json::Value::maxInt
-?minInt@Value@Json@@2HB DD 080000000H			; Json::Value::minInt
-?maxUInt@Value@Json@@2IB DD 0ffffffffH			; Json::Value::maxUInt
-CONST	ENDS
+_DATA	ENDS
 ;	COMDAT ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 _DATA	SEGMENT
 ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A DD FLAT:?defaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4VDefaultValueAllocator@2@A ; `Json::valueAllocator'::`2'::valueAllocator
@@ -275,7 +272,11 @@ rdata$r	SEGMENT
 	DD	00H
 	DD	02H
 	DD	FLAT:??_R2StyledWriter@Json@@8
-rdata$r	ENDS
+	ORG $+8
+?maxInt@Value@Json@@2HB DD 07fffffffH			; Json::Value::maxInt
+?minInt@Value@Json@@2HB DD 080000000H			; Json::Value::minInt
+?maxUInt@Value@Json@@2IB DD 0ffffffffH			; Json::Value::maxUInt
+CONST	ENDS
 PUBLIC	??_G?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPAXI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::`scalar deleting destructor'
 PUBLIC	??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z ; std::pair<Json::Value::CZString const ,Json::Value>::pair<Json::Value::CZString const ,Json::Value>
 PUBLIC	??$destroy@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::destroy<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
@@ -958,7 +959,7 @@ __ehfuncinfo$??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z DD 01993
 __unwindtable$??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z$0
 xdata$x	ENDS
-	ORG $+16
+	ORG $+12
 ?null$initializer$@Value@Json@@2P6AXXZA DD FLAT:??__E?null@Value@Json@@2V12@B@@YAXXZ ; Json::Value::null$initializer$
 _dummyValueAllocatorInitializer$initializer$ DD FLAT:??__EdummyValueAllocatorInitializer@Json@@YAXXZ
 ; Function compile flags: /Ogtp
