@@ -94,9 +94,9 @@ bool MyJson::getJson(istream& charflow)
 
 void MyJson::showJson_in_console()
 {
-	std::cout<<this->name<<std::endl;
-	std::cout<<this->id<<std::endl;
 	std::cout<<this->time_s<<std::endl;
+	std::cout<<this->name<<"˵:";
+	//std::cout<<this->id<<std::endl;
 	std::cout<<this->text<<std::endl;
 	//system("pause");
 }

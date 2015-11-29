@@ -1,7 +1,7 @@
 /*
 请将需要的预编译文件放在这个文件内。
 */
-#pragma comment(lib,"lib_json_d.lib") 
+#pragma comment(lib,"lib_json.lib") 
 #include<iostream>
 #include "include/json/json.h"  
 #include <fstream>  
@@ -20,7 +20,5 @@
    
 using namespace std; 
 
-extern mutex mtx_server_acceptlist;//用来保护acceptlist的互斥锁
-extern mutex mtx_cout;//用来保护cout的互斥锁
-extern mutex mtx_clientlist;
-extern mutex mtx_handle;
+extern mutex mtx;
+string myName="New User";

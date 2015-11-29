@@ -3,7 +3,8 @@
 #include"include\MyJson.h"
 #include<mutex>
 
-extern mutex mtx_cout;
+extern mutex mtx;
+extern string myName;
 char Client::HEAD_CHAR[2] = {'\x32','\xA0'};
 char Client::RARE_CHAR[2] = {'\x42','\xF0'};
 
@@ -17,14 +18,27 @@ byte* get_data_length(string data)
 	return temp;
 }
 
-Client::Client(string dest_ip,int dest_port)
+Client::Client()
 {
-	Init();
+	Init();	
+}
+bool Client::newClient(string dest_ip,int dest_port)
+{
 	sockClient=socket(AF_INET,SOCK_STREAM,0); 
 	addrClient.sin_addr.S_un.S_addr=inet_addr(dest_ip.c_str());
     addrClient.sin_family=AF_INET;
     addrClient.sin_port=htons(dest_port);
-    connect(sockClient,(SOCKADDR*)&addrClient,sizeof(SOCKADDR)); 
+	try
+	{
+	  int isok=connect(sockClient,(SOCKADDR*)&addrClient,sizeof(SOCKADDR)); 
+	  if(isok==-1) return false;
+	}
+	catch(exception e)
+	{
+		cout<<e.what();
+		return false;
+	}
+	return true;
 	//TODO：如果没有连接成功的处理
 }
 
@@ -32,7 +46,7 @@ Client::~Client(void)
 {
 	exit();
 	closesocket(this->sockClient);
-	WSACleanup();
+	//WSACleanup();
 }
 
 void Client::Init(void)//加载字库等操作
@@ -60,7 +74,7 @@ void Client::sendData(string input)
 {
 	Message mess;
 	MyJson info;
-	info.name="MINGZI";
+	info.name=myName;
 	info.id=1;
 	info.type_s="text";
 	string tosend;
@@ -87,12 +101,19 @@ void Client::sendData(string input)
 	{
 		ch[i+HEAD_LENTH+WIEDTH_LENTH+tosend.length()]=RARE_CHAR[i];
 	}
-	send(sockClient,ch,tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
-	while(mtx_cout.try_lock()!=1);
-	cout<<"Client send:"<<endl;
-	info.showJson_in_console();
-	cout<<endl;
-	mtx_cout.unlock();
+	try
+	{
+		send(sockClient,ch,tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
+	}
+	catch(exception e)
+	{
+		cout<<e.what();
+	}
+	//while(mtx_cout.try_lock()!=1);
+	//cout<<"Client send:"<<endl;
+	//info.showJson_in_console();
+	//cout<<endl;
+	//mtx_cout.unlock();
 	delete[] ch;
 	delete[] lenth;
 }

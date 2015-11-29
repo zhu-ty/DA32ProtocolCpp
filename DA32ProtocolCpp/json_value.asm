@@ -7,19 +7,6 @@
 	.model	flat
 
 
-PUBLIC	??_C@_0BL@DKGNIMPN@Comments?5must?5start?5with?5?1?$AA@ ; `string'
-PUBLIC	??_C@_0CC@BNBMBIGA@Type?5is?5not?5convertible?5to?5strin@ ; `string'
-PUBLIC	??_C@_0CE@MKMAPPKF@integer?5out?5of?5signed?5integer?5ra@ ; `string'
-PUBLIC	??_C@_0CB@PBEICPFN@Real?5out?5of?5signed?5integer?5range@ ; `string'
-PUBLIC	??_C@_0BP@KDDCHLKA@Type?5is?5not?5convertible?5to?5int?$AA@ ; `string'
-PUBLIC	??_C@_0DK@NAHIGMFE@Negative?5integer?5can?5not?5be?5conv@ ; `string'
-PUBLIC	??_C@_0CD@PGCLDEBG@Real?5out?5of?5unsigned?5integer?5ran@ ; `string'
-PUBLIC	??_C@_0CA@LEFAEJPN@Type?5is?5not?5convertible?5to?5uint?$AA@ ; `string'
-PUBLIC	??_C@_0CC@ICOHKFIF@Type?5is?5not?5convertible?5to?5doubl@ ; `string'
-PUBLIC	??_C@_02GLFAOOJA@?$FL?4?$AA@			; `string'
-PUBLIC	??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ ; `string'
-PUBLIC	??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ ; `string'
-PUBLIC	??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ ; `string'
 PUBLIC	??_R3StyledWriter@Json@@8			; Json::StyledWriter::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_R4ValueAllocator@Json@@6B@			; Json::ValueAllocator::`RTTI Complete Object Locator'
 PUBLIC	??_R1A@?0A@EA@ValueAllocator@Json@@8		; Json::ValueAllocator::`RTTI Base Class Descriptor at (0,-1,0,64)'
@@ -45,6 +32,18 @@ PUBLIC	??_R0?AVWriter@Json@@@8				; Json::Writer `RTTI Type Descriptor'
 PUBLIC	??_R2Writer@Json@@8				; Json::Writer::`RTTI Base Class Array'
 PUBLIC	??_R3DefaultValueAllocator@Json@@8		; Json::DefaultValueAllocator::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_7DefaultValueAllocator@Json@@6B@		; Json::DefaultValueAllocator::`vftable'
+PUBLIC	??_C@_0BL@DKGNIMPN@Comments?5must?5start?5with?5?1?$AA@ ; `string'
+PUBLIC	??_C@_0CC@BNBMBIGA@Type?5is?5not?5convertible?5to?5strin@ ; `string'
+PUBLIC	??_C@_0CE@MKMAPPKF@integer?5out?5of?5signed?5integer?5ra@ ; `string'
+PUBLIC	??_C@_0CB@PBEICPFN@Real?5out?5of?5signed?5integer?5range@ ; `string'
+PUBLIC	??_C@_0BP@KDDCHLKA@Type?5is?5not?5convertible?5to?5int?$AA@ ; `string'
+PUBLIC	??_C@_0DK@NAHIGMFE@Negative?5integer?5can?5not?5be?5conv@ ; `string'
+PUBLIC	??_C@_0CD@PGCLDEBG@Real?5out?5of?5unsigned?5integer?5ran@ ; `string'
+PUBLIC	??_C@_0CA@LEFAEJPN@Type?5is?5not?5convertible?5to?5uint?$AA@ ; `string'
+PUBLIC	??_C@_0CC@ICOHKFIF@Type?5is?5not?5convertible?5to?5doubl@ ; `string'
+PUBLIC	??_C@_02GLFAOOJA@?$FL?4?$AA@			; `string'
+PUBLIC	??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ ; `string'
+PUBLIC	??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ ; `string'
 EXTRN	??_L@YGXPAXIHP6EX0@Z1@Z:PROC			; `eh vector constructor iterator'
 EXTRN	??_M@YGXPAXIHP6EX0@Z@Z:PROC			; `eh vector destructor iterator'
 EXTRN	_strchr:PROC
@@ -53,6 +52,65 @@ EXTRN	_malloc:PROC
 _BSS	SEGMENT
 ?defaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4VDefaultValueAllocator@2@A DD 01H DUP (?) ; `Json::valueAllocator'::`2'::defaultAllocator
 _BSS	ENDS
+;	COMDAT ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@
+CONST	SEGMENT
+??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ DB 'map/set<T> too l'
+	DB	'ong', 00H					; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@
+CONST	SEGMENT
+??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ DB 'invalid '
+	DB	'map/set<T> iterator', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_02GLFAOOJA@?$FL?4?$AA@
+CONST	SEGMENT
+??_C@_02GLFAOOJA@?$FL?4?$AA@ DB '[.', 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0CC@ICOHKFIF@Type?5is?5not?5convertible?5to?5doubl@
+CONST	SEGMENT
+??_C@_0CC@ICOHKFIF@Type?5is?5not?5convertible?5to?5doubl@ DB 'Type is not'
+	DB	' convertible to double', 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0CA@LEFAEJPN@Type?5is?5not?5convertible?5to?5uint?$AA@
+CONST	SEGMENT
+??_C@_0CA@LEFAEJPN@Type?5is?5not?5convertible?5to?5uint?$AA@ DB 'Type is '
+	DB	'not convertible to uint', 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0CD@PGCLDEBG@Real?5out?5of?5unsigned?5integer?5ran@
+CONST	SEGMENT
+??_C@_0CD@PGCLDEBG@Real?5out?5of?5unsigned?5integer?5ran@ DB 'Real out of'
+	DB	' unsigned integer range', 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0DK@NAHIGMFE@Negative?5integer?5can?5not?5be?5conv@
+CONST	SEGMENT
+??_C@_0DK@NAHIGMFE@Negative?5integer?5can?5not?5be?5conv@ DB 'Negative in'
+	DB	'teger can not be converted to unsigned integer', 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0BP@KDDCHLKA@Type?5is?5not?5convertible?5to?5int?$AA@
+CONST	SEGMENT
+??_C@_0BP@KDDCHLKA@Type?5is?5not?5convertible?5to?5int?$AA@ DB 'Type is n'
+	DB	'ot convertible to int', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0CB@PBEICPFN@Real?5out?5of?5signed?5integer?5range@
+CONST	SEGMENT
+??_C@_0CB@PBEICPFN@Real?5out?5of?5signed?5integer?5range@ DB 'Real out of'
+	DB	' signed integer range', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0CE@MKMAPPKF@integer?5out?5of?5signed?5integer?5ra@
+CONST	SEGMENT
+??_C@_0CE@MKMAPPKF@integer?5out?5of?5signed?5integer?5ra@ DB 'integer out'
+	DB	' of signed integer range', 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0CC@BNBMBIGA@Type?5is?5not?5convertible?5to?5strin@
+CONST	SEGMENT
+??_C@_0CC@BNBMBIGA@Type?5is?5not?5convertible?5to?5strin@ DB 'Type is not'
+	DB	' convertible to string', 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0BL@DKGNIMPN@Comments?5must?5start?5with?5?1?$AA@
+CONST	SEGMENT
+??_C@_0BL@DKGNIMPN@Comments?5must?5start?5with?5?1?$AA@ DB 'Comments must'
+	DB	' start with /', 00H				; `string'
+CONST	ENDS
 ;	COMDAT ??_7DefaultValueAllocator@Json@@6B@
 CONST	SEGMENT
 ??_7DefaultValueAllocator@Json@@6B@ DD FLAT:??_R4DefaultValueAllocator@Json@@6B@ ; Json::DefaultValueAllocator::`vftable'
@@ -218,70 +276,6 @@ rdata$r	SEGMENT
 	DD	02H
 	DD	FLAT:??_R2StyledWriter@Json@@8
 rdata$r	ENDS
-;	COMDAT ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@
-CONST	SEGMENT
-??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ DB 'map/set<T> too l'
-	DB	'ong', 00H					; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@
-CONST	SEGMENT
-??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ DB 'vector<T> too long'
-	DB	00H						; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@
-CONST	SEGMENT
-??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ DB 'invalid '
-	DB	'map/set<T> iterator', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02GLFAOOJA@?$FL?4?$AA@
-CONST	SEGMENT
-??_C@_02GLFAOOJA@?$FL?4?$AA@ DB '[.', 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0CC@ICOHKFIF@Type?5is?5not?5convertible?5to?5doubl@
-CONST	SEGMENT
-??_C@_0CC@ICOHKFIF@Type?5is?5not?5convertible?5to?5doubl@ DB 'Type is not'
-	DB	' convertible to double', 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0CA@LEFAEJPN@Type?5is?5not?5convertible?5to?5uint?$AA@
-CONST	SEGMENT
-??_C@_0CA@LEFAEJPN@Type?5is?5not?5convertible?5to?5uint?$AA@ DB 'Type is '
-	DB	'not convertible to uint', 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0CD@PGCLDEBG@Real?5out?5of?5unsigned?5integer?5ran@
-CONST	SEGMENT
-??_C@_0CD@PGCLDEBG@Real?5out?5of?5unsigned?5integer?5ran@ DB 'Real out of'
-	DB	' unsigned integer range', 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0DK@NAHIGMFE@Negative?5integer?5can?5not?5be?5conv@
-CONST	SEGMENT
-??_C@_0DK@NAHIGMFE@Negative?5integer?5can?5not?5be?5conv@ DB 'Negative in'
-	DB	'teger can not be converted to unsigned integer', 00H ; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BP@KDDCHLKA@Type?5is?5not?5convertible?5to?5int?$AA@
-CONST	SEGMENT
-??_C@_0BP@KDDCHLKA@Type?5is?5not?5convertible?5to?5int?$AA@ DB 'Type is n'
-	DB	'ot convertible to int', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0CB@PBEICPFN@Real?5out?5of?5signed?5integer?5range@
-CONST	SEGMENT
-??_C@_0CB@PBEICPFN@Real?5out?5of?5signed?5integer?5range@ DB 'Real out of'
-	DB	' signed integer range', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0CE@MKMAPPKF@integer?5out?5of?5signed?5integer?5ra@
-CONST	SEGMENT
-??_C@_0CE@MKMAPPKF@integer?5out?5of?5signed?5integer?5ra@ DB 'integer out'
-	DB	' of signed integer range', 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0CC@BNBMBIGA@Type?5is?5not?5convertible?5to?5strin@
-CONST	SEGMENT
-??_C@_0CC@BNBMBIGA@Type?5is?5not?5convertible?5to?5strin@ DB 'Type is not'
-	DB	' convertible to string', 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BL@DKGNIMPN@Comments?5must?5start?5with?5?1?$AA@
-CONST	SEGMENT
-??_C@_0BL@DKGNIMPN@Comments?5must?5start?5with?5?1?$AA@ DB 'Comments must'
-	DB	' start with /', 00H				; `string'
-CONST	ENDS
 PUBLIC	??_G?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPAXI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::`scalar deleting destructor'
 PUBLIC	??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z ; std::pair<Json::Value::CZString const ,Json::Value>::pair<Json::Value::CZString const ,Json::Value>
 PUBLIC	??$destroy@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::destroy<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
@@ -477,7 +471,6 @@ PUBLIC	?swap@Value@Json@@QAEXAAV12@@Z			; Json::Value::swap
 PUBLIC	??1?$map@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@@std@@QAE@XZ ; std::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::~map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >
 PUBLIC	??_G?$map@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@@std@@QAEPAXI@Z ; std::map<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::`scalar deleting destructor'
 PUBLIC	??_ECommentInfo@Value@Json@@QAEPAXI@Z		; Json::Value::CommentInfo::`vector deleting destructor'
-PUBLIC	??0Value@Json@@QAE@ABV01@@Z			; Json::Value::Value
 PUBLIC	??0Value@Json@@QAE@_N@Z				; Json::Value::Value
 PUBLIC	??0Value@Json@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Json::Value::Value
 PUBLIC	??0Value@Json@@QAE@N@Z				; Json::Value::Value
@@ -508,13 +501,13 @@ PUBLIC	??1ValueAllocator@Json@@UAE@XZ			; Json::ValueAllocator::~ValueAllocator
 PUBLIC	??_GStyledWriter@Json@@UAEPAXI@Z		; Json::StyledWriter::`scalar deleting destructor'
 PUBLIC	??1StyledWriter@Json@@UAE@XZ			; Json::StyledWriter::~StyledWriter
 PUBLIC	?_Swap_all@_Container_base0@std@@QAEXAAU12@@Z	; std::_Container_base0::_Swap_all
-PUBLIC	?_Orphan_all@_Container_base0@std@@QAEXXZ	; std::_Container_base0::_Orphan_all
 PUBLIC	??AValue@Json@@QAEAAV01@PBD@Z			; Json::Value::operator[]
 PUBLIC	?asInt@Value@Json@@QBEHXZ			; Json::Value::asInt
 PUBLIC	?asString@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ ; Json::Value::asString
 PUBLIC	??4Value@Json@@QAEAAV01@ABV01@@Z		; Json::Value::operator=
-PUBLIC	??1Value@Json@@QAE@XZ				; Json::Value::~Value
 PUBLIC	??0Value@Json@@QAE@W4ValueType@1@@Z		; Json::Value::Value
+PUBLIC	??1Value@Json@@QAE@XZ				; Json::Value::~Value
+PUBLIC	??0Value@Json@@QAE@ABV01@@Z			; Json::Value::Value
 PUBLIC	?null@Value@Json@@2V12@B			; Json::Value::null
 EXTRN	??_EStyledWriter@Json@@UAEPAXI@Z:PROC		; Json::StyledWriter::`vector deleting destructor'
 EXTRN	??_EDefaultValueAllocator@Json@@UAEPAXI@Z:PROC	; Json::DefaultValueAllocator::`vector deleting destructor'
@@ -535,18 +528,6 @@ _piecewise_construct DB 01H DUP (?)
 _BSS	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
-__ehfuncinfo$??0Value@Json@@QAE@W4ValueType@1@@Z DD 019930522H
-	DD	01H
-	DD	FLAT:__unwindtable$??0Value@Json@@QAE@W4ValueType@1@@Z
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	01H
-__unwindtable$??0Value@Json@@QAE@W4ValueType@1@@Z DD 0ffffffffH
-	DD	FLAT:__unwindfunclet$??0Value@Json@@QAE@W4ValueType@1@@Z$0
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
 __ehfuncinfo$??0Value@Json@@QAE@ABV01@@Z DD 019930522H
 	DD	02H
 	DD	FLAT:__unwindtable$??0Value@Json@@QAE@ABV01@@Z
@@ -558,6 +539,18 @@ __unwindtable$??0Value@Json@@QAE@ABV01@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0Value@Json@@QAE@ABV01@@Z$0
 	DD	0ffffffffH
 	DD	FLAT:__unwindfunclet$??0Value@Json@@QAE@ABV01@@Z$1
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??0Value@Json@@QAE@W4ValueType@1@@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$??0Value@Json@@QAE@W4ValueType@1@@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+__unwindtable$??0Value@Json@@QAE@W4ValueType@1@@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??0Value@Json@@QAE@W4ValueType@1@@Z$0
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -965,8 +958,286 @@ __ehfuncinfo$??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z DD 01993
 __unwindtable$??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0?$pair@$$CBVCZString@Value@Json@@V23@@std@@QAE@ABU01@@Z$0
 xdata$x	ENDS
+	ORG $+16
 ?null$initializer$@Value@Json@@2P6AXXZA DD FLAT:??__E?null@Value@Json@@2V12@B@@YAXXZ ; Json::Value::null$initializer$
 _dummyValueAllocatorInitializer$initializer$ DD FLAT:??__EdummyValueAllocatorInitializer@Json@@YAXXZ
+; Function compile flags: /Ogtp
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+; File f:\program_files\vc\include\map
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+;	COMDAT ??0Value@Json@@QAE@ABV01@@Z
+_TEXT	SEGMENT
+__$EHRec$ = -12						; size = 12
+$T2 = 8							; size = 4
+$T3 = 8							; size = 4
+_other$ = 8						; size = 4
+??0Value@Json@@QAE@ABV01@@Z PROC			; Json::Value::Value, COMDAT
+; _this$ = ecx
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0Value@Json@@QAE@ABV01@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ebx
+	push	esi
+	push	edi
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	edi, ecx
+	mov	ebx, DWORD PTR _other$[ebp]
+	mov	al, BYTE PTR [ebx+8]
+	mov	BYTE PTR [edi+8], al
+
+	movsx	eax, al
+	mov	DWORD PTR [edi+12], 0
+	cmp	eax, 7
+	ja	SHORT $LN6@Value
+	jmp	DWORD PTR $LN38@Value[eax*4]
+$LN11@Value:
+
+	mov	eax, DWORD PTR [ebx]
+	mov	DWORD PTR [edi], eax
+	mov	eax, DWORD PTR [ebx+4]
+	mov	DWORD PTR [edi+4], eax
+
+	jmp	SHORT $LN6@Value
+$LN10@Value:
+
+	cmp	DWORD PTR [ebx], 0
+	je	SHORT $LN9@Value
+
+	call	?valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ ; Json::valueAllocator
+	mov	ecx, DWORD PTR [eax]
+	push	-1
+	mov	eax, DWORD PTR [ecx]
+	push	DWORD PTR [ebx]
+	call	DWORD PTR [eax+12]
+
+	or	DWORD PTR [edi+8], 256			; 00000100H
+	mov	DWORD PTR [edi], eax
+
+	jmp	SHORT $LN6@Value
+$LN9@Value:
+
+	mov	DWORD PTR [edi], 0
+
+	jmp	SHORT $LN6@Value
+$LN7@Value:
+
+	push	8
+	call	??2@YAPAXI@Z				; operator new
+	mov	esi, eax
+	add	esp, 4
+	mov	DWORD PTR $T3[ebp], esi
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+	test	esi, esi
+	je	SHORT $LN16@Value
+; File f:\program_files\vc\include\map
+
+; 110  : 		{	// construct map by copying _Right
+
+	push	ecx
+	push	DWORD PTR [ebx]
+	mov	ecx, esi
+	call	??0?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@QAE@ABV01@ABV?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@1@@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+
+	jmp	SHORT $LN17@Value
+$LN16@Value:
+	xor	esi, esi
+$LN17@Value:
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	DWORD PTR [edi], esi
+$LN6@Value:
+
+	cmp	DWORD PTR [ebx+12], 0
+	je	SHORT $LN36@Value
+
+	push	16					; 00000010H
+	call	??_U@YAPAXI@Z				; operator new[]
+	add	esp, 4
+	mov	DWORD PTR $T2[ebp], eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 1
+	test	eax, eax
+	je	SHORT $LN18@Value
+	push	OFFSET ??1CommentInfo@Value@Json@@QAE@XZ ; Json::Value::CommentInfo::~CommentInfo
+	push	OFFSET ??0CommentInfo@Value@Json@@QAE@XZ ; Json::Value::CommentInfo::CommentInfo
+	push	3
+	lea	esi, DWORD PTR [eax+4]
+	push	4
+	push	esi
+	mov	DWORD PTR [eax], 3
+	call	??_L@YGXPAXIHP6EX0@Z1@Z
+	jmp	SHORT $LN19@Value
+$LN18@Value:
+	xor	esi, esi
+$LN19@Value:
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	DWORD PTR [edi+12], esi
+	xor	esi, esi
+$LL4@Value:
+
+	mov	eax, DWORD PTR [ebx+12]
+
+	mov	eax, DWORD PTR [eax+esi]
+	test	eax, eax
+	je	SHORT $LN3@Value
+
+	mov	ecx, DWORD PTR [edi+12]
+	push	eax
+	add	ecx, esi
+	call	?setComment@CommentInfo@Value@Json@@QAEXPBD@Z ; Json::Value::CommentInfo::setComment
+$LN3@Value:
+
+	add	esi, 4
+	cmp	esi, 12					; 0000000cH
+	jl	SHORT $LL4@Value
+$LN36@Value:
+
+	mov	eax, edi
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+	npad	3
+$LN38@Value:
+	DD	$LN11@Value
+	DD	$LN11@Value
+	DD	$LN11@Value
+	DD	$LN11@Value
+	DD	$LN10@Value
+	DD	$LN11@Value
+	DD	$LN7@Value
+	DD	$LN7@Value
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??0Value@Json@@QAE@ABV01@@Z$0:
+	mov	eax, DWORD PTR $T3[ebp]
+	push	eax
+	call	??3@YAXPAX@Z				; operator delete
+	pop	ecx
+	ret	0
+__unwindfunclet$??0Value@Json@@QAE@ABV01@@Z$1:
+	mov	eax, DWORD PTR $T2[ebp]
+	push	eax
+	call	??_V@YAXPAX@Z				; operator delete[]
+	pop	ecx
+	ret	0
+__ehhandler$??0Value@Json@@QAE@ABV01@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-16]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0Value@Json@@QAE@ABV01@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0Value@Json@@QAE@ABV01@@Z ENDP			; Json::Value::Value
+; Function compile flags: /Ogtp
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+; File f:\program_files\vc\include\xtree
+; File f:\program_files\vc\include\xmemory0
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+;	COMDAT ??1Value@Json@@QAE@XZ
+_TEXT	SEGMENT
+$T1 = -4						; size = 4
+??1Value@Json@@QAE@XZ PROC				; Json::Value::~Value, COMDAT
+; _this$ = ecx
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	push	esi
+	mov	esi, ecx
+	push	edi
+
+	movsx	eax, BYTE PTR [esi+8]
+	cmp	eax, 4
+	je	SHORT $LN5@Value
+	add	eax, -6					; fffffffaH
+	cmp	eax, 1
+	ja	SHORT $LN4@Value
+
+	mov	edi, DWORD PTR [esi]
+	test	edi, edi
+	je	SHORT $LN4@Value
+; File f:\program_files\vc\include\xtree
+
+; 2216 : 		erase(begin(), end());
+
+	mov	eax, DWORD PTR [edi]
+	push	eax
+	push	DWORD PTR [eax]
+	lea	eax, DWORD PTR $T1[ebp]
+	push	eax
+	mov	ecx, edi
+	call	?erase@?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@2@0@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::erase
+; File f:\program_files\vc\include\xmemory0
+
+; 586  : 		::operator delete(_Ptr);
+
+	push	DWORD PTR [edi]
+	call	??3@YAXPAX@Z				; operator delete
+	push	edi
+	call	??3@YAXPAX@Z				; operator delete
+	add	esp, 8
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+
+	jmp	SHORT $LN4@Value
+$LN5@Value:
+
+	test	DWORD PTR [esi+8], 256			; 00000100H
+	je	SHORT $LN4@Value
+
+	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
+	test	al, 1
+	jne	SHORT $LN15@Value
+	or	eax, 1
+	push	OFFSET ??__FdefaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ@YAXXZ ; `Json::valueAllocator'::`2'::`dynamic atexit destructor for 'defaultAllocator''
+	mov	DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA, eax
+	mov	DWORD PTR ?defaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4VDefaultValueAllocator@2@A, OFFSET ??_7DefaultValueAllocator@Json@@6B@
+	call	_atexit
+	add	esp, 4
+$LN15@Value:
+
+	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
+	push	DWORD PTR [esi]
+	mov	eax, DWORD PTR [ecx]
+	call	DWORD PTR [eax+16]
+$LN4@Value:
+
+	mov	eax, DWORD PTR [esi+12]
+	test	eax, eax
+	je	SHORT $LN87@Value
+	push	OFFSET ??1CommentInfo@Value@Json@@QAE@XZ ; Json::Value::CommentInfo::~CommentInfo
+	push	DWORD PTR [eax-4]
+	lea	esi, DWORD PTR [eax-4]
+	push	4
+	push	eax
+	call	??_M@YGXPAXIHP6EX0@Z@Z
+	push	esi
+	call	??_V@YAXPAX@Z				; operator delete[]
+	add	esp, 4
+$LN87@Value:
+	pop	edi
+	pop	esi
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1Value@Json@@QAE@XZ ENDP				; Json::Value::~Value
+_TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ; File f:\program_files\vc\include\xtree
@@ -978,8 +1249,6 @@ $T2 = 8							; size = 4
 _type$ = 8						; size = 4
 ??0Value@Json@@QAE@W4ValueType@1@@Z PROC		; Json::Value::Value, COMDAT
 ; _this$ = ecx
-
-; 275  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -999,8 +1268,6 @@ _type$ = 8						; size = 4
 	mov	BYTE PTR [esi+8], al
 	and	DWORD PTR [esi+8], -257			; fffffeffH
 
-; 276  :    switch ( type )
-
 	dec	eax
 	mov	DWORD PTR [esi+12], 0
 	cmp	eax, 6
@@ -1008,32 +1275,16 @@ _type$ = 8						; size = 4
 	jmp	DWORD PTR $LN34@Value[eax*4]
 $LN6@Value:
 
-; 277  :    {
-; 278  :    case nullValue:
-; 279  :       break;
-; 280  :    case intValue:
-; 281  :    case uintValue:
-; 282  :       value_.int_ = 0;
-
 	mov	DWORD PTR [esi], 0
-
-; 283  :       break;
 
 	jmp	SHORT $LN1@Value
 $LN5@Value:
 	xorps	xmm0, xmm0
 
-; 284  :    case realValue:
-; 285  :       value_.real_ = 0.0;
-
 	movsd	QWORD PTR [esi], xmm0
-
-; 286  :       break;
 
 	jmp	SHORT $LN1@Value
 $LN3@Value:
-
-; 293  :       value_.map_ = new ObjectValues();
 
 	push	8
 	call	??2@YAPAXI@Z				; operator new
@@ -1262,44 +1513,19 @@ $LN3@Value:
 	mov	DWORD PTR [edi], eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 293  :       value_.map_ = new ObjectValues();
-
 	mov	DWORD PTR [esi], edi
-
-; 294  :       break;
 
 	jmp	SHORT $LN1@Value
 $LN12@Value:
 
-; 293  :       value_.map_ = new ObjectValues();
-
 	xor	edi, edi
 	mov	DWORD PTR [esi], edi
-
-; 294  :       break;
 
 	jmp	SHORT $LN1@Value
 $LN2@Value:
 
-; 295  : #else
-; 296  :    case arrayValue:
-; 297  :       value_.array_ = arrayAllocator()->newArray();
-; 298  :       break;
-; 299  :    case objectValue:
-; 300  :       value_.map_ = mapAllocator()->newMap();
-; 301  :       break;
-; 302  : #endif
-; 303  :    case booleanValue:
-; 304  :       value_.bool_ = false;
-
 	mov	BYTE PTR [esi], 0
 $LN1@Value:
-
-; 305  :       break;
-; 306  :    default:
-; 307  :       JSON_ASSERT_UNREACHABLE;
-; 308  :    }
-; 309  : }
 
 	mov	eax, esi
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
@@ -1339,182 +1565,32 @@ text$x	ENDS
 ??0Value@Json@@QAE@W4ValueType@1@@Z ENDP		; Json::Value::Value
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-; File f:\program_files\vc\include\xtree
-; File f:\program_files\vc\include\xmemory0
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-;	COMDAT ??1Value@Json@@QAE@XZ
-_TEXT	SEGMENT
-$T1 = -4						; size = 4
-??1Value@Json@@QAE@XZ PROC				; Json::Value::~Value, COMDAT
-; _this$ = ecx
-
-; 473  : {
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	push	esi
-	mov	esi, ecx
-	push	edi
-
-; 474  :    switch ( type_ )
-
-	movsx	eax, BYTE PTR [esi+8]
-	cmp	eax, 4
-	je	SHORT $LN5@Value
-	add	eax, -6					; fffffffaH
-	cmp	eax, 1
-	ja	SHORT $LN4@Value
-
-; 485  :       break;
-; 486  : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 487  :    case arrayValue:
-; 488  :    case objectValue:
-; 489  :       delete value_.map_;
-
-	mov	edi, DWORD PTR [esi]
-	test	edi, edi
-	je	SHORT $LN4@Value
-; File f:\program_files\vc\include\xtree
-
-; 2216 : 		erase(begin(), end());
-
-	mov	eax, DWORD PTR [edi]
-	push	eax
-	push	DWORD PTR [eax]
-	lea	eax, DWORD PTR $T1[ebp]
-	push	eax
-	mov	ecx, edi
-	call	?erase@?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@2@0@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::erase
-; File f:\program_files\vc\include\xmemory0
-
-; 586  : 		::operator delete(_Ptr);
-
-	push	DWORD PTR [edi]
-	call	??3@YAXPAX@Z				; operator delete
-	push	edi
-	call	??3@YAXPAX@Z				; operator delete
-	add	esp, 8
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 490  :       break;
-
-	jmp	SHORT $LN4@Value
-$LN5@Value:
-
-; 475  :    {
-; 476  :    case nullValue:
-; 477  :    case intValue:
-; 478  :    case uintValue:
-; 479  :    case realValue:
-; 480  :    case booleanValue:
-; 481  :       break;
-; 482  :    case stringValue:
-; 483  :       if ( allocated_ )
-
-	test	DWORD PTR [esi+8], 256			; 00000100H
-	je	SHORT $LN4@Value
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
-
-	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
-	test	al, 1
-	jne	SHORT $LN15@Value
-	or	eax, 1
-	push	OFFSET ??__FdefaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ@YAXXZ ; `Json::valueAllocator'::`2'::`dynamic atexit destructor for 'defaultAllocator''
-	mov	DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA, eax
-	mov	DWORD PTR ?defaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4VDefaultValueAllocator@2@A, OFFSET ??_7DefaultValueAllocator@Json@@6B@
-	call	_atexit
-	add	esp, 4
-$LN15@Value:
-
-; 484  :          valueAllocator()->releaseStringValue( value_.string_ );
-
-	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
-	push	DWORD PTR [esi]
-	mov	eax, DWORD PTR [ecx]
-	call	DWORD PTR [eax+16]
-$LN4@Value:
-
-; 491  : #else
-; 492  :    case arrayValue:
-; 493  :       arrayAllocator()->destructArray( value_.array_ );
-; 494  :       break;
-; 495  :    case objectValue:
-; 496  :       mapAllocator()->destructMap( value_.map_ );
-; 497  :       break;
-; 498  : #endif
-; 499  :    default:
-; 500  :       JSON_ASSERT_UNREACHABLE;
-; 501  :    }
-; 502  : 
-; 503  :    if ( comments_ )
-
-	mov	eax, DWORD PTR [esi+12]
-	test	eax, eax
-	je	SHORT $LN87@Value
-	push	OFFSET ??1CommentInfo@Value@Json@@QAE@XZ ; Json::Value::CommentInfo::~CommentInfo
-	push	DWORD PTR [eax-4]
-	lea	esi, DWORD PTR [eax-4]
-	push	4
-	push	eax
-	call	??_M@YGXPAXIHP6EX0@Z@Z
-	push	esi
-	call	??_V@YAXPAX@Z				; operator delete[]
-	add	esp, 4
-$LN87@Value:
-	pop	edi
-	pop	esi
-
-; 504  :       delete[] comments_;
-; 505  : }
-
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??1Value@Json@@QAE@XZ ENDP				; Json::Value::~Value
-_TEXT	ENDS
-; Function compile flags: /Ogtp
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ; File f:\program_files\vc\include\utility
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ; File f:\program_files\vc\include\utility
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ;	COMDAT ??4Value@Json@@QAEAAV01@ABV01@@Z
 _TEXT	SEGMENT
-_temp$ = -20						; size = 16
+_temp$ = -16						; size = 16
 _other$ = 8						; size = 4
 ??4Value@Json@@QAEAAV01@ABV01@@Z PROC			; Json::Value::operator=, COMDAT
 ; _this$ = ecx
 
-; 509  : {
-
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 20					; 00000014H
+	and	esp, -8					; fffffff8H
+	sub	esp, 16					; 00000010H
 	push	ebx
 	push	esi
 
-; 510  :    Value temp( other );
-
 	push	DWORD PTR _other$[ebp]
 	mov	esi, ecx
-	lea	ecx, DWORD PTR _temp$[ebp]
+	lea	ecx, DWORD PTR _temp$[esp+28]
 	call	??0Value@Json@@QAE@ABV01@@Z		; Json::Value::Value
-
-; 514  : 
-; 515  : void 
-; 516  : Value::swap( Value &other )
-; 517  : {
-; 518  :    ValueType temp = type_;
 
 	movsx	eax, BYTE PTR [esi+8]
 
-; 519  :    type_ = other.type_;
-
-	mov	ebx, DWORD PTR _temp$[ebp+8]
-
-; 520  :    other.type_ = temp;
+	mov	ebx, DWORD PTR _temp$[esp+32]
 
 	xor	eax, ebx
 	mov	BYTE PTR [esi+8], bl
@@ -1526,37 +1602,29 @@ _other$ = 8						; size = 4
 	mov	edx, DWORD PTR [esi+4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 520  :    other.type_ = temp;
-
 	and	eax, 255				; 000000ffH
 	xor	ebx, eax
 ; File f:\program_files\vc\include\utility
 
 ; 48   : 	_Left = _Move(_Right);
 
-	mov	eax, DWORD PTR _temp$[ebp]
+	mov	eax, DWORD PTR _temp$[esp+24]
 	mov	DWORD PTR [esi], eax
-	mov	eax, DWORD PTR _temp$[ebp+4]
+	mov	eax, DWORD PTR _temp$[esp+28]
 	mov	DWORD PTR [esi+4], eax
 
 ; 49   : 	_Right = _Move(_Tmp);
 
-	mov	DWORD PTR _temp$[ebp+4], edx
-	mov	DWORD PTR _temp$[ebp], ecx
+	mov	DWORD PTR _temp$[esp+28], edx
+	mov	DWORD PTR _temp$[esp+24], ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 522  :    int temp2 = allocated_;
 
 	mov	ecx, DWORD PTR [esi+8]
 	mov	edx, ecx
 	shl	edx, 23					; 00000017H
 	sar	edx, 31					; 0000001fH
 
-; 523  :    allocated_ = other.allocated_;
-
 	mov	eax, ecx
-
-; 524  :    other.allocated_ = temp2;
 
 	shl	edx, 8
 	xor	eax, ebx
@@ -1566,26 +1634,14 @@ _other$ = 8						; size = 4
 	xor	eax, ecx
 	xor	ebx, edx
 
-; 511  :    swap( temp );
-; 512  :    return *this;
-
-	lea	ecx, DWORD PTR _temp$[ebp]
-
-; 523  :    allocated_ = other.allocated_;
+	lea	ecx, DWORD PTR _temp$[esp+24]
 
 	mov	DWORD PTR [esi+8], eax
 
-; 524  :    other.allocated_ = temp2;
-
-	mov	DWORD PTR _temp$[ebp+8], ebx
-
-; 511  :    swap( temp );
-; 512  :    return *this;
+	mov	DWORD PTR _temp$[esp+32], ebx
 
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 	mov	eax, esi
-
-; 513  : }
 
 	pop	esi
 	pop	ebx
@@ -1615,13 +1671,9 @@ ___$ReturnUdt$ = 8					; size = 4
 ?asString@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ PROC ; Json::Value::asString, COMDAT
 ; _this$ = ecx
 
-; 686  : {
-
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 16					; 00000010H
-
-; 687  :    switch ( type_ )
 
 	movsx	eax, BYTE PTR [ecx+8]
 	push	esi
@@ -1631,25 +1683,16 @@ ___$ReturnUdt$ = 8					; size = 4
 	jmp	DWORD PTR $LN64@asString[eax*4]
 $LN6@asString:
 
-; 688  :    {
-; 689  :    case nullValue:
-; 690  :       return "";
-
 	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
 	push	OFFSET ??_C@_00CNPNBAHC@?$AA@
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
 	pop	esi
 
-; 705  : }
-
 	mov	esp, ebp
 	pop	ebp
 	ret	4
 $LN5@asString:
-
-; 691  :    case stringValue:
-; 692  :       return value_.string_ ? value_.string_ : "";
 
 	mov	eax, DWORD PTR [ecx]
 	test	eax, eax
@@ -1661,15 +1704,10 @@ $LN5@asString:
 	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
 	pop	esi
 
-; 705  : }
-
 	mov	esp, ebp
 	pop	ebp
 	ret	4
 $LN4@asString:
-
-; 693  :    case booleanValue:
-; 694  :       return value_.bool_ ? "true" : "false";
 
 	cmp	BYTE PTR [ecx], 0
 	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
@@ -1680,8 +1718,6 @@ $LN4@asString:
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
 	pop	esi
-
-; 705  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -2794,12 +2830,8 @@ $LN2@asString:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 704  :    return ""; // unreachable
-
 	mov	eax, esi
 	pop	esi
-
-; 705  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -2814,8 +2846,6 @@ $LN63@asString:
 	lea	ecx, DWORD PTR $T1[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 700  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to string" );
-
 	mov	DWORD PTR $T3[ebp], OFFSET ??_C@_0CC@BNBMBIGA@Type?5is?5not?5convertible?5to?5strin@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -2823,8 +2853,6 @@ $LN63@asString:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 700  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to string" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T1[ebp]
@@ -2836,15 +2864,11 @@ $LN63@asString:
 	mov	DWORD PTR $T1[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 700  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to string" );
-
 	call	__CxxThrowException@8
 $LN65@asString:
 $LN62@asString:
 	npad	2
 $LN64@asString:
-
-; 705  : }
 
 	DD	$LN6@asString
 	DD	$LN63@asString
@@ -2887,12 +2911,8 @@ $T6 = -4						; size = 4
 ?asInt@Value@Json@@QBEHXZ PROC				; Json::Value::asInt, COMDAT
 ; _this$ = ecx
 
-; 717  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 718  :    switch ( type_ )
 
 	movsx	eax, BYTE PTR [ecx+8]
 	sub	esp, 40					; 00000028H
@@ -2901,30 +2921,18 @@ $T6 = -4						; size = 4
 	jmp	DWORD PTR $LN28@asInt[eax*4]
 $LN10@asInt:
 
-; 719  :    {
-; 720  :    case nullValue:
-; 721  :       return 0;
-; 722  :    case intValue:
-; 723  :       return value_.int_;
-
 	mov	eax, DWORD PTR [ecx]
-
-; 740  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN9@asInt:
 
-; 725  :       JSON_ASSERT_MESSAGE( value_.uint_ < (unsigned)maxInt, "integer out of signed integer range" );
-
 	mov	eax, DWORD PTR [ecx]
 	cmp	eax, 2147483647				; 7fffffffH
 	jb	SHORT $LN14@asInt
 	jmp	SHORT $LN26@asInt
 $LN7@asInt:
-
-; 728  :       JSON_ASSERT_MESSAGE( value_.real_ >= minInt  &&  value_.real_ <= maxInt, "Real out of signed integer range" );
 
 	movsd	xmm1, QWORD PTR [ecx]
 	comisd	xmm1, QWORD PTR __real@c1e0000000000000
@@ -2933,40 +2941,24 @@ $LN7@asInt:
 	comisd	xmm0, xmm1
 	jb	SHORT $LN5@asInt
 
-; 729  :       return Int( value_.real_ );
-
 	cvttsd2si eax, xmm1
-
-; 740  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN4@asInt:
 
-; 730  :    case booleanValue:
-; 731  :       return value_.bool_ ? 1 : 0;
-
 	xor	eax, eax
 	cmp	BYTE PTR [ecx], al
 	setne	al
-
-; 740  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN2@asInt:
 
-; 736  :    default:
-; 737  :       JSON_ASSERT_UNREACHABLE;
-; 738  :    }
-; 739  :    return 0; // unreachable;
-
 	xor	eax, eax
 $LN14@asInt:
-
-; 740  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -2981,8 +2973,6 @@ $LN26@asInt:
 	lea	ecx, DWORD PTR $T3[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 725  :       JSON_ASSERT_MESSAGE( value_.uint_ < (unsigned)maxInt, "integer out of signed integer range" );
-
 	mov	DWORD PTR $T6[ebp], OFFSET ??_C@_0CE@MKMAPPKF@integer?5out?5of?5signed?5integer?5ra@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -2990,8 +2980,6 @@ $LN26@asInt:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 725  :       JSON_ASSERT_MESSAGE( value_.uint_ < (unsigned)maxInt, "integer out of signed integer range" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T3[ebp]
@@ -3002,8 +2990,6 @@ $LN26@asInt:
 
 	mov	DWORD PTR $T3[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 725  :       JSON_ASSERT_MESSAGE( value_.uint_ < (unsigned)maxInt, "integer out of signed integer range" );
 
 	call	__CxxThrowException@8
 $LN29@asInt:
@@ -3017,8 +3003,6 @@ $LN5@asInt:
 	lea	ecx, DWORD PTR $T2[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 728  :       JSON_ASSERT_MESSAGE( value_.real_ >= minInt  &&  value_.real_ <= maxInt, "Real out of signed integer range" );
-
 	mov	DWORD PTR $T5[ebp], OFFSET ??_C@_0CB@PBEICPFN@Real?5out?5of?5signed?5integer?5range@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -3026,8 +3010,6 @@ $LN5@asInt:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 728  :       JSON_ASSERT_MESSAGE( value_.real_ >= minInt  &&  value_.real_ <= maxInt, "Real out of signed integer range" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T2[ebp]
@@ -3038,8 +3020,6 @@ $LN5@asInt:
 
 	mov	DWORD PTR $T2[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 728  :       JSON_ASSERT_MESSAGE( value_.real_ >= minInt  &&  value_.real_ <= maxInt, "Real out of signed integer range" );
 
 	call	__CxxThrowException@8
 $LN30@asInt:
@@ -3053,8 +3033,6 @@ $LN3@asInt:
 	lea	ecx, DWORD PTR $T1[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 735  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to int" );
-
 	mov	DWORD PTR $T4[ebp], OFFSET ??_C@_0BP@KDDCHLKA@Type?5is?5not?5convertible?5to?5int?$AA@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -3062,8 +3040,6 @@ $LN3@asInt:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 735  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to int" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T1[ebp]
@@ -3075,14 +3051,10 @@ $LN3@asInt:
 	mov	DWORD PTR $T1[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 735  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to int" );
-
 	call	__CxxThrowException@8
 $LN31@asInt:
 $LN25@asInt:
 $LN28@asInt:
-
-; 740  : }
 
 	DD	$LN2@asInt
 	DD	$LN10@asInt
@@ -3102,36 +3074,16 @@ _key$ = 8						; size = 4
 ??AValue@Json@@QAEAAV01@PBD@Z PROC			; Json::Value::operator[], COMDAT
 ; _this$ = ecx
 
-; 1016 : {
-
 	push	ebp
 	mov	ebp, esp
-	push	ecx
-
-; 1017 :    return resolveReference( key, false );
 
 	push	ecx
 	push	DWORD PTR _key$[ebp]
 	call	?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z ; Json::Value::resolveReference
-	pop	ecx
-
-; 1018 : }
 
 	pop	ebp
 	ret	4
 ??AValue@Json@@QAEAAV01@PBD@Z ENDP			; Json::Value::operator[]
-_TEXT	ENDS
-; Function compile flags: /Ogtp
-; File f:\program_files\vc\include\xutility
-;	COMDAT ?_Orphan_all@_Container_base0@std@@QAEXXZ
-_TEXT	SEGMENT
-?_Orphan_all@_Container_base0@std@@QAEXXZ PROC		; std::_Container_base0::_Orphan_all, COMDAT
-; _this$dead$ = ecx
-
-; 40   : 		}
-
-	ret	0
-?_Orphan_all@_Container_base0@std@@QAEXXZ ENDP		; std::_Container_base0::_Orphan_all
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\xutility
@@ -3165,8 +3117,6 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ??1StyledWriter@Json@@UAE@XZ PROC			; Json::StyledWriter::~StyledWriter, COMDAT
 ; _this$ = ecx
-
-; 69   :       virtual ~StyledWriter(){}
 
 	push	esi
 	mov	esi, ecx
@@ -3265,13 +3215,9 @@ $LN55@StyledWrit:
 $LN82@StyledWrit:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 177  : {
-
 	mov	DWORD PTR [esi], OFFSET ??_7Writer@Json@@6B@
 	pop	esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\writer.h
-
-; 69   :       virtual ~StyledWriter(){}
 
 	ret	0
 ??1StyledWriter@Json@@UAE@XZ ENDP			; Json::StyledWriter::~StyledWriter
@@ -3305,263 +3251,7 @@ _TEXT	ENDS
 text$yc	SEGMENT
 ??__E?null@Value@Json@@2V12@B@@YAXXZ PROC		; `dynamic initializer for 'Json::Value::null'', COMDAT
 
-; 23   : const Int Value::minInt = Int( ~(UInt(-1)/2) );
-; 24   : const Int Value::maxInt = Int( UInt(-1)/2 );
-; 25   : const UInt Value::maxUInt = UInt(-1);
-; 26   : 
-; 27   : // A "safe" implementation of strdup. Allow null pointer to be passed. 
-; 28   : // Also avoid warning on msvc80.
-; 29   : //
-; 30   : //inline char *safeStringDup( const char *czstring )
-; 31   : //{
-; 32   : //   if ( czstring )
-; 33   : //   {
-; 34   : //      const size_t length = (unsigned int)( strlen(czstring) + 1 );
-; 35   : //      char *newString = static_cast<char *>( malloc( length ) );
-; 36   : //      memcpy( newString, czstring, length );
-; 37   : //      return newString;
-; 38   : //   }
-; 39   : //   return 0;
-; 40   : //}
-; 41   : //
-; 42   : //inline char *safeStringDup( const std::string &str )
-; 43   : //{
-; 44   : //   if ( !str.empty() )
-; 45   : //   {
-; 46   : //      const size_t length = str.length();
-; 47   : //      char *newString = static_cast<char *>( malloc( length + 1 ) );
-; 48   : //      memcpy( newString, str.c_str(), length );
-; 49   : //      newString[length] = 0;
-; 50   : //      return newString;
-; 51   : //   }
-; 52   : //   return 0;
-; 53   : //}
-; 54   : 
-; 55   : ValueAllocator::~ValueAllocator()
-; 56   : {
-; 57   : }
-; 58   : 
-; 59   : class DefaultValueAllocator : public ValueAllocator
-; 60   : {
-; 61   : public:
-; 62   :    virtual ~DefaultValueAllocator()
-; 63   :    {
-; 64   :    }
-; 65   : 
-; 66   :    virtual char *makeMemberName( const char *memberName )
-; 67   :    {
-; 68   :       return duplicateStringValue( memberName );
-; 69   :    }
-; 70   : 
-; 71   :    virtual void releaseMemberName( char *memberName )
-; 72   :    {
-; 73   :       releaseStringValue( memberName );
-; 74   :    }
-; 75   : 
-; 76   :    virtual char *duplicateStringValue( const char *value, 
-; 77   :                                        unsigned int length = unknown )
-; 78   :    {
-; 79   :       //@todo invesgate this old optimization
-; 80   :       //if ( !value  ||  value[0] == 0 )
-; 81   :       //   return 0;
-; 82   : 
-; 83   :       if ( length == unknown )
-; 84   :          length = (unsigned int)strlen(value);
-; 85   :       char *newString = static_cast<char *>( malloc( length + 1 ) );
-; 86   :       memcpy( newString, value, length );
-; 87   :       newString[length] = 0;
-; 88   :       return newString;
-; 89   :    }
-; 90   : 
-; 91   :    virtual void releaseStringValue( char *value )
-; 92   :    {
-; 93   :       if ( value )
-; 94   :          free( value );
-; 95   :    }
-; 96   : };
-; 97   : 
-; 98   : static ValueAllocator *&valueAllocator()
-; 99   : {
-; 100  :    static DefaultValueAllocator defaultAllocator;
-; 101  :    static ValueAllocator *valueAllocator = &defaultAllocator;
-; 102  :    return valueAllocator;
-; 103  : }
-; 104  : 
-; 105  : static struct DummyValueAllocatorInitializer {
-; 106  :    DummyValueAllocatorInitializer() 
-; 107  :    {
-; 108  :       valueAllocator();      // ensure valueAllocator() statics are initialized before main().
-; 109  :    }
-; 110  : } dummyValueAllocatorInitializer;
-; 111  : 
-; 112  : 
-; 113  : 
-; 114  : // //////////////////////////////////////////////////////////////////
-; 115  : // //////////////////////////////////////////////////////////////////
-; 116  : // //////////////////////////////////////////////////////////////////
-; 117  : // ValueInternals...
-; 118  : // //////////////////////////////////////////////////////////////////
-; 119  : // //////////////////////////////////////////////////////////////////
-; 120  : // //////////////////////////////////////////////////////////////////
-; 121  : #ifdef JSON_VALUE_USE_INTERNAL_MAP
-; 122  : # include "json_internalarray.inl"
-; 123  : # include "json_internalmap.inl"
-; 124  : #endif // JSON_VALUE_USE_INTERNAL_MAP
-; 125  : 
-; 126  : # include "json_valueiterator.inl"
-; 127  : 
-; 128  : 
-; 129  : // //////////////////////////////////////////////////////////////////
-; 130  : // //////////////////////////////////////////////////////////////////
-; 131  : // //////////////////////////////////////////////////////////////////
-; 132  : // class Value::CommentInfo
-; 133  : // //////////////////////////////////////////////////////////////////
-; 134  : // //////////////////////////////////////////////////////////////////
-; 135  : // //////////////////////////////////////////////////////////////////
-; 136  : 
-; 137  : 
-; 138  : Value::CommentInfo::CommentInfo()
-; 139  :    : comment_( 0 )
-; 140  : {
-; 141  : }
-; 142  : 
-; 143  : Value::CommentInfo::~CommentInfo()
-; 144  : {
-; 145  :    if ( comment_ )
-; 146  :       valueAllocator()->releaseStringValue( comment_ );
-; 147  : }
-; 148  : 
-; 149  : 
-; 150  : void 
-; 151  : Value::CommentInfo::setComment( const char *text )
-; 152  : {
-; 153  :    if ( comment_ )
-; 154  :       valueAllocator()->releaseStringValue( comment_ );
-; 155  :    JSON_ASSERT( text );
-; 156  :    JSON_ASSERT_MESSAGE( text[0]=='\0' || text[0]=='/', "Comments must start with /");
-; 157  :    // It seems that /**/ style comments are acceptable as well.
-; 158  :    comment_ = valueAllocator()->duplicateStringValue( text );
-; 159  : }
-; 160  : 
-; 161  : 
-; 162  : // //////////////////////////////////////////////////////////////////
-; 163  : // //////////////////////////////////////////////////////////////////
-; 164  : // //////////////////////////////////////////////////////////////////
-; 165  : // class Value::CZString
-; 166  : // //////////////////////////////////////////////////////////////////
-; 167  : // //////////////////////////////////////////////////////////////////
-; 168  : // //////////////////////////////////////////////////////////////////
-; 169  : # ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 170  : 
-; 171  : // Notes: index_ indicates if the string was allocated when
-; 172  : // a string is stored.
-; 173  : 
-; 174  : Value::CZString::CZString( int index )
-; 175  :    : cstr_( 0 )
-; 176  :    , index_( index )
-; 177  : {
-; 178  : }
-; 179  : 
-; 180  : Value::CZString::CZString( const char *cstr, DuplicationPolicy allocate )
-; 181  :    : cstr_( allocate == duplicate ? valueAllocator()->makeMemberName(cstr) 
-; 182  :                                   : cstr )
-; 183  :    , index_( allocate )
-; 184  : {
-; 185  : }
-; 186  : 
-; 187  : Value::CZString::CZString( const CZString &other )
-; 188  : : cstr_( other.index_ != noDuplication &&  other.cstr_ != 0
-; 189  :                 ?  valueAllocator()->makeMemberName( other.cstr_ )
-; 190  :                 : other.cstr_ )
-; 191  :    , index_( other.cstr_ ? (other.index_ == noDuplication ? noDuplication : duplicate)
-; 192  :                          : other.index_ )
-; 193  : {
-; 194  : }
-; 195  : 
-; 196  : Value::CZString::~CZString()
-; 197  : {
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
-; 200  : }
-; 201  : 
-; 202  : void 
-; 203  : Value::CZString::swap( CZString &other )
-; 204  : {
-; 205  :    std::swap( cstr_, other.cstr_ );
-; 206  :    std::swap( index_, other.index_ );
-; 207  : }
-; 208  : 
-; 209  : Value::CZString &
-; 210  : Value::CZString::operator =( const CZString &other )
-; 211  : {
-; 212  :    CZString temp( other );
-; 213  :    swap( temp );
-; 214  :    return *this;
-; 215  : }
-; 216  : 
-; 217  : bool 
-; 218  : Value::CZString::operator<( const CZString &other ) const 
-; 219  : {
-; 220  :    if ( cstr_ )
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
-; 222  :    return index_ < other.index_;
-; 223  : }
-; 224  : 
-; 225  : bool 
-; 226  : Value::CZString::operator==( const CZString &other ) const 
-; 227  : {
-; 228  :    if ( cstr_ )
-; 229  :       return strcmp( cstr_, other.cstr_ ) == 0;
-; 230  :    return index_ == other.index_;
-; 231  : }
-; 232  : 
-; 233  : 
-; 234  : int 
-; 235  : Value::CZString::index() const
-; 236  : {
-; 237  :    return index_;
-; 238  : }
-; 239  : 
-; 240  : 
-; 241  : const char *
-; 242  : Value::CZString::c_str() const
-; 243  : {
-; 244  :    return cstr_;
-; 245  : }
-; 246  : 
-; 247  : bool 
-; 248  : Value::CZString::isStaticString() const
-; 249  : {
-; 250  :    return index_ == noDuplication;
-; 251  : }
-; 252  : 
-; 253  : #endif // ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 254  : 
-; 255  : 
-; 256  : // //////////////////////////////////////////////////////////////////
-; 257  : // //////////////////////////////////////////////////////////////////
-; 258  : // //////////////////////////////////////////////////////////////////
-; 259  : // class Value::Value
-; 260  : // //////////////////////////////////////////////////////////////////
-; 261  : // //////////////////////////////////////////////////////////////////
-; 262  : // //////////////////////////////////////////////////////////////////
-; 263  : 
-; 264  : /*! \internal Default constructor initialization must be equivalent to:
-; 265  :  * memset( this, 0, sizeof(Value) )
-; 266  :  * This optimization is used in ValueInternalMap fast allocator.
-; 267  :  */
-; 268  : Value::Value( ValueType type )
-; 269  :    : type_( type )
-; 270  :    , allocated_( 0 )
-; 271  :    , comments_( 0 )
-; 272  : # ifdef JSON_VALUE_USE_INTERNAL_MAP
-; 273  :    , itemIsUsed_( 0 )
-; 274  : #endif
-; 275  : {
-
 	and	DWORD PTR ?null@Value@Json@@2V12@B+8, -512 ; fffffe00H
-
-; 22   : const Value Value::null;
 
 	push	OFFSET ??__F?null@Value@Json@@2V12@B@@YAXXZ ; `dynamic atexit destructor for 'Json::Value::null''
 	call	_atexit
@@ -3584,11 +3274,7 @@ _TEXT	SEGMENT
 ??1ValueAllocator@Json@@UAE@XZ PROC			; Json::ValueAllocator::~ValueAllocator, COMDAT
 ; _this$ = ecx
 
-; 56   : {
-
 	mov	DWORD PTR [ecx], OFFSET ??_7ValueAllocator@Json@@6B@
-
-; 57   : }
 
 	ret	0
 ??1ValueAllocator@Json@@UAE@XZ ENDP			; Json::ValueAllocator::~ValueAllocator
@@ -3605,8 +3291,6 @@ ___flags$ = 8						; size = 4
 	test	BYTE PTR ___flags$[ebp], 1
 	push	esi
 	mov	esi, ecx
-
-; 56   : {
 
 	mov	DWORD PTR [esi], OFFSET ??_7ValueAllocator@Json@@6B@
 	je	SHORT $LN6@scalar
@@ -3627,11 +3311,7 @@ _TEXT	SEGMENT
 ??1DefaultValueAllocator@Json@@UAE@XZ PROC		; Json::DefaultValueAllocator::~DefaultValueAllocator, COMDAT
 ; _this$ = ecx
 
-; 56   : {
-
 	mov	DWORD PTR [ecx], OFFSET ??_7ValueAllocator@Json@@6B@
-
-; 64   :    }
 
 	ret	0
 ??1DefaultValueAllocator@Json@@UAE@XZ ENDP		; Json::DefaultValueAllocator::~DefaultValueAllocator
@@ -3644,19 +3324,13 @@ _memberName$ = 8					; size = 4
 ?makeMemberName@DefaultValueAllocator@Json@@UAEPADPBD@Z PROC ; Json::DefaultValueAllocator::makeMemberName, COMDAT
 ; _this$ = ecx
 
-; 67   :    {
-
 	push	ebp
 	mov	ebp, esp
-
-; 68   :       return duplicateStringValue( memberName );
 
 	mov	eax, DWORD PTR [ecx]
 	push	-1
 	push	DWORD PTR _memberName$[ebp]
 	call	DWORD PTR [eax+12]
-
-; 69   :    }
 
 	pop	ebp
 	ret	4
@@ -3670,20 +3344,12 @@ _memberName$ = 8					; size = 4
 ?releaseMemberName@DefaultValueAllocator@Json@@UAEXPAD@Z PROC ; Json::DefaultValueAllocator::releaseMemberName, COMDAT
 ; _this$ = ecx
 
-; 72   :    {
-
 	push	ebp
 	mov	ebp, esp
 
-; 73   :       releaseStringValue( memberName );
-
 	mov	eax, DWORD PTR [ecx]
 
-; 74   :    }
-
 	pop	ebp
-
-; 73   :       releaseStringValue( memberName );
 
 	jmp	DWORD PTR [eax+16]
 ?releaseMemberName@DefaultValueAllocator@Json@@UAEXPAD@Z ENDP ; Json::DefaultValueAllocator::releaseMemberName
@@ -3697,24 +3363,14 @@ _length$ = 12						; size = 4
 ?duplicateStringValue@DefaultValueAllocator@Json@@UAEPADPBDI@Z PROC ; Json::DefaultValueAllocator::duplicateStringValue, COMDAT
 ; _this$ = ecx
 
-; 78   :    {
-
 	push	ebp
 	mov	ebp, esp
 	push	esi
-
-; 79   :       //@todo invesgate this old optimization
-; 80   :       //if ( !value  ||  value[0] == 0 )
-; 81   :       //   return 0;
-; 82   : 
-; 83   :       if ( length == unknown )
 
 	mov	esi, DWORD PTR _length$[ebp]
 	push	edi
 	cmp	esi, -1
 	jne	SHORT $LN1@duplicateS
-
-; 84   :          length = (unsigned int)strlen(value);
 
 	mov	esi, DWORD PTR _value$[ebp]
 	lea	ecx, DWORD PTR [esi+1]
@@ -3726,13 +3382,9 @@ $LL4@duplicateS:
 	sub	esi, ecx
 $LN1@duplicateS:
 
-; 85   :       char *newString = static_cast<char *>( malloc( length + 1 ) );
-
 	lea	eax, DWORD PTR [esi+1]
 	push	eax
 	call	_malloc
-
-; 86   :       memcpy( newString, value, length );
 
 	push	esi
 	push	DWORD PTR _value$[ebp]
@@ -3741,17 +3393,11 @@ $LN1@duplicateS:
 	call	_memcpy
 	add	esp, 16					; 00000010H
 
-; 87   :       newString[length] = 0;
-
 	mov	BYTE PTR [edi+esi], 0
-
-; 88   :       return newString;
 
 	mov	eax, edi
 	pop	edi
 	pop	esi
-
-; 89   :    }
 
 	pop	ebp
 	ret	8
@@ -3765,25 +3411,17 @@ _value$ = 8						; size = 4
 ?releaseStringValue@DefaultValueAllocator@Json@@UAEXPAD@Z PROC ; Json::DefaultValueAllocator::releaseStringValue, COMDAT
 ; _this$ = ecx
 
-; 92   :    {
-
 	push	ebp
 	mov	ebp, esp
-
-; 93   :       if ( value )
 
 	mov	eax, DWORD PTR _value$[ebp]
 	test	eax, eax
 	je	SHORT $LN1@releaseStr
 
-; 94   :          free( value );
-
 	push	eax
 	call	_free
 	add	esp, 4
 $LN1@releaseStr:
-
-; 95   :    }
 
 	pop	ebp
 	ret	4
@@ -3801,8 +3439,6 @@ ___flags$ = 8						; size = 4
 	test	BYTE PTR ___flags$[ebp], 1
 	push	esi
 	mov	esi, ecx
-
-; 56   : {
 
 	mov	DWORD PTR [esi], OFFSET ??_7ValueAllocator@Json@@6B@
 	je	SHORT $LN8@scalar
@@ -3822,8 +3458,6 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ PROC	; Json::valueAllocator, COMDAT
 
-; 100  :    static DefaultValueAllocator defaultAllocator;
-
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
 	jne	SHORT $LN8@valueAlloc
@@ -3835,12 +3469,7 @@ _TEXT	SEGMENT
 	add	esp, 4
 $LN8@valueAlloc:
 
-; 101  :    static ValueAllocator *valueAllocator = &defaultAllocator;
-; 102  :    return valueAllocator;
-
 	mov	eax, OFFSET ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
-
-; 103  : }
 
 	ret	0
 ?valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ ENDP	; Json::valueAllocator
@@ -3850,8 +3479,6 @@ _TEXT	ENDS
 ;	COMDAT ??__FdefaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ@YAXXZ
 text$yd	SEGMENT
 ??__FdefaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ@YAXXZ PROC ; `Json::valueAllocator'::`2'::`dynamic atexit destructor for 'defaultAllocator'', COMDAT
-
-; 56   : {
 
 	mov	DWORD PTR ?defaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4VDefaultValueAllocator@2@A, OFFSET ??_7ValueAllocator@Json@@6B@
 	ret	0
@@ -3883,8 +3510,6 @@ _TEXT	ENDS
 text$yc	SEGMENT
 ??__EdummyValueAllocatorInitializer@Json@@YAXXZ PROC	; Json::`dynamic initializer for 'dummyValueAllocatorInitializer'', COMDAT
 
-; 100  :    static DefaultValueAllocator defaultAllocator;
-
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
 	jne	SHORT $LN5@dynamic
@@ -3896,8 +3521,6 @@ text$yc	SEGMENT
 	pop	ecx
 $LN5@dynamic:
 
-; 110  : } dummyValueAllocatorInitializer;
-
 	ret	0
 ??__EdummyValueAllocatorInitializer@Json@@YAXXZ ENDP	; Json::`dynamic initializer for 'dummyValueAllocatorInitializer''
 text$yc	ENDS
@@ -3907,8 +3530,6 @@ text$yc	ENDS
 _TEXT	SEGMENT
 ??0DummyValueAllocatorInitializer@Json@@QAE@XZ PROC	; Json::DummyValueAllocatorInitializer::DummyValueAllocatorInitializer, COMDAT
 ; _this$dead$ = ecx
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -3921,10 +3542,6 @@ _TEXT	SEGMENT
 	add	esp, 4
 $LN10@DummyValue:
 
-; 107  :    {
-; 108  :       valueAllocator();      // ensure valueAllocator() statics are initialized before main().
-; 109  :    }
-
 	mov	eax, OFFSET _dummyValueAllocatorInitializer
 	ret	0
 ??0DummyValueAllocatorInitializer@Json@@QAE@XZ ENDP	; Json::DummyValueAllocatorInitializer::DummyValueAllocatorInitializer
@@ -3936,11 +3553,7 @@ _TEXT	SEGMENT
 ??0CommentInfo@Value@Json@@QAE@XZ PROC			; Json::Value::CommentInfo::CommentInfo, COMDAT
 ; _this$ = ecx
 
-; 140  : {
-
 	mov	DWORD PTR [ecx], 0
-
-; 141  : }
 
 	mov	eax, ecx
 	ret	0
@@ -3953,17 +3566,11 @@ _TEXT	SEGMENT
 ??1CommentInfo@Value@Json@@QAE@XZ PROC			; Json::Value::CommentInfo::~CommentInfo, COMDAT
 ; _this$ = ecx
 
-; 144  : {
-
 	push	esi
 	mov	esi, ecx
 
-; 145  :    if ( comment_ )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN1@CommentInf
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -3976,16 +3583,12 @@ _TEXT	SEGMENT
 	add	esp, 4
 $LN4@CommentInf:
 
-; 146  :       valueAllocator()->releaseStringValue( comment_ );
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
 	mov	eax, DWORD PTR [ecx]
 	call	DWORD PTR [eax+16]
 $LN1@CommentInf:
 	pop	esi
-
-; 147  : }
 
 	ret	0
 ??1CommentInfo@Value@Json@@QAE@XZ ENDP			; Json::Value::CommentInfo::~CommentInfo
@@ -4006,8 +3609,6 @@ _text$ = 8						; size = 4
 ?setComment@CommentInfo@Value@Json@@QAEXPBD@Z PROC	; Json::Value::CommentInfo::setComment, COMDAT
 ; _this$ = ecx
 
-; 152  : {
-
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 12					; 0000000cH
@@ -4015,12 +3616,8 @@ _text$ = 8						; size = 4
 	mov	esi, ecx
 	push	edi
 
-; 153  :    if ( comment_ )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN2@setComment
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -4033,15 +3630,11 @@ _text$ = 8						; size = 4
 	add	esp, 4
 $LN5@setComment:
 
-; 154  :       valueAllocator()->releaseStringValue( comment_ );
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
 	mov	eax, DWORD PTR [ecx]
 	call	DWORD PTR [eax+16]
 $LN2@setComment:
-
-; 156  :    JSON_ASSERT_MESSAGE( text[0]=='\0' || text[0]=='/', "Comments must start with /");
 
 	mov	edi, DWORD PTR _text$[ebp]
 	mov	al, BYTE PTR [edi]
@@ -4050,8 +3643,6 @@ $LN2@setComment:
 	cmp	al, 47					; 0000002fH
 	jne	SHORT $LN23@setComment
 $LN1@setComment:
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -4064,9 +3655,6 @@ $LN1@setComment:
 	add	esp, 4
 $LN15@setComment:
 
-; 157  :    // It seems that /**/ style comments are acceptable as well.
-; 158  :    comment_ = valueAllocator()->duplicateStringValue( text );
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	-1
 	mov	eax, DWORD PTR [ecx]
@@ -4075,8 +3663,6 @@ $LN15@setComment:
 	pop	edi
 	mov	DWORD PTR [esi], eax
 	pop	esi
-
-; 159  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -4091,8 +3677,6 @@ $LN23@setComment:
 	lea	ecx, DWORD PTR $T1[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 156  :    JSON_ASSERT_MESSAGE( text[0]=='\0' || text[0]=='/', "Comments must start with /");
-
 	mov	DWORD PTR $T2[ebp], OFFSET ??_C@_0BL@DKGNIMPN@Comments?5must?5start?5with?5?1?$AA@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -4100,8 +3684,6 @@ $LN23@setComment:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 156  :    JSON_ASSERT_MESSAGE( text[0]=='\0' || text[0]=='/', "Comments must start with /");
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T1[ebp]
@@ -4112,8 +3694,6 @@ $LN23@setComment:
 
 	mov	DWORD PTR $T1[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 156  :    JSON_ASSERT_MESSAGE( text[0]=='\0' || text[0]=='/', "Comments must start with /");
 
 	call	__CxxThrowException@8
 $LN25@setComment:
@@ -4129,15 +3709,11 @@ _index$ = 8						; size = 4
 ??0CZString@Value@Json@@QAE@H@Z PROC			; Json::Value::CZString::CZString, COMDAT
 ; _this$ = ecx
 
-; 177  : {
-
 	push	ebp
 	mov	ebp, esp
 	mov	eax, DWORD PTR _index$[ebp]
 	mov	DWORD PTR [ecx+4], eax
 	mov	DWORD PTR [ecx], 0
-
-; 178  : }
 
 	mov	eax, ecx
 	pop	ebp
@@ -4152,21 +3728,13 @@ _cstr$ = 8						; size = 4
 ??0CZString@Value@Json@@QAE@PBDW4DuplicationPolicy@012@@Z PROC ; Json::Value::CZString::CZString, COMDAT
 ; _this$ = ecx
 
-; 184  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	push	esi
 
-; 184  : {
-
 	mov	esi, ecx
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	test	al, 1
 	jne	SHORT $LN9@CZString
@@ -4178,16 +3746,12 @@ _cstr$ = 8						; size = 4
 	add	esp, 4
 $LN9@CZString:
 
-; 184  : {
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR _cstr$[ebp]
 	mov	eax, DWORD PTR [ecx]
 	call	DWORD PTR [eax+4]
 	mov	DWORD PTR [esi], eax
 	mov	DWORD PTR [esi+4], 1
-
-; 185  : }
 
 	mov	eax, esi
 	pop	esi
@@ -4203,8 +3767,6 @@ _other$ = 8						; size = 4
 ??0CZString@Value@Json@@QAE@ABV012@@Z PROC		; Json::Value::CZString::CZString, COMDAT
 ; _this$ = ecx
 
-; 193  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	esi
@@ -4216,8 +3778,6 @@ _other$ = 8						; size = 4
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN3@CZString
 
-; 100  :    static DefaultValueAllocator defaultAllocator;
-
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
 	jne	SHORT $LN7@CZString
@@ -4228,8 +3788,6 @@ _other$ = 8						; size = 4
 	call	_atexit
 	add	esp, 4
 $LN7@CZString:
-
-; 193  : {
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
@@ -4247,8 +3805,6 @@ $LN4@CZString:
 	setne	al
 	mov	DWORD PTR [edi+4], eax
 
-; 194  : }
-
 	mov	eax, edi
 	pop	edi
 	pop	esi
@@ -4256,12 +3812,8 @@ $LN4@CZString:
 	ret	4
 $LN5@CZString:
 
-; 193  : {
-
 	mov	eax, DWORD PTR [esi+4]
 	mov	DWORD PTR [edi+4], eax
-
-; 194  : }
 
 	mov	eax, edi
 	pop	edi
@@ -4277,19 +3829,13 @@ _TEXT	SEGMENT
 ??1CZString@Value@Json@@QAE@XZ PROC			; Json::Value::CZString::~CZString, COMDAT
 ; _this$ = ecx
 
-; 197  : {
-
 	push	esi
 	mov	esi, ecx
-
-; 198  :    if ( cstr_  &&  index_ == duplicate )
 
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN1@CZString
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN1@CZString
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -4302,16 +3848,12 @@ _TEXT	SEGMENT
 	add	esp, 4
 $LN4@CZString:
 
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
 	mov	eax, DWORD PTR [ecx]
 	call	DWORD PTR [eax+8]
 $LN1@CZString:
 	pop	esi
-
-; 200  : }
 
 	ret	0
 ??1CZString@Value@Json@@QAE@XZ ENDP			; Json::Value::CZString::~CZString
@@ -4324,18 +3866,12 @@ _other$ = 8						; size = 4
 ??MCZString@Value@Json@@QBE_NABV012@@Z PROC		; Json::Value::CZString::operator<, COMDAT
 ; _this$ = ecx
 
-; 219  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 220  :    if ( cstr_ )
 
 	mov	edx, DWORD PTR [ecx]
 	test	edx, edx
 	je	SHORT $LN1@operator
-
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
 
 	mov	eax, DWORD PTR _other$[ebp]
 	mov	eax, DWORD PTR [eax]
@@ -4359,13 +3895,9 @@ $LN6@operator:
 	test	ecx, ecx
 	sets	al
 
-; 223  : }
-
 	pop	ebp
 	ret	4
 $LN5@operator:
-
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
 
 	sbb	ecx, ecx
 	or	ecx, 1
@@ -4373,21 +3905,15 @@ $LN5@operator:
 	test	ecx, ecx
 	sets	al
 
-; 223  : }
-
 	pop	ebp
 	ret	4
 $LN1@operator:
-
-; 222  :    return index_ < other.index_;
 
 	mov	edx, DWORD PTR [ecx+4]
 	mov	ecx, DWORD PTR _other$[ebp]
 	xor	eax, eax
 	cmp	edx, DWORD PTR [ecx+4]
 	setl	al
-
-; 223  : }
 
 	pop	ebp
 	ret	4
@@ -4401,18 +3927,12 @@ _other$ = 8						; size = 4
 ??8CZString@Value@Json@@QBE_NABV012@@Z PROC		; Json::Value::CZString::operator==, COMDAT
 ; _this$ = ecx
 
-; 227  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 228  :    if ( cstr_ )
 
 	mov	edx, DWORD PTR [ecx]
 	test	edx, edx
 	je	SHORT $LN1@operator
-
-; 229  :       return strcmp( cstr_, other.cstr_ ) == 0;
 
 	mov	eax, DWORD PTR _other$[ebp]
 	mov	eax, DWORD PTR [eax]
@@ -4435,42 +3955,28 @@ $LN6@operator:
 	xor	eax, eax
 	test	ecx, ecx
 
-; 230  :    return index_ == other.index_;
-
 	sete	al
-
-; 231  : }
 
 	pop	ebp
 	ret	4
 $LN5@operator:
-
-; 229  :       return strcmp( cstr_, other.cstr_ ) == 0;
 
 	sbb	ecx, ecx
 	or	ecx, 1
 	xor	eax, eax
 	test	ecx, ecx
 
-; 230  :    return index_ == other.index_;
-
 	sete	al
-
-; 231  : }
 
 	pop	ebp
 	ret	4
 $LN1@operator:
-
-; 230  :    return index_ == other.index_;
 
 	mov	edx, DWORD PTR [ecx+4]
 	mov	ecx, DWORD PTR _other$[ebp]
 	xor	eax, eax
 	cmp	edx, DWORD PTR [ecx+4]
 	sete	al
-
-; 231  : }
 
 	pop	ebp
 	ret	4
@@ -4483,11 +3989,7 @@ _TEXT	SEGMENT
 ?index@CZString@Value@Json@@QBEHXZ PROC			; Json::Value::CZString::index, COMDAT
 ; _this$ = ecx
 
-; 237  :    return index_;
-
 	mov	eax, DWORD PTR [ecx+4]
-
-; 238  : }
 
 	ret	0
 ?index@CZString@Value@Json@@QBEHXZ ENDP			; Json::Value::CZString::index
@@ -4499,11 +4001,7 @@ _TEXT	SEGMENT
 ?c_str@CZString@Value@Json@@QBEPBDXZ PROC		; Json::Value::CZString::c_str, COMDAT
 ; _this$ = ecx
 
-; 244  :    return cstr_;
-
 	mov	eax, DWORD PTR [ecx]
-
-; 245  : }
 
 	ret	0
 ?c_str@CZString@Value@Json@@QBEPBDXZ ENDP		; Json::Value::CZString::c_str
@@ -4516,19 +4014,13 @@ _value$ = 8						; size = 4
 ??0Value@Json@@QAE@H@Z PROC				; Json::Value::Value, COMDAT
 ; _this$ = ecx
 
-; 318  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 319  :    value_.int_ = value;
 
 	mov	eax, DWORD PTR _value$[ebp]
 	mov	DWORD PTR [ecx], eax
 	mov	BYTE PTR [ecx+8], 1
 	mov	DWORD PTR [ecx+12], 0
-
-; 320  : }
 
 	mov	eax, ecx
 	pop	ebp
@@ -4543,19 +4035,13 @@ _value$ = 8						; size = 4
 ??0Value@Json@@QAE@I@Z PROC				; Json::Value::Value, COMDAT
 ; _this$ = ecx
 
-; 329  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 330  :    value_.uint_ = value;
 
 	mov	eax, DWORD PTR _value$[ebp]
 	mov	DWORD PTR [ecx], eax
 	mov	BYTE PTR [ecx+8], 2
 	mov	DWORD PTR [ecx+12], 0
-
-; 331  : }
 
 	mov	eax, ecx
 	pop	ebp
@@ -4570,17 +4056,11 @@ _TEXT	SEGMENT
 ; _this$ = ecx
 ; _value$ = xmm1l
 
-; 339  : {
-
 	movapd	xmm0, xmm1
 	mov	BYTE PTR [ecx+8], 3
 	mov	DWORD PTR [ecx+12], 0
 
-; 340  :    value_.real_ = value;
-
 	movsd	QWORD PTR [ecx], xmm0
-
-; 341  : }
 
 	mov	eax, ecx
 	ret	0
@@ -4597,25 +4077,17 @@ _value$ = 8						; size = 4
 ??0Value@Json@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z PROC ; Json::Value::Value, COMDAT
 ; _this$ = ecx
 
-; 376  : {
-
 	push	ebp
 	mov	ebp, esp
 
-; 100  :    static DefaultValueAllocator defaultAllocator;
-
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	push	esi
-
-; 376  : {
 
 	mov	esi, ecx
 	push	edi
 	mov	BYTE PTR [esi+8], 4
 	or	DWORD PTR [esi+8], 256			; 00000100H
 	mov	DWORD PTR [esi+12], 0
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	test	al, 1
 	jne	SHORT $LN3@Value
@@ -4651,8 +4123,6 @@ $LN3@Value:
 $LN16@Value:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 378  :                                                             (unsigned int)value.length() );
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	edi
 	mov	eax, DWORD PTR [ecx]
@@ -4660,9 +4130,6 @@ $LN16@Value:
 	call	DWORD PTR [eax+12]
 	mov	DWORD PTR [esi], eax
 	pop	edi
-
-; 379  : 
-; 380  : }
 
 	mov	eax, esi
 	pop	esi
@@ -4678,271 +4145,19 @@ _value$ = 8						; size = 1
 ??0Value@Json@@QAE@_N@Z PROC				; Json::Value::Value, COMDAT
 ; _this$ = ecx
 
-; 413  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 414  :    value_.bool_ = value;
 
 	mov	al, BYTE PTR _value$[ebp]
 	mov	BYTE PTR [ecx], al
 	mov	BYTE PTR [ecx+8], 5
 	mov	DWORD PTR [ecx+12], 0
 
-; 415  : }
-
 	mov	eax, ecx
 	pop	ebp
 	ret	4
 ??0Value@Json@@QAE@_N@Z ENDP				; Json::Value::Value
 _TEXT	ENDS
-; Function compile flags: /Ogtp
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-; File f:\program_files\vc\include\map
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-;	COMDAT ??0Value@Json@@QAE@ABV01@@Z
-_TEXT	SEGMENT
-__$EHRec$ = -12						; size = 12
-$T2 = 8							; size = 4
-$T3 = 8							; size = 4
-_other$ = 8						; size = 4
-??0Value@Json@@QAE@ABV01@@Z PROC			; Json::Value::Value, COMDAT
-; _this$ = ecx
-
-; 424  : {
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??0Value@Json@@QAE@ABV01@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	push	ebx
-	push	esi
-	push	edi
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	edi, ecx
-	mov	ebx, DWORD PTR _other$[ebp]
-	mov	al, BYTE PTR [ebx+8]
-	mov	BYTE PTR [edi+8], al
-
-; 425  :    switch ( type_ )
-
-	movsx	eax, al
-	mov	DWORD PTR [edi+12], 0
-	cmp	eax, 7
-	ja	SHORT $LN6@Value
-	jmp	DWORD PTR $LN38@Value[eax*4]
-$LN11@Value:
-
-; 426  :    {
-; 427  :    case nullValue:
-; 428  :    case intValue:
-; 429  :    case uintValue:
-; 430  :    case realValue:
-; 431  :    case booleanValue:
-; 432  :       value_ = other.value_;
-
-	mov	eax, DWORD PTR [ebx]
-	mov	DWORD PTR [edi], eax
-	mov	eax, DWORD PTR [ebx+4]
-	mov	DWORD PTR [edi+4], eax
-
-; 433  :       break;
-
-	jmp	SHORT $LN6@Value
-$LN10@Value:
-
-; 434  :    case stringValue:
-; 435  :       if ( other.value_.string_ )
-
-	cmp	DWORD PTR [ebx], 0
-	je	SHORT $LN9@Value
-
-; 436  :       {
-; 437  :          value_.string_ = valueAllocator()->duplicateStringValue( other.value_.string_ );
-
-	call	?valueAllocator@Json@@YAAAPAVValueAllocator@1@XZ ; Json::valueAllocator
-	mov	ecx, DWORD PTR [eax]
-	push	-1
-	mov	eax, DWORD PTR [ecx]
-	push	DWORD PTR [ebx]
-	call	DWORD PTR [eax+12]
-
-; 438  :          allocated_ = true;
-
-	or	DWORD PTR [edi+8], 256			; 00000100H
-	mov	DWORD PTR [edi], eax
-
-; 439  :       }
-; 440  :       else
-
-	jmp	SHORT $LN6@Value
-$LN9@Value:
-
-; 441  :          value_.string_ = 0;
-
-	mov	DWORD PTR [edi], 0
-
-; 442  :       break;
-
-	jmp	SHORT $LN6@Value
-$LN7@Value:
-
-; 446  :       value_.map_ = new ObjectValues( *other.value_.map_ );
-
-	push	8
-	call	??2@YAPAXI@Z				; operator new
-	mov	esi, eax
-	add	esp, 4
-	mov	DWORD PTR $T3[ebp], esi
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
-	test	esi, esi
-	je	SHORT $LN16@Value
-; File f:\program_files\vc\include\map
-
-; 110  : 		{	// construct map by copying _Right
-
-	push	ecx
-	push	DWORD PTR [ebx]
-	mov	ecx, esi
-	call	??0?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@QAE@ABV01@ABV?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@1@@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 446  :       value_.map_ = new ObjectValues( *other.value_.map_ );
-
-	jmp	SHORT $LN17@Value
-$LN16@Value:
-	xor	esi, esi
-$LN17@Value:
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	mov	DWORD PTR [edi], esi
-$LN6@Value:
-
-; 447  :       break;
-; 448  : #else
-; 449  :    case arrayValue:
-; 450  :       value_.array_ = arrayAllocator()->newArrayCopy( *other.value_.array_ );
-; 451  :       break;
-; 452  :    case objectValue:
-; 453  :       value_.map_ = mapAllocator()->newMapCopy( *other.value_.map_ );
-; 454  :       break;
-; 455  : #endif
-; 456  :    default:
-; 457  :       JSON_ASSERT_UNREACHABLE;
-; 458  :    }
-; 459  :    if ( other.comments_ )
-
-	cmp	DWORD PTR [ebx+12], 0
-	je	SHORT $LN36@Value
-
-; 460  :    {
-; 461  :       comments_ = new CommentInfo[numberOfCommentPlacement];
-
-	push	16					; 00000010H
-	call	??_U@YAPAXI@Z				; operator new[]
-	add	esp, 4
-	mov	DWORD PTR $T2[ebp], eax
-	mov	DWORD PTR __$EHRec$[ebp+8], 1
-	test	eax, eax
-	je	SHORT $LN18@Value
-	push	OFFSET ??1CommentInfo@Value@Json@@QAE@XZ ; Json::Value::CommentInfo::~CommentInfo
-	push	OFFSET ??0CommentInfo@Value@Json@@QAE@XZ ; Json::Value::CommentInfo::CommentInfo
-	push	3
-	lea	esi, DWORD PTR [eax+4]
-	push	4
-	push	esi
-	mov	DWORD PTR [eax], 3
-	call	??_L@YGXPAXIHP6EX0@Z1@Z
-	jmp	SHORT $LN19@Value
-$LN18@Value:
-	xor	esi, esi
-$LN19@Value:
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	mov	DWORD PTR [edi+12], esi
-	xor	esi, esi
-$LL4@Value:
-
-; 463  :       {
-; 464  :          const CommentInfo &otherComment = other.comments_[comment];
-
-	mov	eax, DWORD PTR [ebx+12]
-
-; 465  :          if ( otherComment.comment_ )
-
-	mov	eax, DWORD PTR [eax+esi]
-	test	eax, eax
-	je	SHORT $LN3@Value
-
-; 466  :             comments_[comment].setComment( otherComment.comment_ );
-
-	mov	ecx, DWORD PTR [edi+12]
-	push	eax
-	add	ecx, esi
-	call	?setComment@CommentInfo@Value@Json@@QAEXPBD@Z ; Json::Value::CommentInfo::setComment
-$LN3@Value:
-
-; 462  :       for ( int comment =0; comment < numberOfCommentPlacement; ++comment )
-
-	add	esi, 4
-	cmp	esi, 12					; 0000000cH
-	jl	SHORT $LL4@Value
-$LN36@Value:
-
-; 467  :       }
-; 468  :    }
-; 469  : }
-
-	mov	eax, edi
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-	npad	3
-$LN38@Value:
-	DD	$LN11@Value
-	DD	$LN11@Value
-	DD	$LN11@Value
-	DD	$LN11@Value
-	DD	$LN10@Value
-	DD	$LN11@Value
-	DD	$LN7@Value
-	DD	$LN7@Value
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$??0Value@Json@@QAE@ABV01@@Z$0:
-	mov	eax, DWORD PTR $T3[ebp]
-	push	eax
-	call	??3@YAXPAX@Z				; operator delete
-	pop	ecx
-	ret	0
-__unwindfunclet$??0Value@Json@@QAE@ABV01@@Z$1:
-	mov	eax, DWORD PTR $T2[ebp]
-	push	eax
-	call	??_V@YAXPAX@Z				; operator delete[]
-	pop	ecx
-	ret	0
-__ehhandler$??0Value@Json@@QAE@ABV01@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-16]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??0Value@Json@@QAE@ABV01@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??0Value@Json@@QAE@ABV01@@Z ENDP			; Json::Value::Value
 ; Function compile flags: /Ogtp
 ;	COMDAT ??_ECommentInfo@Value@Json@@QAEPAXI@Z
 _TEXT	SEGMENT
@@ -5050,23 +4265,16 @@ _other$ = 8						; size = 4
 ?swap@Value@Json@@QAEXAAV12@@Z PROC			; Json::Value::swap, COMDAT
 ; _this$ = ecx
 
-; 517  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	esi
 	mov	esi, ecx
 	push	edi
 
-; 518  :    ValueType temp = type_;
-; 519  :    type_ = other.type_;
-
 	mov	edi, DWORD PTR _other$[ebp]
 	movsx	edx, BYTE PTR [esi+8]
 	mov	al, BYTE PTR [edi+8]
 	mov	BYTE PTR [esi+8], al
-
-; 520  :    other.type_ = temp;
 
 	mov	BYTE PTR [edi+8], dl
 ; File f:\program_files\vc\include\utility
@@ -5086,11 +4294,7 @@ _other$ = 8						; size = 4
 	mov	DWORD PTR [edi], ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 522  :    int temp2 = allocated_;
-
 	mov	ecx, DWORD PTR [esi+8]
-
-; 523  :    allocated_ = other.allocated_;
 
 	mov	eax, DWORD PTR [edi+8]
 	xor	eax, ecx
@@ -5100,15 +4304,11 @@ _other$ = 8						; size = 4
 	and	eax, 256				; 00000100H
 	xor	eax, ecx
 
-; 524  :    other.allocated_ = temp2;
-
 	shl	edx, 8
 	mov	DWORD PTR [esi+8], eax
 	xor	edx, DWORD PTR [edi+8]
 	and	edx, 256				; 00000100H
 	xor	DWORD PTR [edi+8], edx
-
-; 525  : }
 
 	pop	edi
 	pop	esi
@@ -5123,11 +4323,7 @@ _TEXT	SEGMENT
 ?type@Value@Json@@QBE?AW4ValueType@2@XZ PROC		; Json::Value::type, COMDAT
 ; _this$ = ecx
 
-; 530  :    return type_;
-
 	movsx	eax, BYTE PTR [ecx+8]
-
-; 531  : }
 
 	ret	0
 ?type@Value@Json@@QBE?AW4ValueType@2@XZ ENDP		; Json::Value::type
@@ -5139,12 +4335,7 @@ _TEXT	SEGMENT
 ?asCString@Value@Json@@QBEPBDXZ PROC			; Json::Value::asCString, COMDAT
 ; _this$ = ecx
 
-; 679  :    JSON_ASSERT( type_ == stringValue );
-; 680  :    return value_.string_;
-
 	mov	eax, DWORD PTR [ecx]
-
-; 681  : }
 
 	ret	0
 ?asCString@Value@Json@@QBEPBDXZ ENDP			; Json::Value::asCString
@@ -5184,12 +4375,8 @@ tv221 = -2						; size = 2
 ?asUInt@Value@Json@@QBEIXZ PROC				; Json::Value::asUInt, COMDAT
 ; _this$ = ecx
 
-; 744  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 745  :    switch ( type_ )
 
 	movsx	eax, BYTE PTR [ecx+8]
 	sub	esp, 48					; 00000030H
@@ -5198,28 +4385,18 @@ tv221 = -2						; size = 2
 	jmp	DWORD PTR $LN28@asUInt[eax*4]
 $LN10@asUInt:
 
-; 750  :       JSON_ASSERT_MESSAGE( value_.int_ >= 0, "Negative integer can not be converted to unsigned integer" );
-
 	mov	eax, DWORD PTR [ecx]
 	test	eax, eax
 	jns	SHORT $LN14@asUInt
 	jmp	SHORT $LN26@asUInt
 $LN8@asUInt:
 
-; 751  :       return value_.int_;
-; 752  :    case uintValue:
-; 753  :       return value_.uint_;
-
 	mov	eax, DWORD PTR [ecx]
-
-; 767  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN7@asUInt:
-
-; 755  :       JSON_ASSERT_MESSAGE( value_.real_ >= 0  &&  value_.real_ <= maxUInt,  "Real out of unsigned integer range" );
 
 	movsd	xmm1, QWORD PTR [ecx]
 	comisd	xmm1, QWORD PTR __real@0000000000000000
@@ -5228,8 +4405,6 @@ $LN7@asUInt:
 	movsd	xmm0, QWORD PTR __real@41efffffffe00000
 	comisd	xmm0, xmm1
 	jb	SHORT $LN5@asUInt
-
-; 756  :       return UInt( value_.real_ );
 
 	fld	QWORD PTR tv201[ebp]
 	fnstcw	WORD PTR tv221[ebp]
@@ -5241,36 +4416,22 @@ $LN7@asUInt:
 	mov	eax, DWORD PTR tv216[ebp]
 	fldcw	WORD PTR tv221[ebp]
 
-; 767  : }
-
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN4@asUInt:
 
-; 757  :    case booleanValue:
-; 758  :       return value_.bool_ ? 1 : 0;
-
 	xor	eax, eax
 	cmp	BYTE PTR [ecx], al
 	setne	al
-
-; 767  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN2@asUInt:
 
-; 763  :    default:
-; 764  :       JSON_ASSERT_UNREACHABLE;
-; 765  :    }
-; 766  :    return 0; // unreachable;
-
 	xor	eax, eax
 $LN14@asUInt:
-
-; 767  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -5285,8 +4446,6 @@ $LN26@asUInt:
 	lea	ecx, DWORD PTR $T3[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 750  :       JSON_ASSERT_MESSAGE( value_.int_ >= 0, "Negative integer can not be converted to unsigned integer" );
-
 	mov	DWORD PTR $T6[ebp], OFFSET ??_C@_0DK@NAHIGMFE@Negative?5integer?5can?5not?5be?5conv@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -5294,8 +4453,6 @@ $LN26@asUInt:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 750  :       JSON_ASSERT_MESSAGE( value_.int_ >= 0, "Negative integer can not be converted to unsigned integer" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T3[ebp]
@@ -5306,8 +4463,6 @@ $LN26@asUInt:
 
 	mov	DWORD PTR $T3[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 750  :       JSON_ASSERT_MESSAGE( value_.int_ >= 0, "Negative integer can not be converted to unsigned integer" );
 
 	call	__CxxThrowException@8
 $LN29@asUInt:
@@ -5321,8 +4476,6 @@ $LN5@asUInt:
 	lea	ecx, DWORD PTR $T2[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 755  :       JSON_ASSERT_MESSAGE( value_.real_ >= 0  &&  value_.real_ <= maxUInt,  "Real out of unsigned integer range" );
-
 	mov	DWORD PTR $T5[ebp], OFFSET ??_C@_0CD@PGCLDEBG@Real?5out?5of?5unsigned?5integer?5ran@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -5330,8 +4483,6 @@ $LN5@asUInt:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 755  :       JSON_ASSERT_MESSAGE( value_.real_ >= 0  &&  value_.real_ <= maxUInt,  "Real out of unsigned integer range" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T2[ebp]
@@ -5342,8 +4493,6 @@ $LN5@asUInt:
 
 	mov	DWORD PTR $T2[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 755  :       JSON_ASSERT_MESSAGE( value_.real_ >= 0  &&  value_.real_ <= maxUInt,  "Real out of unsigned integer range" );
 
 	call	__CxxThrowException@8
 $LN30@asUInt:
@@ -5357,8 +4506,6 @@ $LN3@asUInt:
 	lea	ecx, DWORD PTR $T1[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 762  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to uint" );
-
 	mov	DWORD PTR $T4[ebp], OFFSET ??_C@_0CA@LEFAEJPN@Type?5is?5not?5convertible?5to?5uint?$AA@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -5366,8 +4513,6 @@ $LN3@asUInt:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 762  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to uint" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T1[ebp]
@@ -5379,14 +4524,10 @@ $LN3@asUInt:
 	mov	DWORD PTR $T1[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 762  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to uint" );
-
 	call	__CxxThrowException@8
 $LN31@asUInt:
 $LN25@asUInt:
 $LN28@asUInt:
-
-; 767  : }
 
 	DD	$LN2@asUInt
 	DD	$LN10@asUInt
@@ -5413,12 +4554,8 @@ $T2 = -4						; size = 4
 ?asDouble@Value@Json@@QBENXZ PROC			; Json::Value::asDouble, COMDAT
 ; _this$ = ecx
 
-; 771  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 772  :    switch ( type_ )
 
 	movsx	eax, BYTE PTR [ecx+8]
 	sub	esp, 16					; 00000010H
@@ -5428,27 +4565,12 @@ $T2 = -4						; size = 4
 $LN7@asDouble:
 	movd	xmm0, DWORD PTR [ecx]
 
-; 773  :    {
-; 774  :    case nullValue:
-; 775  :       return 0.0;
-; 776  :    case intValue:
-; 777  :       return value_.int_;
-
 	cvtdq2pd xmm0, xmm0
-
-; 788  :    default:
-; 789  :       JSON_ASSERT_UNREACHABLE;
-; 790  :    }
-; 791  :    return 0; // unreachable;
-; 792  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN6@asDouble:
-
-; 778  :    case uintValue:
-; 779  :       return value_.uint_;
 
 	mov	eax, DWORD PTR [ecx]
 	movd	xmm0, eax
@@ -5456,45 +4578,21 @@ $LN6@asDouble:
 	shr	eax, 31					; 0000001fH
 	addsd	xmm0, QWORD PTR __xmm@41f00000000000000000000000000000[eax*8]
 
-; 788  :    default:
-; 789  :       JSON_ASSERT_UNREACHABLE;
-; 790  :    }
-; 791  :    return 0; // unreachable;
-; 792  : }
-
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN5@asDouble:
 
-; 780  :    case realValue:
-; 781  :       return value_.real_;
-
 	movsd	xmm0, QWORD PTR [ecx]
-
-; 788  :    default:
-; 789  :       JSON_ASSERT_UNREACHABLE;
-; 790  :    }
-; 791  :    return 0; // unreachable;
-; 792  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN4@asDouble:
 
-; 782  :    case booleanValue:
-; 783  :       return value_.bool_ ? 1.0 : 0.0;
-
 	cmp	BYTE PTR [ecx], 0
 	je	SHORT $LN2@asDouble
 	movsd	xmm0, QWORD PTR __real@3ff0000000000000
-
-; 788  :    default:
-; 789  :       JSON_ASSERT_UNREACHABLE;
-; 790  :    }
-; 791  :    return 0; // unreachable;
-; 792  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -5514,8 +4612,6 @@ $LN19@asDouble:
 	lea	ecx, DWORD PTR $T1[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 787  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to double" );
-
 	mov	DWORD PTR $T2[ebp], OFFSET ??_C@_0CC@ICOHKFIF@Type?5is?5not?5convertible?5to?5doubl@
 ; File f:\program_files\vc\include\stdexcept
 
@@ -5523,8 +4619,6 @@ $LN19@asDouble:
 
 	call	??0exception@std@@QAE@ABQBD@Z		; std::exception::exception
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 787  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to double" );
 
 	push	OFFSET __TI2?AVruntime_error@std@@
 	lea	eax, DWORD PTR $T1[ebp]
@@ -5536,18 +4630,10 @@ $LN19@asDouble:
 	mov	DWORD PTR $T1[ebp], OFFSET ??_7runtime_error@std@@6B@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 787  :       JSON_ASSERT_MESSAGE( false, "Type is not convertible to double" );
-
 	call	__CxxThrowException@8
 $LN21@asDouble:
 $LN18@asDouble:
 $LN20@asDouble:
-
-; 788  :    default:
-; 789  :       JSON_ASSERT_UNREACHABLE;
-; 790  :    }
-; 791  :    return 0; // unreachable;
-; 792  : }
 
 	DD	$LN2@asDouble
 	DD	$LN7@asDouble
@@ -5566,32 +4652,18 @@ _TEXT	SEGMENT
 ?asBool@Value@Json@@QBE_NXZ PROC			; Json::Value::asBool, COMDAT
 ; _this$ = ecx
 
-; 797  :    switch ( type_ )
-
 	movsx	eax, BYTE PTR [ecx+8]
 	cmp	eax, 7
 	ja	SHORT $LN1@asBool
 	jmp	DWORD PTR $LN20@asBool[eax*4]
 $LN6@asBool:
 
-; 798  :    {
-; 799  :    case nullValue:
-; 800  :       return false;
-; 801  :    case intValue:
-; 802  :    case uintValue:
-; 803  :       return value_.int_ != 0;
-
 	xor	eax, eax
 	cmp	DWORD PTR [ecx], eax
 	setne	al
 
-; 817  : }
-
 	ret	0
 $LN5@asBool:
-
-; 804  :    case realValue:
-; 805  :       return value_.real_ != 0.0;
 
 	movsd	xmm0, QWORD PTR [ecx]
 	ucomisd	xmm0, QWORD PTR __real@0000000000000000
@@ -5601,23 +4673,13 @@ $LN5@asBool:
 $LN12@asBool:
 	xor	eax, eax
 
-; 817  : }
-
 	ret	0
 $LN4@asBool:
 
-; 806  :    case booleanValue:
-; 807  :       return value_.bool_;
-
 	mov	al, BYTE PTR [ecx]
-
-; 817  : }
 
 	ret	0
 $LN3@asBool:
-
-; 808  :    case stringValue:
-; 809  :       return value_.string_  &&  value_.string_[0] != 0;
 
 	mov	eax, DWORD PTR [ecx]
 	test	eax, eax
@@ -5627,33 +4689,18 @@ $LN3@asBool:
 $LN18@asBool:
 	mov	eax, 1
 
-; 817  : }
-
 	ret	0
 $LN2@asBool:
-
-; 810  :    case arrayValue:
-; 811  :    case objectValue:
-; 812  :       return value_.map_->size() != 0;
 
 	mov	ecx, DWORD PTR [ecx]
 	xor	eax, eax
 	cmp	DWORD PTR [ecx+4], eax
 	setne	al
 
-; 817  : }
-
 	ret	0
 $LN1@asBool:
 
-; 813  :    default:
-; 814  :       JSON_ASSERT_UNREACHABLE;
-; 815  :    }
-; 816  :    return false; // unreachable;
-
 	xor	al, al
-
-; 817  : }
 
 	ret	0
 	npad	1
@@ -5682,13 +4729,9 @@ _itLast$1 = -4						; size = 4
 ?size@Value@Json@@QBEIXZ PROC				; Json::Value::size, COMDAT
 ; _this$ = ecx
 
-; 874  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
-
-; 875  :    switch ( type_ )
 
 	movsx	eax, BYTE PTR [ecx+8]
 	cmp	eax, 7
@@ -5715,11 +4758,7 @@ $LN4@size:
 	cmp	DWORD PTR [eax+4], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 886  :       if ( !value_.map_->empty() )
-
 	je	SHORT $LN1@size
-
-; 888  :          ObjectValues::const_iterator itLast = value_.map_->end();
 
 	mov	eax, DWORD PTR [eax]
 ; File f:\program_files\vc\include\xtree
@@ -5729,8 +4768,6 @@ $LN4@size:
 	lea	ecx, DWORD PTR _itLast$1[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 888  :          ObjectValues::const_iterator itLast = value_.map_->end();
-
 	mov	DWORD PTR _itLast$1[ebp], eax
 ; File f:\program_files\vc\include\xtree
 
@@ -5739,48 +4776,24 @@ $LN4@size:
 	call	??F?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ ; std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<Json::Value::CZString const ,Json::Value> > >,std::_Iterator_base0>::operator--
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 890  :          return (*itLast).first.index()+1;
-
 	mov	eax, DWORD PTR _itLast$1[ebp]
 	mov	eax, DWORD PTR [eax+20]
 	inc	eax
-
-; 905  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN2@size:
 
-; 891  :       }
-; 892  :       return 0;
-; 893  :    case objectValue:
-; 894  :       return Int( value_.map_->size() );
-
 	mov	eax, DWORD PTR [ecx]
 	mov	eax, DWORD PTR [eax+4]
-
-; 905  : }
 
 	mov	esp, ebp
 	pop	ebp
 	ret	0
 $LN1@size:
 
-; 895  : #else
-; 896  :    case arrayValue:
-; 897  :       return Int( value_.array_->size() );
-; 898  :    case objectValue:
-; 899  :       return Int( value_.map_->size() );
-; 900  : #endif
-; 901  :    default:
-; 902  :       JSON_ASSERT_UNREACHABLE;
-; 903  :    }
-; 904  :    return 0; // unreachable;
-
 	xor	eax, eax
-
-; 905  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -5819,8 +4832,6 @@ _index$ = 8						; size = 4
 ??AValue@Json@@QAEAAV01@I@Z PROC			; Json::Value::operator[], COMDAT
 ; _this$ = ecx
 
-; 976  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -5838,63 +4849,12 @@ _index$ = 8						; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	ebx, ecx
 
-; 977  :    JSON_ASSERT( type_ == nullValue  ||  type_ == arrayValue );
-; 978  :    if ( type_ == nullValue )
-
 	cmp	BYTE PTR [ebx+8], 0
 	jne	SHORT $LN2@operator
-
-; 231  : }
-; 232  : 
-; 233  : 
-; 234  : int 
-; 235  : Value::CZString::index() const
-; 236  : {
-; 237  :    return index_;
-; 238  : }
-; 239  : 
-; 240  : 
-; 241  : const char *
-; 242  : Value::CZString::c_str() const
-; 243  : {
-; 244  :    return cstr_;
-; 245  : }
-; 246  : 
-; 247  : bool 
-; 248  : Value::CZString::isStaticString() const
-; 249  : {
-; 250  :    return index_ == noDuplication;
-; 251  : }
-; 252  : 
-; 253  : #endif // ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 254  : 
-; 255  : 
-; 256  : // //////////////////////////////////////////////////////////////////
-; 257  : // //////////////////////////////////////////////////////////////////
-; 258  : // //////////////////////////////////////////////////////////////////
-; 259  : // class Value::Value
-; 260  : // //////////////////////////////////////////////////////////////////
-; 261  : // //////////////////////////////////////////////////////////////////
-; 262  : // //////////////////////////////////////////////////////////////////
-; 263  : 
-; 264  : /*! \internal Default constructor initialization must be equivalent to:
-; 265  :  * memset( this, 0, sizeof(Value) )
-; 266  :  * This optimization is used in ValueInternalMap fast allocator.
-; 267  :  */
-; 268  : Value::Value( ValueType type )
-; 269  :    : type_( type )
-; 270  :    , allocated_( 0 )
-; 271  :    , comments_( 0 )
-; 272  : # ifdef JSON_VALUE_USE_INTERNAL_MAP
-; 273  :    , itemIsUsed_( 0 )
-; 274  : #endif
-; 275  : {
 
 	mov	eax, DWORD PTR $T2[ebp+8]
 	and	eax, -506				; fffffe06H
 	or	eax, 6
-
-; 293  :       value_.map_ = new ObjectValues();
 
 	push	8
 	mov	DWORD PTR $T2[ebp+8], eax
@@ -6091,15 +5051,11 @@ _index$ = 8						; size = 4
 	mov	DWORD PTR [esi], eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 293  :       value_.map_ = new ObjectValues();
-
 	jmp	SHORT $LN21@operator
 $LN20@operator:
 	xor	esi, esi
 $LN21@operator:
 	mov	DWORD PTR $T2[ebp], esi
-
-; 979  :       *this = Value( arrayValue );
 
 	lea	eax, DWORD PTR $T2[ebp]
 	push	eax
@@ -6111,94 +5067,11 @@ $LN21@operator:
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 $LN2@operator:
 
-; 101  :    static ValueAllocator *valueAllocator = &defaultAllocator;
-; 102  :    return valueAllocator;
-; 103  : }
-; 104  : 
-; 105  : static struct DummyValueAllocatorInitializer {
-; 106  :    DummyValueAllocatorInitializer() 
-; 107  :    {
-; 108  :       valueAllocator();      // ensure valueAllocator() statics are initialized before main().
-; 109  :    }
-; 110  : } dummyValueAllocatorInitializer;
-; 111  : 
-; 112  : 
-; 113  : 
-; 114  : // //////////////////////////////////////////////////////////////////
-; 115  : // //////////////////////////////////////////////////////////////////
-; 116  : // //////////////////////////////////////////////////////////////////
-; 117  : // ValueInternals...
-; 118  : // //////////////////////////////////////////////////////////////////
-; 119  : // //////////////////////////////////////////////////////////////////
-; 120  : // //////////////////////////////////////////////////////////////////
-; 121  : #ifdef JSON_VALUE_USE_INTERNAL_MAP
-; 122  : # include "json_internalarray.inl"
-; 123  : # include "json_internalmap.inl"
-; 124  : #endif // JSON_VALUE_USE_INTERNAL_MAP
-; 125  : 
-; 126  : # include "json_valueiterator.inl"
-; 127  : 
-; 128  : 
-; 129  : // //////////////////////////////////////////////////////////////////
-; 130  : // //////////////////////////////////////////////////////////////////
-; 131  : // //////////////////////////////////////////////////////////////////
-; 132  : // class Value::CommentInfo
-; 133  : // //////////////////////////////////////////////////////////////////
-; 134  : // //////////////////////////////////////////////////////////////////
-; 135  : // //////////////////////////////////////////////////////////////////
-; 136  : 
-; 137  : 
-; 138  : Value::CommentInfo::CommentInfo()
-; 139  :    : comment_( 0 )
-; 140  : {
-; 141  : }
-; 142  : 
-; 143  : Value::CommentInfo::~CommentInfo()
-; 144  : {
-; 145  :    if ( comment_ )
-; 146  :       valueAllocator()->releaseStringValue( comment_ );
-; 147  : }
-; 148  : 
-; 149  : 
-; 150  : void 
-; 151  : Value::CommentInfo::setComment( const char *text )
-; 152  : {
-; 153  :    if ( comment_ )
-; 154  :       valueAllocator()->releaseStringValue( comment_ );
-; 155  :    JSON_ASSERT( text );
-; 156  :    JSON_ASSERT_MESSAGE( text[0]=='\0' || text[0]=='/', "Comments must start with /");
-; 157  :    // It seems that /**/ style comments are acceptable as well.
-; 158  :    comment_ = valueAllocator()->duplicateStringValue( text );
-; 159  : }
-; 160  : 
-; 161  : 
-; 162  : // //////////////////////////////////////////////////////////////////
-; 163  : // //////////////////////////////////////////////////////////////////
-; 164  : // //////////////////////////////////////////////////////////////////
-; 165  : // class Value::CZString
-; 166  : // //////////////////////////////////////////////////////////////////
-; 167  : // //////////////////////////////////////////////////////////////////
-; 168  : // //////////////////////////////////////////////////////////////////
-; 169  : # ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 170  : 
-; 171  : // Notes: index_ indicates if the string was allocated when
-; 172  : // a string is stored.
-; 173  : 
-; 174  : Value::CZString::CZString( int index )
-; 175  :    : cstr_( 0 )
-; 176  :    , index_( index )
-; 177  : {
-
 	mov	eax, DWORD PTR _index$[ebp]
 	mov	DWORD PTR _key$[ebp], 0
 	mov	DWORD PTR _key$[ebp+4], eax
 
-; 980  : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 981  :    CZString key( index );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 2
-
-; 982  :    ObjectValues::iterator it = value_.map_->lower_bound( key );
 
 	mov	edi, DWORD PTR [ebx]
 ; File f:\program_files\vc\include\xtree
@@ -6510,45 +5383,11 @@ $LN2@operator:
 	cmp	esi, DWORD PTR [edi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 983  :    if ( it != value_.map_->end()  &&  (*it).first == key )
-
 	je	SHORT $LN1@operator
-
-; 200  : }
-; 201  : 
-; 202  : void 
-; 203  : Value::CZString::swap( CZString &other )
-; 204  : {
-; 205  :    std::swap( cstr_, other.cstr_ );
-; 206  :    std::swap( index_, other.index_ );
-; 207  : }
-; 208  : 
-; 209  : Value::CZString &
-; 210  : Value::CZString::operator =( const CZString &other )
-; 211  : {
-; 212  :    CZString temp( other );
-; 213  :    swap( temp );
-; 214  :    return *this;
-; 215  : }
-; 216  : 
-; 217  : bool 
-; 218  : Value::CZString::operator<( const CZString &other ) const 
-; 219  : {
-; 220  :    if ( cstr_ )
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
-; 222  :    return index_ < other.index_;
-; 223  : }
-; 224  : 
-; 225  : bool 
-; 226  : Value::CZString::operator==( const CZString &other ) const 
-; 227  : {
-; 228  :    if ( cstr_ )
 
 	mov	eax, DWORD PTR [esi+16]
 	test	eax, eax
 	je	SHORT $LN73@operator
-
-; 229  :       return strcmp( cstr_, other.cstr_ ) == 0;
 
 	xor	ecx, ecx
 	npad	5
@@ -6576,26 +5415,15 @@ $LN127@operator:
 	jmp	SHORT $LN133@operator
 $LN73@operator:
 
-; 230  :    return index_ == other.index_;
-
 	mov	eax, DWORD PTR _index$[ebp]
 	cmp	DWORD PTR [esi+20], eax
 $LN133@operator:
 	sete	al
 
-; 983  :    if ( it != value_.map_->end()  &&  (*it).first == key )
-
 	test	al, al
 	je	SHORT $LN1@operator
 
-; 984  :       return (*it).second;
-
 	lea	eax, DWORD PTR [esi+24]
-
-; 989  : #else
-; 990  :    return value_.array_->resolveReference( index );
-; 991  : #endif
-; 992  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -6621,11 +5449,7 @@ $LN1@operator:
 	call	??0Value@Json@@QAE@ABV01@@Z		; Json::Value::Value
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 986  :    ObjectValues::value_type defaultValue( key, null );
-
 	mov	BYTE PTR __$EHRec$[ebp+8], 4
-
-; 987  :    it = value_.map_->insert( it, defaultValue );
 
 	mov	edi, DWORD PTR [ebx]
 ; File f:\program_files\vc\include\xtree
@@ -6690,8 +5514,6 @@ $LN1@operator:
 	call	??$_Insert_hint@AAU?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAU?$_Tree_node@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAX@2@@?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@1@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@1@AAU?$pair@$$CBVCZString@Value@Json@@V23@@1@PAU?$_Tree_node@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAX@1@@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::_Insert_hint<std::pair<Json::Value::CZString const ,Json::Value> &,std::_Tree_node<std::pair<Json::Value::CZString const ,Json::Value>,void *> *>
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 988  :    return (*it).second;
-
 	mov	esi, DWORD PTR $T4[ebp]
 	add	esi, 24					; 00000018H
 	lea	ecx, DWORD PTR _defaultValue$[ebp+8]
@@ -6699,35 +5521,11 @@ $LN1@operator:
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
 
-; 178  : }
-; 179  : 
-; 180  : Value::CZString::CZString( const char *cstr, DuplicationPolicy allocate )
-; 181  :    : cstr_( allocate == duplicate ? valueAllocator()->makeMemberName(cstr) 
-; 182  :                                   : cstr )
-; 183  :    , index_( allocate )
-; 184  : {
-; 185  : }
-; 186  : 
-; 187  : Value::CZString::CZString( const CZString &other )
-; 188  : : cstr_( other.index_ != noDuplication &&  other.cstr_ != 0
-; 189  :                 ?  valueAllocator()->makeMemberName( other.cstr_ )
-; 190  :                 : other.cstr_ )
-; 191  :    , index_( other.cstr_ ? (other.index_ == noDuplication ? noDuplication : duplicate)
-; 192  :                          : other.index_ )
-; 193  : {
-; 194  : }
-; 195  : 
-; 196  : Value::CZString::~CZString()
-; 197  : {
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	mov	edi, DWORD PTR _defaultValue$[ebp]
 	test	edi, edi
 	je	SHORT $LN130@operator
 	cmp	DWORD PTR _defaultValue$[ebp+4], 1
 	jne	SHORT $LN130@operator
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -6741,22 +5539,13 @@ $LN1@operator:
 	add	esp, 4
 $LN109@operator:
 
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	edi
 	mov	edx, DWORD PTR [ecx]
 	call	DWORD PTR [edx+8]
 $LN130@operator:
 
-; 988  :    return (*it).second;
-
 	mov	eax, esi
-
-; 989  : #else
-; 990  :    return value_.array_->resolveReference( index );
-; 991  : #endif
-; 992  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -6829,14 +5618,10 @@ __$EHRec$ = -12						; size = 12
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN124@pair
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN124@pair
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -6848,8 +5633,6 @@ __$EHRec$ = -12						; size = 12
 	call	_atexit
 	add	esp, 4
 $LN127@pair:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
@@ -6892,8 +5675,6 @@ _index$ = 8						; size = 4
 ??AValue@Json@@QBEABV01@I@Z PROC			; Json::Value::operator[], COMDAT
 ; _this$ = ecx
 
-; 997  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -6908,22 +5689,11 @@ _index$ = 8						; size = 4
 	lea	eax, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, eax
 
-; 998  :    JSON_ASSERT( type_ == nullValue  ||  type_ == arrayValue );
-; 999  :    if ( type_ == nullValue )
-
 	cmp	BYTE PTR [ecx+8], 0
 	jne	SHORT $LN2@operator
 $LN36@operator:
 
-; 1000 :       return null;
-
 	mov	eax, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
-
-; 1007 : #else
-; 1008 :    Value *value = value_.array_->find( index );
-; 1009 :    return value ? *value : null;
-; 1010 : #endif
-; 1011 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -6934,15 +5704,9 @@ $LN36@operator:
 	ret	4
 $LN2@operator:
 
-; 177  : {
-
 	mov	eax, DWORD PTR _index$[ebp]
 	mov	DWORD PTR _key$[ebp], 0
 	mov	DWORD PTR _key$[ebp+4], eax
-
-; 1001 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1002 :    CZString key( index );
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
 
 	mov	esi, DWORD PTR [ecx]
 	lea	eax, DWORD PTR _key$[ebp]
@@ -6959,20 +5723,9 @@ $LN2@operator:
 	cmp	eax, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1004 :    if ( it == value_.map_->end() )
-
 	je	SHORT $LN36@operator
 
-; 1005 :       return null;
-; 1006 :    return (*it).second;
-
 	add	eax, 24					; 00000018H
-
-; 1007 : #else
-; 1008 :    Value *value = value_.array_->find( index );
-; 1009 :    return value ? *value : null;
-; 1010 : #endif
-; 1011 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -7007,106 +5760,56 @@ text$x	ENDS
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ; File f:\program_files\vc\include\xtree
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+; File f:\program_files\vc\include\xtree
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ;	COMDAT ?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z
 _TEXT	SEGMENT
-_defaultValue$ = -64					; size = 24
-$T2 = -40						; size = 16
-_actualKey$ = -24					; size = 8
-$T3 = -20						; size = 4
-_this$1$ = -16						; size = 4
+_this$1$ = -68						; size = 4
+$T2 = -68						; size = 4
+$T3 = -64						; size = 4
+_actualKey$ = -64					; size = 8
+$T4 = -56						; size = 16
+_defaultValue$ = -40					; size = 24
 __$EHRec$ = -12						; size = 12
-$T4 = 8							; size = 4
 _key$ = 8						; size = 4
 _isStatic$dead$ = 12					; size = 1
 ?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z PROC	; Json::Value::resolveReference, COMDAT
 ; _this$ = ecx
 
-; 1024 : {
-
 	push	ebp
 	mov	ebp, esp
+	and	esp, -8					; fffffff8H
 	push	-1
 	push	__ehhandler$?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z
 	mov	eax, DWORD PTR fs:0
 	push	eax
-	sub	esp, 52					; 00000034H
+	sub	esp, 56					; 00000038H
 	push	ebx
 	push	esi
 	push	edi
 	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
+	xor	eax, esp
 	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
+	lea	eax, DWORD PTR __$EHRec$[esp+84]
 	mov	DWORD PTR fs:0, eax
 	mov	edi, ecx
-	mov	DWORD PTR _this$1$[ebp], edi
-
-; 1025 :    JSON_ASSERT( type_ == nullValue  ||  type_ == objectValue );
-; 1026 :    if ( type_ == nullValue )
+	mov	DWORD PTR _this$1$[esp+84], edi
 
 	cmp	BYTE PTR [edi+8], 0
 	jne	SHORT $LN2@resolveRef
 
-; 231  : }
-; 232  : 
-; 233  : 
-; 234  : int 
-; 235  : Value::CZString::index() const
-; 236  : {
-; 237  :    return index_;
-; 238  : }
-; 239  : 
-; 240  : 
-; 241  : const char *
-; 242  : Value::CZString::c_str() const
-; 243  : {
-; 244  :    return cstr_;
-; 245  : }
-; 246  : 
-; 247  : bool 
-; 248  : Value::CZString::isStaticString() const
-; 249  : {
-; 250  :    return index_ == noDuplication;
-; 251  : }
-; 252  : 
-; 253  : #endif // ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 254  : 
-; 255  : 
-; 256  : // //////////////////////////////////////////////////////////////////
-; 257  : // //////////////////////////////////////////////////////////////////
-; 258  : // //////////////////////////////////////////////////////////////////
-; 259  : // class Value::Value
-; 260  : // //////////////////////////////////////////////////////////////////
-; 261  : // //////////////////////////////////////////////////////////////////
-; 262  : // //////////////////////////////////////////////////////////////////
-; 263  : 
-; 264  : /*! \internal Default constructor initialization must be equivalent to:
-; 265  :  * memset( this, 0, sizeof(Value) )
-; 266  :  * This optimization is used in ValueInternalMap fast allocator.
-; 267  :  */
-; 268  : Value::Value( ValueType type )
-; 269  :    : type_( type )
-; 270  :    , allocated_( 0 )
-; 271  :    , comments_( 0 )
-; 272  : # ifdef JSON_VALUE_USE_INTERNAL_MAP
-; 273  :    , itemIsUsed_( 0 )
-; 274  : #endif
-; 275  : {
-
-	mov	eax, DWORD PTR $T2[ebp+8]
+	mov	eax, DWORD PTR $T4[esp+92]
 	and	eax, -505				; fffffe07H
 	or	eax, 7
 
-; 293  :       value_.map_ = new ObjectValues();
-
 	push	8
-	mov	DWORD PTR $T2[ebp+8], eax
-	mov	DWORD PTR $T2[ebp+12], 0
+	mov	DWORD PTR $T4[esp+96], eax
+	mov	DWORD PTR $T4[esp+100], 0
 	call	??2@YAPAXI@Z				; operator new
 	mov	esi, eax
 	add	esp, 4
-	mov	DWORD PTR $T3[ebp], esi
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
+	mov	DWORD PTR $T3[esp+84], esi
+	mov	DWORD PTR __$EHRec$[esp+92], 0
 	test	esi, esi
 	je	SHORT $LN20@resolveRef
 ; File f:\program_files\vc\include\xtree
@@ -7294,129 +5997,34 @@ _isStatic$dead$ = 12					; size = 1
 	mov	DWORD PTR [esi], eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 293  :       value_.map_ = new ObjectValues();
-
 	jmp	SHORT $LN21@resolveRef
 $LN20@resolveRef:
 	xor	esi, esi
 $LN21@resolveRef:
-	mov	DWORD PTR $T2[ebp], esi
+	mov	DWORD PTR $T4[esp+84], esi
 
-; 1027 :       *this = Value( objectValue );
-
-	lea	eax, DWORD PTR $T2[ebp]
+	lea	eax, DWORD PTR $T4[esp+84]
 	push	eax
 	mov	ecx, edi
-	mov	DWORD PTR __$EHRec$[ebp+8], 1
+	mov	DWORD PTR __$EHRec$[esp+96], 1
 	call	??4Value@Json@@QAEAAV01@ABV01@@Z	; Json::Value::operator=
-	lea	ecx, DWORD PTR $T2[ebp]
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR $T4[esp+84]
+	mov	DWORD PTR __$EHRec$[esp+92], -1
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 $LN2@resolveRef:
 
-; 101  :    static ValueAllocator *valueAllocator = &defaultAllocator;
-; 102  :    return valueAllocator;
-; 103  : }
-; 104  : 
-; 105  : static struct DummyValueAllocatorInitializer {
-; 106  :    DummyValueAllocatorInitializer() 
-; 107  :    {
-; 108  :       valueAllocator();      // ensure valueAllocator() statics are initialized before main().
-; 109  :    }
-; 110  : } dummyValueAllocatorInitializer;
-; 111  : 
-; 112  : 
-; 113  : 
-; 114  : // //////////////////////////////////////////////////////////////////
-; 115  : // //////////////////////////////////////////////////////////////////
-; 116  : // //////////////////////////////////////////////////////////////////
-; 117  : // ValueInternals...
-; 118  : // //////////////////////////////////////////////////////////////////
-; 119  : // //////////////////////////////////////////////////////////////////
-; 120  : // //////////////////////////////////////////////////////////////////
-; 121  : #ifdef JSON_VALUE_USE_INTERNAL_MAP
-; 122  : # include "json_internalarray.inl"
-; 123  : # include "json_internalmap.inl"
-; 124  : #endif // JSON_VALUE_USE_INTERNAL_MAP
-; 125  : 
-; 126  : # include "json_valueiterator.inl"
-; 127  : 
-; 128  : 
-; 129  : // //////////////////////////////////////////////////////////////////
-; 130  : // //////////////////////////////////////////////////////////////////
-; 131  : // //////////////////////////////////////////////////////////////////
-; 132  : // class Value::CommentInfo
-; 133  : // //////////////////////////////////////////////////////////////////
-; 134  : // //////////////////////////////////////////////////////////////////
-; 135  : // //////////////////////////////////////////////////////////////////
-; 136  : 
-; 137  : 
-; 138  : Value::CommentInfo::CommentInfo()
-; 139  :    : comment_( 0 )
-; 140  : {
-; 141  : }
-; 142  : 
-; 143  : Value::CommentInfo::~CommentInfo()
-; 144  : {
-; 145  :    if ( comment_ )
-; 146  :       valueAllocator()->releaseStringValue( comment_ );
-; 147  : }
-; 148  : 
-; 149  : 
-; 150  : void 
-; 151  : Value::CommentInfo::setComment( const char *text )
-; 152  : {
-; 153  :    if ( comment_ )
-; 154  :       valueAllocator()->releaseStringValue( comment_ );
-; 155  :    JSON_ASSERT( text );
-; 156  :    JSON_ASSERT_MESSAGE( text[0]=='\0' || text[0]=='/', "Comments must start with /");
-; 157  :    // It seems that /**/ style comments are acceptable as well.
-; 158  :    comment_ = valueAllocator()->duplicateStringValue( text );
-; 159  : }
-; 160  : 
-; 161  : 
-; 162  : // //////////////////////////////////////////////////////////////////
-; 163  : // //////////////////////////////////////////////////////////////////
-; 164  : // //////////////////////////////////////////////////////////////////
-; 165  : // class Value::CZString
-; 166  : // //////////////////////////////////////////////////////////////////
-; 167  : // //////////////////////////////////////////////////////////////////
-; 168  : // //////////////////////////////////////////////////////////////////
-; 169  : # ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 170  : 
-; 171  : // Notes: index_ indicates if the string was allocated when
-; 172  : // a string is stored.
-; 173  : 
-; 174  : Value::CZString::CZString( int index )
-; 175  :    : cstr_( 0 )
-; 176  :    , index_( index )
-; 177  : {
-; 178  : }
-; 179  : 
-; 180  : Value::CZString::CZString( const char *cstr, DuplicationPolicy allocate )
-; 181  :    : cstr_( allocate == duplicate ? valueAllocator()->makeMemberName(cstr) 
-; 182  :                                   : cstr )
-; 183  :    , index_( allocate )
-; 184  : {
-
 	mov	ebx, DWORD PTR _key$[ebp]
-	mov	DWORD PTR _actualKey$[ebp], ebx
-	mov	DWORD PTR _actualKey$[ebp+4], 2
+	mov	DWORD PTR _actualKey$[esp+84], ebx
+	mov	DWORD PTR _actualKey$[esp+88], 2
 
-; 1028 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1029 :    CZString actualKey( key, isStatic ? CZString::noDuplication 
-; 1030 :                                      : CZString::duplicateOnCopy );
-
-	mov	DWORD PTR __$EHRec$[ebp+8], 2
-
-; 1031 :    ObjectValues::iterator it = value_.map_->lower_bound( actualKey );
+	mov	DWORD PTR __$EHRec$[esp+92], 2
 
 	mov	edi, DWORD PTR [edi]
 ; File f:\program_files\vc\include\xtree
 
 ; 1572 : 		return (iterator(_Lbound(_Keyval), this));
 
-	lea	eax, DWORD PTR _actualKey$[ebp]
+	lea	eax, DWORD PTR _actualKey$[esp+84]
 	push	eax
 	mov	ecx, edi
 	call	?_Lbound@?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@IAEPAU?$_Tree_node@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAX@2@ABVCZString@Value@Json@@@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::_Lbound
@@ -7721,47 +6329,13 @@ $LN2@resolveRef:
 	cmp	esi, DWORD PTR [edi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1032 :    if ( it != value_.map_->end()  &&  (*it).first == actualKey )
-
 	je	SHORT $LN1@resolveRef
-
-; 200  : }
-; 201  : 
-; 202  : void 
-; 203  : Value::CZString::swap( CZString &other )
-; 204  : {
-; 205  :    std::swap( cstr_, other.cstr_ );
-; 206  :    std::swap( index_, other.index_ );
-; 207  : }
-; 208  : 
-; 209  : Value::CZString &
-; 210  : Value::CZString::operator =( const CZString &other )
-; 211  : {
-; 212  :    CZString temp( other );
-; 213  :    swap( temp );
-; 214  :    return *this;
-; 215  : }
-; 216  : 
-; 217  : bool 
-; 218  : Value::CZString::operator<( const CZString &other ) const 
-; 219  : {
-; 220  :    if ( cstr_ )
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
-; 222  :    return index_ < other.index_;
-; 223  : }
-; 224  : 
-; 225  : bool 
-; 226  : Value::CZString::operator==( const CZString &other ) const 
-; 227  : {
-; 228  :    if ( cstr_ )
 
 	mov	eax, DWORD PTR [esi+16]
 	test	eax, eax
 	je	SHORT $LN82@resolveRef
-	npad	4
+	npad	1
 $LL135@resolveRef:
-
-; 229  :       return strcmp( cstr_, other.cstr_ ) == 0;
 
 	mov	cl, BYTE PTR [eax]
 	cmp	cl, BYTE PTR [ebx]
@@ -7786,27 +6360,16 @@ $LN136@resolveRef:
 	jmp	SHORT $LN142@resolveRef
 $LN82@resolveRef:
 
-; 230  :    return index_ == other.index_;
-
 	cmp	DWORD PTR [esi+20], 2
 $LN142@resolveRef:
 	sete	al
 
-; 1032 :    if ( it != value_.map_->end()  &&  (*it).first == actualKey )
-
 	test	al, al
 	je	SHORT $LN1@resolveRef
 
-; 1033 :       return (*it).second;
-
 	lea	eax, DWORD PTR [esi+24]
 
-; 1039 : #else
-; 1040 :    return value_.map_->resolveReference( key, isStatic );
-; 1041 : #endif
-; 1042 : }
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[esp+84]
 	mov	DWORD PTR fs:0, ecx
 	pop	ecx
 	pop	edi
@@ -7820,26 +6383,31 @@ $LN1@resolveRef:
 
 ; 138  : 		{	// construct from moved values
 
-	lea	eax, DWORD PTR _actualKey$[ebp]
+	lea	eax, DWORD PTR _actualKey$[esp+84]
 	push	eax
-	lea	ecx, DWORD PTR _defaultValue$[ebp]
+	lea	ecx, DWORD PTR _defaultValue$[esp+88]
 	call	??0CZString@Value@Json@@QAE@ABV012@@Z	; Json::Value::CZString::CZString
 	push	OFFSET ?null@Value@Json@@2V12@B		; Json::Value::null
-	lea	ecx, DWORD PTR _defaultValue$[ebp+8]
-	mov	BYTE PTR __$EHRec$[ebp+8], 3
+	lea	ecx, DWORD PTR _defaultValue$[esp+96]
+	mov	BYTE PTR __$EHRec$[esp+96], 3
 	call	??0Value@Json@@QAE@ABV01@@Z		; Json::Value::Value
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1036 :    it = value_.map_->insert( it, defaultValue );
+	mov	BYTE PTR __$EHRec$[esp+92], 4
 
-	mov	edi, DWORD PTR _this$1$[ebp]
-	mov	BYTE PTR __$EHRec$[ebp+8], 4
+	mov	edi, DWORD PTR _this$1$[esp+84]
+; File f:\program_files\vc\include\xtree
+
+; 1161 : 		_Nodeptr _Newnode = this->_Buynode(_STD forward<_Valty>(_Val));
+
+	lea	eax, DWORD PTR _defaultValue$[esp+84]
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+
 	mov	edi, DWORD PTR [edi]
 ; File f:\program_files\vc\include\xtree
 
 ; 1161 : 		_Nodeptr _Newnode = this->_Buynode(_STD forward<_Valty>(_Val));
 
-	lea	eax, DWORD PTR _defaultValue$[ebp]
 	push	eax
 	mov	ecx, edi
 	call	??$_Buynode@AAU?$pair@$$CBVCZString@Value@Json@@V23@@std@@@?$_Tree_buy@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@2@@std@@QAEPAU?$_Tree_node@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAX@1@AAU?$pair@$$CBVCZString@Value@Json@@V23@@1@@Z ; std::_Tree_buy<std::pair<Json::Value::CZString const ,Json::Value>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> > >::_Buynode<std::pair<Json::Value::CZString const ,Json::Value> &>
@@ -7891,43 +6459,24 @@ $LN1@resolveRef:
 
 	push	eax
 	push	esi
-	lea	eax, DWORD PTR $T4[ebp]
+	lea	eax, DWORD PTR $T2[esp+96]
 	push	eax
 	mov	ecx, edi
 	call	??$_Insert_hint@AAU?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAU?$_Tree_node@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAX@2@@?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@1@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@1@AAU?$pair@$$CBVCZString@Value@Json@@V23@@1@PAU?$_Tree_node@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@PAX@1@@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::_Insert_hint<std::pair<Json::Value::CZString const ,Json::Value> &,std::_Tree_node<std::pair<Json::Value::CZString const ,Json::Value>,void *> *>
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1037 :    Value &value = (*it).second;
-
-	mov	esi, DWORD PTR $T4[ebp]
+	mov	esi, DWORD PTR $T2[esp+84]
 	add	esi, 24					; 00000018H
-	lea	ecx, DWORD PTR _defaultValue$[ebp+8]
-	mov	BYTE PTR __$EHRec$[ebp+8], 5
+	lea	ecx, DWORD PTR _defaultValue$[esp+92]
+	mov	BYTE PTR __$EHRec$[esp+92], 5
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
-	mov	BYTE PTR __$EHRec$[ebp+8], 2
+	mov	BYTE PTR __$EHRec$[esp+92], 2
 
-; 185  : }
-; 186  : 
-; 187  : Value::CZString::CZString( const CZString &other )
-; 188  : : cstr_( other.index_ != noDuplication &&  other.cstr_ != 0
-; 189  :                 ?  valueAllocator()->makeMemberName( other.cstr_ )
-; 190  :                 : other.cstr_ )
-; 191  :    , index_( other.cstr_ ? (other.index_ == noDuplication ? noDuplication : duplicate)
-; 192  :                          : other.index_ )
-; 193  : {
-; 194  : }
-; 195  : 
-; 196  : Value::CZString::~CZString()
-; 197  : {
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
-	mov	edi, DWORD PTR _defaultValue$[ebp]
+	mov	edi, DWORD PTR _defaultValue$[esp+84]
 	test	edi, edi
 	je	SHORT $LN139@resolveRef
-	cmp	DWORD PTR _defaultValue$[ebp+4], 1
+	cmp	DWORD PTR _defaultValue$[esp+88], 1
 	jne	SHORT $LN139@resolveRef
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -7937,11 +6486,9 @@ $LN1@resolveRef:
 	mov	DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA, eax
 	mov	DWORD PTR ?defaultAllocator@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4VDefaultValueAllocator@2@A, OFFSET ??_7DefaultValueAllocator@Json@@6B@
 	call	_atexit
-	mov	edi, DWORD PTR _defaultValue$[ebp]
+	mov	edi, DWORD PTR _defaultValue$[esp+88]
 	add	esp, 4
 $LN118@resolveRef:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	edi
@@ -7949,16 +6496,9 @@ $LN118@resolveRef:
 	call	DWORD PTR [edx+8]
 $LN139@resolveRef:
 
-; 1038 :    return value;
-
 	mov	eax, esi
 
-; 1039 : #else
-; 1040 :    return value_.map_->resolveReference( key, isStatic );
-; 1041 : #endif
-; 1042 : }
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[esp+84]
 	mov	DWORD PTR fs:0, ecx
 	pop	ecx
 	pop	edi
@@ -7977,7 +6517,7 @@ __unwindfunclet$?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z$3:
 	pop	ecx
 	ret	0
 __unwindfunclet$?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z$0:
-	lea	ecx, DWORD PTR $T2[ebp]
+	lea	ecx, DWORD PTR $T4[ebp]
 	jmp	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 __unwindfunclet$?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z$1:
 	lea	ecx, DWORD PTR _actualKey$[ebp]
@@ -7993,8 +6533,8 @@ __unwindfunclet$?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z$10:
 	jmp	??1CZString@Value@Json@@QAE@XZ		; Json::Value::CZString::~CZString
 __ehhandler$?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z:
 	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-68]
+	lea	eax, DWORD PTR [edx-68]
+	mov	ecx, DWORD PTR [edx-72]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
 	mov	eax, OFFSET __ehfuncinfo$?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z
@@ -8014,8 +6554,6 @@ _key$ = 8						; size = 4
 ??AValue@Json@@QBEABV01@PBD@Z PROC			; Json::Value::operator[], COMDAT
 ; _this$ = ecx
 
-; 1064 : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -8030,22 +6568,11 @@ _key$ = 8						; size = 4
 	lea	eax, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, eax
 
-; 1065 :    JSON_ASSERT( type_ == nullValue  ||  type_ == objectValue );
-; 1066 :    if ( type_ == nullValue )
-
 	cmp	BYTE PTR [ecx+8], 0
 	jne	SHORT $LN2@operator
 $LN45@operator:
 
-; 1067 :       return null;
-
 	mov	eax, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
-
-; 1074 : #else
-; 1075 :    const Value *value = value_.map_->find( key );
-; 1076 :    return value ? *value : null;
-; 1077 : #endif
-; 1078 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -8056,15 +6583,9 @@ $LN45@operator:
 	ret	4
 $LN2@operator:
 
-; 184  : {
-
 	mov	eax, DWORD PTR _key$[ebp]
 	mov	DWORD PTR _actualKey$[ebp], eax
 	mov	DWORD PTR _actualKey$[ebp+4], 0
-
-; 1068 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1069 :    CZString actualKey( key, CZString::noDuplication );
-; 1070 :    ObjectValues::const_iterator it = value_.map_->find( actualKey );
 
 	mov	esi, DWORD PTR [ecx]
 	lea	eax, DWORD PTR _actualKey$[ebp]
@@ -8081,20 +6602,9 @@ $LN2@operator:
 	cmp	eax, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1071 :    if ( it == value_.map_->end() )
-
 	je	SHORT $LN45@operator
 
-; 1072 :       return null;
-; 1073 :    return (*it).second;
-
 	add	eax, 24					; 00000018H
-
-; 1074 : #else
-; 1075 :    const Value *value = value_.map_->find( key );
-; 1076 :    return value ? *value : null;
-; 1077 : #endif
-; 1078 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -8130,8 +6640,6 @@ _key$ = 8						; size = 4
 ??AValue@Json@@QAEAAV01@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z PROC ; Json::Value::operator[], COMDAT
 ; _this$ = ecx
 
-; 1083 : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
@@ -8150,15 +6658,10 @@ _key$ = 8						; size = 4
 $LN8@operator:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1017 :    return resolveReference( key, false );
-
 	push	ecx
 	push	eax
 	call	?resolveReference@Value@Json@@AAEAAV12@PBD_N@Z ; Json::Value::resolveReference
 	pop	ecx
-
-; 1084 :    return (*this)[ key.c_str() ];
-; 1085 : }
 
 	pop	ebp
 	ret	4
@@ -8179,8 +6682,6 @@ $T3 = 8							; size = 4
 _key$ = 8						; size = 4
 ??AValue@Json@@QBEABV01@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z PROC ; Json::Value::operator[], COMDAT
 ; _this$ = ecx
-
-; 1090 : {
 
 	push	ebp
 	mov	ebp, esp
@@ -8210,17 +6711,11 @@ _key$ = 8						; size = 4
 $LN8@operator:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1066 :    if ( type_ == nullValue )
-
 	cmp	BYTE PTR [ecx+8], 0
 	jne	SHORT $LN12@operator
 $LN64@operator:
 
-; 1091 :    return (*this)[ key.c_str() ];
-
 	mov	eax, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
-
-; 1092 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -8231,15 +6726,8 @@ $LN64@operator:
 	ret	4
 $LN12@operator:
 
-; 184  : {
-
 	mov	DWORD PTR _actualKey$2[ebp], eax
 	mov	DWORD PTR _actualKey$2[ebp+4], 0
-
-; 1067 :       return null;
-; 1068 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1069 :    CZString actualKey( key, CZString::noDuplication );
-; 1070 :    ObjectValues::const_iterator it = value_.map_->find( actualKey );
 
 	mov	esi, DWORD PTR [ecx]
 	lea	eax, DWORD PTR _actualKey$2[ebp]
@@ -8256,16 +6744,9 @@ $LN12@operator:
 	cmp	eax, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1071 :    if ( it == value_.map_->end() )
-
 	je	SHORT $LN64@operator
 
-; 1072 :       return null;
-; 1073 :    return (*it).second;
-
 	add	eax, 24					; 00000018H
-
-; 1092 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -8355,8 +6836,6 @@ ___$ReturnUdt$ = 8					; size = 4
 ?getMemberNames@Value@Json@@QBE?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ PROC ; Json::Value::getMemberNames, COMDAT
 ; _this$ = ecx
 
-; 1206 : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -8374,9 +6853,6 @@ ___$ReturnUdt$ = 8					; size = 4
 	lea	eax, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, eax
 	mov	edi, ecx
-
-; 1207 :    JSON_ASSERT( type_ == nullValue  ||  type_ == objectValue );
-; 1208 :    if ( type_ == nullValue )
 
 	cmp	BYTE PTR [edi+8], 0
 	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
@@ -8398,8 +6874,6 @@ ___$ReturnUdt$ = 8					; size = 4
 	mov	DWORD PTR [eax+8], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1209 :        return Value::Members();
-
 	jmp	$LN5@getMemberN
 $LN4@getMemberN:
 ; File f:\program_files\vc\include\vector
@@ -8414,8 +6888,6 @@ $LN4@getMemberN:
 
 	mov	DWORD PTR _members$[ebp+8], ebx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 1210 :    Members members;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], ebx
 ; File f:\program_files\vc\include\xtree
@@ -8624,8 +7096,6 @@ $LN29@getMemberN:
 $LN30@getMemberN:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1213 :    ObjectValues::const_iterator it = value_.map_->begin();
-
 	mov	edi, DWORD PTR [edi]
 ; File f:\program_files\vc\include\xtree
 
@@ -8633,8 +7103,6 @@ $LN30@getMemberN:
 
 	mov	esi, DWORD PTR [edi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 1214 :    ObjectValues::const_iterator itEnd = value_.map_->end();
 
 	mov	edi, DWORD PTR [edi]
 	mov	esi, DWORD PTR [esi]
@@ -8645,12 +7113,8 @@ $LN30@getMemberN:
 	cmp	esi, edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1215 :    for ( ; it != itEnd; ++it )
-
 	je	$LN1@getMemberN
 $LL77@getMemberN:
-
-; 244  :    return cstr_;
 
 	mov	edx, DWORD PTR [esi+16]
 ; File f:\program_files\vc\include\xstring
@@ -9772,8 +8236,6 @@ $LN160@getMemberN:
 
 	lea	eax, DWORD PTR $T4[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 1216 :       members.push_back( std::string( (*it).first.c_str() ) );
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 ; File f:\program_files\vc\include\vector
@@ -14328,8 +12790,6 @@ $LN536@getMemberN:
 	add	ebx, 24					; 00000018H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1216 :       members.push_back( std::string( (*it).first.c_str() ) );
-
 	mov	BYTE PTR __$EHRec$[ebp+8], 0
 ; File f:\program_files\vc\include\xstring
 
@@ -15240,8 +13700,6 @@ $LN528@getMemberN:
 	cmp	esi, edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1215 :    for ( ; it != itEnd; ++it )
-
 	jne	$LL77@getMemberN
 $LN1@getMemberN:
 ; File f:\program_files\vc\include\vector
@@ -15260,12 +13718,8 @@ $LN1@getMemberN:
 	mov	DWORD PTR [ecx+4], ebx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1225 :    return members;
-
 	mov	eax, ecx
 $LN5@getMemberN:
-
-; 1226 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -15309,8 +13763,6 @@ _TEXT	SEGMENT
 ?isArray@Value@Json@@QBE_NXZ PROC			; Json::Value::isArray, COMDAT
 ; _this$ = ecx
 
-; 1315 :    return type_ == nullValue  ||  type_ == arrayValue;
-
 	mov	al, BYTE PTR [ecx+8]
 	test	al, al
 	je	SHORT $LN3@isArray
@@ -15318,16 +13770,10 @@ _TEXT	SEGMENT
 	je	SHORT $LN3@isArray
 	xor	al, al
 
-; 1316 : }
-
 	ret	0
 $LN3@isArray:
 
-; 1315 :    return type_ == nullValue  ||  type_ == arrayValue;
-
 	mov	al, 1
-
-; 1316 : }
 
 	ret	0
 ?isArray@Value@Json@@QBE_NXZ ENDP			; Json::Value::isArray
@@ -15339,8 +13785,6 @@ _TEXT	SEGMENT
 ?isObject@Value@Json@@QBE_NXZ PROC			; Json::Value::isObject, COMDAT
 ; _this$ = ecx
 
-; 1322 :    return type_ == nullValue  ||  type_ == objectValue;
-
 	mov	al, BYTE PTR [ecx+8]
 	test	al, al
 	je	SHORT $LN3@isObject
@@ -15348,16 +13792,10 @@ _TEXT	SEGMENT
 	je	SHORT $LN3@isObject
 	xor	al, al
 
-; 1323 : }
-
 	ret	0
 $LN3@isObject:
 
-; 1322 :    return type_ == nullValue  ||  type_ == objectValue;
-
 	mov	al, 1
-
-; 1323 : }
 
 	ret	0
 ?isObject@Value@Json@@QBE_NXZ ENDP			; Json::Value::isObject
@@ -15372,8 +13810,6 @@ _comment$ = 8						; size = 4
 _placement$ = 12					; size = 4
 ?setComment@Value@Json@@QAEXPBDW4CommentPlacement@2@@Z PROC ; Json::Value::setComment, COMDAT
 ; _this$ = ecx
-
-; 1329 : {
 
 	push	ebp
 	mov	ebp, esp
@@ -15391,12 +13827,8 @@ _placement$ = 12					; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	edi, ecx
 
-; 1330 :    if ( !comments_ )
-
 	cmp	DWORD PTR [edi+12], 0
 	jne	SHORT $LN1@setComment
-
-; 1331 :       comments_ = new CommentInfo[numberOfCommentPlacement];
 
 	push	16					; 00000010H
 	call	??_U@YAPAXI@Z				; operator new[]
@@ -15421,15 +13853,11 @@ $LN5@setComment:
 	mov	DWORD PTR [edi+12], esi
 $LN1@setComment:
 
-; 1332 :    comments_[placement].setComment( comment );
-
 	mov	ecx, DWORD PTR [edi+12]
 	mov	eax, DWORD PTR _placement$[ebp]
 	push	DWORD PTR _comment$[ebp]
 	lea	ecx, DWORD PTR [ecx+eax*4]
 	call	?setComment@CommentInfo@Value@Json@@QAEXPBD@Z ; Json::Value::CommentInfo::setComment
-
-; 1333 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -15472,8 +13900,6 @@ _placement$ = 12					; size = 4
 ?setComment@Value@Json@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4CommentPlacement@2@@Z PROC ; Json::Value::setComment, COMDAT
 ; _this$ = ecx
 
-; 1339 : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -15504,12 +13930,8 @@ _placement$ = 12					; size = 4
 $LN8@setComment:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1330 :    if ( !comments_ )
-
 	cmp	DWORD PTR [ebx+12], 0
 	jne	SHORT $LN11@setComment
-
-; 1331 :       comments_ = new CommentInfo[numberOfCommentPlacement];
 
 	push	16					; 00000010H
 	call	??_U@YAPAXI@Z				; operator new[]
@@ -15534,16 +13956,11 @@ $LN15@setComment:
 	mov	DWORD PTR [ebx+12], edi
 $LN11@setComment:
 
-; 1332 :    comments_[placement].setComment( comment );
-
 	mov	ecx, DWORD PTR [ebx+12]
 	mov	eax, DWORD PTR _placement$[ebp]
 	push	esi
 	lea	ecx, DWORD PTR [ecx+eax*4]
 	call	?setComment@CommentInfo@Value@Json@@QAEXPBD@Z ; Json::Value::CommentInfo::setComment
-
-; 1340 :    setComment( comment.c_str(), placement );
-; 1341 : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -15581,12 +13998,8 @@ _placement$ = 8						; size = 4
 ?hasComment@Value@Json@@QBE_NW4CommentPlacement@2@@Z PROC ; Json::Value::hasComment, COMDAT
 ; _this$ = ecx
 
-; 1346 : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 1347 :    return comments_ != 0  &&  comments_[placement].comment_ != 0;
 
 	mov	ecx, DWORD PTR [ecx+12]
 	test	ecx, ecx
@@ -15596,17 +14009,11 @@ _placement$ = 8						; size = 4
 	je	SHORT $LN3@hasComment
 	mov	al, 1
 
-; 1348 : }
-
 	pop	ebp
 	ret	4
 $LN3@hasComment:
 
-; 1347 :    return comments_ != 0  &&  comments_[placement].comment_ != 0;
-
 	xor	al, al
-
-; 1348 : }
 
 	pop	ebp
 	ret	4
@@ -15633,13 +14040,9 @@ _placement$ = 12					; size = 4
 ?getComment@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4CommentPlacement@2@@Z PROC ; Json::Value::getComment, COMDAT
 ; _this$ = ecx
 
-; 1352 : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
-
-; 1347 :    return comments_ != 0  &&  comments_[placement].comment_ != 0;
 
 	mov	edx, DWORD PTR [ecx+12]
 	push	esi
@@ -16754,12 +15157,8 @@ _placement$ = 12					; size = 4
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1355 :    return "";
-
 	mov	eax, esi
 	pop	esi
-
-; 1356 : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -16789,12 +15188,8 @@ $LL99@getComment:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1355 :    return "";
-
 	mov	eax, esi
 	pop	esi
-
-; 1356 : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -17907,12 +16302,8 @@ $LN1@getComment:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1355 :    return "";
-
 	mov	eax, esi
 	pop	esi
-
-; 1356 : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -23537,14 +21928,10 @@ $LN19@erase:
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN347@erase
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN347@erase
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -23556,8 +21943,6 @@ $LN19@erase:
 	call	_atexit
 	add	esp, 4
 $LN350@erase:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
@@ -24061,13 +22446,9 @@ __Keyval$ = 12						; size = 4
 	je	SHORT $LN3@find
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 220  :    if ( cstr_ )
-
 	mov	ecx, DWORD PTR [edi]
 	test	ecx, ecx
 	je	SHORT $LN41@find
-
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
 
 	mov	edx, DWORD PTR [eax+16]
 	push	ebx
@@ -24098,8 +22479,6 @@ $LN55@find:
 	pop	ebx
 	jmp	SHORT $LN42@find
 $LN41@find:
-
-; 222  :    return index_ < other.index_;
 
 	mov	ecx, DWORD PTR [edi+4]
 	cmp	ecx, DWORD PTR [eax+20]
@@ -32115,14 +30494,10 @@ $LL3@Erase:
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [edi], 0
 	je	SHORT $LN62@Erase
 	cmp	DWORD PTR [edi+4], 1
 	jne	SHORT $LN62@Erase
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -32134,8 +30509,6 @@ $LL3@Erase:
 	call	_atexit
 	add	esp, 4
 $LN65@Erase:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [edi]
@@ -32233,13 +30606,9 @@ __Keyval$ = 8						; size = 4
 $LL4@Lbound:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 220  :    if ( cstr_ )
-
 	mov	eax, DWORD PTR [esi+16]
 	test	eax, eax
 	je	SHORT $LN25@Lbound
-
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
 
 	mov	ecx, DWORD PTR [ebx]
 	npad	3
@@ -32268,8 +30637,6 @@ $LN35@Lbound:
 	sets	al
 	jmp	SHORT $LN26@Lbound
 $LN25@Lbound:
-
-; 222  :    return index_ < other.index_;
 
 	mov	eax, DWORD PTR [esi+20]
 	cmp	eax, DWORD PTR [ebx+4]
@@ -32731,14 +31098,10 @@ __Right$ = 12						; size = 4
 	mov	ebp, esp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 220  :    if ( cstr_ )
-
 	mov	eax, DWORD PTR __Left$[ebp]
 	mov	ecx, DWORD PTR [eax]
 	test	ecx, ecx
 	je	SHORT $LN3@operator
-
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
 
 	mov	eax, DWORD PTR __Right$[ebp]
 	mov	eax, DWORD PTR [eax]
@@ -32768,8 +31131,6 @@ $LN8@operator:
 $LN7@operator:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
-
 	sbb	eax, eax
 	or	eax, 1
 	test	eax, eax
@@ -32782,8 +31143,6 @@ $LN7@operator:
 	ret	8
 $LN3@operator:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 222  :    return index_ < other.index_;
 
 	mov	ecx, DWORD PTR [eax+4]
 	mov	eax, DWORD PTR __Right$[ebp]
@@ -42374,14 +40733,10 @@ __Ptr$ = 8						; size = 4
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN133@destroy
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN133@destroy
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -42393,8 +40748,6 @@ __Ptr$ = 8						; size = 4
 	call	_atexit
 	add	esp, 4
 $LN136@destroy:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
@@ -47338,14 +45691,10 @@ __$EHRec$ = -12						; size = 12
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN131@destroy
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN131@destroy
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -47357,8 +45706,6 @@ __$EHRec$ = -12						; size = 12
 	call	_atexit
 	add	esp, 4
 $LN134@destroy:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
@@ -51885,14 +50232,10 @@ __Newnode$ = 8						; size = 4
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN53@Destroy_if
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN53@Destroy_if
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -51904,8 +50247,6 @@ __Newnode$ = 8						; size = 4
 	call	_atexit
 	add	esp, 4
 $LN56@Destroy_if:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
@@ -56044,12 +54385,8 @@ $LL12@Insert_noh:
 	mov	DWORD PTR __Wherenode$1$[ebp], ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 220  :    if ( cstr_ )
-
 	test	edi, edi
 	je	SHORT $LN63@Insert_noh
-
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
 
 	mov	ecx, DWORD PTR [esi+16]
 	mov	eax, edi
@@ -56080,8 +54417,6 @@ $LN177@Insert_noh:
 	sets	al
 	jmp	SHORT $LN64@Insert_noh
 $LN63@Insert_noh:
-
-; 222  :    return index_ < other.index_;
 
 	mov	eax, DWORD PTR [ebx+4]
 	cmp	eax, DWORD PTR [esi+20]
@@ -56474,13 +54809,9 @@ $LN4@Insert_noh:
 $LN124@Insert_noh:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 220  :    if ( cstr_ )
-
 	mov	eax, DWORD PTR [esi+16]
 	test	eax, eax
 	je	SHORT $LN144@Insert_noh
-
-; 221  :       return strcmp( cstr_, other.cstr_ ) < 0;
 
 	mov	ecx, DWORD PTR [ebx]
 	npad	2
@@ -56509,8 +54840,6 @@ $LN181@Insert_noh:
 	sets	al
 	jmp	SHORT $LN145@Insert_noh
 $LN144@Insert_noh:
-
-; 222  :    return index_ < other.index_;
 
 	mov	eax, DWORD PTR [esi+20]
 	cmp	eax, DWORD PTR [ebx+4]
@@ -56620,14 +54949,10 @@ __Ptr$ = 8						; size = 4
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN129@destroy
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN129@destroy
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -56639,8 +54964,6 @@ __Ptr$ = 8						; size = 4
 	call	_atexit
 	add	esp, 4
 $LN132@destroy:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]
@@ -62264,14 +60587,10 @@ ___flags$dead$ = 8					; size = 4
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 
-; 198  :    if ( cstr_  &&  index_ == duplicate )
-
 	cmp	DWORD PTR [esi], 0
 	je	SHORT $LN137@scalar
 	cmp	DWORD PTR [esi+4], 1
 	jne	SHORT $LN137@scalar
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 	test	al, 1
@@ -62283,8 +60602,6 @@ ___flags$dead$ = 8					; size = 4
 	call	_atexit
 	add	esp, 4
 $LN130@scalar:
-
-; 199  :       valueAllocator()->releaseMemberName( const_cast<char *>( cstr_ ) );
 
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR [esi]

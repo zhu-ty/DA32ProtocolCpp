@@ -22,7 +22,8 @@ public:
 	static char HEAD_CHAR[2];
 	static char RARE_CHAR[2];
 
-	Client(string dest_ip,int dest_port=3232);
+	bool newClient(string dest_ip,int dest_port=3232);
+	Client();
 	void exit();
 	void respend();
 	void sendData(string info);

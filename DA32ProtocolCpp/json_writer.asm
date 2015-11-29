@@ -31,35 +31,65 @@ PUBLIC	??_C@_02KEGNLNML@?0?5?$AA@			; `string'
 PUBLIC	??_C@_02DHOGEDBE@?5?$FN?$AA@			; `string'
 PUBLIC	??_C@_01CLKCMJKC@?5?$AA@			; `string'
 PUBLIC	??_C@_01GPOEFGEJ@?7?$AA@			; `string'
+PUBLIC	??_R17?0A@EA@?$_Iosb@H@std@@8			; std::_Iosb<int>::`RTTI Base Class Descriptor at (8,-1,0,64)'
 PUBLIC	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> > `RTTI Type Descriptor'
 PUBLIC	??_7Writer@Json@@6B@				; Json::Writer::`vftable'
 PUBLIC	??_R4?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`RTTI Complete Object Locator'
+PUBLIC	??_7?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_streambuf<char,std::char_traits<char> >::`vftable'
 PUBLIC	??_R4Writer@Json@@6B@				; Json::Writer::`RTTI Complete Object Locator'
+PUBLIC	??_R3?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_7FastWriter@Json@@6B@			; Json::FastWriter::`vftable'
 PUBLIC	??_7?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`vftable'
+PUBLIC	??_R3ios_base@std@@8				; std::ios_base::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_R1A@?0A@EA@FastWriter@Json@@8		; Json::FastWriter::`RTTI Base Class Descriptor at (0,-1,0,64)'
+PUBLIC	??_R1A@?0A@EA@?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
 PUBLIC	??_R4?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`RTTI Complete Object Locator'
+PUBLIC	??_R1A@A@3FA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 ; std::basic_ios<char,std::char_traits<char> >::`RTTI Base Class Descriptor at (0,0,4,80)'
 PUBLIC	??_R3?$basic_ostream@DU?$char_traits@D@std@@@std@@8 ; std::basic_ostream<char,std::char_traits<char> >::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_R2?$basic_ostream@DU?$char_traits@D@std@@@std@@8 ; std::basic_ostream<char,std::char_traits<char> >::`RTTI Base Class Array'
+PUBLIC	??_R4ios_base@std@@6B@				; std::ios_base::`RTTI Complete Object Locator'
 PUBLIC	??_7?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`vftable'
 PUBLIC	??_R0?AVFastWriter@Json@@@8			; Json::FastWriter `RTTI Type Descriptor'
+PUBLIC	??_R1A@A@3EA@ios_base@std@@8			; std::ios_base::`RTTI Base Class Descriptor at (0,0,4,64)'
+PUBLIC	??_R0?AVios_base@std@@@8			; std::ios_base `RTTI Type Descriptor'
+PUBLIC	??_R1A@?0A@EA@?$_Iosb@H@std@@8			; std::_Iosb<int>::`RTTI Base Class Descriptor at (0,-1,0,64)'
+PUBLIC	??_R3?$_Iosb@H@std@@8				; std::_Iosb<int>::`RTTI Class Hierarchy Descriptor'
+PUBLIC	??_R2?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Base Class Array'
 PUBLIC	??_R3?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_R1A@?0A@EA@?$basic_ostream@DU?$char_traits@D@std@@@std@@8 ; std::basic_ostream<char,std::char_traits<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
 PUBLIC	??_R4FastWriter@Json@@6B@			; Json::FastWriter::`RTTI Complete Object Locator'
 PUBLIC	??_8?$basic_ostream@DU?$char_traits@D@std@@@std@@7B@ ; std::basic_ostream<char,std::char_traits<char> >::`vbtable'
+PUBLIC	??_R2ios_base@std@@8				; std::ios_base::`RTTI Base Class Array'
 PUBLIC	??_R2?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`RTTI Base Class Array'
+PUBLIC	??_R1A@?0A@EA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 ; std::basic_ios<char,std::char_traits<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
+PUBLIC	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 ; std::basic_ios<char,std::char_traits<char> > `RTTI Type Descriptor'
 PUBLIC	??_R2FastWriter@Json@@8				; Json::FastWriter::`RTTI Base Class Array'
 PUBLIC	??_R1A@?0A@EA@?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
+PUBLIC	??_R2?$_Iosb@H@std@@8				; std::_Iosb<int>::`RTTI Base Class Array'
 PUBLIC	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> > `RTTI Type Descriptor'
+PUBLIC	??_R0?AV?$_Iosb@H@std@@@8			; std::_Iosb<int> `RTTI Type Descriptor'
 PUBLIC	??_R3FastWriter@Json@@8				; Json::FastWriter::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_8?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@7B@ ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`vbtable'
 PUBLIC	??_R4?$basic_ostream@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_ostream<char,std::char_traits<char> >::`RTTI Complete Object Locator'
+PUBLIC	??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_ios<char,std::char_traits<char> >::`vftable'
+PUBLIC	??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8	; std::basic_ios<char,std::char_traits<char> >::`RTTI Class Hierarchy Descriptor'
+PUBLIC	??_7ios_base@std@@6B@				; std::ios_base::`vftable'
+PUBLIC	??_R17A@3EA@?$_Iosb@H@std@@8			; std::_Iosb<int>::`RTTI Base Class Descriptor at (8,0,4,64)'
+PUBLIC	??_R4?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Complete Object Locator'
 PUBLIC	??_R2?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`RTTI Base Class Array'
 PUBLIC	??_R3?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`RTTI Class Hierarchy Descriptor'
+PUBLIC	??_R1A@?0A@EA@ios_base@std@@8			; std::ios_base::`RTTI Base Class Descriptor at (0,-1,0,64)'
+PUBLIC	??_R2?$basic_ios@DU?$char_traits@D@std@@@std@@8	; std::basic_ios<char,std::char_traits<char> >::`RTTI Base Class Array'
 PUBLIC	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 ; std::basic_ostream<char,std::char_traits<char> > `RTTI Type Descriptor'
+PUBLIC	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 ; std::basic_streambuf<char,std::char_traits<char> > `RTTI Type Descriptor'
+PUBLIC	??_R4?$basic_ios@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_ios<char,std::char_traits<char> >::`RTTI Complete Object Locator'
 PUBLIC	??_7?$basic_ostream@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_ostream<char,std::char_traits<char> >::`vftable'
 PUBLIC	??_R1A@?0A@EA@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
 EXTRN	_strpbrk:PROC
+EXTRN	?_Addstd@ios_base@std@@SAXPAV12@@Z:PROC		; std::ios_base::_Addstd
+EXTRN	?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z:PROC	; std::ios_base::_Ios_base_dtor
+EXTRN	?_Init@locale@std@@CAPAV_Locimp@12@_N@Z:PROC	; std::locale::_Init
+EXTRN	?_BADOFF@std@@3_JB:QWORD			; std::_BADOFF
 EXTRN	?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z:PROC	; std::setw
 ;	COMDAT ??_R1A@?0A@EA@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8
 rdata$r	SEGMENT
@@ -78,12 +108,42 @@ CONST	SEGMENT
 	DD	FLAT:?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ
 	DD	FLAT:?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEXXZ
 CONST	ENDS
+;	COMDAT ??_R4?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+rdata$r	SEGMENT
+??_R4?$basic_ios@DU?$char_traits@D@std@@@std@@6B@ DD 00H ; std::basic_ios<char,std::char_traits<char> >::`RTTI Complete Object Locator'
+	DD	00H
+	DD	00H
+	DD	FLAT:??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8
+	DD	FLAT:??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	ENDS
+;	COMDAT ??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8
+_DATA	SEGMENT
+??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 DD FLAT:??_7type_info@@6B@ ; std::basic_streambuf<char,std::char_traits<char> > `RTTI Type Descriptor'
+	DD	00H
+	DB	'.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@', 00H
+_DATA	ENDS
 ;	COMDAT ??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8
 _DATA	SEGMENT
 ??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 DD FLAT:??_7type_info@@6B@ ; std::basic_ostream<char,std::char_traits<char> > `RTTI Type Descriptor'
 	DD	00H
 	DB	'.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@', 00H
 _DATA	ENDS
+;	COMDAT ??_R2?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	SEGMENT
+??_R2?$basic_ios@DU?$char_traits@D@std@@@std@@8 DD FLAT:??_R1A@?0A@EA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 ; std::basic_ios<char,std::char_traits<char> >::`RTTI Base Class Array'
+	DD	FLAT:??_R1A@?0A@EA@ios_base@std@@8
+	DD	FLAT:??_R17?0A@EA@?$_Iosb@H@std@@8
+rdata$r	ENDS
+;	COMDAT ??_R1A@?0A@EA@ios_base@std@@8
+rdata$r	SEGMENT
+??_R1A@?0A@EA@ios_base@std@@8 DD FLAT:??_R0?AVios_base@std@@@8 ; std::ios_base::`RTTI Base Class Descriptor at (0,-1,0,64)'
+	DD	01H
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+	DD	040H
+	DD	FLAT:??_R3ios_base@std@@8
+rdata$r	ENDS
 ;	COMDAT ??_R3?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8
 rdata$r	SEGMENT
 ??_R3?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 DD 00H ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`RTTI Class Hierarchy Descriptor'
@@ -99,6 +159,43 @@ rdata$r	SEGMENT
 	DD	FLAT:??_R1A@A@3EA@ios_base@std@@8
 	DD	FLAT:??_R17A@3EA@?$_Iosb@H@std@@8
 rdata$r	ENDS
+;	COMDAT ??_R4?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@
+rdata$r	SEGMENT
+??_R4?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@ DD 00H ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Complete Object Locator'
+	DD	00H
+	DD	00H
+	DD	FLAT:??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8
+	DD	FLAT:??_R3?$basic_streambuf@DU?$char_traits@D@std@@@std@@8
+rdata$r	ENDS
+;	COMDAT ??_R17A@3EA@?$_Iosb@H@std@@8
+rdata$r	SEGMENT
+??_R17A@3EA@?$_Iosb@H@std@@8 DD FLAT:??_R0?AV?$_Iosb@H@std@@@8 ; std::_Iosb<int>::`RTTI Base Class Descriptor at (8,0,4,64)'
+	DD	00H
+	DD	08H
+	DD	00H
+	DD	04H
+	DD	040H
+	DD	FLAT:??_R3?$_Iosb@H@std@@8
+rdata$r	ENDS
+;	COMDAT ??_7ios_base@std@@6B@
+CONST	SEGMENT
+??_7ios_base@std@@6B@ DD FLAT:??_R4ios_base@std@@6B@	; std::ios_base::`vftable'
+	DD	FLAT:??_Eios_base@std@@UAEPAXI@Z
+CONST	ENDS
+;	COMDAT ??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	SEGMENT
+??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8 DD 00H	; std::basic_ios<char,std::char_traits<char> >::`RTTI Class Hierarchy Descriptor'
+	DD	00H
+	DD	03H
+	DD	FLAT:??_R2?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	ENDS
+;	COMDAT ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+CONST	SEGMENT
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@ DD FLAT:??_R4?$basic_ios@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_ios<char,std::char_traits<char> >::`vftable'
+	DD	FLAT:??_E?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z
+	DD	FLAT:?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ
+	DD	FLAT:?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ
+CONST	ENDS
 ;	COMDAT ??_R4?$basic_ostream@DU?$char_traits@D@std@@@std@@6B@
 rdata$r	SEGMENT
 ??_R4?$basic_ostream@DU?$char_traits@D@std@@@std@@6B@ DD 00H ; std::basic_ostream<char,std::char_traits<char> >::`RTTI Complete Object Locator'
@@ -119,6 +216,12 @@ rdata$r	SEGMENT
 	DD	02H
 	DD	FLAT:??_R2FastWriter@Json@@8
 rdata$r	ENDS
+;	COMDAT ??_R0?AV?$_Iosb@H@std@@@8
+_DATA	SEGMENT
+??_R0?AV?$_Iosb@H@std@@@8 DD FLAT:??_7type_info@@6B@	; std::_Iosb<int> `RTTI Type Descriptor'
+	DD	00H
+	DB	'.?AV?$_Iosb@H@std@@', 00H
+_DATA	ENDS
 ;	COMDAT ??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8
 _DATA	SEGMENT
 ??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 DD FLAT:??_7type_info@@6B@ ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> > `RTTI Type Descriptor'
@@ -126,6 +229,10 @@ _DATA	SEGMENT
 	DB	'.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocato'
 	DB	'r@D@2@@std@@', 00H
 _DATA	ENDS
+;	COMDAT ??_R2?$_Iosb@H@std@@8
+rdata$r	SEGMENT
+??_R2?$_Iosb@H@std@@8 DD FLAT:??_R1A@?0A@EA@?$_Iosb@H@std@@8 ; std::_Iosb<int>::`RTTI Base Class Array'
+rdata$r	ENDS
 ;	COMDAT ??_R1A@?0A@EA@?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8
 rdata$r	SEGMENT
 ??_R1A@?0A@EA@?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 DD FLAT:??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
@@ -141,10 +248,31 @@ rdata$r	SEGMENT
 ??_R2FastWriter@Json@@8 DD FLAT:??_R1A@?0A@EA@FastWriter@Json@@8 ; Json::FastWriter::`RTTI Base Class Array'
 	DD	FLAT:??_R1A@?0A@EA@Writer@Json@@8
 rdata$r	ENDS
+;	COMDAT ??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8
+_DATA	SEGMENT
+??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 DD FLAT:??_7type_info@@6B@ ; std::basic_ios<char,std::char_traits<char> > `RTTI Type Descriptor'
+	DD	00H
+	DB	'.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@', 00H
+_DATA	ENDS
+;	COMDAT ??_R1A@?0A@EA@?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	SEGMENT
+??_R1A@?0A@EA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 DD FLAT:??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 ; std::basic_ios<char,std::char_traits<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
+	DD	02H
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+	DD	040H
+	DD	FLAT:??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	ENDS
 ;	COMDAT ??_R2?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8
 rdata$r	SEGMENT
 ??_R2?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 DD FLAT:??_R1A@?0A@EA@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`RTTI Base Class Array'
 	DD	FLAT:??_R1A@?0A@EA@?$basic_streambuf@DU?$char_traits@D@std@@@std@@8
+rdata$r	ENDS
+;	COMDAT ??_R2ios_base@std@@8
+rdata$r	SEGMENT
+??_R2ios_base@std@@8 DD FLAT:??_R1A@?0A@EA@ios_base@std@@8 ; std::ios_base::`RTTI Base Class Array'
+	DD	FLAT:??_R17?0A@EA@?$_Iosb@H@std@@8
 rdata$r	ENDS
 ;	COMDAT ??_8?$basic_ostream@DU?$char_traits@D@std@@@std@@7B@
 CONST	SEGMENT
@@ -176,6 +304,43 @@ rdata$r	SEGMENT
 	DD	05H
 	DD	FLAT:??_R2?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8
 rdata$r	ENDS
+;	COMDAT ??_R2?$basic_streambuf@DU?$char_traits@D@std@@@std@@8
+rdata$r	SEGMENT
+??_R2?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 DD FLAT:??_R1A@?0A@EA@?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Base Class Array'
+rdata$r	ENDS
+;	COMDAT ??_R3?$_Iosb@H@std@@8
+rdata$r	SEGMENT
+??_R3?$_Iosb@H@std@@8 DD 00H				; std::_Iosb<int>::`RTTI Class Hierarchy Descriptor'
+	DD	00H
+	DD	01H
+	DD	FLAT:??_R2?$_Iosb@H@std@@8
+rdata$r	ENDS
+;	COMDAT ??_R1A@?0A@EA@?$_Iosb@H@std@@8
+rdata$r	SEGMENT
+??_R1A@?0A@EA@?$_Iosb@H@std@@8 DD FLAT:??_R0?AV?$_Iosb@H@std@@@8 ; std::_Iosb<int>::`RTTI Base Class Descriptor at (0,-1,0,64)'
+	DD	00H
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+	DD	040H
+	DD	FLAT:??_R3?$_Iosb@H@std@@8
+rdata$r	ENDS
+;	COMDAT ??_R0?AVios_base@std@@@8
+_DATA	SEGMENT
+??_R0?AVios_base@std@@@8 DD FLAT:??_7type_info@@6B@	; std::ios_base `RTTI Type Descriptor'
+	DD	00H
+	DB	'.?AVios_base@std@@', 00H
+_DATA	ENDS
+;	COMDAT ??_R1A@A@3EA@ios_base@std@@8
+rdata$r	SEGMENT
+??_R1A@A@3EA@ios_base@std@@8 DD FLAT:??_R0?AVios_base@std@@@8 ; std::ios_base::`RTTI Base Class Descriptor at (0,0,4,64)'
+	DD	01H
+	DD	00H
+	DD	00H
+	DD	04H
+	DD	040H
+	DD	FLAT:??_R3ios_base@std@@8
+rdata$r	ENDS
 ;	COMDAT ??_R0?AVFastWriter@Json@@@8
 _DATA	SEGMENT
 ??_R0?AVFastWriter@Json@@@8 DD FLAT:??_7type_info@@6B@	; Json::FastWriter `RTTI Type Descriptor'
@@ -201,6 +366,14 @@ CONST	SEGMENT
 	DD	FLAT:?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
 	DD	FLAT:?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
 CONST	ENDS
+;	COMDAT ??_R4ios_base@std@@6B@
+rdata$r	SEGMENT
+??_R4ios_base@std@@6B@ DD 00H				; std::ios_base::`RTTI Complete Object Locator'
+	DD	00H
+	DD	00H
+	DD	FLAT:??_R0?AVios_base@std@@@8
+	DD	FLAT:??_R3ios_base@std@@8
+rdata$r	ENDS
 ;	COMDAT ??_R2?$basic_ostream@DU?$char_traits@D@std@@@std@@8
 rdata$r	SEGMENT
 ??_R2?$basic_ostream@DU?$char_traits@D@std@@@std@@8 DD FLAT:??_R1A@?0A@EA@?$basic_ostream@DU?$char_traits@D@std@@@std@@8 ; std::basic_ostream<char,std::char_traits<char> >::`RTTI Base Class Array'
@@ -215,6 +388,16 @@ rdata$r	SEGMENT
 	DD	04H
 	DD	FLAT:??_R2?$basic_ostream@DU?$char_traits@D@std@@@std@@8
 rdata$r	ENDS
+;	COMDAT ??_R1A@A@3FA@?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	SEGMENT
+??_R1A@A@3FA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 DD FLAT:??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 ; std::basic_ios<char,std::char_traits<char> >::`RTTI Base Class Descriptor at (0,0,4,80)'
+	DD	02H
+	DD	00H
+	DD	00H
+	DD	04H
+	DD	050H
+	DD	FLAT:??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8
+rdata$r	ENDS
 ;	COMDAT ??_R4?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
 rdata$r	SEGMENT
 ??_R4?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ DD 00H ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`RTTI Complete Object Locator'
@@ -222,6 +405,16 @@ rdata$r	SEGMENT
 	DD	04H
 	DD	FLAT:??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8
 	DD	FLAT:??_R3?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8
+rdata$r	ENDS
+;	COMDAT ??_R1A@?0A@EA@?$basic_streambuf@DU?$char_traits@D@std@@@std@@8
+rdata$r	SEGMENT
+??_R1A@?0A@EA@?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 DD FLAT:??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Base Class Descriptor at (0,-1,0,64)'
+	DD	00H
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+	DD	040H
+	DD	FLAT:??_R3?$basic_streambuf@DU?$char_traits@D@std@@@std@@8
 rdata$r	ENDS
 ;	COMDAT ??_R1A@?0A@EA@FastWriter@Json@@8
 rdata$r	SEGMENT
@@ -232,6 +425,13 @@ rdata$r	SEGMENT
 	DD	00H
 	DD	040H
 	DD	FLAT:??_R3FastWriter@Json@@8
+rdata$r	ENDS
+;	COMDAT ??_R3ios_base@std@@8
+rdata$r	SEGMENT
+??_R3ios_base@std@@8 DD 00H				; std::ios_base::`RTTI Class Hierarchy Descriptor'
+	DD	00H
+	DD	02H
+	DD	FLAT:??_R2ios_base@std@@8
 rdata$r	ENDS
 ;	COMDAT ??_7?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
 CONST	SEGMENT
@@ -246,6 +446,13 @@ CONST	SEGMENT
 	DD	FLAT:??_EFastWriter@Json@@UAEPAXI@Z
 	DD	FLAT:?write@FastWriter@Json@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVValue@2@@Z
 CONST	ENDS
+;	COMDAT ??_R3?$basic_streambuf@DU?$char_traits@D@std@@@std@@8
+rdata$r	SEGMENT
+??_R3?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 DD 00H ; std::basic_streambuf<char,std::char_traits<char> >::`RTTI Class Hierarchy Descriptor'
+	DD	00H
+	DD	01H
+	DD	FLAT:??_R2?$basic_streambuf@DU?$char_traits@D@std@@@std@@8
+rdata$r	ENDS
 ;	COMDAT ??_R4Writer@Json@@6B@
 rdata$r	SEGMENT
 ??_R4Writer@Json@@6B@ DD 00H				; Json::Writer::`RTTI Complete Object Locator'
@@ -254,6 +461,25 @@ rdata$r	SEGMENT
 	DD	FLAT:??_R0?AVWriter@Json@@@8
 	DD	FLAT:??_R3Writer@Json@@8
 rdata$r	ENDS
+;	COMDAT ??_7?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@
+CONST	SEGMENT
+??_7?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@ DD FLAT:??_R4?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_streambuf<char,std::char_traits<char> >::`vftable'
+	DD	FLAT:??_E?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z
+	DD	FLAT:?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+	DD	FLAT:?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+	DD	FLAT:?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
+	DD	FLAT:?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
+	DD	FLAT:?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+	DD	FLAT:?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+	DD	FLAT:?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+	DD	FLAT:?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+	DD	FLAT:?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+	DD	FLAT:?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z
+	DD	FLAT:?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z
+	DD	FLAT:?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+	DD	FLAT:?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+	DD	FLAT:?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+CONST	ENDS
 ;	COMDAT ??_R4?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
 rdata$r	SEGMENT
 ??_R4?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ DD 00H ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`RTTI Complete Object Locator'
@@ -275,6 +501,16 @@ _DATA	SEGMENT
 	DB	'.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allo'
 	DB	'cator@D@2@@std@@', 00H
 _DATA	ENDS
+;	COMDAT ??_R17?0A@EA@?$_Iosb@H@std@@8
+rdata$r	SEGMENT
+??_R17?0A@EA@?$_Iosb@H@std@@8 DD FLAT:??_R0?AV?$_Iosb@H@std@@@8 ; std::_Iosb<int>::`RTTI Base Class Descriptor at (8,-1,0,64)'
+	DD	00H
+	DD	08H
+	DD	0ffffffffH
+	DD	00H
+	DD	040H
+	DD	FLAT:??_R3?$_Iosb@H@std@@8
+rdata$r	ENDS
 ;	COMDAT ??_C@_01GPOEFGEJ@?7?$AA@
 CONST	SEGMENT
 ??_C@_01GPOEFGEJ@?7?$AA@ DB 09H, 00H			; `string'
@@ -389,10 +625,16 @@ PUBLIC	??$addressof@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@
 PUBLIC	??$?6DU?$char_traits@D@std@@_J@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABU?$_Smanip@_J@0@@Z ; std::operator<<<char,std::char_traits<char>,__int64>
 PUBLIC	??$?6DU?$char_traits@D@std@@D@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABU?$_Fillobj@D@0@@Z ; std::operator<<<char,std::char_traits<char>,char>
 PUBLIC	??$setfill@D@std@@YA?AU?$_Fillobj@D@0@D@Z	; std::setfill<char>
+PUBLIC	?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ ; std::basic_streambuf<char,std::char_traits<char> >::_Init
 PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QAE@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PBU_Container_base0@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >
 PUBLIC	?_Getstate@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEHH@Z ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::_Getstate
 PUBLIC	?_Init@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXPBDIH@Z ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::_Init
+PUBLIC	??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ ; std::basic_streambuf<char,std::char_traits<char> >::basic_streambuf<char,std::char_traits<char> >
+PUBLIC	?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z ; std::basic_ios<char,std::char_traits<char> >::widen
 PUBLIC	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
+PUBLIC	??B?$fpos@H@std@@QBE_JXZ			; std::fpos<int>::operator __int64
+PUBLIC	??0?$fpos@H@std@@QAE@_J@Z			; std::fpos<int>::fpos<int>
+PUBLIC	?put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DJ@Z ; std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::put
 PUBLIC	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::_Compat
 PUBLIC	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::operator++
 PUBLIC	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::operator*
@@ -401,9 +643,22 @@ PUBLIC	?_Tidy@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IA
 PUBLIC	?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::str
 PUBLIC	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >
 PUBLIC	?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z ; std::basic_streambuf<char,std::char_traits<char> >::setp
+PUBLIC	?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z ; std::basic_streambuf<char,std::char_traits<char> >::setp
+PUBLIC	?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z ; std::basic_streambuf<char,std::char_traits<char> >::pbump
+PUBLIC	?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ; std::basic_streambuf<char,std::char_traits<char> >::epptr
+PUBLIC	?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z ; std::basic_streambuf<char,std::char_traits<char> >::setg
+PUBLIC	?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z ; std::basic_streambuf<char,std::char_traits<char> >::gbump
+PUBLIC	?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ; std::basic_streambuf<char,std::char_traits<char> >::egptr
+PUBLIC	?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ; std::basic_streambuf<char,std::char_traits<char> >::pptr
 PUBLIC	?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ; std::basic_streambuf<char,std::char_traits<char> >::pbase
+PUBLIC	?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ; std::basic_streambuf<char,std::char_traits<char> >::eback
+PUBLIC	??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ ; std::basic_ios<char,std::char_traits<char> >::basic_ios<char,std::char_traits<char> >
+PUBLIC	?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z ; std::basic_ios<char,std::char_traits<char> >::init
 PUBLIC	??_G?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`scalar deleting destructor'
 PUBLIC	??_G?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`scalar deleting destructor'
+PUBLIC	??_Glocale@std@@QAEPAXI@Z			; std::locale::`scalar deleting destructor'
+PUBLIC	??_G?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z ; std::basic_streambuf<char,std::char_traits<char> >::`scalar deleting destructor'
+PUBLIC	??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z ; std::basic_ios<char,std::char_traits<char> >::`scalar deleting destructor'
 PUBLIC	??_G?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z ; std::basic_ostream<char,std::char_traits<char> >::`scalar deleting destructor'
 PUBLIC	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::operator!=
 PUBLIC	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::operator==
@@ -424,6 +679,25 @@ PUBLIC	??A?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@
 PUBLIC	?empty@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE_NXZ ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::empty
 PUBLIC	?end@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@2@XZ ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::end
 PUBLIC	?begin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@2@XZ ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::begin
+PUBLIC	?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z ; std::basic_streambuf<char,std::char_traits<char> >::imbue
+PUBLIC	?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ ; std::basic_streambuf<char,std::char_traits<char> >::sync
+PUBLIC	?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z ; std::basic_streambuf<char,std::char_traits<char> >::setbuf
+PUBLIC	?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z ; std::basic_streambuf<char,std::char_traits<char> >::seekpos
+PUBLIC	?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z ; std::basic_streambuf<char,std::char_traits<char> >::seekoff
+PUBLIC	?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z ; std::basic_streambuf<char,std::char_traits<char> >::xsputn
+PUBLIC	?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z ; std::basic_streambuf<char,std::char_traits<char> >::xsgetn
+PUBLIC	?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ ; std::basic_streambuf<char,std::char_traits<char> >::uflow
+PUBLIC	?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ ; std::basic_streambuf<char,std::char_traits<char> >::underflow
+PUBLIC	?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ ; std::basic_streambuf<char,std::char_traits<char> >::showmanyc
+PUBLIC	?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z ; std::basic_streambuf<char,std::char_traits<char> >::pbackfail
+PUBLIC	?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z ; std::basic_streambuf<char,std::char_traits<char> >::overflow
+PUBLIC	?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ ; std::basic_streambuf<char,std::char_traits<char> >::_Unlock
+PUBLIC	?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ ; std::basic_streambuf<char,std::char_traits<char> >::_Lock
+PUBLIC	??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ ; std::basic_streambuf<char,std::char_traits<char> >::~basic_streambuf<char,std::char_traits<char> >
+PUBLIC	?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ ; std::basic_ios<char,std::char_traits<char> >::_Add_vtordisp2
+PUBLIC	?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ ; std::basic_ios<char,std::char_traits<char> >::_Add_vtordisp1
+PUBLIC	??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ ; std::basic_ios<char,std::char_traits<char> >::~basic_ios<char,std::char_traits<char> >
+PUBLIC	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z ; std::basic_ostream<char,std::char_traits<char> >::operator<<
 PUBLIC	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z ; std::basic_ostream<char,std::char_traits<char> >::operator<<
 PUBLIC	?_Add_vtordisp2@?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEXXZ ; std::basic_ostream<char,std::char_traits<char> >::_Add_vtordisp2
 PUBLIC	??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ ; std::basic_ostream<char,std::char_traits<char> >::~basic_ostream<char,std::char_traits<char> >
@@ -454,14 +728,24 @@ PUBLIC	??1FastWriter@Json@@UAE@XZ			; Json::FastWriter::~FastWriter
 PUBLIC	??_D?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ ; std::basic_ostream<char,std::char_traits<char> >::`vbase destructor'
 PUBLIC	?uppercase@std@@YAAAVios_base@1@AAV21@@Z	; std::uppercase
 PUBLIC	?hex@std@@YAAAVios_base@1@AAV21@@Z		; std::hex
+PUBLIC	??_Gios_base@std@@UAEPAXI@Z			; std::ios_base::`scalar deleting destructor'
+PUBLIC	?_Init@ios_base@std@@IAEXXZ			; std::ios_base::_Init
+PUBLIC	??0ios_base@std@@IAE@XZ				; std::ios_base::ios_base
+PUBLIC	??1ios_base@std@@UAE@XZ				; std::ios_base::~ios_base
 PUBLIC	?setf@ios_base@std@@QAEHHH@Z			; std::ios_base::setf
 PUBLIC	?setf@ios_base@std@@QAEHH@Z			; std::ios_base::setf
+PUBLIC	?clear@ios_base@std@@QAEXH@Z			; std::ios_base::clear
+PUBLIC	??0locale@std@@QAE@XZ				; std::locale::locale
+PUBLIC	?not_eof@?$char_traits@D@std@@SAHABH@Z		; std::char_traits<char>::not_eof
 PUBLIC	?eq@?$char_traits@D@std@@SA_NABD0@Z		; std::char_traits<char>::eq
 PUBLIC	??1Writer@Json@@UAE@XZ				; Json::Writer::~Writer
 PUBLIC	?write@StyledWriter@Json@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVValue@2@@Z ; Json::StyledWriter::write
 EXTRN	??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z:PROC ; std::basic_ostream<char,std::char_traits<char> >::`vector deleting destructor'
+EXTRN	??_E?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z:PROC ; std::basic_ios<char,std::char_traits<char> >::`vector deleting destructor'
 EXTRN	??_E?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z:PROC ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`vector deleting destructor'
+EXTRN	??_E?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z:PROC ; std::basic_streambuf<char,std::char_traits<char> >::`vector deleting destructor'
 EXTRN	??_E?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z:PROC ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`vector deleting destructor'
+EXTRN	??_Eios_base@std@@UAEPAXI@Z:PROC		; std::ios_base::`vector deleting destructor'
 EXTRN	??_EWriter@Json@@UAEPAXI@Z:PROC			; Json::Writer::`vector deleting destructor'
 EXTRN	??_EFastWriter@Json@@UAEPAXI@Z:PROC		; Json::FastWriter::`vector deleting destructor'
 	ALIGN	4
@@ -657,6 +941,36 @@ __unwindtable$??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_str
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
+__ehfuncinfo$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z DD 019930522H
+	DD	05H
+	DD	FLAT:__unwindtable$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+	DD	01H
+	DD	FLAT:__tryblocktable$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+__unwindtable$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$4
+	DD	0ffffffffH
+	DD	FLAT:__unwindfunclet$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$2
+	DD	01H
+	DD	FLAT:__unwindfunclet$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$3
+	DD	01H
+	DD	00H
+	DD	01H
+	DD	00H
+__tryblocktable$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z DD 03H
+	DD	03H
+	DD	04H
+	DD	01H
+	DD	FLAT:__catchsym$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$5
+__catchsym$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$5 DD 040H
+	DD	00H
+	DD	00H
+	DD	FLAT:__catch$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$0
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
 __ehfuncinfo$?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z DD 019930522H
 	DD	02H
 	DD	FLAT:__unwindtable$?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z
@@ -691,6 +1005,18 @@ __unwindtable$??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
+__ehfuncinfo$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+__unwindtable$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z$0
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
 __ehfuncinfo$??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z DD 019930522H
 	DD	01H
 	DD	FLAT:__unwindtable$??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z
@@ -700,6 +1026,18 @@ __ehfuncinfo$??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 	DD	01H
 __unwindtable$??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z$0
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+__unwindtable$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z$0
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -792,8 +1130,6 @@ _root$ = 12						; size = 4
 ?write@StyledWriter@Json@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVValue@2@@Z PROC ; Json::StyledWriter::write, COMDAT
 ; _this$ = ecx
 
-; 278  : {
-
 	push	ebp
 	mov	ebp, esp
 	and	esp, -8					; fffffff8H
@@ -809,8 +1145,6 @@ _root$ = 12						; size = 4
 	push	0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 279  :    document_ = "";
-
 	lea	ebx, DWORD PTR [edi+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -824,8 +1158,6 @@ _root$ = 12						; size = 4
 	push	OFFSET ??_C@_00CNPNBAHC@?$AA@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 281  :    indentString_ = "";
-
 	lea	ecx, DWORD PTR [edi+40]
 	mov	BYTE PTR [edi+72], 0
 ; File f:\program_files\vc\include\xstring
@@ -835,20 +1167,14 @@ _root$ = 12						; size = 4
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 282  :    writeCommentBeforeValue( root );
-
 	mov	esi, DWORD PTR _root$[ebp]
 	push	esi
 	mov	ecx, edi
 	call	?writeCommentBeforeValue@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeCommentBeforeValue
 
-; 283  :    writeValue( root );
-
 	push	esi
 	mov	ecx, edi
 	call	?writeValue@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeValue
-
-; 284  :    writeCommentAfterValueOnSameLine( root );
 
 	push	esi
 	mov	ecx, edi
@@ -2060,8 +2386,6 @@ _root$ = 12						; size = 4
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 287  : }
-
 	pop	edi
 	mov	eax, esi
 	pop	esi
@@ -2078,11 +2402,7 @@ _TEXT	SEGMENT
 ??1Writer@Json@@UAE@XZ PROC				; Json::Writer::~Writer, COMDAT
 ; _this$ = ecx
 
-; 177  : {
-
 	mov	DWORD PTR [ecx], OFFSET ??_7Writer@Json@@6B@
-
-; 178  : }
 
 	ret	0
 ??1Writer@Json@@UAE@XZ ENDP				; Json::Writer::~Writer
@@ -2106,6 +2426,80 @@ _TEXT	SEGMENT
 
 	ret	0
 ?eq@?$char_traits@D@std@@SA_NABD0@Z ENDP		; std::char_traits<char>::eq
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\iosfwd
+;	COMDAT ?not_eof@?$char_traits@D@std@@SAHABH@Z
+_TEXT	SEGMENT
+__Meta$ = 8						; size = 4
+?not_eof@?$char_traits@D@std@@SAHABH@Z PROC		; std::char_traits<char>::not_eof, COMDAT
+
+; 599  : 		{	// return anything but EOF
+
+	push	ebp
+	mov	ebp, esp
+
+; 600  : 		return (_Meta != eof() ? _Meta : !eof());
+
+	mov	eax, DWORD PTR __Meta$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	xor	eax, eax
+	cmp	ecx, -1
+	cmovne	eax, ecx
+
+; 601  : 		}
+
+	pop	ebp
+	ret	0
+?not_eof@?$char_traits@D@std@@SAHABH@Z ENDP		; std::char_traits<char>::not_eof
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xlocale
+;	COMDAT ??0locale@std@@QAE@XZ
+_TEXT	SEGMENT
+??0locale@std@@QAE@XZ PROC				; std::locale::locale, COMDAT
+; _this$ = ecx
+
+; 329  : 		{	// construct from current locale
+
+	push	esi
+	push	1
+	mov	esi, ecx
+	call	?_Init@locale@std@@CAPAV_Locimp@12@_N@Z	; std::locale::_Init
+	add	esp, 4
+	mov	DWORD PTR [esi], eax
+
+; 330  : 		}
+
+	mov	eax, esi
+	pop	esi
+	ret	0
+??0locale@std@@QAE@XZ ENDP				; std::locale::locale
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xiosbase
+;	COMDAT ?clear@ios_base@std@@QAEXH@Z
+_TEXT	SEGMENT
+__State$ = 8						; size = 4
+?clear@ios_base@std@@QAEXH@Z PROC			; std::ios_base::clear, COMDAT
+; _this$ = ecx
+
+; 316  : 		{	// set state to argument
+
+	push	ebp
+	mov	ebp, esp
+
+; 317  : 		clear(_State, false);
+
+	push	0
+	push	DWORD PTR __State$[ebp]
+	call	?clear@ios_base@std@@QAEXH_N@Z		; std::ios_base::clear
+
+; 318  : 		}
+
+	pop	ebp
+	ret	4
+?clear@ios_base@std@@QAEXH@Z ENDP			; std::ios_base::clear
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\xiosbase
@@ -2168,6 +2562,168 @@ __Mask$ = 12						; size = 4
 	pop	ebp
 	ret	8
 ?setf@ios_base@std@@QAEHHH@Z ENDP			; std::ios_base::setf
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xiosbase
+;	COMDAT ??1ios_base@std@@UAE@XZ
+_TEXT	SEGMENT
+??1ios_base@std@@UAE@XZ PROC				; std::ios_base::~ios_base, COMDAT
+; _this$ = ecx
+
+; 532  : 		_Ios_base_dtor(this);
+
+	push	ecx
+	mov	DWORD PTR [ecx], OFFSET ??_7ios_base@std@@6B@
+	call	?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z ; std::ios_base::_Ios_base_dtor
+	pop	ecx
+
+; 533  : 		}
+
+	ret	0
+??1ios_base@std@@UAE@XZ ENDP				; std::ios_base::~ios_base
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xiosbase
+;	COMDAT ??0ios_base@std@@IAE@XZ
+_TEXT	SEGMENT
+??0ios_base@std@@IAE@XZ PROC				; std::ios_base::ios_base, COMDAT
+; _this$ = ecx
+
+; 541  : 	__CLR_OR_THIS_CALL ios_base()
+
+	mov	DWORD PTR [ecx], OFFSET ??_7ios_base@std@@6B@
+
+; 542  : 		{	// default constructor
+; 543  : 		}
+
+	mov	eax, ecx
+	ret	0
+??0ios_base@std@@IAE@XZ ENDP				; std::ios_base::ios_base
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\xiosbase
+;	COMDAT ?_Init@ios_base@std@@IAEXXZ
+_TEXT	SEGMENT
+?_Init@ios_base@std@@IAEXXZ PROC			; std::ios_base::_Init, COMDAT
+; _this$ = ecx
+
+; 546  : 		{	// initialize a new ios_base
+
+	push	ecx
+	push	esi
+	mov	esi, ecx
+	push	edi
+
+; 317  : 		clear(_State, false);
+
+	push	0
+	push	0
+
+; 547  : 		_Ploc = 0;
+
+	mov	DWORD PTR [esi+48], 0
+
+; 548  : 		_Stdstr = 0;
+
+	mov	DWORD PTR [esi+8], 0
+
+; 549  : 		_Except = goodbit;
+
+	mov	DWORD PTR [esi+16], 0
+
+; 550  : 		_Fmtfl = (fmtflags)(skipws | dec);
+
+	mov	DWORD PTR [esi+20], 513			; 00000201H
+
+; 551  : 		_Prec = 6;
+
+	mov	DWORD PTR [esi+24], 6
+	mov	DWORD PTR [esi+28], 0
+
+; 552  : 		_Wide = 0;
+
+	mov	DWORD PTR [esi+32], 0
+	mov	DWORD PTR [esi+36], 0
+
+; 553  : 		_Arr = 0;
+
+	mov	DWORD PTR [esi+40], 0
+
+; 554  : 		_Calls = 0;
+
+	mov	DWORD PTR [esi+44], 0
+
+; 317  : 		clear(_State, false);
+
+	call	?clear@ios_base@std@@QAEXH_N@Z		; std::ios_base::clear
+
+; 556  : 		_Ploc = _NEW_CRT locale;
+
+	push	4
+	call	??2@YAPAXI@Z				; operator new
+	mov	edi, eax
+	add	esp, 4
+	test	edi, edi
+	je	SHORT $LN3@Init
+; File f:\program_files\vc\include\xlocale
+
+; 329  : 		{	// construct from current locale
+
+	push	1
+	call	?_Init@locale@std@@CAPAV_Locimp@12@_N@Z	; std::locale::_Init
+	mov	DWORD PTR [edi], eax
+	add	esp, 4
+; File f:\program_files\vc\include\xiosbase
+
+; 556  : 		_Ploc = _NEW_CRT locale;
+
+	mov	DWORD PTR [esi+48], edi
+
+; 557  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ecx
+	ret	0
+$LN3@Init:
+	pop	edi
+	mov	DWORD PTR [esi+48], 0
+	pop	esi
+	pop	ecx
+	ret	0
+?_Init@ios_base@std@@IAEXXZ ENDP			; std::ios_base::_Init
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xiosbase
+;	COMDAT ??_Gios_base@std@@UAEPAXI@Z
+_TEXT	SEGMENT
+___flags$ = 8						; size = 4
+??_Gios_base@std@@UAEPAXI@Z PROC			; std::ios_base::`scalar deleting destructor', COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	push	esi
+	mov	esi, ecx
+
+; 532  : 		_Ios_base_dtor(this);
+
+	push	esi
+	mov	DWORD PTR [esi], OFFSET ??_7ios_base@std@@6B@
+	call	?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z ; std::ios_base::_Ios_base_dtor
+	add	esp, 4
+	test	BYTE PTR ___flags$[ebp], 1
+	je	SHORT $LN6@scalar
+	push	esi
+	call	??3@YAXPAX@Z				; operator delete
+	add	esp, 4
+$LN6@scalar:
+	mov	eax, esi
+	pop	esi
+	pop	ebp
+	ret	4
+??_Gios_base@std@@UAEPAXI@Z ENDP			; std::ios_base::`scalar deleting destructor'
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\ios
@@ -2282,8 +2838,6 @@ _TEXT	SEGMENT
 ??1FastWriter@Json@@UAE@XZ PROC				; Json::FastWriter::~FastWriter, COMDAT
 ; _this$ = ecx
 
-; 33   :       virtual ~FastWriter(){}
-
 	push	esi
 	mov	esi, ecx
 	mov	DWORD PTR [esi], OFFSET ??_7FastWriter@Json@@6B@
@@ -2317,13 +2871,9 @@ $LN23@FastWriter:
 	mov	BYTE PTR [esi+4], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 177  : {
-
 	mov	DWORD PTR [esi], OFFSET ??_7Writer@Json@@6B@
 	pop	esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\writer.h
-
-; 33   :       virtual ~FastWriter(){}
 
 	ret	0
 ??1FastWriter@Json@@UAE@XZ ENDP				; Json::FastWriter::~FastWriter
@@ -2345,8 +2895,6 @@ ___flags$ = 8						; size = 4
 	push	esi
 	mov	esi, ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\writer.h
-
-; 33   :       virtual ~FastWriter(){}
 
 	mov	DWORD PTR [esi], OFFSET ??_7FastWriter@Json@@6B@
 ; File f:\program_files\vc\include\xstring
@@ -2380,8 +2928,6 @@ $LN26@scalar:
 	mov	BYTE PTR [esi+4], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 177  : {
-
 	mov	DWORD PTR [esi], OFFSET ??_7Writer@Json@@6B@
 	je	SHORT $LN40@scalar
 	push	esi
@@ -2401,15 +2947,11 @@ _TEXT	SEGMENT
 ?isControlCharacter@Json@@YA_ND@Z PROC			; Json::isControlCharacter, COMDAT
 ; _ch$ = cl
 
-; 18   :    return ch > 0 && ch <= 0x1F;
-
 	dec	cl
 	mov	eax, 30					; 0000001eH
 	cmp	al, cl
 	sbb	eax, eax
 	inc	eax
-
-; 19   : }
 
 	ret	0
 ?isControlCharacter@Json@@YA_ND@Z ENDP			; Json::isControlCharacter
@@ -2421,57 +2963,34 @@ _TEXT	SEGMENT
 ?containsControlCharacter@Json@@YA_NPBD@Z PROC		; Json::containsControlCharacter, COMDAT
 ; _str$ = ecx
 
-; 23   :    while ( *str ) 
-
 	mov	al, BYTE PTR [ecx]
 	test	al, al
 	je	SHORT $LN2@containsCo
 $LL3@containsCo:
 
-; 18   :    return ch > 0 && ch <= 0x1F;
-
 	dec	al
 	mov	dl, 30					; 0000001eH
 	cmp	dl, al
 
-; 24   :    {
-; 25   :       if ( isControlCharacter( *(str++) ) )
-
 	lea	ecx, DWORD PTR [ecx+1]
-
-; 18   :    return ch > 0 && ch <= 0x1F;
 
 	sbb	eax, eax
 	inc	eax
 
-; 24   :    {
-; 25   :       if ( isControlCharacter( *(str++) ) )
-
 	test	al, al
 	jne	SHORT $LN11@containsCo
-
-; 23   :    while ( *str ) 
 
 	mov	al, BYTE PTR [ecx]
 	test	al, al
 	jne	SHORT $LL3@containsCo
 $LN2@containsCo:
 
-; 27   :    }
-; 28   :    return false;
-
 	xor	al, al
-
-; 29   : }
 
 	ret	0
 $LN11@containsCo:
 
-; 26   :          return true;
-
 	mov	al, 1
-
-; 29   : }
 
 	ret	0
 ?containsControlCharacter@Json@@YA_NPBD@Z ENDP		; Json::containsControlCharacter
@@ -2484,24 +3003,16 @@ _TEXT	SEGMENT
 ; _value$ = ecx
 ; _current$ = edx
 
-; 32   : {
-
 	push	ebx
 	push	esi
 	push	edi
 	mov	edi, edx
-
-; 33   :    *--current = 0;
 
 	dec	DWORD PTR [edi]
 	mov	esi, DWORD PTR [edi]
 	mov	BYTE PTR [esi], 0
 	npad	4
 $LL3@uintToStri:
-
-; 34   :    do
-; 35   :    {
-; 36   :       *--current = (value % 10) + '0';
 
 	mov	eax, -858993459				; cccccccdH
 	mul	ecx
@@ -2516,17 +3027,10 @@ $LL3@uintToStri:
 	add	cl, 48					; 00000030H
 	mov	BYTE PTR [esi], cl
 
-; 37   :       value /= 10;
-
 	mov	ecx, edx
-
-; 38   :    }
-; 39   :    while ( value != 0 );
 
 	test	ecx, ecx
 	jne	SHORT $LL3@uintToStri
-
-; 40   : }
 
 	pop	edi
 	pop	esi
@@ -2549,8 +3053,6 @@ __$ArrayPad$ = -4					; size = 4
 ; ___$ReturnUdt$ = ecx
 ; _value$ = edx
 
-; 43   : {
-
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 40					; 00000028H
@@ -2561,35 +3063,21 @@ __$ArrayPad$ = -4					; size = 4
 	push	esi
 	mov	ebx, edx
 
-; 44   :    char buffer[32];
-; 45   :    char *current = buffer + sizeof(buffer);
-; 46   :    bool isNegative = value < 0;
-
 	test	ebx, ebx
 	push	edi
 	mov	edi, ecx
 	sets	ch
 	mov	DWORD PTR $T1[ebp], 0
 
-; 47   :    if ( isNegative )
-
 	test	ch, ch
 	je	SHORT $LN2@valueToStr
-
-; 48   :       value = -value;
 
 	neg	ebx
 $LN2@valueToStr:
 
-; 33   :    *--current = 0;
-
 	lea	esi, DWORD PTR _buffer$[ebp+31]
 	mov	BYTE PTR _buffer$[ebp+31], 0
 $LL9@valueToStr:
-
-; 34   :    do
-; 35   :    {
-; 36   :       *--current = (value % 10) + '0';
 
 	mov	eax, -858993459				; cccccccdH
 	mul	ebx
@@ -2604,23 +3092,13 @@ $LL9@valueToStr:
 	add	bl, 48					; 00000030H
 	mov	BYTE PTR [esi], bl
 
-; 37   :       value /= 10;
-
 	mov	ebx, edx
-
-; 38   :    }
-; 39   :    while ( value != 0 );
 
 	test	ebx, ebx
 	jne	SHORT $LL9@valueToStr
 
-; 49   :    uintToString( UInt(value), current );
-; 50   :    if ( isNegative )
-
 	test	ch, ch
 	je	SHORT $LN1@valueToStr
-
-; 51   :       *--current = '-';
 
 	dec	esi
 	mov	BYTE PTR [esi], 45			; 0000002dH
@@ -3740,8 +4218,6 @@ $LN55@valueToStr:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 54   : }
-
 	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
 	mov	eax, edi
 	pop	edi
@@ -3769,8 +4245,6 @@ __$ArrayPad$ = -4					; size = 4
 ; ___$ReturnUdt$ = ecx
 ; _value$ = edx
 
-; 58   : {
-
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 40					; 00000028H
@@ -3784,15 +4258,9 @@ __$ArrayPad$ = -4					; size = 4
 	mov	edi, ecx
 	mov	DWORD PTR $T1[ebp], 0
 
-; 33   :    *--current = 0;
-
 	lea	esi, DWORD PTR _buffer$[ebp+31]
 	mov	BYTE PTR _buffer$[ebp+31], 0
 $LL7@valueToStr:
-
-; 34   :    do
-; 35   :    {
-; 36   :       *--current = (value % 10) + '0';
 
 	mov	eax, -858993459				; cccccccdH
 	mul	ebx
@@ -3806,12 +4274,7 @@ $LL7@valueToStr:
 	add	bl, 48					; 00000030H
 	mov	BYTE PTR [esi], bl
 
-; 37   :       value /= 10;
-
 	mov	ebx, edx
-
-; 38   :    }
-; 39   :    while ( value != 0 );
 
 	test	ebx, ebx
 	jne	SHORT $LL7@valueToStr
@@ -4929,8 +5392,6 @@ $LN53@valueToStr:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 64   : }
-
 	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
 	mov	eax, edi
 	pop	edi
@@ -4968,8 +5429,6 @@ __$ArrayPad$ = -4					; size = 4
 ; ___$ReturnUdt$ = ecx
 ; _value$ = xmm1l
 
-; 67   : {
-
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 44					; 0000002cH
@@ -4977,10 +5436,6 @@ __$ArrayPad$ = -4					; size = 4
 	xor	eax, ebp
 	mov	DWORD PTR __$ArrayPad$[ebp], eax
 	push	esi
-
-; 68   :    char buffer[32];
-; 69   : #if defined(_MSC_VER) && defined(__STDC_SECURE_LIB__) // Use secure version with visual studio 2005 to avoid warning. 
-; 70   :    sprintf_s(buffer, sizeof(buffer), "%#.16g", value); 
 
 	sub	esp, 8
 	movapd	xmm0, xmm1
@@ -4993,11 +5448,6 @@ __$ArrayPad$ = -4					; size = 4
 	mov	DWORD PTR $T1[ebp], 0
 	call	_sprintf_s
 
-; 71   : #else	
-; 72   :    sprintf(buffer, "%#.16g", value); 
-; 73   : #endif
-; 74   :    char* ch = buffer + strlen(buffer) - 1;
-
 	lea	ecx, DWORD PTR _buffer$[ebp]
 	add	esp, 20					; 00000014H
 	lea	edx, DWORD PTR [ecx+1]
@@ -5008,8 +5458,6 @@ $LL198@valueToStr:
 	test	al, al
 	jne	SHORT $LL198@valueToStr
 	sub	ecx, edx
-
-; 75   :    if (*ch != '0') return buffer; // nothing to truncate, so save time
 
 	cmp	BYTE PTR _buffer$[ebp+ecx-1], 48	; 00000030H
 	lea	eax, DWORD PTR _buffer$[ebp+ecx-1]
@@ -6115,12 +6563,8 @@ $LL199@valueToStr:
 	jne	SHORT $LL199@valueToStr
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 75   :    if (*ch != '0') return buffer; // nothing to truncate, so save time
-
 	jmp	$LN204@valueToStr
 $LN191@valueToStr:
-
-; 76   :    while(ch > buffer && *ch == '0'){
 
 	lea	ecx, DWORD PTR _buffer$[ebp]
 	cmp	eax, ecx
@@ -6129,17 +6573,11 @@ $LL9@valueToStr:
 	cmp	BYTE PTR [eax], 48			; 00000030H
 	jne	SHORT $LN203@valueToStr
 
-; 77   :      --ch;
-
 	dec	eax
 	lea	ecx, DWORD PTR _buffer$[ebp]
 	cmp	eax, ecx
 	ja	SHORT $LL9@valueToStr
 $LN203@valueToStr:
-
-; 78   :    }
-; 79   :    char* last_nonzero = ch;
-; 80   :    while(ch >= buffer){
 
 	lea	ecx, DWORD PTR _buffer$[ebp]
 	mov	edx, eax
@@ -6148,26 +6586,12 @@ $LN203@valueToStr:
 	npad	6
 $LL7@valueToStr:
 
-; 81   :      switch(*ch){
-
 	mov	cl, BYTE PTR [eax]
 	cmp	cl, 46					; 0000002eH
 	je	SHORT $LN2@valueToStr
 	sub	cl, 48					; 00000030H
 	cmp	cl, 9
 	ja	SHORT $LN193@valueToStr
-
-; 82   :      case '0':
-; 83   :      case '1':
-; 84   :      case '2':
-; 85   :      case '3':
-; 86   :      case '4':
-; 87   :      case '5':
-; 88   :      case '6':
-; 89   :      case '7':
-; 90   :      case '8':
-; 91   :      case '9':
-; 92   :        --ch;
 
 	dec	eax
 	lea	ecx, DWORD PTR _buffer$[ebp]
@@ -8372,15 +8796,8 @@ $LL200@valueToStr:
 	jne	SHORT $LL200@valueToStr
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 99   :        return buffer;
-
 	jmp	SHORT $LN204@valueToStr
 $LN2@valueToStr:
-
-; 93   :        continue;
-; 94   :      case '.':
-; 95   :        // Truncate zeroes to save bytes in output, but keep one.
-; 96   :        *(last_nonzero+2) = '\0';
 
 	mov	BYTE PTR [edx+2], 0
 ; File f:\program_files\vc\include\xstring
@@ -9485,8 +9902,6 @@ $LL201@valueToStr:
 	jne	SHORT $LL201@valueToStr
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 97   :        return buffer;
-
 	jmp	SHORT $LN204@valueToStr
 $LN189@valueToStr:
 ; File f:\program_files\vc\include\iosfwd
@@ -9515,8 +9930,6 @@ $LN190@valueToStr:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 103  : }
-
 	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
 	mov	eax, esi
 	xor	ecx, ebp
@@ -9543,16 +9956,12 @@ $T1 = -4						; size = 4
 ; ___$ReturnUdt$ = ecx
 ; _value$ = dl
 
-; 107  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
 	push	esi
 	push	edi
 	mov	esi, ecx
-
-; 108  :    return value ? "true" : "false";
 
 	test	dl, dl
 	mov	edi, OFFSET ??_C@_04LOAJBDKD@true?$AA@
@@ -10663,12 +11072,8 @@ $T1 = -4						; size = 4
 	pop	edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 108  :    return value ? "true" : "false";
-
 	mov	eax, esi
 	pop	esi
-
-; 109  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -10698,12 +11103,8 @@ $LL49@valueToStr:
 	pop	edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 108  :    return value ? "true" : "false";
-
 	mov	eax, esi
 	pop	esi
-
-; 109  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -10809,8 +11210,6 @@ __$EHRec$ = -12						; size = 12
 ; ___$ReturnUdt$ = ecx
 ; _value$ = edx
 
-; 112  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -10831,9 +11230,6 @@ __$EHRec$ = -12						; size = 12
 	mov	ebx, ecx
 	mov	DWORD PTR ___$ReturnUdt$GSCopy$1$[ebp], ebx
 
-; 113  :    // Not sure how to handle unicode...
-; 114  :    if (strpbrk(value, "\"\\\b\f\n\r\t") == NULL && !containsControlCharacter( value ))
-
 	push	OFFSET ??_C@_07FKPPGBGM@?$CC?2?$AI?$AM?6?$AN?7?$AA@
 	push	edi
 	mov	DWORD PTR $T3[ebp], 0
@@ -10843,48 +11239,23 @@ __$EHRec$ = -12						; size = 12
 	jne	$LN16@valueToQuo
 	mov	ecx, edi
 
-; 19   : }
-; 20   : 
-; 21   : static bool containsControlCharacter( const char* str )
-; 22   : {
-; 23   :    while ( *str ) 
-
 	cmp	BYTE PTR [edi], al
 	je	SHORT $LN27@valueToQuo
 $LL28@valueToQuo:
 
-; 24   :    {
-; 25   :       if ( isControlCharacter( *(str++) ) )
-
 	mov	al, BYTE PTR [ecx]
-
-; 18   :    return ch > 0 && ch <= 0x1F;
 
 	dec	al
 	mov	dl, 30					; 0000001eH
 	cmp	dl, al
 
-; 24   :    {
-; 25   :       if ( isControlCharacter( *(str++) ) )
-
 	lea	ecx, DWORD PTR [ecx+1]
-
-; 18   :    return ch > 0 && ch <= 0x1F;
 
 	sbb	eax, eax
 	inc	eax
 
-; 24   :    {
-; 25   :       if ( isControlCharacter( *(str++) ) )
-
 	test	al, al
 	jne	$LN16@valueToQuo
-
-; 19   : }
-; 20   : 
-; 21   : static bool containsControlCharacter( const char* str )
-; 22   : {
-; 23   :    while ( *str ) 
 
 	cmp	BYTE PTR [ecx], al
 	jne	SHORT $LL28@valueToQuo
@@ -10915,8 +11286,6 @@ $LN27@valueToQuo:
 
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 115  :       return std::string("\"") + value + "\"";
 
 	push	edi
 	lea	edx, DWORD PTR $T4[ebp]
@@ -10976,12 +11345,8 @@ $LN99@valueToQuo:
 	add	esp, 4
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 115  :       return std::string("\"") + value + "\"";
-
 	jmp	$LN131@valueToQuo
 $LN16@valueToQuo:
-
-; 119  :    unsigned maxsize = strlen(value)*2 + 3; // allescaped+quotes+NULL
 
 	mov	ecx, edi
 	lea	edx, DWORD PTR [ecx+1]
@@ -10998,8 +11363,6 @@ $LL589@valueToQuo:
 	mov	DWORD PTR _result$[ebp+20], 15		; 0000000fH
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 119  :    unsigned maxsize = strlen(value)*2 + 3; // allescaped+quotes+NULL
-
 	lea	ecx, DWORD PTR [ecx*2+3]
 ; File f:\program_files\vc\include\xstring
 
@@ -11012,8 +11375,6 @@ $LL589@valueToQuo:
 
 	mov	BYTE PTR _result$[ebp], al
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 120  :    std::string result;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], 2
 ; File f:\program_files\vc\include\xstring
@@ -11059,15 +11420,10 @@ $LN201@valueToQuo:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 123  :    for (const char* c=value; *c != 0; ++c)
-
 	cmp	BYTE PTR [edi], 0
 	je	$LN449@valueToQuo
 	npad	7
 $LL15@valueToQuo:
-
-; 124  :    {
-; 125  :       switch(*c)
 
 	mov	bl, BYTE PTR [edi]
 	movsx	eax, bl
@@ -11087,8 +11443,6 @@ $LN10@valueToQuo:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 129  :             break;
-
 	jmp	$LN14@valueToQuo
 $LN9@valueToQuo:
 ; File f:\program_files\vc\include\xstring
@@ -11100,8 +11454,6 @@ $LN9@valueToQuo:
 	lea	ecx, DWORD PTR _result$[ebp]
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 132  :             break;
 
 	jmp	$LN14@valueToQuo
 $LN8@valueToQuo:
@@ -11115,8 +11467,6 @@ $LN8@valueToQuo:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 135  :             break;
-
 	jmp	$LN14@valueToQuo
 $LN7@valueToQuo:
 ; File f:\program_files\vc\include\xstring
@@ -11128,8 +11478,6 @@ $LN7@valueToQuo:
 	lea	ecx, DWORD PTR _result$[ebp]
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 138  :             break;
 
 	jmp	$LN14@valueToQuo
 $LN6@valueToQuo:
@@ -11143,8 +11491,6 @@ $LN6@valueToQuo:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 141  :             break;
-
 	jmp	$LN14@valueToQuo
 $LN5@valueToQuo:
 ; File f:\program_files\vc\include\xstring
@@ -11156,8 +11502,6 @@ $LN5@valueToQuo:
 	lea	ecx, DWORD PTR _result$[ebp]
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 144  :             break;
 
 	jmp	$LN14@valueToQuo
 $LN257@valueToQuo:
@@ -11171,36 +11515,17 @@ $LN257@valueToQuo:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 147  :             break;
-
 	jmp	$LN14@valueToQuo
 $LN3@valueToQuo:
-
-; 18   :    return ch > 0 && ch <= 0x1F;
 
 	mov	al, bl
 	dec	al
 	cmp	al, 30					; 0000001eH
 	ja	$LN2@valueToQuo
 
-; 148  :          //case '/':
-; 149  :             // Even though \/ is considered a legal escape in JSON, a bare
-; 150  :             // slash is also legal, so I see no reason to escape it.
-; 151  :             // (I hope I am not misunderstanding something.
-; 152  :             // blep notes: actually escaping \/ may be useful in javascript to avoid </ 
-; 153  :             // sequence.
-; 154  :             // Should add a flag to allow this compatibility mode and prevent this 
-; 155  :             // sequence from occurring.
-; 156  :          default:
-; 157  :             if ( isControlCharacter( *c ) )
-; 158  :             {
-; 159  :                std::ostringstream oss;
-
 	sub	esp, 8
 	lea	ecx, DWORD PTR _oss$2[ebp]
 	call	??0?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >
-
-; 160  :                oss << "\\u" << std::hex << std::uppercase << std::setfill('0') << std::setw(4) << static_cast<int>(*c);
 
 	mov	edx, OFFSET ??_C@_02DHFAHMIK@?2u?$AA@
 	lea	ecx, DWORD PTR _oss$2[ebp]
@@ -11253,8 +11578,6 @@ $LN278@valueToQuo:
 	mov	eax, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 160  :                oss << "\\u" << std::hex << std::uppercase << std::setfill('0') << std::setw(4) << static_cast<int>(*c);
-
 	push	0
 ; File f:\program_files\vc\include\iomanip
 
@@ -11263,8 +11586,6 @@ $LN278@valueToQuo:
 	mov	eax, DWORD PTR [eax+4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 160  :                oss << "\\u" << std::hex << std::uppercase << std::setfill('0') << std::setw(4) << static_cast<int>(*c);
-
 	push	4
 ; File f:\program_files\vc\include\ios
 
@@ -11272,8 +11593,6 @@ $LN278@valueToQuo:
 
 	mov	BYTE PTR [eax+esi+64], 48		; 00000030H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 160  :                oss << "\\u" << std::hex << std::uppercase << std::setfill('0') << std::setw(4) << static_cast<int>(*c);
 
 	lea	eax, DWORD PTR $T5[ebp]
 	push	eax
@@ -11284,8 +11603,6 @@ $LN278@valueToQuo:
 
 	mov	ecx, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 160  :                oss << "\\u" << std::hex << std::uppercase << std::setfill('0') << std::setw(4) << static_cast<int>(*c);
 
 	add	esp, 12					; 0000000cH
 ; File f:\program_files\vc\include\iomanip
@@ -11301,8 +11618,6 @@ $LN278@valueToQuo:
 	call	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 160  :                oss << "\\u" << std::hex << std::uppercase << std::setfill('0') << std::setw(4) << static_cast<int>(*c);
-
 	movsx	eax, BYTE PTR [edi]
 ; File f:\program_files\vc\include\iomanip
 
@@ -11311,13 +11626,9 @@ $LN278@valueToQuo:
 	add	esp, 12					; 0000000cH
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 160  :                oss << "\\u" << std::hex << std::uppercase << std::setfill('0') << std::setw(4) << static_cast<int>(*c);
-
 	mov	ecx, esi
 	push	eax
 	call	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z ; std::basic_ostream<char,std::char_traits<char> >::operator<<
-
-; 161  :                result += oss.str();
 
 	lea	eax, DWORD PTR $T6[ebp]
 	push	eax
@@ -11332,8 +11643,6 @@ $LN278@valueToQuo:
 	push	eax
 	lea	ecx, DWORD PTR _result$[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 161  :                result += oss.str();
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 4
 ; File f:\program_files\vc\include\xstring
@@ -11355,8 +11664,6 @@ $LN278@valueToQuo:
 	add	esp, 4
 $LN315@valueToQuo:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 162  :             }
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
 ; File f:\program_files\vc\include\sstream
@@ -11414,8 +11721,6 @@ $LN315@valueToQuo:
 	call	?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z ; std::ios_base::_Ios_base_dtor
 	add	esp, 4
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 163  :             else
 
 	jmp	SHORT $LN14@valueToQuo
 $LN2@valueToQuo:
@@ -11503,8 +11808,6 @@ $LN594@valueToQuo:
 	mov	BYTE PTR [esi+eax], 0
 $LN14@valueToQuo:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 123  :    for (const char* c=value; *c != 0; ++c)
 
 	inc	edi
 	cmp	BYTE PTR [edi], 0
@@ -11635,11 +11938,7 @@ $LN491@valueToQuo:
 $LN131@valueToQuo:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 171  :    return result;
-
 	mov	eax, ebx
-
-; 172  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -11855,8 +12154,6 @@ ___flags$ = 8						; size = 4
 	push	esi
 	mov	esi, ecx
 
-; 177  : {
-
 	mov	DWORD PTR [esi], OFFSET ??_7Writer@Json@@6B@
 	je	SHORT $LN6@scalar
 	push	esi
@@ -11887,8 +12184,6 @@ _root$ = 12						; size = 4
 ?write@FastWriter@Json@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVValue@2@@Z PROC ; Json::FastWriter::write, COMDAT
 ; _this$ = ecx
 
-; 199  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
@@ -11902,8 +12197,6 @@ _root$ = 12						; size = 4
 	push	0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 200  :    document_ = "";
-
 	lea	edi, DWORD PTR [esi+4]
 ; File f:\program_files\vc\include\xstring
 
@@ -11914,8 +12207,6 @@ _root$ = 12						; size = 4
 	mov	DWORD PTR $T1[ebp], 0
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 201  :    writeValue( root );
 
 	push	DWORD PTR _root$[ebp]
 	mov	ecx, esi
@@ -13128,12 +13419,8 @@ _root$ = 12						; size = 4
 	pop	edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 203  :    return document_;
-
 	mov	eax, esi
 	pop	esi
-
-; 204  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -13223,8 +13510,6 @@ _value$ = 8						; size = 4
 ?writeValue@FastWriter@Json@@AAEXABVValue@2@@Z PROC	; Json::FastWriter::writeValue, COMDAT
 ; _this$ = ecx
 
-; 209  : {
-
 	push	ebp
 	mov	ebp, esp
 	and	esp, -8					; fffffff8H
@@ -13249,28 +13534,18 @@ _value$ = 8						; size = 4
 	mov	esi, DWORD PTR _value$[ebp]
 	mov	DWORD PTR _value$GSCopy$1$[esp+212], esi
 
-; 210  :    switch ( value.type() )
-
 	movsx	eax, BYTE PTR [esi+8]
 	cmp	eax, 7
 	ja	$LN225@writeValue
 	jmp	DWORD PTR $LN299@writeValue[eax*4]
 $LN16@writeValue:
 
-; 211  :    {
-; 212  :    case nullValue:
-; 213  :       document_ += "null";
-
 	push	OFFSET ??_C@_04MLLLIHIP@null?$AA@
 	lea	ecx, DWORD PTR [ebx+4]
 	call	??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator+=
 
-; 214  :       break;
-
 	jmp	$LN225@writeValue
 $LN15@writeValue:
-
-; 216  :       document_ += valueToString( value.asInt() );
 
 	mov	ecx, esi
 	call	?asInt@Value@Json@@QBEHXZ		; Json::Value::asInt
@@ -13286,8 +13561,6 @@ $LN15@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 216  :       document_ += valueToString( value.asInt() );
-
 	lea	ecx, DWORD PTR [ebx+4]
 	mov	DWORD PTR __$EHRec$[esp+232], 0
 ; File f:\program_files\vc\include\xstring
@@ -13297,17 +13570,11 @@ $LN15@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 216  :       document_ += valueToString( value.asInt() );
-
 	lea	ecx, DWORD PTR $T7[esp+212]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 217  :       break;
-
 	jmp	$LN225@writeValue
 $LN14@writeValue:
-
-; 219  :       document_ += valueToString( value.asUInt() );
 
 	mov	ecx, esi
 	call	?asUInt@Value@Json@@QBEIXZ		; Json::Value::asUInt
@@ -13323,8 +13590,6 @@ $LN14@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 219  :       document_ += valueToString( value.asUInt() );
-
 	lea	ecx, DWORD PTR [ebx+4]
 	mov	DWORD PTR __$EHRec$[esp+232], 1
 ; File f:\program_files\vc\include\xstring
@@ -13334,17 +13599,11 @@ $LN14@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 219  :       document_ += valueToString( value.asUInt() );
-
 	lea	ecx, DWORD PTR $T9[esp+212]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 220  :       break;
-
 	jmp	$LN225@writeValue
 $LN13@writeValue:
-
-; 222  :       document_ += valueToString( value.asDouble() );
 
 	mov	ecx, esi
 	call	?asDouble@Value@Json@@QBENXZ		; Json::Value::asDouble
@@ -13360,8 +13619,6 @@ $LN13@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 222  :       document_ += valueToString( value.asDouble() );
-
 	lea	ecx, DWORD PTR [ebx+4]
 	mov	DWORD PTR __$EHRec$[esp+232], 2
 ; File f:\program_files\vc\include\xstring
@@ -13371,17 +13628,11 @@ $LN13@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 222  :       document_ += valueToString( value.asDouble() );
-
 	lea	ecx, DWORD PTR $T6[esp+212]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 223  :       break;
-
 	jmp	$LN225@writeValue
 $LN12@writeValue:
-
-; 225  :       document_ += valueToQuotedString( value.asCString() );
 
 	mov	edx, DWORD PTR [esi]
 	lea	ecx, DWORD PTR $T8[esp+212]
@@ -13395,8 +13646,6 @@ $LN12@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 225  :       document_ += valueToQuotedString( value.asCString() );
-
 	lea	ecx, DWORD PTR [ebx+4]
 	mov	DWORD PTR __$EHRec$[esp+232], 3
 ; File f:\program_files\vc\include\xstring
@@ -13406,17 +13655,11 @@ $LN12@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 225  :       document_ += valueToQuotedString( value.asCString() );
-
 	lea	ecx, DWORD PTR $T8[esp+212]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 226  :       break;
-
 	jmp	$LN225@writeValue
 $LN11@writeValue:
-
-; 228  :       document_ += valueToString( value.asBool() );
 
 	mov	ecx, esi
 	call	?asBool@Value@Json@@QBE_NXZ		; Json::Value::asBool
@@ -13432,8 +13675,6 @@ $LN11@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 228  :       document_ += valueToString( value.asBool() );
-
 	lea	ecx, DWORD PTR [ebx+4]
 	mov	DWORD PTR __$EHRec$[esp+232], 4
 ; File f:\program_files\vc\include\xstring
@@ -13443,40 +13684,25 @@ $LN11@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 228  :       document_ += valueToString( value.asBool() );
-
 	lea	ecx, DWORD PTR $T10[esp+212]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 229  :       break;
-
 	jmp	$LN225@writeValue
 $LN10@writeValue:
-
-; 230  :    case arrayValue:
-; 231  :       {
-; 232  :          document_ += "[";
 
 	add	ebx, 4
 	push	OFFSET ??_C@_01OHGJGJJP@?$FL?$AA@
 	mov	ecx, ebx
 	call	??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator+=
 
-; 233  :          int size = value.size();
-
 	mov	ecx, esi
 	call	?size@Value@Json@@QBEIXZ		; Json::Value::size
-
-; 234  :          for ( int index =0; index < size; ++index )
 
 	xor	edi, edi
 	mov	DWORD PTR _size$1$[esp+212], eax
 	test	eax, eax
 	jle	SHORT $LN109@writeValue
 $LL9@writeValue:
-
-; 235  :          {
-; 236  :             if ( index > 0 )
 
 	test	edi, edi
 	jle	SHORT $LN52@writeValue
@@ -13491,25 +13717,15 @@ $LL9@writeValue:
 $LN52@writeValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 999  :    if ( type_ == nullValue )
-
 	cmp	BYTE PTR [esi+8], 0
 	jne	SHORT $LN61@writeValue
-
-; 1000 :       return null;
 
 	mov	eax, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
 	jmp	SHORT $LN62@writeValue
 $LN61@writeValue:
 
-; 177  : {
-
 	mov	DWORD PTR _key$2[esp+212], 0
 	mov	DWORD PTR _key$2[esp+216], edi
-
-; 1001 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1002 :    CZString key( index );
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
 
 	mov	esi, DWORD PTR [esi]
 	lea	eax, DWORD PTR _key$2[esp+212]
@@ -13520,8 +13736,6 @@ $LN61@writeValue:
 	call	?find@?$_Tree@V?$_Tmap_traits@VCZString@Value@Json@@V23@U?$less@VCZString@Value@Json@@@std@@V?$allocator@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@5@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBVCZString@Value@Json@@V23@@std@@@std@@@std@@@2@ABVCZString@Value@Json@@@Z ; std::_Tree<std::_Tmap_traits<Json::Value::CZString,Json::Value,std::less<Json::Value::CZString>,std::allocator<std::pair<Json::Value::CZString const ,Json::Value> >,0> >::find
 	mov	eax, DWORD PTR [eax]
 
-; 1005 :       return null;
-
 	mov	DWORD PTR __$EHRec$[esp+220], -1
 ; File f:\program_files\vc\include\xtree
 
@@ -13530,21 +13744,15 @@ $LN61@writeValue:
 	cmp	eax, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1005 :       return null;
-
 	mov	esi, DWORD PTR _value$GSCopy$1$[esp+212]
 	jne	SHORT $LN60@writeValue
 	mov	eax, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
 	jmp	SHORT $LN62@writeValue
 $LN60@writeValue:
 
-; 1006 :    return (*it).second;
-
 	add	eax, 24					; 00000018H
 $LN62@writeValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 238  :             writeValue( value[index] );
 
 	mov	ecx, DWORD PTR _this$GSCopy$1$[esp+212]
 	push	eax
@@ -13563,21 +13771,13 @@ $LN109@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 242  :       break;
-
 	jmp	$LN225@writeValue
 $LN5@writeValue:
-
-; 243  :    case objectValue:
-; 244  :       {
-; 245  :          Value::Members members( value.getMemberNames() );
 
 	lea	eax, DWORD PTR _members$3[esp+212]
 	push	eax
 	mov	ecx, esi
 	call	?getMemberNames@Value@Json@@QBE?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ ; Json::Value::getMemberNames
-
-; 246  :          document_ += "{";
 
 	lea	eax, DWORD PTR [ebx+4]
 	push	OFFSET ??_C@_01HCONENDN@?$HL?$AA@
@@ -13597,8 +13797,6 @@ $LN5@writeValue:
 	cmp	eax, DWORD PTR _members$3[esp+216]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 249  :                ++it )
-
 	je	$LN221@writeValue
 	mov	edi, DWORD PTR _value$GSCopy$1$[esp+212]
 $LL121@writeValue:
@@ -13608,8 +13806,6 @@ $LL121@writeValue:
 
 	cmp	esi, eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 252  :             if ( it != members.begin() )
 
 	je	SHORT $LN155@writeValue
 ; File f:\program_files\vc\include\xstring
@@ -13641,8 +13837,6 @@ $LN167@writeValue:
 $LN168@writeValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 254  :             document_ += valueToQuotedString( name.c_str() );
-
 	lea	ecx, DWORD PTR $T5[esp+212]
 	call	?valueToQuotedString@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z ; Json::valueToQuotedString
 ; File f:\program_files\vc\include\xstring
@@ -13655,8 +13849,6 @@ $LN168@writeValue:
 	lea	ecx, DWORD PTR [ebx+4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 254  :             document_ += valueToQuotedString( name.c_str() );
-
 	mov	BYTE PTR __$EHRec$[esp+232], 7
 ; File f:\program_files\vc\include\xstring
 
@@ -13664,8 +13856,6 @@ $LN168@writeValue:
 
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 254  :             document_ += valueToQuotedString( name.c_str() );
 
 	mov	BYTE PTR __$EHRec$[esp+220], 6
 ; File f:\program_files\vc\include\xstring
@@ -13683,8 +13873,6 @@ $LN168@writeValue:
 	add	esp, 4
 $LN195@writeValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 256  :                                                   : ":";
 
 	cmp	BYTE PTR [ebx+28], 0
 	mov	edx, OFFSET ??_C@_02LMMGGCAJ@?3?5?$AA@
@@ -13737,8 +13925,6 @@ $LN214@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 257  :             writeValue( value[name] );
-
 	push	esi
 	mov	ecx, edi
 	call	??AValue@Json@@QBEABV01@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Json::Value::operator[]
@@ -13756,8 +13942,6 @@ $LN214@writeValue:
 
 	cmp	esi, DWORD PTR _members$3[esp+216]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 249  :                ++it )
 
 	jne	$LL121@writeValue
 $LN221@writeValue:
@@ -13836,8 +14020,6 @@ $LN236@writeValue:
 	add	esp, 4
 $LN225@writeValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 263  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[esp+212]
 	mov	DWORD PTR fs:0, ecx
@@ -13973,8 +14155,6 @@ _value$ = 8						; size = 4
 ?writeValue@StyledWriter@Json@@AAEXABVValue@2@@Z PROC	; Json::StyledWriter::writeValue, COMDAT
 ; _this$ = ecx
 
-; 292  : {
-
 	push	ebp
 	mov	ebp, esp
 	and	esp, -8					; fffffff8H
@@ -13998,115 +14178,18 @@ _value$ = 8						; size = 4
 	mov	edi, DWORD PTR _value$[ebp]
 	mov	DWORD PTR _value$GSCopy$1$[esp+300], edi
 
-; 293  :    switch ( value.type() )
-
 	movsx	eax, BYTE PTR [edi+8]
 	cmp	eax, 7
 	ja	$LN14@writeValue
 	jmp	DWORD PTR $LN190@writeValue[eax*4]
 $LN13@writeValue:
 
-; 296  :       pushValue( "null" );
-
 	push	OFFSET ??_C@_04MLLLIHIP@null?$AA@
 	lea	ecx, DWORD PTR $T4[esp+304]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	DWORD PTR __$EHRec$[esp+308], 0
 
-; 349  : 
-; 350  : 
-; 351  : void 
-; 352  : StyledWriter::writeArrayValue( const Value &value )
-; 353  : {
-; 354  :    unsigned size = value.size();
-; 355  :    if ( size == 0 )
-; 356  :       pushValue( "[]" );
-; 357  :    else
-; 358  :    {
-; 359  :       bool isArrayMultiLine = isMultineArray( value );
-; 360  :       if ( isArrayMultiLine )
-; 361  :       {
-; 362  :          writeWithIndent( "[" );
-; 363  :          indent();
-; 364  :          bool hasChildValue = !childValues_.empty();
-; 365  :          unsigned index =0;
-; 366  :          while ( true )
-; 367  :          {
-; 368  :             const Value &childValue = value[index];
-; 369  :             writeCommentBeforeValue( childValue );
-; 370  :             if ( hasChildValue )
-; 371  :                writeWithIndent( childValues_[index] );
-; 372  :             else
-; 373  :             {
-; 374  :                writeIndent();
-; 375  :                writeValue( childValue );
-; 376  :             }
-; 377  :             if ( ++index == size )
-; 378  :             {
-; 379  :                writeCommentAfterValueOnSameLine( childValue );
-; 380  :                break;
-; 381  :             }
-; 382  :             document_ += ",";
-; 383  :             writeCommentAfterValueOnSameLine( childValue );
-; 384  :          }
-; 385  :          unindent();
-; 386  :          writeWithIndent( "]" );
-; 387  :       }
-; 388  :       else // output on a single line
-; 389  :       {
-; 390  :          assert( childValues_.size() == size );
-; 391  :          document_ += "[ ";
-; 392  :          for ( unsigned index =0; index < size; ++index )
-; 393  :          {
-; 394  :             if ( index > 0 )
-; 395  :                document_ += ", ";
-; 396  :             document_ += childValues_[index];
-; 397  :          }
-; 398  :          document_ += " ]";
-; 399  :       }
-; 400  :    }
-; 401  : }
-; 402  : 
-; 403  : 
-; 404  : bool 
-; 405  : StyledWriter::isMultineArray( const Value &value )
-; 406  : {
-; 407  :    int size = value.size();
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 411  :    {
-; 412  :       const Value &childValue = value[index];
-; 413  :       isMultiLine = isMultiLine  ||
-; 414  :                      ( (childValue.isArray()  ||  childValue.isObject())  &&  
-; 415  :                         childValue.size() > 0 );
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
-; 418  :    {
-; 419  :       childValues_.reserve( size );
-; 420  :       addChildValues_ = true;
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 423  :       {
-; 424  :          writeValue( value[index] );
-; 425  :          lineLength += int( childValues_[index].length() );
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-; 430  :    }
-; 431  :    return isMultiLine;
-; 432  : }
-; 433  : 
-; 434  : 
-; 435  : void 
-; 436  : StyledWriter::pushValue( const std::string &value )
-; 437  : {
-; 438  :    if ( addChildValues_ )
-
 	cmp	BYTE PTR [ebx+72], 0
-
-; 439  :       childValues_.push_back( value );
 
 	lea	eax, DWORD PTR $T4[esp+300]
 	je	SHORT $LN32@writeValue
@@ -14114,12 +14197,8 @@ $LN13@writeValue:
 	lea	ecx, DWORD PTR [ebx+4]
 	call	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
 
-; 296  :       pushValue( "null" );
-
 	lea	ecx, DWORD PTR $T4[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 297  :       break;
 
 	jmp	$LN14@writeValue
 $LN32@writeValue:
@@ -14132,8 +14211,6 @@ $LN32@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 441  :       document_ += value;
-
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -14142,17 +14219,11 @@ $LN32@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 296  :       pushValue( "null" );
-
 	lea	ecx, DWORD PTR $T4[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 297  :       break;
-
 	jmp	$LN14@writeValue
 $LN12@writeValue:
-
-; 299  :       pushValue( valueToString( value.asInt() ) );
 
 	mov	ecx, edi
 	call	?asInt@Value@Json@@QBEHXZ		; Json::Value::asInt
@@ -14161,112 +14232,15 @@ $LN12@writeValue:
 	call	?valueToString@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z ; Json::valueToString
 	mov	DWORD PTR __$EHRec$[esp+308], 1
 
-; 349  : 
-; 350  : 
-; 351  : void 
-; 352  : StyledWriter::writeArrayValue( const Value &value )
-; 353  : {
-; 354  :    unsigned size = value.size();
-; 355  :    if ( size == 0 )
-; 356  :       pushValue( "[]" );
-; 357  :    else
-; 358  :    {
-; 359  :       bool isArrayMultiLine = isMultineArray( value );
-; 360  :       if ( isArrayMultiLine )
-; 361  :       {
-; 362  :          writeWithIndent( "[" );
-; 363  :          indent();
-; 364  :          bool hasChildValue = !childValues_.empty();
-; 365  :          unsigned index =0;
-; 366  :          while ( true )
-; 367  :          {
-; 368  :             const Value &childValue = value[index];
-; 369  :             writeCommentBeforeValue( childValue );
-; 370  :             if ( hasChildValue )
-; 371  :                writeWithIndent( childValues_[index] );
-; 372  :             else
-; 373  :             {
-; 374  :                writeIndent();
-; 375  :                writeValue( childValue );
-; 376  :             }
-; 377  :             if ( ++index == size )
-; 378  :             {
-; 379  :                writeCommentAfterValueOnSameLine( childValue );
-; 380  :                break;
-; 381  :             }
-; 382  :             document_ += ",";
-; 383  :             writeCommentAfterValueOnSameLine( childValue );
-; 384  :          }
-; 385  :          unindent();
-; 386  :          writeWithIndent( "]" );
-; 387  :       }
-; 388  :       else // output on a single line
-; 389  :       {
-; 390  :          assert( childValues_.size() == size );
-; 391  :          document_ += "[ ";
-; 392  :          for ( unsigned index =0; index < size; ++index )
-; 393  :          {
-; 394  :             if ( index > 0 )
-; 395  :                document_ += ", ";
-; 396  :             document_ += childValues_[index];
-; 397  :          }
-; 398  :          document_ += " ]";
-; 399  :       }
-; 400  :    }
-; 401  : }
-; 402  : 
-; 403  : 
-; 404  : bool 
-; 405  : StyledWriter::isMultineArray( const Value &value )
-; 406  : {
-; 407  :    int size = value.size();
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 411  :    {
-; 412  :       const Value &childValue = value[index];
-; 413  :       isMultiLine = isMultiLine  ||
-; 414  :                      ( (childValue.isArray()  ||  childValue.isObject())  &&  
-; 415  :                         childValue.size() > 0 );
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
-; 418  :    {
-; 419  :       childValues_.reserve( size );
-; 420  :       addChildValues_ = true;
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 423  :       {
-; 424  :          writeValue( value[index] );
-; 425  :          lineLength += int( childValues_[index].length() );
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-; 430  :    }
-; 431  :    return isMultiLine;
-; 432  : }
-; 433  : 
-; 434  : 
-; 435  : void 
-; 436  : StyledWriter::pushValue( const std::string &value )
-; 437  : {
-; 438  :    if ( addChildValues_ )
-
 	cmp	BYTE PTR [ebx+72], 0
 	je	SHORT $LN40@writeValue
-
-; 439  :       childValues_.push_back( value );
 
 	push	eax
 	lea	ecx, DWORD PTR [ebx+4]
 	call	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
 
-; 299  :       pushValue( valueToString( value.asInt() ) );
-
 	lea	ecx, DWORD PTR $T11[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 300  :       break;
 
 	jmp	$LN14@writeValue
 $LN40@writeValue:
@@ -14279,8 +14253,6 @@ $LN40@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 441  :       document_ += value;
-
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -14289,17 +14261,11 @@ $LN40@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 299  :       pushValue( valueToString( value.asInt() ) );
-
 	lea	ecx, DWORD PTR $T11[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 300  :       break;
-
 	jmp	$LN14@writeValue
 $LN11@writeValue:
-
-; 302  :       pushValue( valueToString( value.asUInt() ) );
 
 	mov	ecx, edi
 	call	?asUInt@Value@Json@@QBEIXZ		; Json::Value::asUInt
@@ -14308,112 +14274,15 @@ $LN11@writeValue:
 	call	?valueToString@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z ; Json::valueToString
 	mov	DWORD PTR __$EHRec$[esp+308], 2
 
-; 349  : 
-; 350  : 
-; 351  : void 
-; 352  : StyledWriter::writeArrayValue( const Value &value )
-; 353  : {
-; 354  :    unsigned size = value.size();
-; 355  :    if ( size == 0 )
-; 356  :       pushValue( "[]" );
-; 357  :    else
-; 358  :    {
-; 359  :       bool isArrayMultiLine = isMultineArray( value );
-; 360  :       if ( isArrayMultiLine )
-; 361  :       {
-; 362  :          writeWithIndent( "[" );
-; 363  :          indent();
-; 364  :          bool hasChildValue = !childValues_.empty();
-; 365  :          unsigned index =0;
-; 366  :          while ( true )
-; 367  :          {
-; 368  :             const Value &childValue = value[index];
-; 369  :             writeCommentBeforeValue( childValue );
-; 370  :             if ( hasChildValue )
-; 371  :                writeWithIndent( childValues_[index] );
-; 372  :             else
-; 373  :             {
-; 374  :                writeIndent();
-; 375  :                writeValue( childValue );
-; 376  :             }
-; 377  :             if ( ++index == size )
-; 378  :             {
-; 379  :                writeCommentAfterValueOnSameLine( childValue );
-; 380  :                break;
-; 381  :             }
-; 382  :             document_ += ",";
-; 383  :             writeCommentAfterValueOnSameLine( childValue );
-; 384  :          }
-; 385  :          unindent();
-; 386  :          writeWithIndent( "]" );
-; 387  :       }
-; 388  :       else // output on a single line
-; 389  :       {
-; 390  :          assert( childValues_.size() == size );
-; 391  :          document_ += "[ ";
-; 392  :          for ( unsigned index =0; index < size; ++index )
-; 393  :          {
-; 394  :             if ( index > 0 )
-; 395  :                document_ += ", ";
-; 396  :             document_ += childValues_[index];
-; 397  :          }
-; 398  :          document_ += " ]";
-; 399  :       }
-; 400  :    }
-; 401  : }
-; 402  : 
-; 403  : 
-; 404  : bool 
-; 405  : StyledWriter::isMultineArray( const Value &value )
-; 406  : {
-; 407  :    int size = value.size();
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 411  :    {
-; 412  :       const Value &childValue = value[index];
-; 413  :       isMultiLine = isMultiLine  ||
-; 414  :                      ( (childValue.isArray()  ||  childValue.isObject())  &&  
-; 415  :                         childValue.size() > 0 );
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
-; 418  :    {
-; 419  :       childValues_.reserve( size );
-; 420  :       addChildValues_ = true;
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 423  :       {
-; 424  :          writeValue( value[index] );
-; 425  :          lineLength += int( childValues_[index].length() );
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-; 430  :    }
-; 431  :    return isMultiLine;
-; 432  : }
-; 433  : 
-; 434  : 
-; 435  : void 
-; 436  : StyledWriter::pushValue( const std::string &value )
-; 437  : {
-; 438  :    if ( addChildValues_ )
-
 	cmp	BYTE PTR [ebx+72], 0
 	je	SHORT $LN48@writeValue
-
-; 439  :       childValues_.push_back( value );
 
 	push	eax
 	lea	ecx, DWORD PTR [ebx+4]
 	call	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
 
-; 302  :       pushValue( valueToString( value.asUInt() ) );
-
 	lea	ecx, DWORD PTR $T8[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 303  :       break;
 
 	jmp	$LN14@writeValue
 $LN48@writeValue:
@@ -14426,8 +14295,6 @@ $LN48@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 441  :       document_ += value;
-
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -14436,17 +14303,11 @@ $LN48@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 302  :       pushValue( valueToString( value.asUInt() ) );
-
 	lea	ecx, DWORD PTR $T8[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 303  :       break;
-
 	jmp	$LN14@writeValue
 $LN10@writeValue:
-
-; 305  :       pushValue( valueToString( value.asDouble() ) );
 
 	mov	ecx, edi
 	call	?asDouble@Value@Json@@QBENXZ		; Json::Value::asDouble
@@ -14455,112 +14316,15 @@ $LN10@writeValue:
 	call	?valueToString@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@N@Z ; Json::valueToString
 	mov	DWORD PTR __$EHRec$[esp+308], 3
 
-; 349  : 
-; 350  : 
-; 351  : void 
-; 352  : StyledWriter::writeArrayValue( const Value &value )
-; 353  : {
-; 354  :    unsigned size = value.size();
-; 355  :    if ( size == 0 )
-; 356  :       pushValue( "[]" );
-; 357  :    else
-; 358  :    {
-; 359  :       bool isArrayMultiLine = isMultineArray( value );
-; 360  :       if ( isArrayMultiLine )
-; 361  :       {
-; 362  :          writeWithIndent( "[" );
-; 363  :          indent();
-; 364  :          bool hasChildValue = !childValues_.empty();
-; 365  :          unsigned index =0;
-; 366  :          while ( true )
-; 367  :          {
-; 368  :             const Value &childValue = value[index];
-; 369  :             writeCommentBeforeValue( childValue );
-; 370  :             if ( hasChildValue )
-; 371  :                writeWithIndent( childValues_[index] );
-; 372  :             else
-; 373  :             {
-; 374  :                writeIndent();
-; 375  :                writeValue( childValue );
-; 376  :             }
-; 377  :             if ( ++index == size )
-; 378  :             {
-; 379  :                writeCommentAfterValueOnSameLine( childValue );
-; 380  :                break;
-; 381  :             }
-; 382  :             document_ += ",";
-; 383  :             writeCommentAfterValueOnSameLine( childValue );
-; 384  :          }
-; 385  :          unindent();
-; 386  :          writeWithIndent( "]" );
-; 387  :       }
-; 388  :       else // output on a single line
-; 389  :       {
-; 390  :          assert( childValues_.size() == size );
-; 391  :          document_ += "[ ";
-; 392  :          for ( unsigned index =0; index < size; ++index )
-; 393  :          {
-; 394  :             if ( index > 0 )
-; 395  :                document_ += ", ";
-; 396  :             document_ += childValues_[index];
-; 397  :          }
-; 398  :          document_ += " ]";
-; 399  :       }
-; 400  :    }
-; 401  : }
-; 402  : 
-; 403  : 
-; 404  : bool 
-; 405  : StyledWriter::isMultineArray( const Value &value )
-; 406  : {
-; 407  :    int size = value.size();
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 411  :    {
-; 412  :       const Value &childValue = value[index];
-; 413  :       isMultiLine = isMultiLine  ||
-; 414  :                      ( (childValue.isArray()  ||  childValue.isObject())  &&  
-; 415  :                         childValue.size() > 0 );
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
-; 418  :    {
-; 419  :       childValues_.reserve( size );
-; 420  :       addChildValues_ = true;
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 423  :       {
-; 424  :          writeValue( value[index] );
-; 425  :          lineLength += int( childValues_[index].length() );
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-; 430  :    }
-; 431  :    return isMultiLine;
-; 432  : }
-; 433  : 
-; 434  : 
-; 435  : void 
-; 436  : StyledWriter::pushValue( const std::string &value )
-; 437  : {
-; 438  :    if ( addChildValues_ )
-
 	cmp	BYTE PTR [ebx+72], 0
 	je	SHORT $LN56@writeValue
-
-; 439  :       childValues_.push_back( value );
 
 	push	eax
 	lea	ecx, DWORD PTR [ebx+4]
 	call	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
 
-; 305  :       pushValue( valueToString( value.asDouble() ) );
-
 	lea	ecx, DWORD PTR $T9[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 306  :       break;
 
 	jmp	$LN14@writeValue
 $LN56@writeValue:
@@ -14573,8 +14337,6 @@ $LN56@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 441  :       document_ += value;
-
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -14583,129 +14345,26 @@ $LN56@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 305  :       pushValue( valueToString( value.asDouble() ) );
-
 	lea	ecx, DWORD PTR $T9[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 306  :       break;
-
 	jmp	$LN14@writeValue
 $LN9@writeValue:
-
-; 308  :       pushValue( valueToQuotedString( value.asCString() ) );
 
 	mov	edx, DWORD PTR [edi]
 	lea	ecx, DWORD PTR $T10[esp+300]
 	call	?valueToQuotedString@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z ; Json::valueToQuotedString
 	mov	DWORD PTR __$EHRec$[esp+308], 4
 
-; 349  : 
-; 350  : 
-; 351  : void 
-; 352  : StyledWriter::writeArrayValue( const Value &value )
-; 353  : {
-; 354  :    unsigned size = value.size();
-; 355  :    if ( size == 0 )
-; 356  :       pushValue( "[]" );
-; 357  :    else
-; 358  :    {
-; 359  :       bool isArrayMultiLine = isMultineArray( value );
-; 360  :       if ( isArrayMultiLine )
-; 361  :       {
-; 362  :          writeWithIndent( "[" );
-; 363  :          indent();
-; 364  :          bool hasChildValue = !childValues_.empty();
-; 365  :          unsigned index =0;
-; 366  :          while ( true )
-; 367  :          {
-; 368  :             const Value &childValue = value[index];
-; 369  :             writeCommentBeforeValue( childValue );
-; 370  :             if ( hasChildValue )
-; 371  :                writeWithIndent( childValues_[index] );
-; 372  :             else
-; 373  :             {
-; 374  :                writeIndent();
-; 375  :                writeValue( childValue );
-; 376  :             }
-; 377  :             if ( ++index == size )
-; 378  :             {
-; 379  :                writeCommentAfterValueOnSameLine( childValue );
-; 380  :                break;
-; 381  :             }
-; 382  :             document_ += ",";
-; 383  :             writeCommentAfterValueOnSameLine( childValue );
-; 384  :          }
-; 385  :          unindent();
-; 386  :          writeWithIndent( "]" );
-; 387  :       }
-; 388  :       else // output on a single line
-; 389  :       {
-; 390  :          assert( childValues_.size() == size );
-; 391  :          document_ += "[ ";
-; 392  :          for ( unsigned index =0; index < size; ++index )
-; 393  :          {
-; 394  :             if ( index > 0 )
-; 395  :                document_ += ", ";
-; 396  :             document_ += childValues_[index];
-; 397  :          }
-; 398  :          document_ += " ]";
-; 399  :       }
-; 400  :    }
-; 401  : }
-; 402  : 
-; 403  : 
-; 404  : bool 
-; 405  : StyledWriter::isMultineArray( const Value &value )
-; 406  : {
-; 407  :    int size = value.size();
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 411  :    {
-; 412  :       const Value &childValue = value[index];
-; 413  :       isMultiLine = isMultiLine  ||
-; 414  :                      ( (childValue.isArray()  ||  childValue.isObject())  &&  
-; 415  :                         childValue.size() > 0 );
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
-; 418  :    {
-; 419  :       childValues_.reserve( size );
-; 420  :       addChildValues_ = true;
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 423  :       {
-; 424  :          writeValue( value[index] );
-; 425  :          lineLength += int( childValues_[index].length() );
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-; 430  :    }
-; 431  :    return isMultiLine;
-; 432  : }
-; 433  : 
-; 434  : 
-; 435  : void 
-; 436  : StyledWriter::pushValue( const std::string &value )
-; 437  : {
-; 438  :    if ( addChildValues_ )
-
 	cmp	BYTE PTR [ebx+72], 0
 	je	SHORT $LN66@writeValue
-
-; 439  :       childValues_.push_back( value );
 
 	push	eax
 	lea	ecx, DWORD PTR [ebx+4]
 	call	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
 
-; 308  :       pushValue( valueToQuotedString( value.asCString() ) );
-
 	lea	ecx, DWORD PTR $T10[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 309  :       break;
 
 	jmp	$LN14@writeValue
 $LN66@writeValue:
@@ -14718,8 +14377,6 @@ $LN66@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 441  :       document_ += value;
-
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -14728,17 +14385,11 @@ $LN66@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 308  :       pushValue( valueToQuotedString( value.asCString() ) );
-
 	lea	ecx, DWORD PTR $T10[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 309  :       break;
-
 	jmp	$LN14@writeValue
 $LN8@writeValue:
-
-; 311  :       pushValue( valueToString( value.asBool() ) );
 
 	mov	ecx, edi
 	call	?asBool@Value@Json@@QBE_NXZ		; Json::Value::asBool
@@ -14747,112 +14398,15 @@ $LN8@writeValue:
 	call	?valueToString@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z ; Json::valueToString
 	mov	DWORD PTR __$EHRec$[esp+308], 5
 
-; 349  : 
-; 350  : 
-; 351  : void 
-; 352  : StyledWriter::writeArrayValue( const Value &value )
-; 353  : {
-; 354  :    unsigned size = value.size();
-; 355  :    if ( size == 0 )
-; 356  :       pushValue( "[]" );
-; 357  :    else
-; 358  :    {
-; 359  :       bool isArrayMultiLine = isMultineArray( value );
-; 360  :       if ( isArrayMultiLine )
-; 361  :       {
-; 362  :          writeWithIndent( "[" );
-; 363  :          indent();
-; 364  :          bool hasChildValue = !childValues_.empty();
-; 365  :          unsigned index =0;
-; 366  :          while ( true )
-; 367  :          {
-; 368  :             const Value &childValue = value[index];
-; 369  :             writeCommentBeforeValue( childValue );
-; 370  :             if ( hasChildValue )
-; 371  :                writeWithIndent( childValues_[index] );
-; 372  :             else
-; 373  :             {
-; 374  :                writeIndent();
-; 375  :                writeValue( childValue );
-; 376  :             }
-; 377  :             if ( ++index == size )
-; 378  :             {
-; 379  :                writeCommentAfterValueOnSameLine( childValue );
-; 380  :                break;
-; 381  :             }
-; 382  :             document_ += ",";
-; 383  :             writeCommentAfterValueOnSameLine( childValue );
-; 384  :          }
-; 385  :          unindent();
-; 386  :          writeWithIndent( "]" );
-; 387  :       }
-; 388  :       else // output on a single line
-; 389  :       {
-; 390  :          assert( childValues_.size() == size );
-; 391  :          document_ += "[ ";
-; 392  :          for ( unsigned index =0; index < size; ++index )
-; 393  :          {
-; 394  :             if ( index > 0 )
-; 395  :                document_ += ", ";
-; 396  :             document_ += childValues_[index];
-; 397  :          }
-; 398  :          document_ += " ]";
-; 399  :       }
-; 400  :    }
-; 401  : }
-; 402  : 
-; 403  : 
-; 404  : bool 
-; 405  : StyledWriter::isMultineArray( const Value &value )
-; 406  : {
-; 407  :    int size = value.size();
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 411  :    {
-; 412  :       const Value &childValue = value[index];
-; 413  :       isMultiLine = isMultiLine  ||
-; 414  :                      ( (childValue.isArray()  ||  childValue.isObject())  &&  
-; 415  :                         childValue.size() > 0 );
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
-; 418  :    {
-; 419  :       childValues_.reserve( size );
-; 420  :       addChildValues_ = true;
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 423  :       {
-; 424  :          writeValue( value[index] );
-; 425  :          lineLength += int( childValues_[index].length() );
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-; 430  :    }
-; 431  :    return isMultiLine;
-; 432  : }
-; 433  : 
-; 434  : 
-; 435  : void 
-; 436  : StyledWriter::pushValue( const std::string &value )
-; 437  : {
-; 438  :    if ( addChildValues_ )
-
 	cmp	BYTE PTR [ebx+72], 0
 	je	SHORT $LN74@writeValue
-
-; 439  :       childValues_.push_back( value );
 
 	push	eax
 	lea	ecx, DWORD PTR [ebx+4]
 	call	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
 
-; 311  :       pushValue( valueToString( value.asBool() ) );
-
 	lea	ecx, DWORD PTR $T12[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 312  :       break;
 
 	jmp	$LN14@writeValue
 $LN74@writeValue:
@@ -14865,8 +14419,6 @@ $LN74@writeValue:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 441  :       document_ += value;
-
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -14875,30 +14427,17 @@ $LN74@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 311  :       pushValue( valueToString( value.asBool() ) );
-
 	lea	ecx, DWORD PTR $T12[esp+300]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 312  :       break;
 
 	jmp	$LN14@writeValue
 $LN7@writeValue:
 
-; 313  :    case arrayValue:
-; 314  :       writeArrayValue( value);
-
 	push	edi
 	call	?writeArrayValue@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeArrayValue
 
-; 315  :       break;
-
 	jmp	$LN14@writeValue
 $LN6@writeValue:
-
-; 316  :    case objectValue:
-; 317  :       {
-; 318  :          Value::Members members( value.getMemberNames() );
 
 	lea	eax, DWORD PTR _members$2[esp+300]
 	push	eax
@@ -14913,11 +14452,7 @@ $LN6@writeValue:
 	cmp	esi, DWORD PTR _members$2[esp+304]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 319  :          if ( members.empty() )
-
 	jne	SHORT $LN5@writeValue
-
-; 320  :             pushValue( "{}" );
 
 	push	OFFSET ??_C@_02MCILKGOH@?$HL?$HN?$AA@
 	lea	ecx, DWORD PTR $T6[esp+304]
@@ -14929,68 +14464,16 @@ $LN6@writeValue:
 	call	?pushValue@StyledWriter@Json@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Json::StyledWriter::pushValue
 	lea	ecx, DWORD PTR $T6[esp+300]
 
-; 321  :          else
-
 	jmp	$LN189@writeValue
 $LN5@writeValue:
-
-; 323  :             writeWithIndent( "{" );
 
 	push	OFFSET ??_C@_01HCONENDN@?$HL?$AA@
 	lea	ecx, DWORD PTR $T5[esp+304]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 442  : }
-; 443  : 
-; 444  : 
-; 445  : void 
-; 446  : StyledWriter::writeIndent()
-; 447  : {
-; 448  :    if ( !document_.empty() )
-; 449  :    {
-; 450  :       char last = document_[document_.length()-1];
-; 451  :       if ( last == ' ' )     // already indented
-; 452  :          return;
-; 453  :       if ( last != '\n' )    // Comments may add new-line
-; 454  :          document_ += '\n';
-; 455  :    }
-; 456  :    document_ += indentString_;
-; 457  : }
-; 458  : 
-; 459  : 
-; 460  : void 
-; 461  : StyledWriter::writeWithIndent( const std::string &value )
-; 462  : {
-; 463  :    writeIndent();
-
 	mov	ecx, ebx
 
-; 323  :             writeWithIndent( "{" );
-
 	mov	BYTE PTR __$EHRec$[esp+308], 8
-
-; 442  : }
-; 443  : 
-; 444  : 
-; 445  : void 
-; 446  : StyledWriter::writeIndent()
-; 447  : {
-; 448  :    if ( !document_.empty() )
-; 449  :    {
-; 450  :       char last = document_[document_.length()-1];
-; 451  :       if ( last == ' ' )     // already indented
-; 452  :          return;
-; 453  :       if ( last != '\n' )    // Comments may add new-line
-; 454  :          document_ += '\n';
-; 455  :    }
-; 456  :    document_ += indentString_;
-; 457  : }
-; 458  : 
-; 459  : 
-; 460  : void 
-; 461  : StyledWriter::writeWithIndent( const std::string &value )
-; 462  : {
-; 463  :    writeIndent();
 
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
 ; File f:\program_files\vc\include\xstring
@@ -15002,8 +14485,6 @@ $LN5@writeValue:
 	lea	eax, DWORD PTR $T5[esp+308]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 464  :    document_ += value;
-
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -15013,29 +14494,17 @@ $LN5@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 323  :             writeWithIndent( "{" );
-
 	lea	ecx, DWORD PTR $T5[esp+300]
 	mov	BYTE PTR __$EHRec$[esp+308], 6
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 324  :             indent();
 
 	mov	ecx, ebx
 	call	?indent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::indent
 $LL3@writeValue:
 
-; 325  :             Value::Members::iterator it = members.begin();
-; 326  :             while ( true )
-; 327  :             {
-; 328  :                const std::string &name = *it;
-; 329  :                const Value &childValue = value[name];
-
 	push	esi
 	mov	ecx, edi
 	call	??AValue@Json@@QBEABV01@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Json::Value::operator[]
-
-; 330  :                writeCommentBeforeValue( childValue );
 
 	push	eax
 	mov	ecx, ebx
@@ -15062,63 +14531,13 @@ $LN105@writeValue:
 $LN106@writeValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 331  :                writeWithIndent( valueToQuotedString( name.c_str() ) );
-
 	lea	ecx, DWORD PTR $T3[esp+300]
 	call	?valueToQuotedString@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z ; Json::valueToQuotedString
 	mov	edi, eax
 
-; 442  : }
-; 443  : 
-; 444  : 
-; 445  : void 
-; 446  : StyledWriter::writeIndent()
-; 447  : {
-; 448  :    if ( !document_.empty() )
-; 449  :    {
-; 450  :       char last = document_[document_.length()-1];
-; 451  :       if ( last == ' ' )     // already indented
-; 452  :          return;
-; 453  :       if ( last != '\n' )    // Comments may add new-line
-; 454  :          document_ += '\n';
-; 455  :    }
-; 456  :    document_ += indentString_;
-; 457  : }
-; 458  : 
-; 459  : 
-; 460  : void 
-; 461  : StyledWriter::writeWithIndent( const std::string &value )
-; 462  : {
-; 463  :    writeIndent();
-
 	mov	ecx, ebx
 
-; 331  :                writeWithIndent( valueToQuotedString( name.c_str() ) );
-
 	mov	BYTE PTR __$EHRec$[esp+308], 9
-
-; 442  : }
-; 443  : 
-; 444  : 
-; 445  : void 
-; 446  : StyledWriter::writeIndent()
-; 447  : {
-; 448  :    if ( !document_.empty() )
-; 449  :    {
-; 450  :       char last = document_[document_.length()-1];
-; 451  :       if ( last == ' ' )     // already indented
-; 452  :          return;
-; 453  :       if ( last != '\n' )    // Comments may add new-line
-; 454  :          document_ += '\n';
-; 455  :    }
-; 456  :    document_ += indentString_;
-; 457  : }
-; 458  : 
-; 459  : 
-; 460  : void 
-; 461  : StyledWriter::writeWithIndent( const std::string &value )
-; 462  : {
-; 463  :    writeIndent();
 
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
 ; File f:\program_files\vc\include\xstring
@@ -15131,8 +14550,6 @@ $LN106@writeValue:
 	lea	ecx, DWORD PTR [ebx+16]
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 331  :                writeWithIndent( valueToQuotedString( name.c_str() ) );
 
 	mov	BYTE PTR __$EHRec$[esp+308], 6
 ; File f:\program_files\vc\include\xstring
@@ -16339,8 +15756,6 @@ $LN135@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 333  :                writeValue( childValue );
-
 	mov	edi, DWORD PTR _childValue$1$[esp+300]
 	push	edi
 	mov	ecx, ebx
@@ -16448,8 +15863,6 @@ $LN135@writeValue:
 	cmp	esi, DWORD PTR _members$2[esp+304]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 334  :                if ( ++it == members.end() )
-
 	je	SHORT $LN186@writeValue
 ; File f:\program_files\vc\include\xstring
 
@@ -16461,87 +15874,28 @@ $LN135@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 340  :                writeCommentAfterValueOnSameLine( childValue );
-
 	push	edi
 	mov	ecx, ebx
 	call	?writeCommentAfterValueOnSameLine@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeCommentAfterValueOnSameLine
-
-; 341  :             }
 
 	mov	edi, DWORD PTR _value$GSCopy$1$[esp+300]
 	jmp	$LL3@writeValue
 $LN186@writeValue:
 
-; 335  :                {
-; 336  :                   writeCommentAfterValueOnSameLine( childValue );
-
 	push	edi
 	mov	ecx, ebx
 	call	?writeCommentAfterValueOnSameLine@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeCommentAfterValueOnSameLine
 
-; 342  :             unindent();
-
 	mov	ecx, ebx
 	call	?unindent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::unindent
-
-; 343  :             writeWithIndent( "}" );
 
 	push	OFFSET ??_C@_01CELHOKLL@?$HN?$AA@
 	lea	ecx, DWORD PTR $T7[esp+304]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 442  : }
-; 443  : 
-; 444  : 
-; 445  : void 
-; 446  : StyledWriter::writeIndent()
-; 447  : {
-; 448  :    if ( !document_.empty() )
-; 449  :    {
-; 450  :       char last = document_[document_.length()-1];
-; 451  :       if ( last == ' ' )     // already indented
-; 452  :          return;
-; 453  :       if ( last != '\n' )    // Comments may add new-line
-; 454  :          document_ += '\n';
-; 455  :    }
-; 456  :    document_ += indentString_;
-; 457  : }
-; 458  : 
-; 459  : 
-; 460  : void 
-; 461  : StyledWriter::writeWithIndent( const std::string &value )
-; 462  : {
-; 463  :    writeIndent();
-
 	mov	ecx, ebx
 
-; 343  :             writeWithIndent( "}" );
-
 	mov	BYTE PTR __$EHRec$[esp+308], 10		; 0000000aH
-
-; 442  : }
-; 443  : 
-; 444  : 
-; 445  : void 
-; 446  : StyledWriter::writeIndent()
-; 447  : {
-; 448  :    if ( !document_.empty() )
-; 449  :    {
-; 450  :       char last = document_[document_.length()-1];
-; 451  :       if ( last == ' ' )     // already indented
-; 452  :          return;
-; 453  :       if ( last != '\n' )    // Comments may add new-line
-; 454  :          document_ += '\n';
-; 455  :    }
-; 456  :    document_ += indentString_;
-; 457  : }
-; 458  : 
-; 459  : 
-; 460  : void 
-; 461  : StyledWriter::writeWithIndent( const std::string &value )
-; 462  : {
-; 463  :    writeIndent();
 
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
 ; File f:\program_files\vc\include\xstring
@@ -16556,22 +15910,13 @@ $LN186@writeValue:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 343  :             writeWithIndent( "}" );
-
 	lea	ecx, DWORD PTR $T7[esp+300]
 $LN189@writeValue:
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 344  :          }
-; 345  :       }
-
 	lea	ecx, DWORD PTR _members$2[esp+300]
 	call	??1?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >
 $LN14@writeValue:
-
-; 346  :       break;
-; 347  :    }
-; 348  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[esp+300]
 	mov	DWORD PTR fs:0, ecx
@@ -16729,8 +16074,6 @@ _value$ = 8						; size = 4
 ?writeArrayValue@StyledWriter@Json@@AAEXABVValue@2@@Z PROC ; Json::StyledWriter::writeArrayValue, COMDAT
 ; _this$ = ecx
 
-; 353  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -16750,15 +16093,11 @@ _value$ = 8						; size = 4
 	mov	edi, ecx
 	mov	esi, DWORD PTR _value$[ebp]
 
-; 354  :    unsigned size = value.size();
-
 	mov	ecx, esi
 	mov	DWORD PTR _value$GSCopy$1$[ebp], esi
 	call	?size@Value@Json@@QBEIXZ		; Json::Value::size
 	mov	ebx, eax
 	mov	DWORD PTR _size$1$[ebp], ebx
-
-; 355  :    if ( size == 0 )
 
 	test	ebx, ebx
 	jne	SHORT $LN13@writeArray
@@ -17262,48 +16601,7 @@ _value$ = 8						; size = 4
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 356  :       pushValue( "[]" );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], ebx
-
-; 402  : 
-; 403  : 
-; 404  : bool 
-; 405  : StyledWriter::isMultineArray( const Value &value )
-; 406  : {
-; 407  :    int size = value.size();
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 411  :    {
-; 412  :       const Value &childValue = value[index];
-; 413  :       isMultiLine = isMultiLine  ||
-; 414  :                      ( (childValue.isArray()  ||  childValue.isObject())  &&  
-; 415  :                         childValue.size() > 0 );
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
-; 418  :    {
-; 419  :       childValues_.reserve( size );
-; 420  :       addChildValues_ = true;
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-; 423  :       {
-; 424  :          writeValue( value[index] );
-; 425  :          lineLength += int( childValues_[index].length() );
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-; 430  :    }
-; 431  :    return isMultiLine;
-; 432  : }
-; 433  : 
-; 434  : 
-; 435  : void 
-; 436  : StyledWriter::pushValue( const std::string &value )
-; 437  : {
-; 438  :    if ( addChildValues_ )
-; 439  :       childValues_.push_back( value );
 
 	lea	eax, DWORD PTR $T7[ebp]
 	cmp	BYTE PTR [edi+72], bl
@@ -17311,8 +16609,6 @@ _value$ = 8						; size = 4
 	lea	ecx, DWORD PTR [edi+4]
 	push	eax
 	call	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
-
-; 440  :    else
 
 	jmp	SHORT $LN67@writeArray
 $LN64@writeArray:
@@ -17324,8 +16620,6 @@ $LN64@writeArray:
 	push	0
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 441  :       document_ += value;
 
 	lea	ecx, DWORD PTR [edi+16]
 ; File f:\program_files\vc\include\xstring
@@ -17348,19 +16642,12 @@ $LN67@writeArray:
 	add	esp, 4
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 357  :    else
-
 	jmp	$LN423@writeArray
 $LN13@writeArray:
-
-; 358  :    {
-; 359  :       bool isArrayMultiLine = isMultineArray( value );
 
 	push	esi
 	mov	ecx, edi
 	call	?isMultineArray@StyledWriter@Json@@AAE_NABVValue@2@@Z ; Json::StyledWriter::isMultineArray
-
-; 360  :       if ( isArrayMultiLine )
 
 	test	al, al
 	je	$LN407@writeArray
@@ -17864,15 +17151,9 @@ $LN13@writeArray:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 463  :    writeIndent();
-
 	mov	ecx, edi
 
-; 362  :          writeWithIndent( "[" );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
-
-; 463  :    writeIndent();
 
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
 ; File f:\program_files\vc\include\xstring
@@ -17886,8 +17167,6 @@ $LN13@writeArray:
 	lea	ecx, DWORD PTR [edi+16]
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 362  :          writeWithIndent( "[" );
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File f:\program_files\vc\include\xstring
@@ -17906,8 +17185,6 @@ $LN13@writeArray:
 $LN173@writeArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 363  :          indent();
-
 	mov	ecx, edi
 	call	?indent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::indent
 ; File f:\program_files\vc\include\vector
@@ -17918,11 +17195,7 @@ $LN173@writeArray:
 	cmp	eax, DWORD PTR [edi+8]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 364  :          bool hasChildValue = !childValues_.empty();
-
 	setne	BYTE PTR _hasChildValue$1$[ebp]
-
-; 365  :          unsigned index =0;
 
 	xor	esi, esi
 	mov	DWORD PTR _index$1$[ebp], esi
@@ -17931,24 +17204,16 @@ $LN173@writeArray:
 $LL10@writeArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 999  :    if ( type_ == nullValue )
-
 	mov	eax, DWORD PTR _value$GSCopy$1$[ebp]
 	cmp	BYTE PTR [eax+8], 0
 	jne	SHORT $LN188@writeArray
-
-; 1000 :       return null;
 
 	mov	ebx, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
 	jmp	SHORT $LN189@writeArray
 $LN188@writeArray:
 
-; 177  : {
-
 	mov	DWORD PTR _key$2[ebp], 0
 	mov	DWORD PTR _key$2[ebp+4], esi
-
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
 
 	mov	ebx, DWORD PTR [eax]
 ; File f:\program_files\vc\include\xtree
@@ -17973,8 +17238,6 @@ $LN188@writeArray:
 	je	SHORT $LN196@writeArray
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 222  :    return index_ < other.index_;
-
 	cmp	esi, DWORD PTR [eax+20]
 	setl	dl
 ; File f:\program_files\vc\include\xtree
@@ -17998,11 +17261,7 @@ $LN196@writeArray:
 $LN197@writeArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
-
 	mov	eax, DWORD PTR [eax]
-
-; 1005 :       return null;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ebx, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
@@ -18013,31 +17272,19 @@ $LN197@writeArray:
 	cmp	eax, ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1004 :    if ( it == value_.map_->end() )
-
 	je	SHORT $LN189@writeArray
-
-; 1006 :    return (*it).second;
 
 	lea	ebx, DWORD PTR [eax+24]
 $LN189@writeArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 369  :             writeCommentBeforeValue( childValue );
-
 	push	ebx
 	mov	ecx, edi
 	call	?writeCommentBeforeValue@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeCommentBeforeValue
 
-; 370  :             if ( hasChildValue )
-
 	cmp	BYTE PTR _hasChildValue$1$[ebp], 0
 
-; 463  :    writeIndent();
-
 	mov	ecx, edi
-
-; 370  :             if ( hasChildValue )
 
 	je	SHORT $LN8@writeArray
 ; File f:\program_files\vc\include\vector
@@ -18047,8 +17294,6 @@ $LN189@writeArray:
 	mov	esi, DWORD PTR [edi+4]
 	add	esi, DWORD PTR tv1538[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 463  :    writeIndent();
 
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
 ; File f:\program_files\vc\include\xstring
@@ -18062,26 +17307,16 @@ $LN189@writeArray:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 372  :             else
-
 	mov	esi, DWORD PTR _index$1$[ebp]
 	jmp	SHORT $LN7@writeArray
 $LN8@writeArray:
 
-; 373  :             {
-; 374  :                writeIndent();
-
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
-
-; 375  :                writeValue( childValue );
 
 	push	ebx
 	mov	ecx, edi
 	call	?writeValue@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeValue
 $LN7@writeArray:
-
-; 376  :             }
-; 377  :             if ( ++index == size )
 
 	add	DWORD PTR tv1538[ebp], 24		; 00000018H
 	inc	esi
@@ -18098,19 +17333,12 @@ $LN7@writeArray:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 383  :             writeCommentAfterValueOnSameLine( childValue );
-
 	push	ebx
 	mov	ecx, edi
 	call	?writeCommentAfterValueOnSameLine@StyledWriter@Json@@AAEXABVValue@2@@Z ; Json::StyledWriter::writeCommentAfterValueOnSameLine
 
-; 384  :          }
-
 	jmp	$LL10@writeArray
 $LN433@writeArray:
-
-; 378  :             {
-; 379  :                writeCommentAfterValueOnSameLine( childValue );
 
 	push	ebx
 	mov	ecx, edi
@@ -18122,8 +17350,6 @@ $LN433@writeArray:
 	mov	eax, DWORD PTR [edi+56]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 479  :    indentString_.resize( indentString_.size() - indentSize_ );
-
 	sub	eax, DWORD PTR [edi+68]
 ; File f:\program_files\vc\include\xstring
 
@@ -18131,8 +17357,6 @@ $LN433@writeArray:
 
 	mov	edx, DWORD PTR [edi+56]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 479  :    indentString_.resize( indentString_.size() - indentSize_ );
 
 	lea	ecx, DWORD PTR [edi+40]
 ; File f:\program_files\vc\include\xstring
@@ -19142,16 +18366,9 @@ $LN305@writeArray:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 463  :    writeIndent();
-
 	mov	ecx, edi
 
-; 385  :          unindent();
-; 386  :          writeWithIndent( "]" );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 3
-
-; 463  :    writeIndent();
 
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
 ; File f:\program_files\vc\include\xstring
@@ -19178,12 +18395,8 @@ $LN305@writeArray:
 	add	esp, 4
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 388  :       else // output on a single line
-
 	jmp	SHORT $LN423@writeArray
 $LN407@writeArray:
-
-; 391  :          document_ += "[ ";
 
 	lea	eax, DWORD PTR [edi+16]
 ; File f:\program_files\vc\include\xstring
@@ -19195,8 +18408,6 @@ $LN407@writeArray:
 	mov	ecx, eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 391  :          document_ += "[ ";
-
 	mov	DWORD PTR tv1546[ebp], eax
 ; File f:\program_files\vc\include\xstring
 
@@ -19204,8 +18415,6 @@ $LN407@writeArray:
 
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 392  :          for ( unsigned index =0; index < size; ++index )
 
 	xor	esi, esi
 	test	ebx, ebx
@@ -19218,8 +18427,6 @@ $LN407@writeArray:
 	npad	2
 $LL4@writeArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 394  :             if ( index > 0 )
 
 	test	esi, esi
 	je	SHORT $LN409@writeArray
@@ -19257,8 +18464,6 @@ $LN409@writeArray:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 392  :          for ( unsigned index =0; index < size; ++index )
-
 	inc	esi
 	add	ebx, 24					; 00000018H
 	cmp	esi, DWORD PTR _size$1$[ebp]
@@ -19274,8 +18479,6 @@ $LN429@writeArray:
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 $LN423@writeArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 401  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -19358,8 +18561,6 @@ _value$ = 8						; size = 4
 ?isMultineArray@StyledWriter@Json@@AAE_NABVValue@2@@Z PROC ; Json::StyledWriter::isMultineArray, COMDAT
 ; _this$ = ecx
 
-; 406  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -19378,14 +18579,9 @@ _value$ = 8						; size = 4
 	mov	esi, ecx
 	mov	DWORD PTR _this$1$[ebp], esi
 
-; 407  :    int size = value.size();
-
 	mov	ecx, DWORD PTR _value$[ebp]
 	call	?size@Value@Json@@QBEIXZ		; Json::Value::size
 	mov	edi, eax
-
-; 408  :    bool isMultiLine = size*3 >= rightMargin_ ;
-; 409  :    childValues_.clear();
 
 	lea	eax, DWORD PTR [esi+4]
 	lea	edx, DWORD PTR [edi+edi*2]
@@ -19396,8 +18592,6 @@ _value$ = 8						; size = 4
 	mov	DWORD PTR tv1497[ebp], eax
 	call	?clear@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXXZ ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::clear
 
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-
 	xor	esi, esi
 	test	edi, edi
 	jle	$LN5@isMultineA
@@ -19407,24 +18601,16 @@ $LL7@isMultineA:
 	jne	$LN16@isMultineA
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 999  :    if ( type_ == nullValue )
-
 	mov	eax, DWORD PTR _value$[ebp]
 	cmp	BYTE PTR [eax+8], bl
 	jne	SHORT $LN19@isMultineA
-
-; 1000 :       return null;
 
 	mov	ecx, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
 	jmp	SHORT $LN360@isMultineA
 $LN19@isMultineA:
 
-; 177  : {
-
 	mov	DWORD PTR _key$3[ebp], 0
 	mov	DWORD PTR _key$3[ebp+4], esi
-
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
 
 	mov	edi, DWORD PTR [eax]
 ; File f:\program_files\vc\include\xtree
@@ -19449,8 +18635,6 @@ $LN19@isMultineA:
 	je	SHORT $LN27@isMultineA
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 222  :    return index_ < other.index_;
-
 	cmp	esi, DWORD PTR [eax+20]
 	setl	dl
 ; File f:\program_files\vc\include\xtree
@@ -19474,11 +18658,7 @@ $LN27@isMultineA:
 $LN28@isMultineA:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
-
 	mov	eax, DWORD PTR [eax]
-
-; 1005 :       return null;
 
 	mov	edi, DWORD PTR _size$1$[ebp]
 ; File f:\program_files\vc\include\xtree
@@ -19488,326 +18668,12 @@ $LN28@isMultineA:
 	cmp	eax, ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1005 :       return null;
-
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
 	je	SHORT $LN360@isMultineA
 
-; 1006 :    return (*it).second;
-
 	lea	ecx, DWORD PTR [eax+24]
 $LN360@isMultineA:
-
-; 1007 : #else
-; 1008 :    Value *value = value_.array_->find( index );
-; 1009 :    return value ? *value : null;
-; 1010 : #endif
-; 1011 : }
-; 1012 : 
-; 1013 : 
-; 1014 : Value &
-; 1015 : Value::operator[]( const char *key )
-; 1016 : {
-; 1017 :    return resolveReference( key, false );
-; 1018 : }
-; 1019 : 
-; 1020 : 
-; 1021 : Value &
-; 1022 : Value::resolveReference( const char *key, 
-; 1023 :                          bool isStatic )
-; 1024 : {
-; 1025 :    JSON_ASSERT( type_ == nullValue  ||  type_ == objectValue );
-; 1026 :    if ( type_ == nullValue )
-; 1027 :       *this = Value( objectValue );
-; 1028 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1029 :    CZString actualKey( key, isStatic ? CZString::noDuplication 
-; 1030 :                                      : CZString::duplicateOnCopy );
-; 1031 :    ObjectValues::iterator it = value_.map_->lower_bound( actualKey );
-; 1032 :    if ( it != value_.map_->end()  &&  (*it).first == actualKey )
-; 1033 :       return (*it).second;
-; 1034 : 
-; 1035 :    ObjectValues::value_type defaultValue( actualKey, null );
-; 1036 :    it = value_.map_->insert( it, defaultValue );
-; 1037 :    Value &value = (*it).second;
-; 1038 :    return value;
-; 1039 : #else
-; 1040 :    return value_.map_->resolveReference( key, isStatic );
-; 1041 : #endif
-; 1042 : }
-; 1043 : 
-; 1044 : 
-; 1045 : Value 
-; 1046 : Value::get( UInt index, 
-; 1047 :             const Value &defaultValue ) const
-; 1048 : {
-; 1049 :    const Value *value = &((*this)[index]);
-; 1050 :    return value == &null ? defaultValue : *value;
-; 1051 : }
-; 1052 : 
-; 1053 : 
-; 1054 : bool 
-; 1055 : Value::isValidIndex( UInt index ) const
-; 1056 : {
-; 1057 :    return index < size();
-; 1058 : }
-; 1059 : 
-; 1060 : 
-; 1061 : 
-; 1062 : const Value &
-; 1063 : Value::operator[]( const char *key ) const
-; 1064 : {
-; 1065 :    JSON_ASSERT( type_ == nullValue  ||  type_ == objectValue );
-; 1066 :    if ( type_ == nullValue )
-; 1067 :       return null;
-; 1068 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1069 :    CZString actualKey( key, CZString::noDuplication );
-; 1070 :    ObjectValues::const_iterator it = value_.map_->find( actualKey );
-; 1071 :    if ( it == value_.map_->end() )
-; 1072 :       return null;
-; 1073 :    return (*it).second;
-; 1074 : #else
-; 1075 :    const Value *value = value_.map_->find( key );
-; 1076 :    return value ? *value : null;
-; 1077 : #endif
-; 1078 : }
-; 1079 : 
-; 1080 : 
-; 1081 : Value &
-; 1082 : Value::operator[]( const std::string &key )
-; 1083 : {
-; 1084 :    return (*this)[ key.c_str() ];
-; 1085 : }
-; 1086 : 
-; 1087 : 
-; 1088 : const Value &
-; 1089 : Value::operator[]( const std::string &key ) const
-; 1090 : {
-; 1091 :    return (*this)[ key.c_str() ];
-; 1092 : }
-; 1093 : 
-; 1094 : Value &
-; 1095 : Value::operator[]( const StaticString &key )
-; 1096 : {
-; 1097 :    return resolveReference( key, true );
-; 1098 : }
-; 1099 : 
-; 1100 : 
-; 1101 : # ifdef JSON_USE_CPPTL
-; 1102 : Value &
-; 1103 : Value::operator[]( const CppTL::ConstString &key )
-; 1104 : {
-; 1105 :    return (*this)[ key.c_str() ];
-; 1106 : }
-; 1107 : 
-; 1108 : 
-; 1109 : const Value &
-; 1110 : Value::operator[]( const CppTL::ConstString &key ) const
-; 1111 : {
-; 1112 :    return (*this)[ key.c_str() ];
-; 1113 : }
-; 1114 : # endif
-; 1115 : 
-; 1116 : 
-; 1117 : Value &
-; 1118 : Value::append( const Value &value )
-; 1119 : {
-; 1120 :    return (*this)[size()] = value;
-; 1121 : }
-; 1122 : 
-; 1123 : 
-; 1124 : Value 
-; 1125 : Value::get( const char *key, 
-; 1126 :             const Value &defaultValue ) const
-; 1127 : {
-; 1128 :    const Value *value = &((*this)[key]);
-; 1129 :    return value == &null ? defaultValue : *value;
-; 1130 : }
-; 1131 : 
-; 1132 : 
-; 1133 : Value 
-; 1134 : Value::get( const std::string &key,
-; 1135 :             const Value &defaultValue ) const
-; 1136 : {
-; 1137 :    return get( key.c_str(), defaultValue );
-; 1138 : }
-; 1139 : 
-; 1140 : Value
-; 1141 : Value::removeMember( const char* key )
-; 1142 : {
-; 1143 :    JSON_ASSERT( type_ == nullValue  ||  type_ == objectValue );
-; 1144 :    if ( type_ == nullValue )
-; 1145 :       return null;
-; 1146 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1147 :    CZString actualKey( key, CZString::noDuplication );
-; 1148 :    ObjectValues::iterator it = value_.map_->find( actualKey );
-; 1149 :    if ( it == value_.map_->end() )
-; 1150 :       return null;
-; 1151 :    Value old(it->second);
-; 1152 :    value_.map_->erase(it);
-; 1153 :    return old;
-; 1154 : #else
-; 1155 :    Value *value = value_.map_->find( key );
-; 1156 :    if (value){
-; 1157 :       Value old(*value);
-; 1158 :       value_.map_.remove( key );
-; 1159 :       return old;
-; 1160 :    } else {
-; 1161 :       return null;
-; 1162 :    }
-; 1163 : #endif
-; 1164 : }
-; 1165 : 
-; 1166 : Value
-; 1167 : Value::removeMember( const std::string &key )
-; 1168 : {
-; 1169 :    return removeMember( key.c_str() );
-; 1170 : }
-; 1171 : 
-; 1172 : # ifdef JSON_USE_CPPTL
-; 1173 : Value 
-; 1174 : Value::get( const CppTL::ConstString &key,
-; 1175 :             const Value &defaultValue ) const
-; 1176 : {
-; 1177 :    return get( key.c_str(), defaultValue );
-; 1178 : }
-; 1179 : # endif
-; 1180 : 
-; 1181 : bool 
-; 1182 : Value::isMember( const char *key ) const
-; 1183 : {
-; 1184 :    const Value *value = &((*this)[key]);
-; 1185 :    return value != &null;
-; 1186 : }
-; 1187 : 
-; 1188 : 
-; 1189 : bool 
-; 1190 : Value::isMember( const std::string &key ) const
-; 1191 : {
-; 1192 :    return isMember( key.c_str() );
-; 1193 : }
-; 1194 : 
-; 1195 : 
-; 1196 : # ifdef JSON_USE_CPPTL
-; 1197 : bool 
-; 1198 : Value::isMember( const CppTL::ConstString &key ) const
-; 1199 : {
-; 1200 :    return isMember( key.c_str() );
-; 1201 : }
-; 1202 : #endif
-; 1203 : 
-; 1204 : Value::Members 
-; 1205 : Value::getMemberNames() const
-; 1206 : {
-; 1207 :    JSON_ASSERT( type_ == nullValue  ||  type_ == objectValue );
-; 1208 :    if ( type_ == nullValue )
-; 1209 :        return Value::Members();
-; 1210 :    Members members;
-; 1211 :    members.reserve( value_.map_->size() );
-; 1212 : #ifndef JSON_VALUE_USE_INTERNAL_MAP
-; 1213 :    ObjectValues::const_iterator it = value_.map_->begin();
-; 1214 :    ObjectValues::const_iterator itEnd = value_.map_->end();
-; 1215 :    for ( ; it != itEnd; ++it )
-; 1216 :       members.push_back( std::string( (*it).first.c_str() ) );
-; 1217 : #else
-; 1218 :    ValueInternalMap::IteratorState it;
-; 1219 :    ValueInternalMap::IteratorState itEnd;
-; 1220 :    value_.map_->makeBeginIterator( it );
-; 1221 :    value_.map_->makeEndIterator( itEnd );
-; 1222 :    for ( ; !ValueInternalMap::equals( it, itEnd ); ValueInternalMap::increment(it) )
-; 1223 :       members.push_back( std::string( ValueInternalMap::key( it ) ) );
-; 1224 : #endif
-; 1225 :    return members;
-; 1226 : }
-; 1227 : //
-; 1228 : //# ifdef JSON_USE_CPPTL
-; 1229 : //EnumMemberNames
-; 1230 : //Value::enumMemberNames() const
-; 1231 : //{
-; 1232 : //   if ( type_ == objectValue )
-; 1233 : //   {
-; 1234 : //      return CppTL::Enum::any(  CppTL::Enum::transform(
-; 1235 : //         CppTL::Enum::keys( *(value_.map_), CppTL::Type<const CZString &>() ),
-; 1236 : //         MemberNamesTransform() ) );
-; 1237 : //   }
-; 1238 : //   return EnumMemberNames();
-; 1239 : //}
-; 1240 : //
-; 1241 : //
-; 1242 : //EnumValues 
-; 1243 : //Value::enumValues() const
-; 1244 : //{
-; 1245 : //   if ( type_ == objectValue  ||  type_ == arrayValue )
-; 1246 : //      return CppTL::Enum::anyValues( *(value_.map_), 
-; 1247 : //                                     CppTL::Type<const Value &>() );
-; 1248 : //   return EnumValues();
-; 1249 : //}
-; 1250 : //
-; 1251 : //# endif
-; 1252 : 
-; 1253 : 
-; 1254 : bool
-; 1255 : Value::isNull() const
-; 1256 : {
-; 1257 :    return type_ == nullValue;
-; 1258 : }
-; 1259 : 
-; 1260 : 
-; 1261 : bool 
-; 1262 : Value::isBool() const
-; 1263 : {
-; 1264 :    return type_ == booleanValue;
-; 1265 : }
-; 1266 : 
-; 1267 : 
-; 1268 : bool 
-; 1269 : Value::isInt() const
-; 1270 : {
-; 1271 :    return type_ == intValue;
-; 1272 : }
-; 1273 : 
-; 1274 : 
-; 1275 : bool 
-; 1276 : Value::isUInt() const
-; 1277 : {
-; 1278 :    return type_ == uintValue;
-; 1279 : }
-; 1280 : 
-; 1281 : 
-; 1282 : bool 
-; 1283 : Value::isIntegral() const
-; 1284 : {
-; 1285 :    return type_ == intValue  
-; 1286 :           ||  type_ == uintValue  
-; 1287 :           ||  type_ == booleanValue;
-; 1288 : }
-; 1289 : 
-; 1290 : 
-; 1291 : bool 
-; 1292 : Value::isDouble() const
-; 1293 : {
-; 1294 :    return type_ == realValue;
-; 1295 : }
-; 1296 : 
-; 1297 : 
-; 1298 : bool 
-; 1299 : Value::isNumeric() const
-; 1300 : {
-; 1301 :    return isIntegral() || isDouble();
-; 1302 : }
-; 1303 : 
-; 1304 : 
-; 1305 : bool 
-; 1306 : Value::isString() const
-; 1307 : {
-; 1308 :    return type_ == stringValue;
-; 1309 : }
-; 1310 : 
-; 1311 : 
-; 1312 : bool 
-; 1313 : Value::isArray() const
-; 1314 : {
-; 1315 :    return type_ == nullValue  ||  type_ == arrayValue;
 
 	mov	al, BYTE PTR [ecx+8]
 	test	al, al
@@ -19815,20 +18681,10 @@ $LN360@isMultineA:
 	cmp	al, 6
 	je	SHORT $LN120@isMultineA
 
-; 1316 : }
-; 1317 : 
-; 1318 : 
-; 1319 : bool 
-; 1320 : Value::isObject() const
-; 1321 : {
-; 1322 :    return type_ == nullValue  ||  type_ == objectValue;
-
 	cmp	al, 7
 	jne	SHORT $LN11@isMultineA
 $LN120@isMultineA:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 415  :                         childValue.size() > 0 );
 
 	call	?size@Value@Json@@QBEIXZ		; Json::Value::size
 	test	eax, eax
@@ -19840,15 +18696,10 @@ $LN12@isMultineA:
 	mov	bl, 1
 $LN13@isMultineA:
 
-; 410  :    for ( int index =0; index < size  &&  !isMultiLine; ++index )
-
 	inc	esi
 	cmp	esi, edi
 	jl	$LL7@isMultineA
 $LN5@isMultineA:
-
-; 416  :    }
-; 417  :    if ( !isMultiLine ) // check if line length > max line length
 
 	test	bl, bl
 	jne	$LN16@isMultineA
@@ -20592,15 +19443,9 @@ $LN122@isMultineA:
 $LN123@isMultineA:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 420  :       addChildValues_ = true;
-
 	mov	eax, DWORD PTR _this$1$[ebp]
 
-; 421  :       int lineLength = 4 + (size-1)*2; // '[ ' + ', '*n + ' ]'
-
 	lea	ecx, DWORD PTR [edi*2+2]
-
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
 
 	xor	esi, esi
 	mov	BYTE PTR [eax+72], 1
@@ -20608,30 +19453,20 @@ $LN123@isMultineA:
 	test	edi, edi
 	jle	$LN1@isMultineA
 
-; 420  :       addChildValues_ = true;
-
 	xor	ebx, ebx
 $LL3@isMultineA:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 999  :    if ( type_ == nullValue )
 
 	mov	eax, DWORD PTR _value$[ebp]
 	cmp	BYTE PTR [eax+8], 0
 	jne	SHORT $LN143@isMultineA
 
-; 1000 :       return null;
-
 	mov	eax, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
 	jmp	SHORT $LN144@isMultineA
 $LN143@isMultineA:
 
-; 177  : {
-
 	mov	DWORD PTR _key$2[ebp], 0
 	mov	DWORD PTR _key$2[ebp+4], esi
-
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
 
 	mov	edi, DWORD PTR [eax]
 ; File f:\program_files\vc\include\xtree
@@ -20656,8 +19491,6 @@ $LN143@isMultineA:
 	je	SHORT $LN151@isMultineA
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 222  :    return index_ < other.index_;
-
 	cmp	esi, DWORD PTR [eax+20]
 	setl	dl
 ; File f:\program_files\vc\include\xtree
@@ -20681,11 +19514,7 @@ $LN151@isMultineA:
 $LN152@isMultineA:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1003 :    ObjectValues::const_iterator it = value_.map_->find( key );
-
 	mov	eax, DWORD PTR [eax]
-
-; 1005 :       return null;
 
 	mov	edi, DWORD PTR _size$1$[ebp]
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
@@ -20696,23 +19525,15 @@ $LN152@isMultineA:
 	cmp	eax, ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1004 :    if ( it == value_.map_->end() )
-
 	jne	SHORT $LN142@isMultineA
-
-; 1005 :       return null;
 
 	mov	eax, OFFSET ?null@Value@Json@@2V12@B	; Json::Value::null
 	jmp	SHORT $LN144@isMultineA
 $LN142@isMultineA:
 
-; 1006 :    return (*it).second;
-
 	add	eax, 24					; 00000018H
 $LN144@isMultineA:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 424  :          writeValue( value[index] );
 
 	mov	ecx, DWORD PTR _this$1$[ebp]
 	push	eax
@@ -20724,8 +19545,6 @@ $LN144@isMultineA:
 	mov	ecx, DWORD PTR tv1497[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 422  :       for ( int index =0; index < size  &&  !isMultiLine; ++index )
-
 	inc	esi
 ; File f:\program_files\vc\include\xstring
 
@@ -20733,8 +19552,6 @@ $LN144@isMultineA:
 
 	mov	eax, DWORD PTR [ecx]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 425  :          lineLength += int( childValues_[index].length() );
 
 	mov	ecx, DWORD PTR _lineLength$1$[ebp]
 	add	ecx, DWORD PTR [ebx+eax+16]
@@ -20745,22 +19562,12 @@ $LN144@isMultineA:
 	mov	eax, DWORD PTR _this$1$[ebp]
 $LN1@isMultineA:
 
-; 426  :          isMultiLine = isMultiLine  &&  hasCommentForValue( value[index] );
-; 427  :       }
-; 428  :       addChildValues_ = false;
-; 429  :       isMultiLine = isMultiLine  ||  lineLength >= rightMargin_;
-
 	cmp	ecx, DWORD PTR [eax+64]
 	mov	BYTE PTR [eax+72], 0
 	setge	bl
 $LN16@isMultineA:
 
-; 430  :    }
-; 431  :    return isMultiLine;
-
 	mov	al, bl
-
-; 432  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -20803,25 +19610,15 @@ _value$ = 8						; size = 4
 ?pushValue@StyledWriter@Json@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z PROC ; Json::StyledWriter::pushValue, COMDAT
 ; _this$ = ecx
 
-; 437  : {
-
 	push	ebp
 	mov	ebp, esp
-
-; 438  :    if ( addChildValues_ )
 
 	cmp	BYTE PTR [ecx+72], 0
 	je	SHORT $LN2@pushValue
 
-; 439  :       childValues_.push_back( value );
-
 	add	ecx, 4
 
-; 442  : }
-
 	pop	ebp
-
-; 439  :       childValues_.push_back( value );
 
 	jmp	?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::push_back
 $LN2@pushValue:
@@ -20834,8 +19631,6 @@ $LN2@pushValue:
 	push	DWORD PTR _value$[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 441  :       document_ += value;
-
 	add	ecx, 16					; 00000010H
 ; File f:\program_files\vc\include\xstring
 
@@ -20843,8 +19638,6 @@ $LN2@pushValue:
 
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 442  : }
 
 	pop	ebp
 	ret	4
@@ -20886,8 +19679,6 @@ _TEXT	SEGMENT
 ?writeIndent@StyledWriter@Json@@AAEXXZ PROC		; Json::StyledWriter::writeIndent, COMDAT
 ; _this$ = ecx
 
-; 447  : {
-
 	push	ebx
 	mov	ebx, ecx
 	push	esi
@@ -20899,8 +19690,6 @@ _TEXT	SEGMENT
 	test	eax, eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 448  :    if ( !document_.empty() )
-
 	je	$LN120@writeInden
 ; File f:\program_files\vc\include\xstring
 
@@ -20908,8 +19697,6 @@ _TEXT	SEGMENT
 
 	cmp	DWORD PTR [ebx+36], 16			; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 450  :       char last = document_[document_.length()-1];
 
 	lea	esi, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
@@ -20932,17 +19719,10 @@ $LN14@writeInden:
 $LN15@writeInden:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 450  :       char last = document_[document_.length()-1];
-
 	mov	al, BYTE PTR [ecx+eax-1]
-
-; 451  :       if ( last == ' ' )     // already indented
 
 	cmp	al, 32					; 00000020H
 	je	$LN124@writeInden
-
-; 452  :          return;
-; 453  :       if ( last != '\n' )    // Comments may add new-line
 
 	cmp	al, 10					; 0000000aH
 	je	SHORT $LN120@writeInden
@@ -21501,8 +20281,6 @@ $LN86@writeInden:
 	push	0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 456  :    document_ += indentString_;
-
 	lea	eax, DWORD PTR [ebx+40]
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
@@ -21523,8 +20301,6 @@ $LN86@writeInden:
 	pop	esi
 	pop	ebx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 457  : }
 
 	ret	0
 $LN98@writeInden:
@@ -22019,8 +20795,6 @@ $LN120@writeInden:
 	push	0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 456  :    document_ += indentString_;
-
 	lea	eax, DWORD PTR [ebx+40]
 	lea	ecx, DWORD PTR [ebx+16]
 ; File f:\program_files\vc\include\xstring
@@ -22033,8 +20807,6 @@ $LN124@writeInden:
 	pop	esi
 	pop	ebx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 457  : }
 
 	ret	0
 $LN132@writeInden:
@@ -22065,14 +20837,10 @@ _value$ = 8						; size = 4
 ?writeWithIndent@StyledWriter@Json@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z PROC ; Json::StyledWriter::writeWithIndent, COMDAT
 ; _this$ = ecx
 
-; 462  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	esi
 	mov	esi, ecx
-
-; 463  :    writeIndent();
 
 	call	?writeIndent@StyledWriter@Json@@AAEXXZ	; Json::StyledWriter::writeIndent
 ; File f:\program_files\vc\include\xstring
@@ -22084,8 +20852,6 @@ _value$ = 8						; size = 4
 	push	DWORD PTR _value$[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 464  :    document_ += value;
-
 	lea	ecx, DWORD PTR [esi+16]
 ; File f:\program_files\vc\include\xstring
 
@@ -22094,8 +20860,6 @@ _value$ = 8						; size = 4
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 	pop	esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 465  : }
 
 	pop	ebp
 	ret	4
@@ -22117,8 +20881,6 @@ __$ArrayPad$ = -16					; size = 4
 __$EHRec$ = -12						; size = 12
 ?indent@StyledWriter@Json@@AAEXXZ PROC			; Json::StyledWriter::indent, COMDAT
 ; _this$ = ecx
-
-; 470  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -23380,8 +22142,6 @@ __$EHRec$ = -12						; size = 12
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 471  :    indentString_ += std::string( indentSize_, ' ' );
-
 	lea	ecx, DWORD PTR [esi+40]
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 ; File f:\program_files\vc\include\xstring
@@ -23441,8 +22201,6 @@ __$EHRec$ = -12						; size = 12
 $LN66@indent:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 472  : }
-
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
 	pop	ecx
@@ -23487,8 +22245,6 @@ _TEXT	SEGMENT
 ?unindent@StyledWriter@Json@@AAEXXZ PROC		; Json::StyledWriter::unindent, COMDAT
 ; _this$ = ecx
 
-; 479  :    indentString_.resize( indentString_.size() - indentSize_ );
-
 	mov	eax, DWORD PTR [ecx+56]
 	sub	eax, DWORD PTR [ecx+68]
 ; File f:\program_files\vc\include\xstring
@@ -23497,8 +22253,6 @@ _TEXT	SEGMENT
 
 	mov	edx, DWORD PTR [ecx+56]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 479  :    indentString_.resize( indentString_.size() - indentSize_ );
 
 	add	ecx, 40					; 00000028H
 ; File f:\program_files\vc\include\xstring
@@ -23997,8 +22751,6 @@ $LN16@unindent:
 	mov	BYTE PTR [ecx+eax], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 480  : }
-
 	ret	0
 $LN8@unindent:
 ; File f:\program_files\vc\include\xstring
@@ -24010,8 +22762,6 @@ $LN8@unindent:
 	push	eax
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 480  : }
 
 	ret	0
 ?unindent@StyledWriter@Json@@AAEXXZ ENDP		; Json::StyledWriter::unindent
@@ -24043,8 +22793,6 @@ _root$ = 8						; size = 4
 ?writeCommentBeforeValue@StyledWriter@Json@@AAEXABVValue@2@@Z PROC ; Json::StyledWriter::writeCommentBeforeValue, COMDAT
 ; _this$ = ecx
 
-; 485  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -24063,16 +22811,12 @@ _root$ = 8						; size = 4
 	mov	ecx, DWORD PTR _root$[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1347 :    return comments_ != 0  &&  comments_[placement].comment_ != 0;
-
 	mov	eax, DWORD PTR [ecx+12]
 	test	eax, eax
 	je	$LN78@writeComme
 	cmp	DWORD PTR [eax], 0
 	je	$LN78@writeComme
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 488  :    document_ += normalizeEOL( root.getComment( commentBefore ) );
 
 	push	0
 	lea	eax, DWORD PTR $T2[ebp]
@@ -24091,8 +22835,6 @@ _root$ = 8						; size = 4
 	push	eax
 	lea	ecx, DWORD PTR [esi+16]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 488  :    document_ += normalizeEOL( root.getComment( commentBefore ) );
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 ; File f:\program_files\vc\include\xstring
@@ -24114,8 +22856,6 @@ _root$ = 8						; size = 4
 	add	esp, 4
 $LN34@writeComme:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 488  :    document_ += normalizeEOL( root.getComment( commentBefore ) );
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File f:\program_files\vc\include\xstring
@@ -26503,8 +25243,6 @@ $LN66@writeComme:
 $LN78@writeComme:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 490  : }
-
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
 	pop	ecx
@@ -26585,8 +25323,6 @@ _root$ = 8						; size = 4
 ?writeCommentAfterValueOnSameLine@StyledWriter@Json@@AAEXABVValue@2@@Z PROC ; Json::StyledWriter::writeCommentAfterValueOnSameLine, COMDAT
 ; _this$ = ecx
 
-; 495  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -26606,16 +25342,12 @@ _root$ = 8						; size = 4
 	mov	esi, DWORD PTR _root$[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1347 :    return comments_ != 0  &&  comments_[placement].comment_ != 0;
-
 	mov	eax, DWORD PTR [esi+12]
 	test	eax, eax
 	je	$LN102@writeComme
 	cmp	DWORD PTR [eax+4], 0
 	je	$LN102@writeComme
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 497  :       document_ += " " + normalizeEOL( root.getComment( commentAfterOnSameLine ) );
 
 	push	1
 	lea	eax, DWORD PTR $T2[ebp]
@@ -26640,8 +25372,6 @@ _root$ = 8						; size = 4
 	push	0
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 497  :       document_ += " " + normalizeEOL( root.getComment( commentAfterOnSameLine ) );
 
 	lea	ecx, DWORD PTR [edi+16]
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
@@ -27859,8 +26589,6 @@ $LN38@writeComme:
 $LN70@writeComme:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 497  :       document_ += " " + normalizeEOL( root.getComment( commentAfterOnSameLine ) );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File f:\program_files\vc\include\xstring
 
@@ -29058,8 +27786,6 @@ $LN70@writeComme:
 $LN102@writeComme:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 1347 :    return comments_ != 0  &&  comments_[placement].comment_ != 0;
-
 	mov	eax, DWORD PTR [esi+12]
 	test	eax, eax
 	je	$LN194@writeComme
@@ -29072,8 +27798,6 @@ $LN102@writeComme:
 	push	1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 501  :       document_ += "\n";
-
 	add	edi, 16					; 00000010H
 ; File f:\program_files\vc\include\xstring
 
@@ -29083,8 +27807,6 @@ $LN102@writeComme:
 	mov	ecx, edi
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 502  :       document_ += normalizeEOL( root.getComment( commentAfter ) );
 
 	push	2
 	lea	eax, DWORD PTR $T4[ebp]
@@ -29104,8 +27826,6 @@ $LN102@writeComme:
 	push	eax
 	mov	ecx, edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 502  :       document_ += normalizeEOL( root.getComment( commentAfter ) );
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 4
 ; File f:\program_files\vc\include\xstring
@@ -29127,8 +27847,6 @@ $LN102@writeComme:
 	add	esp, 4
 $LN150@writeComme:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 502  :       document_ += normalizeEOL( root.getComment( commentAfter ) );
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File f:\program_files\vc\include\xstring
@@ -31516,8 +30234,6 @@ $LN182@writeComme:
 $LN194@writeComme:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 505  : }
-
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
 	pop	ecx
@@ -31570,13 +30286,9 @@ _value$ = 8						; size = 4
 ?hasCommentForValue@StyledWriter@Json@@AAE_NABVValue@2@@Z PROC ; Json::StyledWriter::hasCommentForValue, COMDAT
 ; _this$dead$ = ecx
 
-; 510  : {
-
 	push	ebp
 	mov	ebp, esp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 1347 :    return comments_ != 0  &&  comments_[placement].comment_ != 0;
 
 	mov	eax, DWORD PTR _value$[ebp]
 	mov	eax, DWORD PTR [eax+12]
@@ -31595,21 +30307,13 @@ _value$ = 8						; size = 4
 $LN3@hasComment:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 513  :           ||  value.hasComment( commentAfter );
-
 	mov	al, 1
-
-; 514  : }
 
 	pop	ebp
 	ret	4
 $LN15@hasComment:
 
-; 513  :           ||  value.hasComment( commentAfter );
-
 	xor	al, al
-
-; 514  : }
 
 	pop	ebp
 	ret	4
@@ -31661,8 +30365,6 @@ __$EHRec$ = -12						; size = 12
 ?normalizeEOL@StyledWriter@Json@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV34@@Z PROC ; Json::StyledWriter::normalizeEOL, COMDAT
 ; ___$ReturnUdt$ = ecx
 ; _text$ = edx
-
-; 519  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -32155,8 +30857,6 @@ __$EHRec$ = -12						; size = 12
 
 	lea	ecx, DWORD PTR [ebx+16]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
-
-; 537  :    return normalized;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 ; File f:\program_files\vc\include\xstring
@@ -32756,37 +31456,23 @@ $LN62@normalizeE:
 $LN69@normalizeE:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 523  :    const char *end = begin + text.length();
-
 	mov	eax, DWORD PTR [ecx]
 	add	eax, ebx
 	mov	DWORD PTR _end$1$[ebp], eax
-
-; 525  :    while ( current != end )
 
 	cmp	ebx, eax
 	je	$LN4@normalizeE
 $LL5@normalizeE:
 
-; 526  :    {
-; 527  :       char c = *current++;
-
 	mov	dl, BYTE PTR [ebx]
 	inc	ebx
 	mov	BYTE PTR _c$1$[ebp], dl
 
-; 528  :       if ( c == '\r' ) // mac or dos EOL
-
 	cmp	dl, 13					; 0000000dH
 	jne	SHORT $LN3@normalizeE
 
-; 529  :       {
-; 530  :          if ( *current == '\n' ) // convert dos EOL
-
 	cmp	BYTE PTR [ebx], 10			; 0000000aH
 	jne	SHORT $LN2@normalizeE
-
-; 531  :             ++current;
 
 	inc	ebx
 $LN2@normalizeE:
@@ -34435,17 +33121,11 @@ $LN279@normalizeE:
 $LN282@normalizeE:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp
 
-; 525  :    while ( current != end )
-
 	cmp	ebx, DWORD PTR _end$1$[ebp]
 	jne	$LL5@normalizeE
 $LN4@normalizeE:
 
-; 537  :    return normalized;
-
 	mov	eax, esi
-
-; 538  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -34680,6 +33360,1496 @@ $LN3@operator:
 	pop	ebp
 	ret	4
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z ENDP ; std::basic_ostream<char,std::char_traits<char> >::operator<<
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\xlocnum
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\xlocnum
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\ostream
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\ostream
+;	COMDAT ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+_TEXT	SEGMENT
+$T2 = -52						; size = 8
+$T3 = -52						; size = 8
+__Ok$ = -44						; size = 8
+__State$ = -36						; size = 4
+$T4 = -32						; size = 1
+$T5 = -28						; size = 4
+_this$ = -24						; size = 4
+__$EHRec$ = -16						; size = 16
+__Val$ = 8						; size = 4
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z PROC ; std::basic_ostream<char,std::char_traits<char> >::operator<<, COMDAT
+; _this$ = ecx
+
+; 296  : 		{	// insert an int
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 40					; 00000028H
+	push	ebx
+	push	esi
+	push	edi
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp], esp
+	mov	esi, ecx
+	mov	DWORD PTR _this$[ebp], esi
+; File f:\program_files\vc\include\ios
+
+; 96   : 		return (_Mystrbuf);
+
+	mov	eax, DWORD PTR [esi]
+; File f:\program_files\vc\include\ostream
+
+; 297  : 		ios_base::iostate _State = ios_base::goodbit;
+
+	xor	edi, edi
+; File f:\program_files\vc\include\ios
+
+; 96   : 		return (_Mystrbuf);
+
+	mov	eax, DWORD PTR [eax+4]
+; File f:\program_files\vc\include\ostream
+
+; 297  : 		ios_base::iostate _State = ios_base::goodbit;
+
+	mov	DWORD PTR __State$[ebp], edi
+; File f:\program_files\vc\include\ios
+
+; 96   : 		return (_Mystrbuf);
+
+	mov	ecx, DWORD PTR [eax+esi+56]
+; File f:\program_files\vc\include\ostream
+
+; 103  : 			{	// lock the stream buffer, if there
+
+	mov	DWORD PTR __Ok$[ebp], esi
+
+; 104  : 			if (_Myostr.rdbuf() != 0)
+
+	test	ecx, ecx
+	je	SHORT $LN20@operator
+
+; 105  : 				_Myostr.rdbuf()->_Lock();
+
+	mov	eax, DWORD PTR [ecx]
+	call	DWORD PTR [eax+4]
+$LN20@operator:
+
+; 112  : 			}
+; 113  : 
+; 114  : 		_Myt& _Myostr;	// the output stream, for _Unlock call at destruction
+; 115  : 
+; 116  : 	private:
+; 117  : 		_Sentry_base& operator=(const _Sentry_base&);
+; 118  : 		};
+; 119  : 
+; 120  : 	class sentry
+; 121  : 		: public _Sentry_base
+; 122  : 		{	// stores thread lock and state of stream
+; 123  : 	public:
+; 124  : 		explicit __CLR_OR_THIS_CALL sentry(_Myt& _Ostr)
+; 125  : 			: _Sentry_base(_Ostr)
+; 126  : 			{	// construct locking and testing stream
+
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+; File f:\program_files\vc\include\xiosbase
+
+; 327  : 		return (_Mystate);
+
+	mov	eax, DWORD PTR [esi]
+	mov	eax, DWORD PTR [eax+4]
+
+; 328  : 		}
+; 329  : 
+; 330  : 	void __CLR_OR_THIS_CALL setstate(iostate _State, bool _Exreraise)
+; 331  : 		{	// merge in state argument, possibly reraise exception
+; 332  : 		if (_State != goodbit)
+; 333  : 			clear((iostate)((int)rdstate() | (int)_State), _Exreraise);
+; 334  : 		}
+; 335  : 
+; 336  : 	void __CLR_OR_THIS_CALL setstate(iostate _State)
+; 337  : 		{	// merge in state argument
+; 338  : 		if (_State != goodbit)
+; 339  : 			clear((iostate)((int)rdstate() | (int)_State), false);
+; 340  : 		}
+; 341  : 
+; 342  : 	void __CLR_OR_THIS_CALL setstate(io_state _State)
+; 343  : 		{	// merge in state argument, old style
+; 344  : 		setstate((iostate)_State);
+; 345  : 		}
+; 346  : 
+; 347  : 	bool __CLR_OR_THIS_CALL good() const
+; 348  : 		{	// test if no state bits are set
+; 349  : 		return (rdstate() == goodbit);
+
+	cmp	DWORD PTR [eax+esi+12], 0
+; File f:\program_files\vc\include\ostream
+
+; 127  : 			if (_Ostr.good() && _Ostr.tie() != 0)
+
+	jne	SHORT $LN16@operator
+; File f:\program_files\vc\include\ios
+
+; 84   : 		return (_Tiestr);
+
+	mov	ecx, DWORD PTR [eax+esi+60]
+; File f:\program_files\vc\include\ostream
+
+; 127  : 			if (_Ostr.good() && _Ostr.tie() != 0)
+
+	test	ecx, ecx
+	je	SHORT $LN16@operator
+
+; 128  : 				_Ostr.tie()->flush();
+
+	call	?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ ; std::basic_ostream<char,std::char_traits<char> >::flush
+$LN16@operator:
+; File f:\program_files\vc\include\xiosbase
+
+; 327  : 		return (_Mystate);
+
+	mov	eax, DWORD PTR [esi]
+	mov	ecx, DWORD PTR [eax+4]
+	add	ecx, esi
+
+; 328  : 		}
+; 329  : 
+; 330  : 	void __CLR_OR_THIS_CALL setstate(iostate _State, bool _Exreraise)
+; 331  : 		{	// merge in state argument, possibly reraise exception
+; 332  : 		if (_State != goodbit)
+; 333  : 			clear((iostate)((int)rdstate() | (int)_State), _Exreraise);
+; 334  : 		}
+; 335  : 
+; 336  : 	void __CLR_OR_THIS_CALL setstate(iostate _State)
+; 337  : 		{	// merge in state argument
+; 338  : 		if (_State != goodbit)
+; 339  : 			clear((iostate)((int)rdstate() | (int)_State), false);
+; 340  : 		}
+; 341  : 
+; 342  : 	void __CLR_OR_THIS_CALL setstate(io_state _State)
+; 343  : 		{	// merge in state argument, old style
+; 344  : 		setstate((iostate)_State);
+; 345  : 		}
+; 346  : 
+; 347  : 	bool __CLR_OR_THIS_CALL good() const
+; 348  : 		{	// test if no state bits are set
+; 349  : 		return (rdstate() == goodbit);
+
+	cmp	DWORD PTR [ecx+12], 0
+	sete	al
+; File f:\program_files\vc\include\ostream
+
+; 129  : 			_Ok = _Ostr.good();	// store test only after flushing tie
+
+	mov	BYTE PTR __Ok$[ebp+4], al
+
+; 298  : 		const sentry _Ok(*this);
+
+	mov	DWORD PTR __$EHRec$[ebp+12], 1
+
+; 137  : 
+; 138  :  #else /* _HAS_EXCEPTIONS */
+; 139  : 			this->_Myostr._Osfx();
+; 140  :  #endif /* _HAS_EXCEPTIONS */
+; 141  : 			}
+; 142  : 
+; 143  : 		_TYPEDEF_BOOL_TYPE;
+; 144  : 
+; 145  : 		__CLR_OR_THIS_CALL _OPERATOR_BOOL() const
+; 146  : 			{	// test if stream state okay
+; 147  : 			return (_Ok ? _CONVERTIBLE_TO_TRUE : 0);
+
+	test	al, al
+
+; 299  : 
+; 300  : 		if (_Ok)
+
+	je	$LN14@operator
+
+; 302  : 			const _Nput& _Nput_fac = _USE(this->getloc(), _Nput);
+
+	lea	eax, DWORD PTR $T5[ebp]
+	push	eax
+	call	?getloc@ios_base@std@@QBE?AVlocale@2@XZ	; std::ios_base::getloc
+	push	eax
+	mov	BYTE PTR __$EHRec$[ebp+12], 2
+	call	??$use_facet@V?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@@std@@YAABV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@0@ABVlocale@0@@Z ; std::use_facet<std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > > >
+	mov	BYTE PTR __$EHRec$[ebp+12], 1
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	mov	ecx, DWORD PTR $T5[ebp]
+; File f:\program_files\vc\include\ostream
+
+; 302  : 			const _Nput& _Nput_fac = _USE(this->getloc(), _Nput);
+
+	add	esp, 4
+	mov	ebx, eax
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	test	ecx, ecx
+	je	SHORT $LN44@operator
+
+; 423  : 			_DELETE_CRT(_Ptr->_Decref());
+
+	mov	edx, DWORD PTR [ecx]
+	call	DWORD PTR [edx+8]
+	test	eax, eax
+	je	SHORT $LN44@operator
+	mov	edx, DWORD PTR [eax]
+	push	1
+	mov	ecx, eax
+	call	DWORD PTR [edx]
+$LN44@operator:
+; File f:\program_files\vc\include\xiosbase
+
+; 386  : 		return (_Fmtfl);
+
+	mov	eax, DWORD PTR [esi]
+; File f:\program_files\vc\include\xlocnum
+
+; 1137 : 		return (do_put(_Dest, _Iosbase, _Fill, _Val));
+
+	push	DWORD PTR __Val$[ebp]
+; File f:\program_files\vc\include\xiosbase
+
+; 386  : 		return (_Fmtfl);
+
+	mov	ecx, DWORD PTR [eax+4]
+	add	ecx, esi
+; File f:\program_files\vc\include\ostream
+
+; 309  : 			_TRY_IO_BEGIN
+
+	mov	BYTE PTR __$EHRec$[ebp+12], 3
+; File f:\program_files\vc\include\streambuf
+
+; 616  : 		{	// construct from stream buffer _Sb
+
+	mov	BYTE PTR $T3[ebp], 0
+; File f:\program_files\vc\include\ios
+
+; 117  : 		return (_Fillch);
+
+	mov	al, BYTE PTR [ecx+64]
+	mov	BYTE PTR $T4[ebp], al
+; File f:\program_files\vc\include\xlocnum
+
+; 1137 : 		return (do_put(_Dest, _Iosbase, _Fill, _Val));
+
+	push	DWORD PTR $T4[ebp]
+	mov	eax, DWORD PTR [ebx]
+	push	ecx
+	push	DWORD PTR [ecx+56]
+	lea	ecx, DWORD PTR $T2[ebp]
+	push	DWORD PTR $T3[ebp]
+	push	ecx
+	mov	ecx, ebx
+	call	DWORD PTR [eax+36]
+; File f:\program_files\vc\include\ostream
+
+; 311  : 				_Myios::fill(), _Tmp).failed())
+
+	cmp	BYTE PTR $T2[ebp], 0
+	mov	eax, 4
+	cmovne	edi, eax
+	jmp	SHORT $LN144@operator
+__catch$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$0:
+
+; 313  : 			_CATCH_IO_END
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [ecx]
+	mov	edx, DWORD PTR [eax+4]
+; File f:\program_files\vc\include\xiosbase
+
+; 327  : 		return (_Mystate);
+
+	mov	eax, DWORD PTR [edx+ecx+12]
+; File f:\program_files\vc\include\ostream
+
+; 313  : 			_CATCH_IO_END
+
+	add	edx, ecx
+; File f:\program_files\vc\include\ios
+
+; 66   : 			clear((iostate)((int)rdstate() | (int)_State), _Reraise);
+
+	or	eax, 4
+
+; 54   : 			? (int)_State | (int)badbit : (int)_State), _Reraise);
+
+	cmp	DWORD PTR [edx+56], 0
+	jne	SHORT $LN65@operator
+	or	eax, 4
+$LN65@operator:
+	push	1
+	push	eax
+	mov	ecx, edx
+	call	?clear@ios_base@std@@QAEXH_N@Z		; std::ios_base::clear
+; File f:\program_files\vc\include\ostream
+
+; 313  : 			_CATCH_IO_END
+
+	mov	eax, $LN15@operator
+	ret	0
+$LN15@operator:
+; File f:\program_files\vc\include\ios
+	mov	esi, DWORD PTR _this$[ebp]
+	mov	edi, DWORD PTR __State$[ebp]
+$LN144@operator:
+	mov	DWORD PTR __$EHRec$[ebp+12], 1
+$LN14@operator:
+; File f:\program_files\vc\include\ostream
+
+; 314  : 			}
+; 315  : 
+; 316  : 		_Myios::setstate(_State);
+
+	mov	eax, DWORD PTR [esi]
+	mov	ecx, DWORD PTR [eax+4]
+	add	ecx, esi
+; File f:\program_files\vc\include\ios
+
+; 65   : 		if (_State != goodbit)
+
+	test	edi, edi
+	je	SHORT $LN100@operator
+; File f:\program_files\vc\include\xiosbase
+
+; 327  : 		return (_Mystate);
+
+	mov	eax, DWORD PTR [ecx+12]
+; File f:\program_files\vc\include\ios
+
+; 66   : 			clear((iostate)((int)rdstate() | (int)_State), _Reraise);
+
+	or	eax, edi
+
+; 54   : 			? (int)_State | (int)badbit : (int)_State), _Reraise);
+
+	cmp	DWORD PTR [ecx+56], 0
+	jne	SHORT $LN102@operator
+	or	eax, 4
+$LN102@operator:
+	push	0
+	push	eax
+	call	?clear@ios_base@std@@QAEXH_N@Z		; std::ios_base::clear
+$LN100@operator:
+; File f:\program_files\vc\include\ostream
+
+; 317  : 		return (*this);
+
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+
+; 130  : 			}
+; 131  : 
+; 132  : 		__CLR_OR_THIS_CALL ~sentry() _NOEXCEPT
+; 133  : 			{	// destroy the object
+; 134  :  #if _HAS_EXCEPTIONS
+; 135  : 			if (!_XSTD uncaught_exception())
+
+	call	?uncaught_exception@std@@YA_NXZ		; std::uncaught_exception
+	test	al, al
+	jne	SHORT $LN132@operator
+
+; 136  : 				this->_Myostr._Osfx();
+
+	mov	ecx, esi
+	call	?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ ; std::basic_ostream<char,std::char_traits<char> >::_Osfx
+$LN132@operator:
+
+; 106  : 			}
+; 107  : 
+; 108  : 		__CLR_OR_THIS_CALL ~_Sentry_base() _NOEXCEPT
+; 109  : 			{	// destroy after unlocking
+; 110  : 			if (_Myostr.rdbuf() != 0)
+
+	mov	eax, DWORD PTR [esi]
+	mov	eax, DWORD PTR [eax+4]
+	mov	ecx, DWORD PTR [eax+esi+56]
+	test	ecx, ecx
+	je	SHORT $LN142@operator
+
+; 111  : 				_Myostr.rdbuf()->_Unlock();
+
+	mov	eax, DWORD PTR [ecx]
+	call	DWORD PTR [eax+8]
+$LN142@operator:
+
+; 317  : 		return (*this);
+
+	mov	eax, esi
+
+; 318  : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$4:
+	lea	ecx, DWORD PTR __Ok$[ebp]
+	jmp	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ ; std::basic_ostream<char,std::char_traits<char> >::_Sentry_base::~_Sentry_base
+__unwindfunclet$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$2:
+	lea	ecx, DWORD PTR __Ok$[ebp]
+	jmp	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ ; std::basic_ostream<char,std::char_traits<char> >::sentry::~sentry
+__unwindfunclet$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z$3:
+	lea	ecx, DWORD PTR $T5[ebp]
+	jmp	??1locale@std@@QAE@XZ			; std::locale::~locale
+__ehhandler$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-56]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z ENDP ; std::basic_ostream<char,std::char_traits<char> >::operator<<
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\xiosbase
+; File f:\program_files\vc\include\ios
+;	COMDAT ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+_TEXT	SEGMENT
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ PROC	; std::basic_ios<char,std::char_traits<char> >::~basic_ios<char,std::char_traits<char> >, COMDAT
+; _this$ = ecx
+; File f:\program_files\vc\include\xiosbase
+
+; 532  : 		_Ios_base_dtor(this);
+
+	push	ecx
+	mov	DWORD PTR [ecx], OFFSET ??_7ios_base@std@@6B@
+	call	?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z ; std::ios_base::_Ios_base_dtor
+	pop	ecx
+; File f:\program_files\vc\include\ios
+
+; 40   : 		}
+
+	ret	0
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ ENDP	; std::basic_ios<char,std::char_traits<char> >::~basic_ios<char,std::char_traits<char> >
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\ios
+;	COMDAT ?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ
+_TEXT	SEGMENT
+?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ PROC ; std::basic_ios<char,std::char_traits<char> >::_Add_vtordisp1, COMDAT
+; _this$ = ecx
+
+; 44   : 		}
+
+	ret	0
+?_Add_vtordisp1@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ ENDP ; std::basic_ios<char,std::char_traits<char> >::_Add_vtordisp1
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\ios
+;	COMDAT ?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ
+_TEXT	SEGMENT
+?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ PROC ; std::basic_ios<char,std::char_traits<char> >::_Add_vtordisp2, COMDAT
+; _this$ = ecx
+
+; 48   : 		}
+
+	ret	0
+?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ ENDP ; std::basic_ios<char,std::char_traits<char> >::_Add_vtordisp2
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+_TEXT	SEGMENT
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::~basic_streambuf<char,std::char_traits<char> >, COMDAT
+; _this$ = ecx
+
+; 79   : 		{	// destroy the object
+
+	push	esi
+
+; 80   : 		_DELETE_CRT(_Plocale);
+
+	mov	esi, DWORD PTR [ecx+52]
+	mov	DWORD PTR [ecx], OFFSET ??_7?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@
+	test	esi, esi
+	je	SHORT $LN5@basic_stre
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	mov	ecx, DWORD PTR [esi]
+	test	ecx, ecx
+	je	SHORT $LN11@basic_stre
+
+; 423  : 			_DELETE_CRT(_Ptr->_Decref());
+
+	mov	eax, DWORD PTR [ecx]
+	call	DWORD PTR [eax+8]
+	test	eax, eax
+	je	SHORT $LN11@basic_stre
+	mov	edx, DWORD PTR [eax]
+	push	1
+	mov	ecx, eax
+	call	DWORD PTR [edx]
+$LN11@basic_stre:
+	push	esi
+	call	??3@YAXPAX@Z				; operator delete
+	add	esp, 4
+$LN5@basic_stre:
+	pop	esi
+; File f:\program_files\vc\include\streambuf
+
+; 81   : 		}
+
+	ret	0
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::~basic_streambuf<char,std::char_traits<char> >
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+_TEXT	SEGMENT
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::_Lock, COMDAT
+; _this$ = ecx
+
+; 207  : 		}
+
+	ret	0
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::_Lock
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+_TEXT	SEGMENT
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::_Unlock, COMDAT
+; _this$ = ecx
+
+; 211  : 		}
+
+	ret	0
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::_Unlock
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::overflow, COMDAT
+; _this$ = ecx
+
+; 336  : 		return (_Traits::eof());
+
+	or	eax, -1
+
+; 337  : 		}
+
+	ret	4
+?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::overflow
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::pbackfail, COMDAT
+; _this$ = ecx
+
+; 341  : 		return (_Traits::eof());
+
+	or	eax, -1
+
+; 342  : 		}
+
+	ret	4
+?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::pbackfail
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+_TEXT	SEGMENT
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::showmanyc, COMDAT
+; _this$ = ecx
+
+; 346  : 		return (0);
+
+	xor	eax, eax
+	xor	edx, edx
+
+; 347  : 		}
+
+	ret	0
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::showmanyc
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+_TEXT	SEGMENT
+?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::underflow, COMDAT
+; _this$ = ecx
+
+; 351  : 		return (_Traits::eof());
+
+	or	eax, -1
+
+; 352  : 		}
+
+	ret	0
+?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::underflow
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+_TEXT	SEGMENT
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::uflow, COMDAT
+; _this$ = ecx
+
+; 355  : 		{	// get a character from stream, point past it
+
+	push	esi
+	mov	esi, ecx
+
+; 357  : 			? _Traits::eof() : _Traits::to_int_type(*_Gninc()));
+
+	mov	eax, DWORD PTR [esi]
+	call	DWORD PTR [eax+24]
+; File f:\program_files\vc\include\iosfwd
+
+; 594  : 		return (_Left == _Right);
+
+	cmp	eax, -1
+; File f:\program_files\vc\include\streambuf
+
+; 357  : 			? _Traits::eof() : _Traits::to_int_type(*_Gninc()));
+
+	jne	SHORT $LN3@uflow
+	or	eax, eax
+	pop	esi
+
+; 358  : 		}
+
+	ret	0
+$LN3@uflow:
+
+; 265  : 		--*_IGcount;
+
+	mov	eax, DWORD PTR [esi+44]
+	dec	DWORD PTR [eax]
+
+; 266  : 		return ((*_IGnext)++);
+
+	mov	ecx, DWORD PTR [esi+28]
+	pop	esi
+	mov	edx, DWORD PTR [ecx]
+	lea	eax, DWORD PTR [edx+1]
+	mov	DWORD PTR [ecx], eax
+; File f:\program_files\vc\include\iosfwd
+
+; 588  : 		return ((unsigned char)_Ch);
+
+	movzx	eax, BYTE PTR [edx]
+; File f:\program_files\vc\include\streambuf
+
+; 358  : 		}
+
+	ret	0
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::uflow
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+_TEXT	SEGMENT
+__Copied$2$ = -20					; size = 4
+__Copied$1$ = -16					; size = 4
+_this$1$ = -12						; size = 4
+__Size$2$ = -8						; size = 4
+__Copied$ = -8						; size = 8
+__Ptr$ = 8						; size = 4
+__Count$ = 12						; size = 8
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::xsgetn, COMDAT
+; _this$ = ecx
+
+; 362  : 		{	// get _Count characters from stream
+
+	push	ebp
+	mov	ebp, esp
+	and	esp, -8					; fffffff8H
+	sub	esp, 20					; 00000014H
+	push	ebx
+
+; 363  : 		int_type _Meta;
+; 364  : 		streamsize _Size, _Copied;
+; 365  : 
+; 366  : 		for (_Copied = 0; 0 < _Count; )
+
+	mov	ebx, DWORD PTR __Count$[ebp+4]
+	push	esi
+	xorps	xmm0, xmm0
+	push	edi
+	mov	DWORD PTR _this$1$[esp+32], ecx
+	movlpd	QWORD PTR __Copied$[esp+32], xmm0
+	test	ebx, ebx
+	jl	$LN32@xsgetn
+	mov	edi, DWORD PTR __Count$[ebp]
+	jg	SHORT $LN31@xsgetn
+	test	edi, edi
+	je	$LN32@xsgetn
+$LN31@xsgetn:
+	mov	edx, DWORD PTR __Copied$[esp+36]
+	mov	eax, DWORD PTR __Copied$[esp+32]
+	mov	DWORD PTR __Copied$2$[esp+32], edx
+	mov	DWORD PTR __Copied$1$[esp+32], eax
+$LL7@xsgetn:
+
+; 367  : 			if (0 < (_Size = _Gnavail()))
+
+	call	?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBE_JXZ ; std::basic_streambuf<char,std::char_traits<char> >::_Gnavail
+	mov	esi, eax
+	mov	eax, edx
+	mov	DWORD PTR __Size$2$[esp+32], eax
+	test	eax, eax
+	jl	SHORT $LN5@xsgetn
+	jg	SHORT $LN28@xsgetn
+	test	esi, esi
+	je	SHORT $LN5@xsgetn
+$LN28@xsgetn:
+
+; 368  : 				{	// copy from read buffer
+; 369  : 				if (_Count < _Size)
+
+	cmp	ebx, eax
+	jg	SHORT $LN4@xsgetn
+	jl	SHORT $LN29@xsgetn
+	cmp	edi, esi
+	jae	SHORT $LN4@xsgetn
+$LN29@xsgetn:
+
+; 370  : 					_Size = _Count;
+
+	mov	esi, edi
+	mov	DWORD PTR __Size$2$[esp+32], ebx
+$LN4@xsgetn:
+; File f:\program_files\vc\include\iosfwd
+
+; 530  : 			: (_Elem *)_CSTD memcpy(_First1, _First2, _Count));
+
+	test	esi, esi
+	je	SHORT $LN15@xsgetn
+; File f:\program_files\vc\include\streambuf
+
+; 221  : 		return (*_IGnext);
+
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+; File f:\program_files\vc\include\iosfwd
+
+; 530  : 			: (_Elem *)_CSTD memcpy(_First1, _First2, _Count));
+
+	push	esi
+; File f:\program_files\vc\include\streambuf
+
+; 221  : 		return (*_IGnext);
+
+	mov	eax, DWORD PTR [ecx+28]
+; File f:\program_files\vc\include\iosfwd
+
+; 530  : 			: (_Elem *)_CSTD memcpy(_First1, _First2, _Count));
+
+	push	DWORD PTR [eax]
+	push	DWORD PTR __Ptr$[ebp]
+	call	_memcpy
+	add	esp, 12					; 0000000cH
+$LN15@xsgetn:
+; File f:\program_files\vc\include\streambuf
+
+; 372  : 				_Ptr += _Size;
+
+	add	DWORD PTR __Ptr$[ebp], esi
+
+; 373  : 				_Copied += _Size;
+
+	add	DWORD PTR __Copied$1$[esp+32], esi
+	mov	eax, DWORD PTR __Size$2$[esp+32]
+
+; 222  : 		}
+; 223  : 
+; 224  : 	_Elem *__CLR_OR_THIS_CALL pbase() const
+; 225  : 		{	// return beginning of write buffer
+; 226  : 		return (*_IPfirst);
+; 227  : 		}
+; 228  : 
+; 229  : 	_Elem *__CLR_OR_THIS_CALL pptr() const
+; 230  : 		{	// return current position in write buffer
+; 231  : 		return (*_IPnext);
+; 232  : 		}
+; 233  : 
+; 234  : 	_Elem *__CLR_OR_THIS_CALL egptr() const
+; 235  : 		{	// return end of read buffer
+; 236  : 		return (*_IGnext + *_IGcount);
+; 237  : 		}
+; 238  : 
+; 239  : 	void __CLR_OR_THIS_CALL gbump(int _Off)
+; 240  : 		{	// alter current position in read buffer by _Off
+; 241  : 		*_IGcount -= _Off;
+
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+
+; 373  : 				_Copied += _Size;
+
+	adc	DWORD PTR __Copied$2$[esp+32], eax
+
+; 374  : 				_Count -= _Size;
+
+	sub	edi, esi
+	sbb	ebx, eax
+
+; 222  : 		}
+; 223  : 
+; 224  : 	_Elem *__CLR_OR_THIS_CALL pbase() const
+; 225  : 		{	// return beginning of write buffer
+; 226  : 		return (*_IPfirst);
+; 227  : 		}
+; 228  : 
+; 229  : 	_Elem *__CLR_OR_THIS_CALL pptr() const
+; 230  : 		{	// return current position in write buffer
+; 231  : 		return (*_IPnext);
+; 232  : 		}
+; 233  : 
+; 234  : 	_Elem *__CLR_OR_THIS_CALL egptr() const
+; 235  : 		{	// return end of read buffer
+; 236  : 		return (*_IGnext + *_IGcount);
+; 237  : 		}
+; 238  : 
+; 239  : 	void __CLR_OR_THIS_CALL gbump(int _Off)
+; 240  : 		{	// alter current position in read buffer by _Off
+; 241  : 		*_IGcount -= _Off;
+
+	mov	eax, DWORD PTR [ecx+44]
+	sub	DWORD PTR [eax], esi
+
+; 242  : 		*_IGnext += _Off;
+
+	mov	eax, DWORD PTR [ecx+28]
+	add	DWORD PTR [eax], esi
+
+; 243  : 		}
+
+	jmp	SHORT $LN1@xsgetn
+$LN5@xsgetn:
+
+; 377  : 			else if (_Traits::eq_int_type(_Traits::eof(), _Meta = uflow()))
+
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+	mov	eax, DWORD PTR [ecx]
+	call	DWORD PTR [eax+28]
+; File f:\program_files\vc\include\iosfwd
+
+; 594  : 		return (_Left == _Right);
+
+	cmp	eax, -1
+; File f:\program_files\vc\include\streambuf
+
+; 377  : 			else if (_Traits::eq_int_type(_Traits::eof(), _Meta = uflow()))
+
+	je	SHORT $LN34@xsgetn
+
+; 378  : 				break;	// end of file, quit
+; 379  : 			else
+; 380  : 				{	// get a single character
+; 381  : 				*_Ptr++ = _Traits::to_char_type(_Meta);
+
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	inc	ecx
+
+; 382  : 				++_Copied;
+
+	add	DWORD PTR __Copied$1$[esp+32], 1
+	mov	BYTE PTR [ecx-1], al
+	mov	DWORD PTR __Ptr$[ebp], ecx
+	adc	DWORD PTR __Copied$2$[esp+32], 0
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+
+; 383  : 				--_Count;
+
+	add	edi, -1
+	adc	ebx, -1
+$LN1@xsgetn:
+
+; 363  : 		int_type _Meta;
+; 364  : 		streamsize _Size, _Copied;
+; 365  : 
+; 366  : 		for (_Copied = 0; 0 < _Count; )
+
+	test	ebx, ebx
+	jg	$LL7@xsgetn
+	jl	SHORT $LN34@xsgetn
+	test	edi, edi
+	jne	$LL7@xsgetn
+$LN34@xsgetn:
+	mov	edx, DWORD PTR __Copied$2$[esp+32]
+	mov	eax, DWORD PTR __Copied$1$[esp+32]
+
+; 384  : 				}
+; 385  : 
+; 386  : 		return (_Copied);
+; 387  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+$LN32@xsgetn:
+
+; 363  : 		int_type _Meta;
+; 364  : 		streamsize _Size, _Copied;
+; 365  : 
+; 366  : 		for (_Copied = 0; 0 < _Count; )
+
+	mov	edx, DWORD PTR __Copied$[esp+36]
+	mov	eax, DWORD PTR __Copied$[esp+32]
+
+; 384  : 				}
+; 385  : 
+; 386  : 		return (_Copied);
+; 387  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::xsgetn
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+_TEXT	SEGMENT
+__Copied$2$ = -20					; size = 4
+__Copied$1$ = -16					; size = 4
+_this$1$ = -12						; size = 4
+__Size$2$ = -8						; size = 4
+__Copied$ = -8						; size = 8
+__Ptr$ = 8						; size = 4
+__Count$ = 12						; size = 8
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::xsputn, COMDAT
+; _this$ = ecx
+
+; 391  : 		{	// put _Count characters to stream
+
+	push	ebp
+	mov	ebp, esp
+	and	esp, -8					; fffffff8H
+	sub	esp, 20					; 00000014H
+	push	ebx
+
+; 392  : 		streamsize _Size, _Copied;
+; 393  : 
+; 394  : 		for (_Copied = 0; 0 < _Count; )
+
+	mov	ebx, DWORD PTR __Count$[ebp+4]
+	push	esi
+	xorps	xmm0, xmm0
+	push	edi
+	mov	DWORD PTR _this$1$[esp+32], ecx
+	movlpd	QWORD PTR __Copied$[esp+32], xmm0
+	test	ebx, ebx
+	jl	$LN32@xsputn
+	mov	edi, DWORD PTR __Count$[ebp]
+	jg	SHORT $LN31@xsputn
+	test	edi, edi
+	je	$LN32@xsputn
+$LN31@xsputn:
+	mov	edx, DWORD PTR __Copied$[esp+36]
+	mov	eax, DWORD PTR __Copied$[esp+32]
+	mov	DWORD PTR __Copied$2$[esp+32], edx
+	mov	DWORD PTR __Copied$1$[esp+32], eax
+$LL7@xsputn:
+
+; 395  : 			if (0 < (_Size = _Pnavail()))
+
+	call	?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBE_JXZ ; std::basic_streambuf<char,std::char_traits<char> >::_Pnavail
+	mov	esi, eax
+	mov	eax, edx
+	mov	DWORD PTR __Size$2$[esp+32], eax
+	test	eax, eax
+	jl	SHORT $LN5@xsputn
+	jg	SHORT $LN28@xsputn
+	test	esi, esi
+	je	SHORT $LN5@xsputn
+$LN28@xsputn:
+
+; 396  : 				{	// copy to write buffer
+; 397  : 				if (_Count < _Size)
+
+	cmp	ebx, eax
+	jg	SHORT $LN4@xsputn
+	jl	SHORT $LN29@xsputn
+	cmp	edi, esi
+	jae	SHORT $LN4@xsputn
+$LN29@xsputn:
+
+; 398  : 					_Size = _Count;
+
+	mov	esi, edi
+	mov	DWORD PTR __Size$2$[esp+32], ebx
+$LN4@xsputn:
+; File f:\program_files\vc\include\iosfwd
+
+; 530  : 			: (_Elem *)_CSTD memcpy(_First1, _First2, _Count));
+
+	test	esi, esi
+	je	SHORT $LN15@xsputn
+; File f:\program_files\vc\include\streambuf
+
+; 231  : 		return (*_IPnext);
+
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+; File f:\program_files\vc\include\iosfwd
+
+; 530  : 			: (_Elem *)_CSTD memcpy(_First1, _First2, _Count));
+
+	push	esi
+; File f:\program_files\vc\include\streambuf
+
+; 231  : 		return (*_IPnext);
+
+	mov	eax, DWORD PTR [ecx+32]
+; File f:\program_files\vc\include\iosfwd
+
+; 530  : 			: (_Elem *)_CSTD memcpy(_First1, _First2, _Count));
+
+	push	DWORD PTR __Ptr$[ebp]
+	push	DWORD PTR [eax]
+	call	_memcpy
+	add	esp, 12					; 0000000cH
+$LN15@xsputn:
+; File f:\program_files\vc\include\streambuf
+
+; 400  : 				_Ptr += _Size;
+
+	add	DWORD PTR __Ptr$[ebp], esi
+
+; 401  : 				_Copied += _Size;
+
+	add	DWORD PTR __Copied$1$[esp+32], esi
+	mov	eax, DWORD PTR __Size$2$[esp+32]
+
+; 232  : 		}
+; 233  : 
+; 234  : 	_Elem *__CLR_OR_THIS_CALL egptr() const
+; 235  : 		{	// return end of read buffer
+; 236  : 		return (*_IGnext + *_IGcount);
+; 237  : 		}
+; 238  : 
+; 239  : 	void __CLR_OR_THIS_CALL gbump(int _Off)
+; 240  : 		{	// alter current position in read buffer by _Off
+; 241  : 		*_IGcount -= _Off;
+; 242  : 		*_IGnext += _Off;
+; 243  : 		}
+; 244  : 
+; 245  : 	void __CLR_OR_THIS_CALL setg(_Elem *_First, _Elem *_Next, _Elem *_Last)
+; 246  : 		{	// set pointers for read buffer
+; 247  : 		*_IGfirst = _First;
+; 248  : 		*_IGnext = _Next;
+; 249  : 		*_IGcount = (int)(_Last - _Next);
+; 250  : 		}
+; 251  : 
+; 252  : 	_Elem *__CLR_OR_THIS_CALL epptr() const
+; 253  : 		{	// return end of write buffer
+; 254  : 		return (*_IPnext + *_IPcount);
+; 255  : 		}
+; 256  : 
+; 257  : 	_Elem *__CLR_OR_THIS_CALL _Gndec()
+; 258  : 		{	// decrement current position in read buffer
+; 259  : 		++*_IGcount;
+; 260  : 		return (--*_IGnext);
+; 261  : 		}
+; 262  : 
+; 263  : 	_Elem *__CLR_OR_THIS_CALL _Gninc()
+; 264  : 		{	// increment current position in read buffer
+; 265  : 		--*_IGcount;
+; 266  : 		return ((*_IGnext)++);
+; 267  : 		}
+; 268  : 
+; 269  : 	_Elem *__CLR_OR_THIS_CALL _Gnpreinc()
+; 270  : 		{	// preincrement current position in read buffer
+; 271  : 		--*_IGcount;
+; 272  : 		return (++(*_IGnext));
+; 273  : 		}
+; 274  : 
+; 275  : 	streamsize __CLR_OR_THIS_CALL _Gnavail() const
+; 276  : 		{	// count number of available elements in read buffer
+; 277  : 		return (*_IGnext != 0 ? *_IGcount : 0);
+; 278  : 		}
+; 279  : 
+; 280  : 	void __CLR_OR_THIS_CALL pbump(int _Off)
+; 281  : 		{	// alter current position in write buffer by _Off
+; 282  : 		*_IPcount -= _Off;
+
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+
+; 401  : 				_Copied += _Size;
+
+	adc	DWORD PTR __Copied$2$[esp+32], eax
+
+; 402  : 				_Count -= _Size;
+
+	sub	edi, esi
+	sbb	ebx, eax
+
+; 232  : 		}
+; 233  : 
+; 234  : 	_Elem *__CLR_OR_THIS_CALL egptr() const
+; 235  : 		{	// return end of read buffer
+; 236  : 		return (*_IGnext + *_IGcount);
+; 237  : 		}
+; 238  : 
+; 239  : 	void __CLR_OR_THIS_CALL gbump(int _Off)
+; 240  : 		{	// alter current position in read buffer by _Off
+; 241  : 		*_IGcount -= _Off;
+; 242  : 		*_IGnext += _Off;
+; 243  : 		}
+; 244  : 
+; 245  : 	void __CLR_OR_THIS_CALL setg(_Elem *_First, _Elem *_Next, _Elem *_Last)
+; 246  : 		{	// set pointers for read buffer
+; 247  : 		*_IGfirst = _First;
+; 248  : 		*_IGnext = _Next;
+; 249  : 		*_IGcount = (int)(_Last - _Next);
+; 250  : 		}
+; 251  : 
+; 252  : 	_Elem *__CLR_OR_THIS_CALL epptr() const
+; 253  : 		{	// return end of write buffer
+; 254  : 		return (*_IPnext + *_IPcount);
+; 255  : 		}
+; 256  : 
+; 257  : 	_Elem *__CLR_OR_THIS_CALL _Gndec()
+; 258  : 		{	// decrement current position in read buffer
+; 259  : 		++*_IGcount;
+; 260  : 		return (--*_IGnext);
+; 261  : 		}
+; 262  : 
+; 263  : 	_Elem *__CLR_OR_THIS_CALL _Gninc()
+; 264  : 		{	// increment current position in read buffer
+; 265  : 		--*_IGcount;
+; 266  : 		return ((*_IGnext)++);
+; 267  : 		}
+; 268  : 
+; 269  : 	_Elem *__CLR_OR_THIS_CALL _Gnpreinc()
+; 270  : 		{	// preincrement current position in read buffer
+; 271  : 		--*_IGcount;
+; 272  : 		return (++(*_IGnext));
+; 273  : 		}
+; 274  : 
+; 275  : 	streamsize __CLR_OR_THIS_CALL _Gnavail() const
+; 276  : 		{	// count number of available elements in read buffer
+; 277  : 		return (*_IGnext != 0 ? *_IGcount : 0);
+; 278  : 		}
+; 279  : 
+; 280  : 	void __CLR_OR_THIS_CALL pbump(int _Off)
+; 281  : 		{	// alter current position in write buffer by _Off
+; 282  : 		*_IPcount -= _Off;
+
+	mov	eax, DWORD PTR [ecx+48]
+	sub	DWORD PTR [eax], esi
+
+; 283  : 		*_IPnext += _Off;
+
+	mov	eax, DWORD PTR [ecx+32]
+	add	DWORD PTR [eax], esi
+
+; 403  : 				pbump((int)_Size);
+; 404  : 				}
+; 405  : 			else if (_Traits::eq_int_type(_Traits::eof(),
+
+	jmp	SHORT $LN1@xsputn
+$LN5@xsputn:
+; File f:\program_files\vc\include\iosfwd
+
+; 588  : 		return ((unsigned char)_Ch);
+
+	mov	esi, DWORD PTR __Ptr$[ebp]
+; File f:\program_files\vc\include\streambuf
+
+; 406  : 				overflow(_Traits::to_int_type(*_Ptr))))
+
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+; File f:\program_files\vc\include\iosfwd
+
+; 588  : 		return ((unsigned char)_Ch);
+
+	movzx	eax, BYTE PTR [esi]
+; File f:\program_files\vc\include\streambuf
+
+; 406  : 				overflow(_Traits::to_int_type(*_Ptr))))
+
+	mov	edx, DWORD PTR [ecx]
+	push	eax
+	call	DWORD PTR [edx+12]
+; File f:\program_files\vc\include\iosfwd
+
+; 594  : 		return (_Left == _Right);
+
+	cmp	eax, -1
+; File f:\program_files\vc\include\streambuf
+
+; 406  : 				overflow(_Traits::to_int_type(*_Ptr))))
+
+	je	SHORT $LN34@xsputn
+
+; 407  : 				break;	// single character put failed, quit
+; 408  : 			else
+; 409  : 				{	// count character successfully put
+; 410  : 				++_Ptr;
+
+	mov	ecx, DWORD PTR _this$1$[esp+32]
+	inc	esi
+
+; 411  : 				++_Copied;
+
+	add	DWORD PTR __Copied$1$[esp+32], 1
+	mov	DWORD PTR __Ptr$[ebp], esi
+	adc	DWORD PTR __Copied$2$[esp+32], 0
+
+; 412  : 				--_Count;
+
+	add	edi, -1
+	adc	ebx, -1
+$LN1@xsputn:
+
+; 392  : 		streamsize _Size, _Copied;
+; 393  : 
+; 394  : 		for (_Copied = 0; 0 < _Count; )
+
+	test	ebx, ebx
+	jg	$LL7@xsputn
+	jl	SHORT $LN34@xsputn
+	test	edi, edi
+	jne	$LL7@xsputn
+$LN34@xsputn:
+	mov	edx, DWORD PTR __Copied$2$[esp+32]
+	mov	eax, DWORD PTR __Copied$1$[esp+32]
+
+; 413  : 				}
+; 414  : 
+; 415  : 		return (_Copied);
+; 416  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+$LN32@xsputn:
+
+; 392  : 		streamsize _Size, _Copied;
+; 393  : 
+; 394  : 		for (_Copied = 0; 0 < _Count; )
+
+	mov	edx, DWORD PTR __Copied$[esp+36]
+	mov	eax, DWORD PTR __Copied$[esp+32]
+
+; 413  : 				}
+; 414  : 
+; 415  : 		return (_Copied);
+; 416  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::xsputn
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z
+_TEXT	SEGMENT
+___$ReturnUdt$ = 8					; size = 4
+___formal$ = 12						; size = 8
+___formal$ = 20						; size = 4
+___formal$ = 24						; size = 4
+?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::seekoff, COMDAT
+; _this$ = ecx
+
+; 421  : 		{	// change position by offset, according to way and mode
+
+	push	ebp
+	mov	ebp, esp
+; File f:\program_files\vc\include\iosfwd
+
+; 43   : 		{	// construct with stream offset
+
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	ecx, DWORD PTR ?_BADOFF@std@@3_JB
+	mov	DWORD PTR [eax], ecx
+	mov	ecx, DWORD PTR ?_BADOFF@std@@3_JB+4
+	mov	DWORD PTR [eax+4], ecx
+	mov	DWORD PTR [eax+8], 0
+	mov	DWORD PTR [eax+12], 0
+	mov	DWORD PTR [eax+16], 0
+; File f:\program_files\vc\include\streambuf
+
+; 423  : 		}
+
+	pop	ebp
+	ret	20					; 00000014H
+?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::seekoff
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\iosfwd
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z
+_TEXT	SEGMENT
+___$ReturnUdt$ = 8					; size = 4
+___formal$ = 12						; size = 24
+___formal$ = 36						; size = 4
+?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::seekpos, COMDAT
+; _this$ = ecx
+
+; 427  : 		{	// change to specified position, according to mode
+
+	push	ebp
+	mov	ebp, esp
+; File f:\program_files\vc\include\iosfwd
+
+; 43   : 		{	// construct with stream offset
+
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	ecx, DWORD PTR ?_BADOFF@std@@3_JB
+	mov	DWORD PTR [eax], ecx
+	mov	ecx, DWORD PTR ?_BADOFF@std@@3_JB+4
+	mov	DWORD PTR [eax+4], ecx
+	mov	DWORD PTR [eax+8], 0
+	mov	DWORD PTR [eax+12], 0
+	mov	DWORD PTR [eax+16], 0
+; File f:\program_files\vc\include\streambuf
+
+; 429  : 		}
+
+	pop	ebp
+	ret	32					; 00000020H
+?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::seekpos
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+___formal$ = 12						; size = 8
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::setbuf, COMDAT
+; _this$ = ecx
+
+; 433  : 		return (this);
+
+	mov	eax, ecx
+
+; 434  : 		}
+
+	ret	12					; 0000000cH
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::setbuf
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+_TEXT	SEGMENT
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::sync, COMDAT
+; _this$ = ecx
+
+; 438  : 		return (0);
+
+	xor	eax, eax
+
+; 439  : 		}
+
+	ret	0
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::sync
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::imbue, COMDAT
+; _this$ = ecx
+
+; 443  : 		}
+
+	ret	4
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::imbue
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\vector
@@ -42191,6 +42361,134 @@ $LN12@scalar:
 ??_G?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z ENDP ; std::basic_ostream<char,std::char_traits<char> >::`scalar deleting destructor'
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xiosbase
+;	COMDAT ??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z
+_TEXT	SEGMENT
+___flags$ = 8						; size = 4
+??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z PROC ; std::basic_ios<char,std::char_traits<char> >::`scalar deleting destructor', COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	push	esi
+	mov	esi, ecx
+
+; 532  : 		_Ios_base_dtor(this);
+
+	push	esi
+	mov	DWORD PTR [esi], OFFSET ??_7ios_base@std@@6B@
+	call	?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z ; std::ios_base::_Ios_base_dtor
+	add	esp, 4
+	test	BYTE PTR ___flags$[ebp], 1
+	je	SHORT $LN8@scalar
+	push	esi
+	call	??3@YAXPAX@Z				; operator delete
+	add	esp, 4
+$LN8@scalar:
+	mov	eax, esi
+	pop	esi
+	pop	ebp
+	ret	4
+??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z ENDP ; std::basic_ios<char,std::char_traits<char> >::`scalar deleting destructor'
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\xlocale
+;	COMDAT ??_G?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z
+_TEXT	SEGMENT
+___flags$ = 8						; size = 4
+??_G?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::`scalar deleting destructor', COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	push	esi
+	mov	esi, ecx
+	push	edi
+; File f:\program_files\vc\include\streambuf
+
+; 80   : 		_DELETE_CRT(_Plocale);
+
+	mov	edi, DWORD PTR [esi+52]
+	mov	DWORD PTR [esi], OFFSET ??_7?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@
+	test	edi, edi
+	je	SHORT $LN8@scalar
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	mov	ecx, DWORD PTR [edi]
+	test	ecx, ecx
+	je	SHORT $LN14@scalar
+
+; 423  : 			_DELETE_CRT(_Ptr->_Decref());
+
+	mov	eax, DWORD PTR [ecx]
+	call	DWORD PTR [eax+8]
+	test	eax, eax
+	je	SHORT $LN14@scalar
+	mov	edx, DWORD PTR [eax]
+	push	1
+	mov	ecx, eax
+	call	DWORD PTR [edx]
+$LN14@scalar:
+	push	edi
+	call	??3@YAXPAX@Z				; operator delete
+	add	esp, 4
+$LN8@scalar:
+	test	BYTE PTR ___flags$[ebp], 1
+	je	SHORT $LN16@scalar
+	push	esi
+	call	??3@YAXPAX@Z				; operator delete
+	add	esp, 4
+$LN16@scalar:
+	pop	edi
+	mov	eax, esi
+	pop	esi
+	pop	ebp
+	ret	4
+??_G?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::`scalar deleting destructor'
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xlocale
+;	COMDAT ??_Glocale@std@@QAEPAXI@Z
+_TEXT	SEGMENT
+___flags$ = 8						; size = 4
+??_Glocale@std@@QAEPAXI@Z PROC				; std::locale::`scalar deleting destructor', COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	push	esi
+	mov	esi, ecx
+
+; 422  : 		if (_Ptr != 0)
+
+	mov	ecx, DWORD PTR [esi]
+	test	ecx, ecx
+	je	SHORT $LN7@scalar
+
+; 423  : 			_DELETE_CRT(_Ptr->_Decref());
+
+	mov	eax, DWORD PTR [ecx]
+	call	DWORD PTR [eax+8]
+	test	eax, eax
+	je	SHORT $LN7@scalar
+	mov	edx, DWORD PTR [eax]
+	push	1
+	mov	ecx, eax
+	call	DWORD PTR [edx]
+$LN7@scalar:
+	test	BYTE PTR ___flags$[ebp], 1
+	je	SHORT $LN9@scalar
+	push	esi
+	call	??3@YAXPAX@Z				; operator delete
+	add	esp, 4
+$LN9@scalar:
+	mov	eax, esi
+	pop	esi
+	pop	ebp
+	ret	4
+??_Glocale@std@@QAEPAXI@Z ENDP				; std::locale::`scalar deleting destructor'
+_TEXT	ENDS
+; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\sstream
 ; File f:\program_files\vc\include\ostream
 ; File f:\program_files\vc\include\xiosbase
@@ -42290,6 +42588,2186 @@ $LN4@scalar:
 ??_G?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z ENDP ; std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`scalar deleting destructor'
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\ios
+;	COMDAT ?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z
+_TEXT	SEGMENT
+__$EHRec$ = -12						; size = 12
+$T2 = 8							; size = 4
+__Strbuf$ = 8						; size = 4
+__Isstd$ = 12						; size = 1
+?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z PROC ; std::basic_ios<char,std::char_traits<char> >::init, COMDAT
+; _this$ = ecx
+
+; 174  : 		{	// initialize with stream buffer pointer
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	esi
+	push	edi
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	esi, ecx
+
+; 175  : 		_Init();	// initialize ios_base
+
+	call	?_Init@ios_base@std@@IAEXXZ		; std::ios_base::_Init
+
+; 176  : 		_Mystrbuf = _Strbuf;
+
+	mov	eax, DWORD PTR __Strbuf$[ebp]
+	mov	DWORD PTR [esi+56], eax
+
+; 135  : 		const _Ctype& _Ctype_fac = _USE(getloc(), _Ctype);
+
+	lea	eax, DWORD PTR $T2[ebp]
+	push	eax
+	mov	ecx, esi
+
+; 177  : 		_Tiestr = 0;
+
+	mov	DWORD PTR [esi+60], 0
+
+; 135  : 		const _Ctype& _Ctype_fac = _USE(getloc(), _Ctype);
+
+	call	?getloc@ios_base@std@@QBE?AVlocale@2@XZ	; std::ios_base::getloc
+	push	eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+	call	??$use_facet@V?$ctype@D@std@@@std@@YAABV?$ctype@D@0@ABVlocale@0@@Z ; std::use_facet<std::ctype<char> >
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	mov	ecx, DWORD PTR $T2[ebp]
+; File f:\program_files\vc\include\ios
+
+; 135  : 		const _Ctype& _Ctype_fac = _USE(getloc(), _Ctype);
+
+	add	esp, 4
+	mov	edi, eax
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	test	ecx, ecx
+	je	SHORT $LN11@init
+
+; 423  : 			_DELETE_CRT(_Ptr->_Decref());
+
+	mov	edx, DWORD PTR [ecx]
+	call	DWORD PTR [edx+8]
+	test	eax, eax
+	je	SHORT $LN11@init
+	mov	edx, DWORD PTR [eax]
+	push	1
+	mov	ecx, eax
+	call	DWORD PTR [edx]
+$LN11@init:
+
+; 424  : 		}
+; 425  : 
+; 426  : 	locale& operator=(const locale& _Right) _THROW0()
+; 427  : 		{	// assign a locale
+; 428  : 		if (_Ptr != _Right._Ptr)
+; 429  : 			{	// different implementation, point at new one
+; 430  : 			_DELETE_CRT(_Ptr->_Decref());
+; 431  : 			_Ptr = _Right._Ptr;
+; 432  : 			_Ptr->_Incref();
+; 433  : 			}
+; 434  : 		return (*this);
+; 435  : 		}
+; 436  :  #endif /* _NO_LOCALES */
+; 437  : 
+; 438  : 	string name() const
+; 439  : 		{	// return locale name
+; 440  : 		return (_Ptr == 0 ? string() : _Ptr->_Name.c_str());
+; 441  : 		}
+; 442  : 
+; 443  : 	const char *c_str() const
+; 444  : 		{	// return locale name as NTBS
+; 445  : 		return (_Ptr == 0 ? "" : _Ptr->_Name.c_str());
+; 446  : 		}
+; 447  : 
+; 448  : 	const facet *_Getfacet(size_t _Id) const
+; 449  : 		{	// look up a facet in locale object
+; 450  : 		const facet *_Facptr = _Id < _Ptr->_Facetcount
+; 451  : 			? _Ptr->_Facetvec[_Id] : 0;	// null if id off end
+; 452  : 		if (_Facptr != 0 || !_Ptr->_Xparent)
+; 453  : 			return (_Facptr);	// found facet or not transparent
+; 454  : 		else
+; 455  : 			{	// look in current locale
+; 456  : 			locale::_Locimp *_Ptr = _Getgloballocale();
+; 457  : 			return (_Id < _Ptr->_Facetcount
+; 458  : 				? _Ptr->_Facetvec[_Id]	// get from current locale
+; 459  : 				: 0);	// no entry in current locale
+; 460  : 			}
+; 461  : 		}
+; 462  : 
+; 463  : 	bool operator==(const locale& _Loc) const
+; 464  : 		{	// compare locales for equality
+; 465  : 		return (_Ptr == _Loc._Ptr
+; 466  : 			|| name().compare("*") != 0 && name().compare(_Loc.name()) == 0);
+; 467  : 		}
+; 468  : 
+; 469  : 	bool operator!=(const locale& _Right) const
+; 470  : 		{	// test for locale inequality
+; 471  : 		return (!(*this == _Right));
+; 472  : 		}
+; 473  : 
+; 474  : 	static _MRTIMP2_PURE const locale& __CLRCALL_PURE_OR_CDECL
+; 475  : 		classic();	// classic "C" locale
+; 476  : 
+; 477  : 	static _MRTIMP2_PURE locale __CLRCALL_PURE_OR_CDECL
+; 478  : 		global(const locale&);	// current locale
+; 479  : 
+; 480  : 	static _MRTIMP2_PURE locale __CLRCALL_PURE_OR_CDECL
+; 481  : 		empty();	// empty (transparent) locale
+; 482  : 
+; 483  : private:
+; 484  : 	locale(_Locimp *_Ptrimp)
+; 485  : 		: _Ptr(_Ptrimp)
+; 486  : 		{	// construct from _Locimp pointer
+; 487  : 		}
+; 488  : 
+; 489  :     static _MRTIMP2_PURE _Locimp *__CLRCALL_PURE_OR_CDECL
+; 490  : 		_Init(bool _Do_incref = false);	// initialize locale
+; 491  : 	static _MRTIMP2_PURE _Locimp *__CLRCALL_PURE_OR_CDECL
+; 492  : 		_Getgloballocale();
+; 493  : 	static _MRTIMP2_PURE void __CLRCALL_PURE_OR_CDECL
+; 494  : 		_Setgloballocale(void *);
+; 495  : 
+; 496  : 	bool _Badname(const _Locinfo& _Lobj)
+; 497  : 		{	// test if name is "*"
+; 498  : 		return (_CSTD strcmp(_Lobj._Getname(), "*") == 0);
+; 499  : 		}
+; 500  : 
+; 501  : 	_Locimp *_Ptr;	// pointer to locale implementation object
+; 502  : 	};
+; 503  : 
+; 504  : 		// SUPPORT TEMPLATES
+; 505  : 
+; 506  :  #if _NO_LOCALES
+; 507  : inline _Locinfo& _Get_locinfo()
+; 508  : 	{	// get reference to common locale info
+; 509  : 	static _Locinfo _Lobj;
+; 510  : 	return (_Lobj);
+; 511  : 	}
+; 512  : 
+; 513  : template<class _Facet>
+; 514  : 	class _Wrap_facet
+; 515  : 		: public _Facet
+; 516  : 	{	// makes a facet destructible and shareable
+; 517  : public:
+; 518  : 	_Wrap_facet()
+; 519  : 		: _Facet(_Get_locinfo())
+; 520  : 		{	// construct from locale object
+; 521  : 		}
+; 522  : 	};
+; 523  :  #endif /* _NO_LOCALES */
+; 524  : 
+; 525  : template<class _Facet>
+; 526  : 	struct _Facetptr
+; 527  : 	{	// store pointer to lazy facet for use_facet
+; 528  : 	__PURE_APPDOMAIN_GLOBAL static const locale::facet *_Psave;
+; 529  : 	};
+; 530  : 
+; 531  : template<class _Facet>
+; 532  : 	__PURE_APPDOMAIN_GLOBAL const locale::facet *_Facetptr<_Facet>::
+; 533  : 		_Psave = 0;
+; 534  : 
+; 535  :   #define _ADDFAC(loc, pfac)	locale(loc, pfac)	/* add facet to locale */
+; 536  : 
+; 537  :   #define _USE(loc, fac)	\
+; 538  : 	use_facet< fac >(loc)	/* get facet reference from locale */
+; 539  : 
+; 540  : template<class _Facet> inline
+; 541  : 	const _Facet& __CRTDECL use_facet(const locale& _Loc)
+; 542  : 
+; 543  : 	{	// get facet reference from locale
+; 544  :  #if _NO_LOCALES
+; 545  : 	static _Wrap_facet<_Facet> _Wfac;
+; 546  : 	return (*(_Facet *)&_Wfac);
+; 547  : 
+; 548  :  #else /* _NO_LOCALES */
+; 549  : 	_BEGIN_LOCK(_LOCK_LOCALE)	// the thread lock, make get atomic
+; 550  : 		const locale::facet *_Psave =
+; 551  : 			_Facetptr<_Facet>::_Psave;	// static pointer to lazy facet
+; 552  : 
+; 553  : 		size_t _Id = _Facet::id;
+; 554  : 		const locale::facet *_Pf = _Loc._Getfacet(_Id);
+; 555  : 
+; 556  : 		if (_Pf != 0)
+; 557  : 			;	// got facet from locale
+; 558  : 		else if (_Psave != 0)
+; 559  : 			_Pf = _Psave;	// lazy facet already allocated
+; 560  : 		else if (_Facet::_Getcat(&_Psave, &_Loc) == (size_t)(-1))
+; 561  : 
+; 562  :  #if _HAS_EXCEPTIONS
+; 563  : 
+; 564  : 			_THROW_NCEE(_XSTD bad_cast, _EMPTY_ARGUMENT);	// lazy disallowed
+; 565  : 
+; 566  :  #else /* _HAS_EXCEPTIONS */
+; 567  : 			abort();	// lazy disallowed
+; 568  :  #endif /* _HAS_EXCEPTIONS */
+; 569  : 
+; 570  : 		else
+; 571  : 			{	// queue up lazy facet for destruction
+; 572  : 			_Pf = _Psave;
+; 573  : 			_Facetptr<_Facet>::_Psave = _Psave;
+; 574  : 
+; 575  : 			locale::facet *_Pfmod = (_Facet *)_Psave;
+; 576  : 			_Pfmod->_Incref();
+; 577  : 
+; 578  :  #if defined(_M_CEE)
+; 579  : 			_Facet_Register_m(_Pfmod);
+; 580  : 
+; 581  :  #else /* defined(_M_CEE) */
+; 582  : 			_Facet_Register(_Pfmod);
+; 583  :  #endif /* defined(_M_CEE) */
+; 584  : 			}
+; 585  : 
+; 586  : 		return ((const _Facet&)(*_Pf));	// should be dynamic_cast
+; 587  : 	_END_LOCK()
+; 588  :  #endif /* _NO_LOCALES */
+; 589  : 	}	// end of use_facet body
+; 590  : 
+; 591  : 		// TEMPLATE FUNCTION _Getloctxt
+; 592  : template<class _Elem,
+; 593  : 	class _InIt> inline
+; 594  : 	int __CRTDECL _Getloctxt(_InIt& _First, _InIt& _Last, size_t _Numfields,
+; 595  : 		const _Elem *_Ptr)
+; 596  : 	{	// find field at _Ptr that matches longest in [_First, _Last)
+; 597  : 	for (size_t _Off = 0; _Ptr[_Off] != (_Elem)0; ++_Off)
+; 598  : 		if (_Ptr[_Off] == _Ptr[0])
+; 599  : 			++_Numfields;	// add fields with leading mark to initial count
+; 600  : 	string _Str(_Numfields, '\0');	// one column counter for each field
+; 601  : 
+; 602  : 	int _Ans = -2;	// no candidates so far
+; 603  : 	for (size_t _Column = 1; ; ++_Column, ++_First, _Ans = -1)
+; 604  : 		{	// test each element against all viable fields
+; 605  : 		bool _Prefix = false;	// seen at least one valid prefix
+; 606  : 		size_t _Off = 0;	// offset into fields
+; 607  : 		size_t _Field = 0;	// current field number
+; 608  : 
+; 609  : 		for (; _Field < _Numfields; ++_Field)
+; 610  : 			{	// test element at _Column in field _Field
+; 611  : 			for (; _Ptr[_Off] != (_Elem)0 && _Ptr[_Off] != _Ptr[0]; ++_Off)
+; 612  : 				;	// find beginning of field
+; 613  : 
+; 614  : 			if (_Str[_Field] != '\0')
+; 615  : 				_Off += _Str[_Field];	// skip tested columns in field
+; 616  : 			else if (_Ptr[_Off += _Column] == _Ptr[0]
+; 617  : 				|| _Ptr[_Off] == (_Elem)0)
+; 618  : 				{	// matched all of field, save as possible answer
+; 619  : 				_Str[_Field] = (char)(_Column < 127
+; 620  : 					? _Column : 127);	// save skip count if small enough
+; 621  : 				_Ans = (int)_Field;	// save answer
+; 622  : 				}
+; 623  : 			else if (_First == _Last || _Ptr[_Off] != *_First)
+; 624  : 				_Str[_Field] = (char)(_Column < 127
+; 625  : 					? _Column : 127);	// no match, just save skip count
+; 626  : 			else
+; 627  : 				_Prefix = true;	// still a valid prefix
+; 628  : 			}
+; 629  : 
+; 630  : 		if (!_Prefix || _First == _Last)
+; 631  : 			break;	// no pending prefixes or no input, give up
+; 632  : 		}
+; 633  : 	return (_Ans);	// return field number or negative value on failure
+; 634  : 	}
+; 635  : 
+; 636  : 		// TEMPLATE FUNCTION _Maklocbyte
+; 637  : #define _MAKLOCBYTE(Elem, chr, cvt) \
+; 638  : 	_Maklocbyte((_Elem)chr, cvt)	/* convert Elem to char */
+; 639  : 
+; 640  : template<class _Elem> inline
+; 641  : 	char __CRTDECL _Maklocbyte(_Elem _Char,
+; 642  : 		const _Locinfo::_Cvtvec&)
+; 643  : 	{	// convert _Elem to char using _Cvtvec
+; 644  : 	return ((char)(unsigned char)_Char);
+; 645  : 	}
+; 646  : 
+; 647  : template<> inline
+; 648  : 	char __CRTDECL _Maklocbyte(wchar_t _Char,
+; 649  : 		const _Locinfo::_Cvtvec& _Cvt)
+; 650  : 	{	// convert wchar_t to char using _Cvtvec
+; 651  : 	char _Byte = '\0';
+; 652  : 	_Mbstinit(_Mbst1);
+; 653  : 	_Wcrtomb(&_Byte, _Char, &_Mbst1, &_Cvt);
+; 654  : 	return (_Byte);
+; 655  : 	}
+; 656  : 
+; 657  :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 658  : template<> inline
+; 659  : 	char __CRTDECL _Maklocbyte(unsigned short _Char,
+; 660  : 		const _Locinfo::_Cvtvec &_Cvt)
+; 661  : 	{	// convert unsigned short to char using _Cvtvec
+; 662  : 	char _Byte = '\0';
+; 663  : 	_Mbstinit(_Mbst1);
+; 664  : 	_Wcrtomb(&_Byte, (wchar_t)_Char, &_Mbst1, &_Cvt);
+; 665  : 	return (_Byte);
+; 666  : 	}
+; 667  :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 668  : 
+; 669  : 		// TEMPLATE FUNCTION _Maklocchr
+; 670  : #define _MAKLOCCHR(Elem, chr, cvt) \
+; 671  : 	_Maklocchr(chr, (Elem *)0, cvt)	/* convert char to Elem */
+; 672  : 
+; 673  : template<class _Elem> inline
+; 674  : 	_Elem __CRTDECL _Maklocchr(char _Byte, _Elem *,
+; 675  : 		const _Locinfo::_Cvtvec&)
+; 676  : 	{	// convert char to _Elem using _Cvtvec
+; 677  : 	return ((_Elem)(unsigned char)_Byte);
+; 678  : 	}
+; 679  : 
+; 680  : template<> inline
+; 681  : 	wchar_t __CRTDECL _Maklocchr(char _Byte, wchar_t *,
+; 682  : 		const _Locinfo::_Cvtvec& _Cvt)
+; 683  : 	{	// convert char to wchar_t using _Cvtvec
+; 684  : 	wchar_t _Wc = L'\0';
+; 685  : 	_Mbstinit(_Mbst1);
+; 686  : 	_Mbrtowc(&_Wc, &_Byte, 1, &_Mbst1, &_Cvt);
+; 687  : 	return (_Wc);
+; 688  : 	}
+; 689  : 
+; 690  :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 691  : template<> inline
+; 692  : 	unsigned short __CRTDECL _Maklocchr(char _Byte, unsigned short *,
+; 693  : 		const _Locinfo::_Cvtvec &_Cvt)
+; 694  : 	{	// convert char to unsigned short using _Cvtvec
+; 695  : 	unsigned short _Wc = (unsigned short)0;
+; 696  : 	_Mbstinit(_Mbst1);
+; 697  : 	_Mbrtowc((wchar_t *)&_Wc, &_Byte, 1, &_Mbst1, &_Cvt);
+; 698  : 	return (_Wc);
+; 699  : 	}
+; 700  :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 701  : 
+; 702  : 		// TEMPLATE FUNCTION _Maklocstr
+; 703  : #define _MAKLOCSTR(Elem, str, cvt)	\
+; 704  : 	_Maklocstr(str, (Elem *)0, cvt)	/* convert C string to Elem sequence */
+; 705  : 
+; 706  : template<class _Elem> inline
+; 707  : 	_Elem *__CRTDECL _Maklocstr(const char *_Ptr, _Elem *,
+; 708  : 		const _Locinfo::_Cvtvec&)
+; 709  : 	{	// convert C string to _Elem sequence using _Cvtvec
+; 710  : 	size_t _Count = _CSTD strlen(_Ptr) + 1;
+; 711  : 	_Elem *_Ptrdest = _NEW_CRT _Elem[_Count];
+; 712  : 
+; 713  :  #pragma warning(push)
+; 714  :  #pragma warning(disable: 6011)	/* quiet prefast noise */
+; 715  : 	for (_Elem *_Ptrnext = _Ptrdest; 0 < _Count; --_Count, ++_Ptrnext, ++_Ptr)
+; 716  : 		*_Ptrnext = (_Elem)(unsigned char)*_Ptr;
+; 717  :  #pragma warning(pop)
+; 718  : 
+; 719  : 	return (_Ptrdest);
+; 720  : 	}
+; 721  : 
+; 722  : template<> inline
+; 723  : 	wchar_t *__CRTDECL _Maklocstr(const char *_Ptr, wchar_t *,
+; 724  : 		const _Locinfo::_Cvtvec& _Cvt)
+; 725  : 	{	// convert C string to wchar_t sequence using _Cvtvec
+; 726  : 	size_t _Count, _Count1;
+; 727  : 	size_t _Wchars;
+; 728  : 	const char *_Ptr1;
+; 729  : 	int _Bytes;
+; 730  : 	wchar_t _Wc;
+; 731  : 	_Mbstinit(_Mbst1);
+; 732  : 
+; 733  : 	_Count1 = _CSTD strlen(_Ptr) + 1;
+; 734  : 	for (_Count = _Count1, _Wchars = 0, _Ptr1 = _Ptr; 0 < _Count;
+; 735  : 		_Count -= _Bytes, _Ptr1 += _Bytes, ++_Wchars)
+; 736  : 		if ((_Bytes = _Mbrtowc(&_Wc, _Ptr1, _Count, &_Mbst1, &_Cvt)) <= 0)
+; 737  : 			break;
+; 738  : 	++_Wchars;	// count terminating nul
+; 739  : 
+; 740  : 	wchar_t *_Ptrdest = _NEW_CRT wchar_t[_Wchars];
+; 741  : 	wchar_t *_Ptrnext = _Ptrdest;
+; 742  : 	_Mbstinit(_Mbst2);
+; 743  : 
+; 744  :  #pragma warning(push)
+; 745  :  #pragma warning(disable: 6011)	/* quiet prefast noise */
+; 746  : 	for (; 0 < _Wchars;
+; 747  : 		_Count -= _Bytes, _Ptr += _Bytes, --_Wchars, ++_Ptrnext)
+; 748  : 		if ((_Bytes = _Mbrtowc(_Ptrnext, _Ptr, _Count1, &_Mbst2, &_Cvt)) <= 0)
+; 749  : 			break;
+; 750  : 	*_Ptrnext = L'\0';
+; 751  :  #pragma warning(pop)
+; 752  : 
+; 753  : 	return (_Ptrdest);
+; 754  : 	}
+; 755  : 
+; 756  :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 757  : template<> inline
+; 758  : 	unsigned short *__CRTDECL _Maklocstr(const char *_Ptr, unsigned short *,
+; 759  : 		const _Locinfo::_Cvtvec &_Cvt)
+; 760  : 	{	// convert C string to unsigned short sequence using _Cvtvec
+; 761  : 	size_t _Count, _Count1;
+; 762  : 	size_t _Wchars;
+; 763  : 	const char *_Ptr1;
+; 764  : 	int _Bytes;
+; 765  : 	unsigned short _Wc;
+; 766  : 	_Mbstinit(_Mbst1);
+; 767  : 
+; 768  : 	_Count1 = _CSTD strlen(_Ptr) + 1;
+; 769  : 	for (_Count = _Count1, _Wchars = 0, _Ptr1 = _Ptr; 0 < _Count;
+; 770  : 		_Count -= _Bytes, _Ptr1 += _Bytes, ++_Wchars)
+; 771  : 		if ((_Bytes =
+; 772  : 			_Mbrtowc((wchar_t *)&_Wc, _Ptr1, _Count, &_Mbst1, &_Cvt)) <= 0)
+; 773  : 			break;
+; 774  : 	++_Wchars;	// count terminating nul
+; 775  : 
+; 776  : 	wchar_t *_Ptrdest = _NEW_CRT wchar_t[_Wchars];
+; 777  : 	wchar_t *_Ptrnext = _Ptrdest;
+; 778  : 	_Mbstinit(_Mbst2);
+; 779  : 	for (; 0 < _Wchars;
+; 780  : 		_Count -= _Bytes, _Ptr += _Bytes, --_Wchars, ++_Ptrnext)
+; 781  : 		if ((_Bytes = _Mbrtowc(_Ptrnext, _Ptr, _Count1, &_Mbst2, &_Cvt)) <= 0)
+; 782  : 			break;
+; 783  : 	*_Ptrnext = L'\0';
+; 784  : 	return ((unsigned short *)_Ptrdest);
+; 785  : 	}
+; 786  :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 787  : 
+; 788  : 		// STRUCT codecvt_base
+; 789  :  #pragma warning(push)
+; 790  :  #pragma warning(disable: 4275)
+; 791  : 
+; 792  : class _CRTIMP2_PURE codecvt_base
+; 793  : 	: public locale::facet
+; 794  : 	{	// base class for codecvt
+; 795  : public:
+; 796  : 	enum
+; 797  : 		{	// constants for different parse states
+; 798  : 		ok, partial, error, noconv};
+; 799  : 	typedef int result;
+; 800  : 
+; 801  : 	__CLR_OR_THIS_CALL codecvt_base(size_t _Refs = 0)
+; 802  : 		: locale::facet(_Refs)
+; 803  : 		{	// default constructor
+; 804  : 		}
+; 805  : 
+; 806  : 	bool __CLR_OR_THIS_CALL always_noconv() const _THROW0()
+; 807  : 		{	// return true if conversions never change input (from codecvt)
+; 808  : 		return (do_always_noconv());
+; 809  : 		}
+; 810  : 
+; 811  : 	int __CLR_OR_THIS_CALL max_length() const _THROW0()
+; 812  : 		{	// return maximum length required for a conversion (from codecvt)
+; 813  : 		return (do_max_length());
+; 814  : 		}
+; 815  : 
+; 816  : 	int __CLR_OR_THIS_CALL encoding() const _THROW0()
+; 817  : 		{	// return length of code sequence (from codecvt)
+; 818  : 		return (do_encoding());
+; 819  : 		}
+; 820  : 
+; 821  : 	__CLR_OR_THIS_CALL ~codecvt_base() _NOEXCEPT
+; 822  : 		{	// destroy the object
+; 823  : 		}
+; 824  : 
+; 825  : protected:
+; 826  : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 827  : 		{	// return true if conversions never change input (from codecvt)
+; 828  : 		return (false);
+; 829  : 		}
+; 830  : 
+; 831  : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 832  : 		{	// return maximum length required for a conversion (from codecvt)
+; 833  : 		return (1);
+; 834  : 		}
+; 835  : 
+; 836  : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 837  : 		{	// return length of code sequence (from codecvt)
+; 838  : 		return (1);	// -1 ==> state dependent, 0 ==> varying length
+; 839  : 		}
+; 840  : 	};
+; 841  : 
+; 842  :  #pragma warning(pop)
+; 843  : 
+; 844  : 		// TEMPLATE CLASS codecvt
+; 845  : template<class _Elem,
+; 846  : 	class _Byte,
+; 847  : 	class _Statype>
+; 848  : 	class codecvt
+; 849  : 		: public codecvt_base
+; 850  : 	{	// facet for converting between _Elem and char (_Byte) sequences
+; 851  : public:
+; 852  : 	typedef _Elem intern_type;
+; 853  : 	typedef _Byte extern_type;
+; 854  : 	typedef _Statype state_type;
+; 855  : 
+; 856  : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 857  : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 858  : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 859  : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 860  : 		return (do_in(_State,
+; 861  : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 862  : 		}
+; 863  : 
+; 864  : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 865  : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 866  : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 867  : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last2)
+; 868  : 		return (do_out(_State,
+; 869  : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 870  : 		}
+; 871  : 
+; 872  : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 873  : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 874  : 		{	// generate bytes to return to default shift state
+; 875  : 		return (do_unshift(_State, _First2, _Last2, _Mid2));
+; 876  : 		}
+; 877  : 
+; 878  : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 879  : 		const _Byte *_Last1, size_t _Count) const
+; 880  : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 881  : 		return (do_length(_State, _First1, _Last1, _Count));
+; 882  : 		}
+; 883  : 
+; 884  : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;	// unique facet id
+; 885  : 
+; 886  : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 887  : 		: codecvt_base(_Refs)
+; 888  : 		{	// construct from current locale
+; 889  : 		_Init(_Locinfo());
+; 890  : 		}
+; 891  : 
+; 892  : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 893  : 		: codecvt_base(_Refs)
+; 894  : 		{	// construct from specified locale
+; 895  : 		_Init(_Lobj);
+; 896  : 		}
+; 897  : 
+; 898  : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 899  : 		const locale *_Ploc = 0)
+; 900  : 		{	// return locale category mask and construct standard facet
+; 901  : 		if (_Ppf != 0 && *_Ppf == 0)
+; 902  : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 903  : 				_Locinfo(_Ploc->c_str()));
+; 904  : 		return (_X_CTYPE);
+; 905  : 		}
+; 906  : 
+; 907  : protected:
+; 908  : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 909  : 		{	// destroy the object
+; 910  : 		}
+; 911  : 
+; 912  : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo&)
+; 913  : 		{	// initialize from _Locinfo object
+; 914  : 		}
+; 915  : 
+; 916  : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 917  : 		{	// return true if conversions never change input (from codecvt)
+; 918  : 		return (is_same<_Byte, _Elem>::value);
+; 919  : 		}
+; 920  : 
+; 921  : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype&,
+; 922  : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 923  : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 924  : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 925  : 		_Mid1 = _First1, _Mid2 = _First2;
+; 926  : 		if (is_same<_Byte, _Elem>::value)
+; 927  : 			return (noconv);	// convert nothing
+; 928  : 		else
+; 929  : 			{	// types differ, copy one for one
+; 930  : 			for (; _Mid1 != _Last1 && _Mid2 != _Last2; ++_Mid1, ++_Mid2)
+; 931  : 				*_Mid2 = (_Elem)*_Mid1;
+; 932  : 			return (ok);
+; 933  : 			}
+; 934  : 		}
+; 935  : 
+; 936  : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype&,
+; 937  : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 938  : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 939  : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 940  : 		_Mid1 = _First1, _Mid2 = _First2;
+; 941  : 		if (is_same<_Byte, _Elem>::value)
+; 942  : 			return (noconv);	// convert nothing
+; 943  : 		else
+; 944  : 			{	// types differ, copy one for one
+; 945  : 			for (; _Mid1 != _Last1 && _Mid2 != _Last2; ++_Mid1, ++_Mid2)
+; 946  : 				*_Mid2 = (_Byte)*_Mid1;
+; 947  : 			return (ok);
+; 948  : 			}
+; 949  : 		}
+; 950  : 
+; 951  : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype&,
+; 952  : 		_Byte *_First2, _Byte *, _Byte *&_Mid2) const
+; 953  : 		{	// generate bytes to return to default shift state
+; 954  : 		_Mid2 = _First2;
+; 955  : 		return (ok);	// convert nothing
+; 956  : 		}
+; 957  : 
+; 958  : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype&, const _Byte *_First1,
+; 959  : 		const _Byte *_Last1, size_t _Count) const
+; 960  : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 961  : 		return ((int)(_Count < (size_t)(_Last1 - _First1)
+; 962  : 			? _Count : _Last1 - _First1));	// assume 1-to-1 conversion
+; 963  : 		}
+; 964  : 	};
+; 965  : 
+; 966  : 		// STATIC codecvt::id OBJECT
+; 967  : template<class _Elem,
+; 968  : 	class _Byte,
+; 969  : 	class _Statype>
+; 970  : 	__PURE_APPDOMAIN_GLOBAL locale::id codecvt<_Elem, _Byte, _Statype>::id;
+; 971  : 
+; 972  :  #if _HAS_CHAR16_T_LANGUAGE_SUPPORT
+; 973  : 		// ENUM _Codecvt_mode
+; 974  : enum _Codecvt_mode {
+; 975  : 	_Consume_header = 4,
+; 976  : 	_Generate_header = 2
+; 977  : 	};
+; 978  : 
+; 979  : 		// CLASS codecvt<char16_t, char, _Mbstatet>
+; 980  : template<>
+; 981  : 	class _CRTIMP2_PURE codecvt<char16_t, char, _Mbstatet>
+; 982  : 	: public codecvt_base
+; 983  : 	{	// facet for converting between char16_t and UTF-8 byte sequences
+; 984  : public:
+; 985  : 	typedef codecvt<char16_t, char, _Mbstatet> _Mybase;
+; 986  : 	typedef char16_t _Elem;
+; 987  : 	typedef char _Byte;
+; 988  : 	typedef _Mbstatet _Statype;
+; 989  : 	typedef _Elem intern_type;
+; 990  : 	typedef _Byte extern_type;
+; 991  : 	typedef _Statype state_type;
+; 992  : 
+; 993  : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 994  : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 995  : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 996  : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 997  : 		return (do_in(_State,
+; 998  : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 999  : 		}
+; 1000 : 
+; 1001 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1002 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1003 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1004 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1005 : 		return (do_out(_State,
+; 1006 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1007 : 		}
+; 1008 : 
+; 1009 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1010 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1011 : 		{	// generate bytes to return to default shift state
+; 1012 : 		return (do_unshift(_State,
+; 1013 : 			_First2, _Last2, _Mid2));
+; 1014 : 		}
+; 1015 : 
+; 1016 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1017 : 		const _Byte *_Last1, size_t _Count) const
+; 1018 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1019 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1020 : 		}
+; 1021 : 
+; 1022 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1023 : 
+; 1024 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1025 : 		: codecvt_base(_Refs), _Maxcode(0x10ffff), _Mode(_Consume_header)
+; 1026 : 		{	// construct from current locale
+; 1027 : 		_BEGIN_LOCINFO(_Lobj)
+; 1028 : 			_Init(_Lobj);
+; 1029 : 		_END_LOCINFO()
+; 1030 : 		}
+; 1031 : 
+; 1032 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1033 : 		: codecvt_base(_Refs), _Maxcode(0x10ffff), _Mode(_Consume_header)
+; 1034 : 		{	// construct from specified locale
+; 1035 : 		_Init(_Lobj);
+; 1036 : 		}
+; 1037 : 
+; 1038 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, unsigned long _Maxcode_arg,
+; 1039 : 		_Codecvt_mode _Mode_arg, size_t _Refs = 0)
+; 1040 : 		: codecvt_base(_Refs), _Maxcode(_Maxcode_arg), _Mode(_Mode_arg)
+; 1041 : 		{	// construct from specified locale and parameters
+; 1042 : 		_Init(_Lobj);
+; 1043 : 		}
+; 1044 : 
+; 1045 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1046 : 		const locale *_Ploc = 0)
+; 1047 : 		{	// return locale category mask and construct standard facet
+; 1048 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1049 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1050 : 				_Locinfo(_Ploc->c_str()));
+; 1051 : 		return (_X_CTYPE);
+; 1052 : 		}
+; 1053 : 
+; 1054 : protected:
+; 1055 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1056 : 		{	// destroy the object
+; 1057 : 		}
+; 1058 : 
+; 1059 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo&)
+; 1060 : 		{	// initialize
+; 1061 : 		}
+; 1062 : 
+; 1063 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1064 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1065 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1066 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last2)
+; 1067 : 		unsigned short *_Pstate = (unsigned short *)&_State;
+; 1068 : 		_Mid1 = _First1;
+; 1069 : 		_Mid2 = _First2;
+; 1070 : 
+; 1071 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1072 : 			{	// convert a multibyte sequence
+; 1073 : 			unsigned char _By = (unsigned char)*_Mid1;
+; 1074 : 			unsigned long _Ch;
+; 1075 : 			int _Nextra, _Nskip;
+; 1076 : 
+; 1077 : 			if (*_Pstate <= 1)
+; 1078 : 				;	// no leftover word
+; 1079 : 			else if (_By < 0x80 || 0xc0 <= _By)
+; 1080 : 				return (_Mybase::error);	// not continuation byte
+; 1081 : 			else
+; 1082 : 				{	// deliver second half of two-word value
+; 1083 : 				++_Mid1;
+; 1084 : 				*_Mid2++ = (_Elem)(*_Pstate | _By & 0x3f);
+; 1085 : 				*_Pstate = 1;
+; 1086 : 				continue;
+; 1087 : 				}
+; 1088 : 
+; 1089 : 			if (_By < 0x80)
+; 1090 : 				_Ch = _By, _Nextra = 0;
+; 1091 : 			else if (_By < 0xc0)
+; 1092 : 				{	// 0x80-0xdf not first byte
+; 1093 : 				++_Mid1;
+; 1094 : 				return (_Mybase::error);
+; 1095 : 				}
+; 1096 : 			else if (_By < 0xe0)
+; 1097 : 				_Ch = _By & 0x1f, _Nextra = 1;
+; 1098 : 			else if (_By < 0xf0)
+; 1099 : 				_Ch = _By & 0x0f, _Nextra = 2;
+; 1100 : 			else if (_By < 0xf8)
+; 1101 : 				_Ch = _By & 0x07, _Nextra = 3;
+; 1102 : 			else
+; 1103 : 				_Ch = _By & 0x03, _Nextra = _By < 0xfc ? 4 : 5;
+; 1104 : 
+; 1105 : 			_Nskip = _Nextra < 3 ? 0 : 1;	// leave a byte for 2nd word
+; 1106 : 			_First1 = _Mid1;	// roll back point
+; 1107 : 
+; 1108 : 			if (_Nextra == 0)
+; 1109 : 				++_Mid1;
+; 1110 : 			else if (_Last1 - _Mid1 < _Nextra + 1 - _Nskip)
+; 1111 : 				break;	// not enough input
+; 1112 : 			else
+; 1113 : 				for (++_Mid1; _Nskip < _Nextra; --_Nextra, ++_Mid1)
+; 1114 : 					if ((_By = (unsigned char)*_Mid1) < 0x80 || 0xc0 <= _By)
+; 1115 : 						return (_Mybase::error);	// not continuation byte
+; 1116 : 					else
+; 1117 : 						_Ch = _Ch << 6 | _By & 0x3f;
+; 1118 : 			if (0 < _Nskip)
+; 1119 : 				_Ch <<= 6;	// get last byte on next call
+; 1120 : 
+; 1121 : 			if ((_Maxcode < 0x10ffff ? _Maxcode : 0x10ffff) < _Ch)
+; 1122 : 				return (_Mybase::error);	// value too large
+; 1123 : 			else if (0xffff < _Ch)
+; 1124 : 				{	// deliver first half of two-word value, save second word
+; 1125 : 				unsigned short _Ch0 =
+; 1126 : 					(unsigned short)(0xd800 | (_Ch >> 10) - 0x0040);
+; 1127 : 
+; 1128 : 				*_Mid2++ = (_Elem)_Ch0;
+; 1129 : 				*_Pstate = (unsigned short)(0xdc00 | _Ch & 0x03ff);
+; 1130 : 				continue;
+; 1131 : 				}
+; 1132 : 
+; 1133 : 			if (_Nskip == 0)
+; 1134 : 				;
+; 1135 : 			else if (_Mid1 == _Last1)
+; 1136 : 				{	// not enough bytes, noncanonical value
+; 1137 : 				_Mid1 = _First1;
+; 1138 : 				break;
+; 1139 : 				}
+; 1140 : 			else if ((_By = (unsigned char)*_Mid1++) < 0x80 || 0xc0 <= _By)
+; 1141 : 				return (_Mybase::error);	// not continuation byte
+; 1142 : 			else
+; 1143 : 				_Ch |= _By & 0x3f;	// complete noncanonical value
+; 1144 : 
+; 1145 : 			if (*_Pstate == 0)
+; 1146 : 				{	// first time, maybe look for and consume header
+; 1147 : 				*_Pstate = 1;
+; 1148 : 
+; 1149 : 				if ((_Mode & _Consume_header) != 0 && _Ch == 0xfeff)
+; 1150 : 					{	// drop header and retry
+; 1151 : 					result _Ans = do_in(_State, _Mid1, _Last1, _Mid1,
+; 1152 : 						_First2, _Last2, _Mid2);
+; 1153 : 
+; 1154 : 					if (_Ans == _Mybase::partial)
+; 1155 : 						{	// roll back header determination
+; 1156 : 						*_Pstate = 0;
+; 1157 : 						_Mid1 = _First1;
+; 1158 : 						}
+; 1159 : 					return (_Ans);
+; 1160 : 					}
+; 1161 : 				}
+; 1162 : 
+; 1163 : 			*_Mid2++ = (_Elem)_Ch;
+; 1164 : 			}
+; 1165 : 
+; 1166 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1167 : 		}
+; 1168 : 
+; 1169 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1170 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1171 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1172 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1173 : 		unsigned short *_Pstate = (unsigned short *)&_State;
+; 1174 : 		_Mid1 = _First1;
+; 1175 : 		_Mid2 = _First2;
+; 1176 : 
+; 1177 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1178 : 			{	// convert and put a wide char
+; 1179 : 			unsigned long _Ch;
+; 1180 : 			unsigned short _Ch1 = (unsigned short)*_Mid1;
+; 1181 : 			bool _Save = false;
+; 1182 : 
+; 1183 : 			if (1 < *_Pstate)
+; 1184 : 				{	// get saved MS 11 bits from *_Pstate
+; 1185 : 				if (_Ch1 < 0xdc00 || 0xe000 <= _Ch1)
+; 1186 : 					return (_Mybase::error);	// bad second word
+; 1187 : 				_Ch = (*_Pstate << 10) | (_Ch1 - 0xdc00);
+; 1188 : 				}
+; 1189 : 			else if (0xd800 <= _Ch1 && _Ch1 < 0xdc00)
+; 1190 : 				{	// get new first word
+; 1191 : 				_Ch = (_Ch1 - 0xd800 + 0x0040) << 10;
+; 1192 : 				_Save = true;	// put only first byte, rest with second word
+; 1193 : 				}
+; 1194 : 			else
+; 1195 : 				_Ch = _Ch1;	// not first word, just put it
+; 1196 : 
+; 1197 : 			_Byte _By;
+; 1198 : 			int _Nextra;
+; 1199 : 
+; 1200 : 			if (_Ch < 0x0080)
+; 1201 : 				_By = (_Byte)_Ch, _Nextra = 0;
+; 1202 : 			else if (_Ch < 0x0800)
+; 1203 : 				_By = (_Byte)(0xc0 | _Ch >> 6), _Nextra = 1;
+; 1204 : 			else if (_Ch < 0x10000)
+; 1205 : 				_By = (_Byte)(0xe0 | _Ch >> 12), _Nextra = 2;
+; 1206 : 			else
+; 1207 : 				_By = (_Byte)(0xf0 | _Ch >> 18), _Nextra = 3;
+; 1208 : 
+; 1209 : 			int _Nput = _Nextra < 3 ? _Nextra + 1 : _Save ? 1 : 3;
+; 1210 : 
+; 1211 : 			if (_Last2 - _Mid2 < _Nput)
+; 1212 : 				break;	// not enough room, even without header
+; 1213 : 			else if (*_Pstate != 0 || (_Mode & _Generate_header) == 0)
+; 1214 : 				;	// no header to put
+; 1215 : 			else if (_Last2 - _Mid2 < 3 + _Nput)
+; 1216 : 				break;	// not enough room for header + output
+; 1217 : 			else
+; 1218 : 				{	// prepend header
+; 1219 : 				*_Mid2++ = (_Byte)(unsigned char)0xef;
+; 1220 : 				*_Mid2++ = (_Byte)(unsigned char)0xbb;
+; 1221 : 				*_Mid2++ = (_Byte)(unsigned char)0xbf;
+; 1222 : 				}
+; 1223 : 
+; 1224 : 			++_Mid1;
+; 1225 : 			if (_Save || _Nextra < 3)
+; 1226 : 				{	// put first byte of sequence, if not already put
+; 1227 : 				*_Mid2++ = _By;
+; 1228 : 				--_Nput;
+; 1229 : 				}
+; 1230 : 			for (; 0 < _Nput; --_Nput)
+; 1231 : 				*_Mid2++ = (_Byte)(_Ch >> 6 * --_Nextra & 0x3f | 0x80);
+; 1232 : 
+; 1233 : 			*_Pstate = (unsigned short)(_Save ? _Ch >> 10 : 1);
+; 1234 : 			}
+; 1235 : 
+; 1236 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1237 : 		}
+; 1238 : 
+; 1239 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype& _State,
+; 1240 : 		_Byte *_First2, _Byte *, _Byte *& _Mid2) const
+; 1241 : 		{	// generate bytes to return to default shift state
+; 1242 : 		unsigned short *_Pstate = (unsigned short *)&_State;
+; 1243 : 		_Mid2 = _First2;
+; 1244 : 
+; 1245 : 		return (1 < *_Pstate
+; 1246 : 			? _Mybase::error : _Mybase::ok);	// fail if trailing first word
+; 1247 : 		}
+; 1248 : 
+; 1249 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1250 : 		const _Byte *_Last1, size_t _Count) const _THROW0()
+; 1251 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1252 : 		size_t _Wchars = 0;
+; 1253 : 		_Statype _Mystate = _State;
+; 1254 : 
+; 1255 : 		for (; _Wchars < _Count && _First1 != _Last1; )
+; 1256 : 			{	// convert another wide character
+; 1257 : 			const _Byte *_Mid1;
+; 1258 : 			_Elem *_Mid2;
+; 1259 : 			_Elem _Ch;
+; 1260 : 
+; 1261 : 			switch (do_in(_Mystate, _First1, _Last1, _Mid1,
+; 1262 : 				&_Ch, &_Ch + 1, _Mid2))
+; 1263 : 				{	// test result of single wide-char conversion
+; 1264 : 			case _Mybase::noconv:
+; 1265 : 				return ((int)(_Wchars + (_Last1 - _First1)));
+; 1266 : 
+; 1267 : 			case _Mybase::ok:
+; 1268 : 				if (_Mid2 == &_Ch + 1)
+; 1269 : 					++_Wchars;	// replacement do_in might not convert one
+; 1270 : 				_First1 = _Mid1;
+; 1271 : 				break;
+; 1272 : 
+; 1273 : 			default:
+; 1274 : 				return ((int)_Wchars);	// error or partial
+; 1275 : 				}
+; 1276 : 			}
+; 1277 : 
+; 1278 : 		return ((int)_Wchars);
+; 1279 : 		}
+; 1280 : 
+; 1281 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 1282 : 		{	// return true if conversions never change input
+; 1283 : 		return (false);
+; 1284 : 		}
+; 1285 : 
+; 1286 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 1287 : 		{	// return maximum length required for a conversion
+; 1288 : 		return ((_Mode & _Consume_header) != 0 ? 9	// header + max input
+; 1289 : 			: (_Mode & _Generate_header) != 0 ? 7	// header + max output
+; 1290 : 			: 6);	// 6-byte max input sequence, no 3-byte header
+; 1291 : 		}
+; 1292 : 
+; 1293 : 	virtual int do_encoding() const _THROW0()
+; 1294 : 		{	// return length of code sequence (from codecvt)
+; 1295 : 		return (0);	// 0 => varying length
+; 1296 : 		}
+; 1297 : 
+; 1298 : private:
+; 1299 : 	unsigned long _Maxcode;	// default: 0x10ffff
+; 1300 : 	_Codecvt_mode _Mode;	// default: _Consume_header
+; 1301 : 	};
+; 1302 : 
+; 1303 : 		// CLASS codecvt<char32_t, char, _Mbstatet>
+; 1304 : template<>
+; 1305 : 	class _CRTIMP2_PURE codecvt<char32_t, char, _Mbstatet>
+; 1306 : 	: public codecvt_base
+; 1307 : 	{	// facet for converting between char32_t and UTF-8 byte sequences
+; 1308 : public:
+; 1309 : 	typedef codecvt<char32_t, char, _Mbstatet> _Mybase;
+; 1310 : 	typedef char32_t _Elem;
+; 1311 : 	typedef char _Byte;
+; 1312 : 	typedef _Mbstatet _Statype;
+; 1313 : 	typedef _Elem intern_type;
+; 1314 : 	typedef _Byte extern_type;
+; 1315 : 	typedef _Statype state_type;
+; 1316 : 
+; 1317 : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 1318 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1319 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1320 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1321 : 		return (do_in(_State,
+; 1322 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1323 : 		}
+; 1324 : 
+; 1325 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1326 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1327 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1328 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1329 : 		return (do_out(_State,
+; 1330 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1331 : 		}
+; 1332 : 
+; 1333 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1334 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1335 : 		{	// generate bytes to return to default shift state
+; 1336 : 		return (do_unshift(_State,
+; 1337 : 			_First2, _Last2, _Mid2));
+; 1338 : 		}
+; 1339 : 
+; 1340 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1341 : 		const _Byte *_Last1, size_t _Count) const
+; 1342 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1343 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1344 : 		}
+; 1345 : 
+; 1346 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1347 : 
+; 1348 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1349 : 		: codecvt_base(_Refs), _Maxcode(0xffffffff), _Mode(_Consume_header)
+; 1350 : 		{	// construct from current locale
+; 1351 : 		_BEGIN_LOCINFO(_Lobj)
+; 1352 : 			_Init(_Lobj);
+; 1353 : 		_END_LOCINFO()
+; 1354 : 		}
+; 1355 : 
+; 1356 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1357 : 		: codecvt_base(_Refs), _Maxcode(0xffffffff), _Mode(_Consume_header)
+; 1358 : 		{	// construct from specified locale
+; 1359 : 		_Init(_Lobj);
+; 1360 : 		}
+; 1361 : 
+; 1362 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, unsigned long _Maxcode_arg,
+; 1363 : 		_Codecvt_mode _Mode_arg, size_t _Refs = 0)
+; 1364 : 		: codecvt_base(_Refs), _Maxcode(_Maxcode_arg), _Mode(_Mode_arg)
+; 1365 : 		{	// construct from specified locale and parameters
+; 1366 : 		_Init(_Lobj);
+; 1367 : 		}
+; 1368 : 
+; 1369 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1370 : 		const locale *_Ploc = 0)
+; 1371 : 		{	// return locale category mask and construct standard facet
+; 1372 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1373 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1374 : 				_Locinfo(_Ploc->c_str()));
+; 1375 : 		return (_X_CTYPE);
+; 1376 : 		}
+; 1377 : 
+; 1378 : protected:
+; 1379 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1380 : 		{	// destroy the object
+; 1381 : 		}
+; 1382 : 
+; 1383 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo&)
+; 1384 : 		{	// initialize
+; 1385 : 		}
+; 1386 : 
+; 1387 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1388 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1389 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1390 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1391 : 		char *_Pstate = (char *)&_State;
+; 1392 : 		_Mid1 = _First1;
+; 1393 : 		_Mid2 = _First2;
+; 1394 : 
+; 1395 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1396 : 			{	// convert a multibyte sequence
+; 1397 : 			unsigned char _By = (unsigned char)*_Mid1;
+; 1398 : 			unsigned long _Ch;
+; 1399 : 			int _Nextra;
+; 1400 : 
+; 1401 : 			if (_By < 0x80)
+; 1402 : 				_Ch = _By, _Nextra = 0;
+; 1403 : 			else if (_By < 0xc0)
+; 1404 : 				{	// 0x80-0xdf not first byte
+; 1405 : 				++_Mid1;
+; 1406 : 				return (_Mybase::error);
+; 1407 : 				}
+; 1408 : 			else if (_By < 0xe0)
+; 1409 : 				_Ch = _By & 0x1f, _Nextra = 1;
+; 1410 : 			else if (_By < 0xf0)
+; 1411 : 				_Ch = _By & 0x0f, _Nextra = 2;
+; 1412 : 			else if (_By < 0xf8)
+; 1413 : 				_Ch = _By & 0x07, _Nextra = 3;
+; 1414 : 			else
+; 1415 : 				_Ch = _By & 0x03, _Nextra = _By < 0xfc ? 4 : 5;
+; 1416 : 
+; 1417 : 			if (_Nextra == 0)
+; 1418 : 				++_Mid1;
+; 1419 : 			else if (_Last1 - _Mid1 < _Nextra + 1)
+; 1420 : 				break;	// not enough input
+; 1421 : 			else
+; 1422 : 				for (++_Mid1; 0 < _Nextra; --_Nextra, ++_Mid1)
+; 1423 : 					if ((_By = (unsigned char)*_Mid1) < 0x80 || 0xc0 <= _By)
+; 1424 : 						return (_Mybase::error);	// not continuation byte
+; 1425 : 					else
+; 1426 : 						_Ch = _Ch << 6 | _By & 0x3f;
+; 1427 : 
+; 1428 : 			if (*_Pstate == 0)
+; 1429 : 				{	// first time, maybe look for and consume header
+; 1430 : 				*_Pstate = 1;
+; 1431 : 
+; 1432 : 				if ((_Mode & _Consume_header) != 0 && _Ch == 0xfeff)
+; 1433 : 					{	// drop header and retry
+; 1434 : 					result _Ans = do_in(_State, _Mid1, _Last1, _Mid1,
+; 1435 : 						_First2, _Last2, _Mid2);
+; 1436 : 
+; 1437 : 					if (_Ans == _Mybase::partial)
+; 1438 : 						{	// roll back header determination
+; 1439 : 						*_Pstate = 0;
+; 1440 : 						_Mid1 = _First1;
+; 1441 : 						}
+; 1442 : 					return (_Ans);
+; 1443 : 					}
+; 1444 : 				}
+; 1445 : 
+; 1446 : 			if (_Maxcode < _Ch)
+; 1447 : 				return (_Mybase::error);	// code too large
+; 1448 : 			*_Mid2++ = (_Elem)_Ch;
+; 1449 : 			}
+; 1450 : 
+; 1451 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1452 : 		}
+; 1453 : 
+; 1454 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1455 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1456 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1457 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1458 : 		char *_Pstate = (char *)&_State;
+; 1459 : 		_Mid1 = _First1;
+; 1460 : 		_Mid2 = _First2;
+; 1461 : 
+; 1462 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1463 : 			{	// convert and put a wide char
+; 1464 : 			_Byte _By;
+; 1465 : 			int _Nextra;
+; 1466 : 			unsigned long _Ch = (unsigned long)*_Mid1;
+; 1467 : 
+; 1468 : 			if (_Maxcode < _Ch)
+; 1469 : 				return (_Mybase::error);
+; 1470 : 
+; 1471 : 			if (_Ch < 0x0080)
+; 1472 : 				_By = (_Byte)_Ch, _Nextra = 0;
+; 1473 : 			else if (_Ch < 0x0800)
+; 1474 : 				_By = (_Byte)(0xc0 | _Ch >> 6), _Nextra = 1;
+; 1475 : 			else if (_Ch < 0x00010000)
+; 1476 : 				_By = (_Byte)(0xe0 | _Ch >> 12), _Nextra = 2;
+; 1477 : 			else if (_Ch < 0x00200000)
+; 1478 : 				_By = (_Byte)(0xf0 | _Ch >> 18), _Nextra = 3;
+; 1479 : 			else if (_Ch < 0x04000000)
+; 1480 : 				_By = (_Byte)(0xf8 | _Ch >> 24), _Nextra = 4;
+; 1481 : 			else
+; 1482 : 				_By = (_Byte)(0xfc | _Ch >> 30 & 0x03), _Nextra = 5;
+; 1483 : 
+; 1484 : 			if (*_Pstate == 0)
+; 1485 : 				{	// first time, maybe generate header
+; 1486 : 				*_Pstate = 1;
+; 1487 : 				if ((_Mode & _Generate_header) == 0)
+; 1488 : 					;
+; 1489 : 				else if (_Last2 - _Mid2 < 3 + 1 + _Nextra)
+; 1490 : 					return (_Mybase::partial);	// not enough room for both
+; 1491 : 				else
+; 1492 : 					{	// prepend header
+; 1493 : 					*_Mid2++ = (_Byte)(unsigned char)0xef;
+; 1494 : 					*_Mid2++ = (_Byte)(unsigned char)0xbb;
+; 1495 : 					*_Mid2++ = (_Byte)(unsigned char)0xbf;
+; 1496 : 					}
+; 1497 : 				}
+; 1498 : 
+; 1499 : 			if (_Last2 - _Mid2 < 1 + _Nextra)
+; 1500 : 				break;	// not enough room for output
+; 1501 : 
+; 1502 : 			++_Mid1;
+; 1503 : 			for (*_Mid2++ = _By; 0 < _Nextra; )
+; 1504 : 				*_Mid2++ = (_Byte)(_Ch >> 6 * --_Nextra & 0x3f | 0x80);
+; 1505 : 			}
+; 1506 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1507 : 		}
+; 1508 : 
+; 1509 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype&,
+; 1510 : 		_Byte *_First2, _Byte *, _Byte *& _Mid2) const
+; 1511 : 		{	// generate bytes to return to default shift state
+; 1512 : 		_Mid2 = _First2;
+; 1513 : 		return (_Mybase::ok);
+; 1514 : 		}
+; 1515 : 
+; 1516 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1517 : 		const _Byte *_Last1, size_t _Count) const _THROW0()
+; 1518 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1519 : 		int _Wchars = 0;
+; 1520 : 		_Statype _Mystate = _State;
+; 1521 : 
+; 1522 : 		for (; (size_t)_Wchars < _Count && _First1 != _Last1; )
+; 1523 : 			{	// convert another wide character
+; 1524 : 			const _Byte *_Mid1;
+; 1525 : 			_Elem *_Mid2;
+; 1526 : 			_Elem _Ch;
+; 1527 : 
+; 1528 : 			switch (do_in(_Mystate, _First1, _Last1, _Mid1,
+; 1529 : 				&_Ch, &_Ch + 1, _Mid2))
+; 1530 : 				{	// test result of single wide-char conversion
+; 1531 : 			case _Mybase::noconv:
+; 1532 : 				return ((int)(_Wchars + (int)(_Last1 - _First1)));
+; 1533 : 
+; 1534 : 			case _Mybase::ok:
+; 1535 : 				if (_Mid2 == &_Ch + 1)
+; 1536 : 					++_Wchars;	// replacement do_in might not convert one
+; 1537 : 				_First1 = _Mid1;
+; 1538 : 				break;
+; 1539 : 
+; 1540 : 			default:
+; 1541 : 				return ((int)_Wchars);	// error or partial
+; 1542 : 				}
+; 1543 : 			}
+; 1544 : 
+; 1545 : 		return ((int)_Wchars);
+; 1546 : 		}
+; 1547 : 
+; 1548 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 1549 : 		{	// return true if conversions never change input
+; 1550 : 		return (false);
+; 1551 : 		}
+; 1552 : 
+; 1553 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 1554 : 		{	// return maximum length required for a conversion
+; 1555 : 		return ((_Mode & (_Consume_header | _Generate_header)) != 0
+; 1556 : 			? 9 : 6);
+; 1557 : 		}
+; 1558 : 
+; 1559 : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 1560 : 		{	// return length of code sequence (from codecvt)
+; 1561 : 		return ((_Mode & (_Consume_header | _Generate_header)) != 0
+; 1562 : 			? -1 : 0);	// -1 => state dependent, 0 => varying length
+; 1563 : 		}
+; 1564 : 
+; 1565 : private:
+; 1566 : 	unsigned long _Maxcode;	// default: 0xffffffff
+; 1567 : 	_Codecvt_mode _Mode;	// default: _Consume_header
+; 1568 : 	};
+; 1569 :  #endif /* _HAS_CHAR16_T_LANGUAGE_SUPPORT */
+; 1570 : 
+; 1571 : 		// CLASS codecvt<wchar_t, char, _Mbstatet>
+; 1572 : template<>
+; 1573 : 	class _CRTIMP2_PURE codecvt<wchar_t, char, _Mbstatet>
+; 1574 : 	: public codecvt_base
+; 1575 : 	{	// facet for converting between wchar_t and char (_Byte) sequences
+; 1576 : public:
+; 1577 : 	typedef wchar_t _Elem;
+; 1578 : 	typedef char _Byte;
+; 1579 : 	typedef _Mbstatet _Statype;
+; 1580 : 	typedef _Elem intern_type;
+; 1581 : 	typedef _Byte extern_type;
+; 1582 : 	typedef _Statype state_type;
+; 1583 : 
+; 1584 : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 1585 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1586 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1587 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1588 : 		return (do_in(_State,
+; 1589 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1590 : 		}
+; 1591 : 
+; 1592 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1593 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1594 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1595 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1596 : 		return (do_out(_State,
+; 1597 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1598 : 		}
+; 1599 : 
+; 1600 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1601 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1602 : 		{	// generate bytes to return to default shift state
+; 1603 : 		return (do_unshift(_State,
+; 1604 : 			_First2, _Last2, _Mid2));
+; 1605 : 		}
+; 1606 : 
+; 1607 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1608 : 		const _Byte *_Last1, size_t _Count) const
+; 1609 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1610 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1611 : 		}
+; 1612 : 
+; 1613 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1614 : 
+; 1615 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1616 : 		: codecvt_base(_Refs)
+; 1617 : 		{	// construct from current locale
+; 1618 : 		_BEGIN_LOCINFO(_Lobj)
+; 1619 : 			_Init(_Lobj);
+; 1620 : 		_END_LOCINFO()
+; 1621 : 		}
+; 1622 : 
+; 1623 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1624 : 		: codecvt_base(_Refs)
+; 1625 : 		{	// construct from specified locale
+; 1626 : 		_Init(_Lobj);
+; 1627 : 		}
+; 1628 : 
+; 1629 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1630 : 		const locale *_Ploc = 0)
+; 1631 : 		{	// return locale category mask and construct standard facet
+; 1632 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1633 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1634 : 				_Locinfo(_Ploc->c_str()));
+; 1635 : 		return (_X_CTYPE);
+; 1636 : 		}
+; 1637 : 
+; 1638 : protected:
+; 1639 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1640 : 		{	// destroy the object
+; 1641 : 		}
+; 1642 : 
+; 1643 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo& _Lobj)
+; 1644 : 		{	// initialize from _Lobj
+; 1645 : 		_Cvt = _Lobj._Getcvt();
+; 1646 : 		}
+; 1647 : 
+; 1648 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1649 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1650 : 			_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1651 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1652 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1653 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1654 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1655 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1656 : 		int _Bytes;
+; 1657 : 
+; 1658 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1659 : 			switch (_Bytes = _Mbrtowc(_Mid2, _Mid1, _Last1 - _Mid1,
+; 1660 : 				&_State, &_Cvt))
+; 1661 : 			{	// test result of locale-specific mbrtowc call
+; 1662 : 			case -2:	// partial conversion
+; 1663 : 				_Mid1 = _Last1;
+; 1664 : 				return (_Ans);
+; 1665 : 
+; 1666 : 			case -1:	// failed conversion
+; 1667 : 				return (error);
+; 1668 : 
+; 1669 : 			case 0:	// may have converted null character
+; 1670 : 				if (*_Mid2 == (_Elem)0)
+; 1671 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 1672 : 				// fall through
+; 1673 : 
+; 1674 : 			default:	// converted _Bytes bytes to a wchar_t
+; 1675 : 				if (_Bytes == -3)
+; 1676 : 					_Bytes = 0;	// wchar_t generated from state info
+; 1677 : 				_Mid1 += _Bytes;
+; 1678 : 				++_Mid2;
+; 1679 : 				_Ans = ok;
+; 1680 : 			}
+; 1681 : 		return (_Ans);
+; 1682 : 		}
+; 1683 : 
+; 1684 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1685 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1686 : 			_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1687 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1688 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1689 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1690 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1691 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1692 : 		int _Bytes;
+; 1693 : 
+; 1694 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1695 : 			if ((int)MB_CUR_MAX <= _Last2 - _Mid2)
+; 1696 : 				if ((_Bytes = _Wcrtomb(_Mid2, *_Mid1,
+; 1697 : 					&_State, &_Cvt)) < 0)
+; 1698 : 					return (error);	// locale-specific wcrtomb failed
+; 1699 : 				else
+; 1700 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1701 : 			else
+; 1702 : 				{	// destination too small, convert into buffer
+; 1703 : 				_Byte _Buf[MB_LEN_MAX];
+; 1704 : 				_Statype _Stsave = _State;
+; 1705 : 
+; 1706 : 				if ((_Bytes = _Wcrtomb(_Buf, *_Mid1,
+; 1707 : 					&_State, &_Cvt)) < 0)
+; 1708 : 					return (error);	// locale-specific wcrtomb failed
+; 1709 : 				else if (_Last2 - _Mid2 < _Bytes)
+; 1710 : 					{	// converted too many, roll back and return previous
+; 1711 : 					_State = _Stsave;
+; 1712 : 					return (_Ans);
+; 1713 : 					}
+; 1714 : 				else
+; 1715 : 					{	// copy converted bytes from buffer
+; 1716 : 					_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1717 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1718 : 					}
+; 1719 : 				}
+; 1720 : 		return (_Ans);
+; 1721 : 		}
+; 1722 : 
+; 1723 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype& _State,
+; 1724 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1725 : 		{	// generate bytes to return to default shift state
+; 1726 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1727 : 		_Mid2 = _First2;
+; 1728 : 		result _Ans = ok;
+; 1729 : 		int _Bytes;
+; 1730 : 		_Byte _Buf[MB_LEN_MAX];
+; 1731 : 		_Statype _Stsave = _State;
+; 1732 : 
+; 1733 : 		if ((_Bytes = _Wcrtomb(_Buf, L'\0', &_State, &_Cvt)) <= 0)
+; 1734 : 			_Ans = error;	// locale-specific wcrtomb failed
+; 1735 : 		else if (_Last2 - _Mid2 < --_Bytes)
+; 1736 : 			{	// converted too many, roll back and return
+; 1737 : 			_State = _Stsave;
+; 1738 : 			_Ans = partial;
+; 1739 : 			}
+; 1740 : 		else if (0 < _Bytes)
+; 1741 : 			{	// copy converted bytes from buffer
+; 1742 : 			_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1743 : 			_Mid2 += _Bytes;
+; 1744 : 			}
+; 1745 : 		return (_Ans);
+; 1746 : 		}
+; 1747 : 
+; 1748 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1749 : 		const _Byte *_Last1, size_t _Count) const
+; 1750 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1751 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1752 : 		int _Wchars;
+; 1753 : 		const _Byte *_Mid1;
+; 1754 : 		_Statype _Mystate = _State;
+; 1755 : 
+; 1756 : 		for (_Wchars = 0, _Mid1 = _First1;
+; 1757 : 			(size_t)_Wchars < _Count && _Mid1 != _Last1; )
+; 1758 : 			{	// convert another wchar_t
+; 1759 : 			int _Bytes;
+; 1760 : 			_Elem _Ch;
+; 1761 : 
+; 1762 : 			switch (_Bytes = _Mbrtowc(&_Ch, _Mid1, _Last1 - _Mid1,
+; 1763 : 				&_Mystate, &_Cvt))
+; 1764 : 				{	// test result of locale-specific mbrtowc call
+; 1765 : 			case -2:	// partial conversion
+; 1766 : 				return (_Wchars);
+; 1767 : 
+; 1768 : 			case -1:	// failed conversion
+; 1769 : 				return (_Wchars);
+; 1770 : 
+; 1771 : 			case 0:	// may have converted null character
+; 1772 : 				if (_Ch == (_Elem)0)
+; 1773 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 1774 : 				// fall through
+; 1775 : 
+; 1776 : 			default:	// converted _Bytes bytes to a wchar_t
+; 1777 : 				if (_Bytes == -3)
+; 1778 : 					_Bytes = 0;	// wchar_t generated from state info
+; 1779 : 				_Mid1 += _Bytes;
+; 1780 : 				++_Wchars;
+; 1781 : 				}
+; 1782 : 			}
+; 1783 : 		return (_Wchars);
+; 1784 : 		}
+; 1785 : 
+; 1786 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 1787 : 		{	// return true if conversions never change input
+; 1788 : 		return (false);
+; 1789 : 		}
+; 1790 : 
+; 1791 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 1792 : 		{	// return maximum length required for a conversion (from codecvt)
+; 1793 : 		return (MB_LEN_MAX);
+; 1794 : 		}
+; 1795 : 
+; 1796 : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 1797 : 		{	// return length of code sequence (from codecvt)
+; 1798 : 		return (0);	// 0 => varying length
+; 1799 : 		}
+; 1800 : 
+; 1801 : private:
+; 1802 : 	_Locinfo::_Cvtvec _Cvt;	// locale info passed to _Mbrtowc, _Wcrtomb
+; 1803 : 	};
+; 1804 : 
+; 1805 :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 1806 : 		// CLASS codecvt<unsigned short, char, _Mbstatet>
+; 1807 : template<>
+; 1808 : 	class _CRTIMP2_PURE codecvt<unsigned short, char, _Mbstatet>
+; 1809 : 	: public codecvt_base
+; 1810 : 	{	// facet for converting between unsigned short and char sequences
+; 1811 : public:
+; 1812 : 	typedef unsigned short _Elem;
+; 1813 : 	typedef char _Byte;
+; 1814 : 	typedef _Mbstatet _Statype;
+; 1815 : 	typedef _Elem intern_type;
+; 1816 : 	typedef _Byte extern_type;
+; 1817 : 	typedef _Statype state_type;
+; 1818 : 
+; 1819 : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 1820 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1821 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1822 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1823 : 		return (do_in(_State,
+; 1824 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1825 : 		}
+; 1826 : 
+; 1827 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1828 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1829 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1830 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1831 : 		return (do_out(_State,
+; 1832 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1833 : 		}
+; 1834 : 
+; 1835 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1836 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1837 : 		{	// generate bytes to return to default shift state
+; 1838 : 		return (do_unshift(_State,
+; 1839 : 			_First2, _Last2, _Mid2));
+; 1840 : 		}
+; 1841 : 
+; 1842 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1843 : 		const _Byte *_Last1, size_t _Count) const
+; 1844 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1845 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1846 : 		}
+; 1847 : 
+; 1848 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1849 : 
+; 1850 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1851 : 		: codecvt_base(_Refs)
+; 1852 : 		{	// construct from current locale
+; 1853 : 		_BEGIN_LOCINFO(_Lobj)
+; 1854 : 			_Init(_Lobj);
+; 1855 : 		_END_LOCINFO()
+; 1856 : 		}
+; 1857 : 
+; 1858 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1859 : 		: codecvt_base(_Refs)
+; 1860 : 		{	// construct from specified locale
+; 1861 : 		_Init(_Lobj);
+; 1862 : 		}
+; 1863 : 
+; 1864 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1865 : 		const locale *_Ploc = 0)
+; 1866 : 		{	// return locale category mask and construct standard facet
+; 1867 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1868 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1869 : 				_Locinfo(_Ploc->c_str()));
+; 1870 : 		return (_X_CTYPE);
+; 1871 : 		}
+; 1872 : 
+; 1873 : protected:
+; 1874 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1875 : 		{	// destroy the object
+; 1876 : 		}
+; 1877 : 
+; 1878 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo& _Lobj)
+; 1879 : 		{	// initialize from _Lobj
+; 1880 : 		_Cvt = _Lobj._Getcvt();
+; 1881 : 		}
+; 1882 : 
+; 1883 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1884 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1885 : 			_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1886 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1887 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1888 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1889 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1890 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1891 : 		int _Bytes;
+; 1892 : 
+; 1893 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1894 : 			switch (_Bytes = _Mbrtowc((wchar_t *)_Mid2, _Mid1, _Last1 - _Mid1,
+; 1895 : 				&_State, &_Cvt))
+; 1896 : 			{	// test result of locale-specific mbrtowc call
+; 1897 : 			case -2:	// partial conversion
+; 1898 : 				_Mid1 = _Last1;
+; 1899 : 				return (_Ans);
+; 1900 : 
+; 1901 : 			case -1:	// failed conversion
+; 1902 : 				return (error);
+; 1903 : 
+; 1904 : 			case 0:	// may have converted null character
+; 1905 : 				if (*_Mid2 == (_Elem)0)
+; 1906 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 1907 : 				// fall through
+; 1908 : 
+; 1909 : 			default:	// converted _Bytes bytes to an unsigned short
+; 1910 : 				if (_Bytes == -3)
+; 1911 : 					_Bytes = 0;	// wchar_t generated from state info
+; 1912 : 				_Mid1 += _Bytes;
+; 1913 : 				++_Mid2;
+; 1914 : 				_Ans = ok;
+; 1915 : 			}
+; 1916 : 		return (_Ans);
+; 1917 : 		}
+; 1918 : 
+; 1919 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1920 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1921 : 			_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1922 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1923 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1924 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1925 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1926 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1927 : 		int _Bytes;
+; 1928 : 
+; 1929 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1930 : 			if ((int)MB_CUR_MAX <= _Last2 - _Mid2)
+; 1931 : 				if ((_Bytes = _Wcrtomb(_Mid2, *_Mid1,
+; 1932 : 					&_State, &_Cvt)) < 0)
+; 1933 : 					return (error);	// locale-specific wcrtomb failed
+; 1934 : 				else
+; 1935 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1936 : 			else
+; 1937 : 				{	// destination too small, convert into buffer
+; 1938 : 				_Byte _Buf[MB_LEN_MAX];
+; 1939 : 				_Statype _Stsave = _State;
+; 1940 : 
+; 1941 : 				if ((_Bytes = _Wcrtomb(_Buf, *_Mid1,
+; 1942 : 					&_State, &_Cvt)) < 0)
+; 1943 : 					return (error);	// locale-specific wcrtomb failed
+; 1944 : 				else if (_Last2 - _Mid2 < _Bytes)
+; 1945 : 					{	// converted too many, roll back and return previous
+; 1946 : 					_State = _Stsave;
+; 1947 : 					return (_Ans);
+; 1948 : 					}
+; 1949 : 				else
+; 1950 : 					{	// copy converted bytes from buffer
+; 1951 : 					_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1952 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1953 : 					}
+; 1954 : 				}
+; 1955 : 		return (_Ans);
+; 1956 : 		}
+; 1957 : 
+; 1958 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype& _State,
+; 1959 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1960 : 		{	// generate bytes to return to default shift state
+; 1961 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1962 : 		_Mid2 = _First2;
+; 1963 : 		result _Ans = ok;
+; 1964 : 		int _Bytes;
+; 1965 : 		_Byte _Buf[MB_LEN_MAX];
+; 1966 : 		_Statype _Stsave = _State;
+; 1967 : 
+; 1968 : 		if ((_Bytes = _Wcrtomb(_Buf, L'\0', &_State, &_Cvt)) <= 0)
+; 1969 : 			_Ans = error;	// locale-specific wcrtomb failed
+; 1970 : 		else if (_Last2 - _Mid2 < --_Bytes)
+; 1971 : 			{	// converted too many, roll back and return
+; 1972 : 			_State = _Stsave;
+; 1973 : 			_Ans = partial;
+; 1974 : 			}
+; 1975 : 		else if (0 < _Bytes)
+; 1976 : 			{	// copy converted bytes from buffer
+; 1977 : 			_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1978 : 			_Mid2 += _Bytes;
+; 1979 : 			}
+; 1980 : 		return (_Ans);
+; 1981 : 		}
+; 1982 : 
+; 1983 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1984 : 		const _Byte *_Last1, size_t _Count) const
+; 1985 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1986 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1987 : 		int _Wchars;
+; 1988 : 		const _Byte *_Mid1;
+; 1989 : 		_Statype _Mystate = _State;
+; 1990 : 
+; 1991 : 		for (_Wchars = 0, _Mid1 = _First1;
+; 1992 : 			(size_t)_Wchars < _Count && _Mid1 != _Last1; )
+; 1993 : 			{	// convert another unsigned char
+; 1994 : 			int _Bytes;
+; 1995 : 			_Elem _Ch;
+; 1996 : 
+; 1997 : 			switch (_Bytes = _Mbrtowc((wchar_t *)&_Ch, _Mid1, _Last1 - _Mid1,
+; 1998 : 				&_Mystate, &_Cvt))
+; 1999 : 				{	// test result of locale-specific mbrtowc call
+; 2000 : 			case -2:	// partial conversion
+; 2001 : 				return (_Wchars);
+; 2002 : 
+; 2003 : 			case -1:	// failed conversion
+; 2004 : 				return (_Wchars);
+; 2005 : 
+; 2006 : 			case 0:	// may have converted null character
+; 2007 : 				if (_Ch == (_Elem)0)
+; 2008 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 2009 : 				// fall through
+; 2010 : 
+; 2011 : 			default:	// converted _Bytes bytes to an unsigned char
+; 2012 : 				if (_Bytes == -3)
+; 2013 : 					_Bytes = 0;	// wchar_t generated from state info
+; 2014 : 				_Mid1 += _Bytes;
+; 2015 : 				++_Wchars;
+; 2016 : 				}
+; 2017 : 			}
+; 2018 : 		return (_Wchars);
+; 2019 : 		}
+; 2020 : 
+; 2021 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 2022 : 		{	// return true if conversions never change input
+; 2023 : 		return (false);
+; 2024 : 		}
+; 2025 : 
+; 2026 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 2027 : 		{	// return maximum length required for a conversion (from codecvt)
+; 2028 : 		return (MB_LEN_MAX);
+; 2029 : 		}
+; 2030 : 
+; 2031 : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 2032 : 		{	// return length of code sequence (from codecvt)
+; 2033 : 		return (0);	// 0 => varying length
+; 2034 : 		}
+; 2035 : 
+; 2036 : private:
+; 2037 : 	_Locinfo::_Cvtvec _Cvt;	// locale info passed to _Mbrtowc, _Wcrtomb
+; 2038 : 	};
+; 2039 :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 2040 : 
+; 2041 : 		// TEMPLATE CLASS codecvt_byname
+; 2042 : template<class _Elem,
+; 2043 : 	class _Byte,
+; 2044 : 	class _Statype>
+; 2045 : 	class codecvt_byname
+; 2046 : 		: public codecvt<_Elem, _Byte, _Statype>
+; 2047 : 	{	// codecvt for named locale
+; 2048 : public:
+; 2049 : 	explicit __CLR_OR_THIS_CALL codecvt_byname(const char *_Locname, size_t _Refs = 0)
+; 2050 : 		: codecvt<_Elem, _Byte, _Statype>(_Locinfo(_Locname), _Refs)
+; 2051 : 		{	// construct for named locale
+; 2052 : 		}
+; 2053 : 
+; 2054 :  #if _HAS_CPP0X
+; 2055 : 	explicit __CLR_OR_THIS_CALL codecvt_byname(const string& _Str, size_t _Refs = 0)
+; 2056 : 		: codecvt<_Elem, _Byte, _Statype>(_Locinfo(_Str.c_str()), _Refs)
+; 2057 : 		{	// construct for named locale
+; 2058 : 		}
+; 2059 :  #endif /* _HAS_CPP0X */
+; 2060 : 
+; 2061 : protected:
+; 2062 : 	virtual __CLR_OR_THIS_CALL ~codecvt_byname() _NOEXCEPT
+; 2063 : 		{	// destroy the object
+; 2064 : 		}
+; 2065 : 	};
+; 2066 : 
+; 2067 : 		// STRUCT ctype_base
+; 2068 :  #pragma warning(push)
+; 2069 :  #pragma warning(disable: 4275)
+; 2070 : 
+; 2071 : struct _CRTIMP2_PURE ctype_base
+; 2072 : 	: public locale::facet
+; 2073 : 	{	// base for ctype
+; 2074 : 	enum
+; 2075 : 		{	// constants for character classifications
+; 2076 : 		alnum = _DI | _LO | _UP | _XA, alpha = _LO | _UP | _XA,
+; 2077 : 		cntrl = _BB, digit = _DI, graph = _DI | _LO | _PU | _UP | _XA,
+; 2078 : 		lower = _LO, print = _DI | _LO | _PU | _SP | _UP | _XA | _XD,
+; 2079 : 		punct = _PU, space = _CN | _SP | _XS, upper = _UP,
+; 2080 : 		xdigit = _XD, blank = _CN | _SP | _XS | _XB};
+; 2081 : 	typedef short mask;	// to match <ctype.h>
+; 2082 : 
+; 2083 : 	__CLR_OR_THIS_CALL ctype_base(size_t _Refs = 0)
+; 2084 : 		: locale::facet(_Refs)
+; 2085 : 		{	// default constructor
+; 2086 : 		}
+; 2087 : 
+; 2088 : 	__CLR_OR_THIS_CALL ~ctype_base() _NOEXCEPT
+; 2089 : 		{	// destroy the object
+; 2090 : 		}
+; 2091 : 	};
+; 2092 : 
+; 2093 :  #pragma warning(pop)
+; 2094 : 
+; 2095 : 		// TEMPLATE CLASS ctype
+; 2096 : template<class _Elem>
+; 2097 : 	class ctype
+; 2098 : 		: public ctype_base
+; 2099 : 	{	// facet for classifying elements, converting cases
+; 2100 : public:
+; 2101 : 	typedef _Elem char_type;
+; 2102 : 
+; 2103 : 	bool __CLR_OR_THIS_CALL is(mask _Maskval, _Elem _Ch) const
+; 2104 : 		{	// test if element fits any mask classifications
+; 2105 : 		return (do_is(_Maskval, _Ch));
+; 2106 : 		}
+; 2107 : 
+; 2108 : 	const _Elem *__CLR_OR_THIS_CALL is(const _Elem *_First, const _Elem *_Last,
+; 2109 : 		mask *_Dest) const
+; 2110 : 		{	// get mask sequence for elements in [_First, _Last)
+; 2111 : 		return (do_is(_First, _Last, _Dest));
+; 2112 : 		}
+; 2113 : 
+; 2114 : 	const _Elem *__CLR_OR_THIS_CALL scan_is(mask _Maskval, const _Elem *_First,
+; 2115 : 		const _Elem *_Last) const
+; 2116 : 		{	// find first in [_First, _Last) that fits mask classification
+; 2117 : 		return (do_scan_is(_Maskval, _First, _Last));
+; 2118 : 		}
+; 2119 : 
+; 2120 : 	const _Elem *__CLR_OR_THIS_CALL scan_not(mask _Maskval, const _Elem *_First,
+; 2121 : 		const _Elem *_Last) const
+; 2122 : 		{	// find first in [_First, _Last) not fitting mask classification
+; 2123 : 		return (do_scan_not(_Maskval, _First, _Last));
+; 2124 : 		}
+; 2125 : 
+; 2126 : 	_Elem __CLR_OR_THIS_CALL tolower(_Elem _Ch) const
+; 2127 : 		{	// convert element to lower case
+; 2128 : 		return (do_tolower(_Ch));
+; 2129 : 		}
+; 2130 : 
+; 2131 : 	const _Elem *__CLR_OR_THIS_CALL tolower(_Elem *_First, const _Elem *_Last) const
+; 2132 : 		{	// convert [_First, _Last) in place to lower case
+; 2133 : 		return (do_tolower(_First, _Last));
+; 2134 : 		}
+; 2135 : 
+; 2136 : 	_Elem __CLR_OR_THIS_CALL toupper(_Elem _Ch) const
+; 2137 : 		{	// convert element to upper case
+; 2138 : 		return (do_toupper(_Ch));
+; 2139 : 		}
+; 2140 : 
+; 2141 : 	const _Elem *__CLR_OR_THIS_CALL toupper(_Elem *_First, const _Elem *_Last) const
+; 2142 : 		{	// convert [_First, _Last) in place to upper case
+; 2143 : 		return (do_toupper(_First, _Last));
+; 2144 : 		}
+; 2145 : 
+; 2146 : 	_Elem __CLR_OR_THIS_CALL widen(char _Byte) const
+; 2147 : 		{	// widen char
+; 2148 : 		return (do_widen(_Byte));
+; 2149 : 		}
+; 2150 : 
+; 2151 : 	const char *__CLR_OR_THIS_CALL widen(const char *_First, const char *_Last,
+; 2152 : 		_Elem *_Dest) const
+; 2153 : 		{	// widen chars in [_First, _Last)
+; 2154 : 		return (do_widen(_First, _Last, _Dest));
+; 2155 : 		}
+; 2156 : 
+; 2157 : 	char __CLR_OR_THIS_CALL narrow(_Elem _Ch, char _Dflt = '\0') const
+; 2158 : 		{	// narrow element to char
+; 2159 : 		return (do_narrow(_Ch, _Dflt));
+; 2160 : 		}
+; 2161 : 
+; 2162 : 	const _Elem *__CLR_OR_THIS_CALL narrow(const _Elem *_First, const _Elem *_Last,
+; 2163 : 		char _Dflt, char *_Dest) const
+; 2164 : 		{	// narrow elements in [_First, _Last) to chars
+; 2165 : 		return (do_narrow(_First, _Last, _Dflt, _Dest));
+; 2166 : 		}
+; 2167 : 
+; 2168 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 2169 : 
+; 2170 : 	explicit __CLR_OR_THIS_CALL ctype(size_t _Refs = 0)
+; 2171 : 		: ctype_base(_Refs)
+; 2172 : 		{	// construct from current locale
+; 2173 : 		_BEGIN_LOCINFO(_Lobj)
+; 2174 : 			_Init(_Lobj);
+; 2175 : 		_END_LOCINFO()
+; 2176 : 		}
+; 2177 : 
+; 2178 : 	__CLR_OR_THIS_CALL ctype(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 2179 : 		: ctype_base(_Refs)
+; 2180 : 		{	// construct from specified locale
+; 2181 : 		_Init(_Lobj);
+; 2182 : 		}
+; 2183 : 
+; 2184 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 2185 : 		const locale *_Ploc = 0)
+; 2186 : 		{	// return locale category mask and construct standard facet
+; 2187 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 2188 : 			*_Ppf = _NEW_CRT ctype<_Elem>(
+; 2189 : 				_Locinfo(_Ploc->c_str()));
+; 2190 : 		return (_X_CTYPE);
+; 2191 : 		}
+; 2192 : 
+; 2193 : protected:
+; 2194 : 	virtual __CLR_OR_THIS_CALL ~ctype() _NOEXCEPT
+; 2195 : 		{	// destroy the object
+; 2196 : 		if (_Ctype._Delfl)
+; 2197 : 			free((void *)_Ctype._Table);
+; 2198 : 
+; 2199 : 		free((void *)_Ctype._LocaleName);
+; 2200 : 		}
+; 2201 : 
+; 2202 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo& _Lobj)
+; 2203 : 		{	// initialize from _Lobj
+; 2204 : 		_Ctype = _Lobj._Getctype();
+; 2205 : 		_Cvt = _Lobj._Getcvt();
+; 2206 : 		}
+; 2207 : 
+; 2208 : 	virtual bool __CLR_OR_THIS_CALL do_is(mask _Maskval, _Elem _Ch) const
+; 2209 : 		{	// test if element fits any mask classifications
+; 2210 : 		return ((_Ctype._Table[(unsigned char)narrow(_Ch)]
+; 2211 : 			& _Maskval) != 0);
+; 2212 : 		}
+; 2213 : 
+; 2214 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_is(const _Elem *_First, const _Elem *_Last,
+; 2215 : 		mask *_Dest) const
+; 2216 : 		{	// get mask sequence for elements in [_First, _Last)
+; 2217 : 		_DEBUG_RANGE(_First, _Last);
+; 2218 : 		_DEBUG_POINTER(_Dest);
+; 2219 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2220 : 			*_Dest = _Ctype._Table[(unsigned char)narrow(*_First)];
+; 2221 : 		return (_First);
+; 2222 : 		}
+; 2223 : 
+; 2224 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_scan_is(mask _Maskval,
+; 2225 : 		const _Elem *_First, const _Elem *_Last) const
+; 2226 : 		{	// find first in [_First, _Last) that fits mask classification
+; 2227 : 		_DEBUG_RANGE(_First, _Last);
+; 2228 : 		for (; _First != _Last && !is(_Maskval, *_First); ++_First)
+; 2229 : 			;
+; 2230 : 		return (_First);
+; 2231 : 		}
+; 2232 : 
+; 2233 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_scan_not(mask _Maskval,
+; 2234 : 		const _Elem *_First, const _Elem *_Last) const
+; 2235 : 		{	// find first in [_First, _Last) not fitting mask classification
+; 2236 : 		_DEBUG_RANGE(_First, _Last);
+; 2237 : 		for (; _First != _Last && is(_Maskval, *_First); ++_First)
+; 2238 : 			;
+; 2239 : 		return (_First);
+; 2240 : 		}
+; 2241 : 
+; 2242 : 	virtual _Elem __CLR_OR_THIS_CALL do_tolower(_Elem _Ch) const
+; 2243 : 		{	// convert element to lower case
+; 2244 : 		unsigned char _Byte = (unsigned char)narrow(_Ch, '\0');
+; 2245 : 		if (_Byte == '\0')
+; 2246 : 			return (_Ch);
+; 2247 : 		else
+; 2248 : 			return (widen((char)_Tolower(_Byte, &_Ctype)));
+; 2249 : 		}
+; 2250 : 
+; 2251 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_tolower(_Elem *_First,
+; 2252 : 		const _Elem *_Last) const
+; 2253 : 		{	// convert [_First, _Last) in place to lower case
+; 2254 : 		_DEBUG_RANGE((const _Elem *)_First, _Last);
+; 2255 : 		for (; _First != _Last; ++_First)
+; 2256 : 			{	// convert *_First to lower case
+; 2257 : 			unsigned char _Byte = (unsigned char)narrow(*_First, '\0');
+; 2258 : 			if (_Byte != '\0')
+; 2259 : 				*_First = (widen((char)_Tolower(_Byte, &_Ctype)));
+; 2260 : 			}
+; 2261 : 		return ((const _Elem *)_First);
+; 2262 : 		}
+; 2263 : 
+; 2264 : 	virtual _Elem __CLR_OR_THIS_CALL do_toupper(_Elem _Ch) const
+; 2265 : 		{	// convert element to upper case
+; 2266 : 		unsigned char _Byte = (unsigned char)narrow(_Ch, '\0');
+; 2267 : 		if (_Byte == '\0')
+; 2268 : 			return (_Ch);
+; 2269 : 		else
+; 2270 : 			return (widen((char)_Toupper(_Byte, &_Ctype)));
+; 2271 : 		}
+; 2272 : 
+; 2273 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_toupper(_Elem *_First,
+; 2274 : 		const _Elem *_Last) const
+; 2275 : 		{	// convert [_First, _Last) in place to upper case
+; 2276 : 		_DEBUG_RANGE((const _Elem *)_First, _Last);
+; 2277 : 		for (; _First != _Last; ++_First)
+; 2278 : 			{	// convert *_First to upper case
+; 2279 : 			unsigned char _Byte = (unsigned char)narrow(*_First, '\0');
+; 2280 : 			if (_Byte != '\0')
+; 2281 : 				*_First = (widen((char)_Toupper(_Byte, &_Ctype)));
+; 2282 : 			}
+; 2283 : 		return ((const _Elem *)_First);
+; 2284 : 		}
+; 2285 : 
+; 2286 : 	virtual _Elem __CLR_OR_THIS_CALL do_widen(char _Byte) const
+; 2287 : 		{	// widen char
+; 2288 : 		return (_MAKLOCCHR(_Elem, _Byte, _Cvt));
+; 2289 : 		}
+; 2290 : 
+; 2291 : 	virtual const char *__CLR_OR_THIS_CALL do_widen(const char *_First,
+; 2292 : 		const char *_Last, _Elem *_Dest) const
+; 2293 : 		{	// widen chars in [_First, _Last)
+; 2294 : 		_DEBUG_RANGE(_First, _Last);
+; 2295 : 		_DEBUG_POINTER(_Dest);
+; 2296 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2297 : 			*_Dest = _MAKLOCCHR(_Elem, *_First, _Cvt);
+; 2298 : 		return (_First);
+; 2299 : 		}
+; 2300 : 
+; 2301 : 	char __CLR_OR_THIS_CALL _Donarrow(_Elem _Ch, char _Dflt) const
+; 2302 : 		{	// narrow element to char
+; 2303 : 		char _Byte;
+; 2304 : 		if (_Ch == (_Elem)0)
+; 2305 : 			return ('\0');
+; 2306 : 		else if ((_Byte = _MAKLOCBYTE(_Elem, _Ch, _Cvt)) == '\0')
+; 2307 : 			return (_Dflt);
+; 2308 : 		else
+; 2309 : 			return (_Byte);
+; 2310 : 		}
+; 2311 : 
+; 2312 : 	virtual char __CLR_OR_THIS_CALL do_narrow(_Elem _Ch, char _Dflt) const
+; 2313 : 		{	// narrow element to char
+; 2314 : 		return (_Donarrow(_Ch, _Dflt));
+; 2315 : 		}
+; 2316 : 
+; 2317 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_narrow(const _Elem *_First,
+; 2318 : 		const _Elem *_Last, char _Dflt, char *_Dest) const
+; 2319 : 		{	// narrow elements in [_First, _Last) to chars
+; 2320 : 		_DEBUG_RANGE(_First, _Last);
+; 2321 : 		_DEBUG_POINTER(_Dest);
+; 2322 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2323 : 			*_Dest = _Donarrow(*_First, _Dflt);
+; 2324 : 		return (_First);
+; 2325 : 		}
+; 2326 : 
+; 2327 : private:
+; 2328 : 	_Locinfo::_Ctypevec _Ctype;	// locale info passed to _Tolower, etc.
+; 2329 : 	_Locinfo::_Cvtvec _Cvt;		// conversion information
+; 2330 : 	};
+; 2331 : 
+; 2332 : 		// STATIC ctype::id OBJECT
+; 2333 : template<class _Elem>
+; 2334 : 	locale::id ctype<_Elem>::id;
+; 2335 : 
+; 2336 : 		// CLASS ctype<char>
+; 2337 : template<>
+; 2338 : 	class _CRTIMP2_PURE ctype<char>
+; 2339 : 	: public ctype_base
+; 2340 : 	{	// facet for classifying char elements, converting cases
+; 2341 : 	typedef ctype<char> _Myt;
+; 2342 : 
+; 2343 : public:
+; 2344 : 	typedef char _Elem;
+; 2345 : 	typedef _Elem char_type;
+; 2346 : 
+; 2347 : 	bool __CLR_OR_THIS_CALL is(mask _Maskval, _Elem _Ch) const
+; 2348 : 		{	// test if element fits any mask classifications
+; 2349 : 		return ((_Ctype._Table[(unsigned char)_Ch] & _Maskval) != 0);
+; 2350 : 		}
+; 2351 : 
+; 2352 : 	const _Elem *__CLR_OR_THIS_CALL is(const _Elem *_First,
+; 2353 : 		const _Elem *_Last, mask *_Dest) const
+; 2354 : 		{	// get mask sequence for elements in [_First, _Last)
+; 2355 : 		_DEBUG_RANGE(_First, _Last);
+; 2356 : 		_DEBUG_POINTER(_Dest);
+; 2357 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2358 : 			*_Dest = _Ctype._Table[(unsigned char)*_First];
+; 2359 : 		return (_First);
+; 2360 : 		}
+; 2361 : 
+; 2362 : 	const _Elem *__CLR_OR_THIS_CALL scan_is(mask _Maskval,
+; 2363 : 		const _Elem *_First, const _Elem *_Last) const
+; 2364 : 		{	// find first in [_First, _Last) that fits mask classification
+; 2365 : 		_DEBUG_RANGE(_First, _Last);
+; 2366 : 		for (; _First != _Last && !is(_Maskval, *_First); ++_First)
+; 2367 : 			;
+; 2368 : 		return (_First);
+; 2369 : 		}
+; 2370 : 
+; 2371 : 	const _Elem *__CLR_OR_THIS_CALL scan_not(mask _Maskval,
+; 2372 : 		const _Elem *_First, const _Elem *_Last) const
+; 2373 : 		{	// find first in [_First, _Last) not fitting mask classification
+; 2374 : 		_DEBUG_RANGE(_First, _Last);
+; 2375 : 		for (; _First != _Last && is(_Maskval, *_First); ++_First)
+; 2376 : 			;
+; 2377 : 		return (_First);
+; 2378 : 		}
+; 2379 : 
+; 2380 : 	_Elem __CLR_OR_THIS_CALL tolower(_Elem _Ch) const
+; 2381 : 		{	// convert element to lower case
+; 2382 : 		return (do_tolower(_Ch));
+; 2383 : 		}
+; 2384 : 
+; 2385 : 	const _Elem *__CLR_OR_THIS_CALL tolower(_Elem *_First, const _Elem *_Last) const
+; 2386 : 		{	// convert [_First, _Last) in place to lower case
+; 2387 : 		return (do_tolower(_First, _Last));
+; 2388 : 		}
+; 2389 : 
+; 2390 : 	_Elem __CLR_OR_THIS_CALL toupper(_Elem _Ch) const
+; 2391 : 		{	// convert element to upper case
+; 2392 : 		return (do_toupper(_Ch));
+; 2393 : 		}
+; 2394 : 
+; 2395 : 	const _Elem *__CLR_OR_THIS_CALL toupper(_Elem *_First, const _Elem *_Last) const
+; 2396 : 		{	// convert [_First, _Last) in place to upper case
+; 2397 : 		return (do_toupper(_First, _Last));
+; 2398 : 		}
+; 2399 : 
+; 2400 : 	_Elem __CLR_OR_THIS_CALL widen(char _Byte) const
+; 2401 : 		{	// widen char
+; 2402 : 		return (do_widen(_Byte));
+
+	mov	eax, DWORD PTR [edi]
+	push	32					; 00000020H
+	mov	eax, DWORD PTR [eax+32]
+	mov	ecx, edi
+	call	eax
+; File f:\program_files\vc\include\ios
+
+; 180  : 		if (_Mystrbuf == 0)
+
+	cmp	DWORD PTR [esi+56], 0
+	mov	BYTE PTR [esi+64], al
+	jne	SHORT $LN20@init
+
+; 55   : 		}
+; 56   : 
+; 57   : 	void __CLR_OR_THIS_CALL clear(io_state _State)
+; 58   : 		{	// set state to _State
+; 59   : 		clear((iostate)_State);
+; 60   : 		}
+; 61   : 
+; 62   : 	void __CLR_OR_THIS_CALL setstate(iostate _State,
+; 63   : 		bool _Reraise = false)
+; 64   : 		{	// merge _State into state, possibly reraise exception
+; 65   : 		if (_State != goodbit)
+; 66   : 			clear((iostate)((int)rdstate() | (int)_State), _Reraise);
+
+	mov	eax, DWORD PTR [esi+12]
+
+; 54   : 			? (int)_State | (int)badbit : (int)_State), _Reraise);
+
+	or	eax, 4
+	push	0
+	push	eax
+	mov	ecx, esi
+	call	?clear@ios_base@std@@QAEXH_N@Z		; std::ios_base::clear
+$LN20@init:
+
+; 181  : 			setstate(badbit);
+; 182  : 
+; 183  : 		if (_Isstd)
+
+	cmp	BYTE PTR __Isstd$[ebp], 0
+	je	SHORT $LN1@init
+
+; 184  : 			_Addstd(this);	// special handling for standard streams
+
+	push	esi
+	call	?_Addstd@ios_base@std@@SAXPAV12@@Z	; std::ios_base::_Addstd
+	add	esp, 4
+$LN1@init:
+
+; 185  : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z$0:
+	lea	ecx, DWORD PTR $T2[ebp]
+	jmp	??1locale@std@@QAE@XZ			; std::locale::~locale
+__ehhandler$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-12]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z ENDP ; std::basic_ios<char,std::char_traits<char> >::init
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\ios
+;	COMDAT ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+_TEXT	SEGMENT
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ PROC	; std::basic_ios<char,std::char_traits<char> >::basic_ios<char,std::char_traits<char> >, COMDAT
+; _this$ = ecx
+
+; 187  : 	__CLR_OR_THIS_CALL basic_ios()
+
+	mov	DWORD PTR [ecx], OFFSET ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+
+; 188  : 		{	// default constructor, do nothing
+; 189  : 		}
+
+	mov	eax, ecx
+	ret	0
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ ENDP	; std::basic_ios<char,std::char_traits<char> >::basic_ios<char,std::char_traits<char> >
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+_TEXT	SEGMENT
+?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::eback, COMDAT
+; _this$ = ecx
+
+; 216  : 		return (*_IGfirst);
+
+	mov	eax, DWORD PTR [ecx+12]
+	mov	eax, DWORD PTR [eax]
+
+; 217  : 		}
+
+	ret	0
+?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::eback
+_TEXT	ENDS
+; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\streambuf
 ;	COMDAT ?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
 _TEXT	SEGMENT
@@ -42305,6 +44783,201 @@ _TEXT	SEGMENT
 
 	ret	0
 ?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::pbase
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+_TEXT	SEGMENT
+?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::pptr, COMDAT
+; _this$ = ecx
+
+; 231  : 		return (*_IPnext);
+
+	mov	eax, DWORD PTR [ecx+32]
+	mov	eax, DWORD PTR [eax]
+
+; 232  : 		}
+
+	ret	0
+?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::pptr
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+_TEXT	SEGMENT
+?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::egptr, COMDAT
+; _this$ = ecx
+
+; 236  : 		return (*_IGnext + *_IGcount);
+
+	mov	eax, DWORD PTR [ecx+44]
+	mov	ecx, DWORD PTR [ecx+28]
+	mov	eax, DWORD PTR [eax]
+	add	eax, DWORD PTR [ecx]
+
+; 237  : 		}
+
+	ret	0
+?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::egptr
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z
+_TEXT	SEGMENT
+__Off$ = 8						; size = 4
+?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::gbump, COMDAT
+; _this$ = ecx
+
+; 240  : 		{	// alter current position in read buffer by _Off
+
+	push	ebp
+	mov	ebp, esp
+
+; 241  : 		*_IGcount -= _Off;
+
+	mov	eax, DWORD PTR [ecx+44]
+	mov	edx, DWORD PTR __Off$[ebp]
+	sub	DWORD PTR [eax], edx
+
+; 242  : 		*_IGnext += _Off;
+
+	mov	eax, DWORD PTR [ecx+28]
+	add	DWORD PTR [eax], edx
+
+; 243  : 		}
+
+	pop	ebp
+	ret	4
+?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::gbump
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Next$ = 12						; size = 4
+__Last$ = 16						; size = 4
+?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::setg, COMDAT
+; _this$ = ecx
+
+; 246  : 		{	// set pointers for read buffer
+
+	push	ebp
+	mov	ebp, esp
+
+; 247  : 		*_IGfirst = _First;
+
+	mov	edx, DWORD PTR [ecx+12]
+	mov	eax, DWORD PTR __First$[ebp]
+	mov	DWORD PTR [edx], eax
+
+; 248  : 		*_IGnext = _Next;
+
+	mov	eax, DWORD PTR [ecx+28]
+	mov	edx, DWORD PTR __Next$[ebp]
+	push	esi
+
+; 249  : 		*_IGcount = (int)(_Last - _Next);
+
+	mov	esi, DWORD PTR __Last$[ebp]
+	mov	DWORD PTR [eax], edx
+	mov	eax, DWORD PTR [ecx+44]
+	sub	esi, edx
+	mov	DWORD PTR [eax], esi
+	pop	esi
+
+; 250  : 		}
+
+	pop	ebp
+	ret	12					; 0000000cH
+?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::setg
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+_TEXT	SEGMENT
+?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::epptr, COMDAT
+; _this$ = ecx
+
+; 254  : 		return (*_IPnext + *_IPcount);
+
+	mov	eax, DWORD PTR [ecx+48]
+	mov	ecx, DWORD PTR [ecx+32]
+	mov	eax, DWORD PTR [eax]
+	add	eax, DWORD PTR [ecx]
+
+; 255  : 		}
+
+	ret	0
+?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::epptr
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z
+_TEXT	SEGMENT
+__Off$ = 8						; size = 4
+?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::pbump, COMDAT
+; _this$ = ecx
+
+; 281  : 		{	// alter current position in write buffer by _Off
+
+	push	ebp
+	mov	ebp, esp
+
+; 282  : 		*_IPcount -= _Off;
+
+	mov	eax, DWORD PTR [ecx+48]
+	mov	edx, DWORD PTR __Off$[ebp]
+	sub	DWORD PTR [eax], edx
+
+; 283  : 		*_IPnext += _Off;
+
+	mov	eax, DWORD PTR [ecx+32]
+	add	DWORD PTR [eax], edx
+
+; 284  : 		}
+
+	pop	ebp
+	ret	4
+?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::pbump
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z PROC ; std::basic_streambuf<char,std::char_traits<char> >::setp, COMDAT
+; _this$ = ecx
+
+; 287  : 		{	// set pointers for write buffer
+
+	push	ebp
+	mov	ebp, esp
+
+; 288  : 		*_IPfirst = _First;
+
+	mov	eax, DWORD PTR [ecx+16]
+
+; 289  : 		*_IPnext = _First;
+; 290  : 		*_IPcount = (int)(_Last - _First);
+
+	mov	edx, DWORD PTR __Last$[ebp]
+	push	esi
+	mov	esi, DWORD PTR __First$[ebp]
+	mov	DWORD PTR [eax], esi
+	mov	eax, DWORD PTR [ecx+32]
+	sub	edx, esi
+	mov	DWORD PTR [eax], esi
+	mov	eax, DWORD PTR [ecx+48]
+	pop	esi
+	mov	DWORD PTR [eax], edx
+
+; 291  : 		}
+
+	pop	ebp
+	ret	8
+?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z ENDP ; std::basic_streambuf<char,std::char_traits<char> >::setp
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\streambuf
@@ -48321,6 +50994,87 @@ ___formal$dead$ = 8					; size = 4
 ?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QBEXABV12@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::_Compat
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\xlocnum
+;	COMDAT ?put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DJ@Z
+_TEXT	SEGMENT
+___$ReturnUdt$ = 8					; size = 4
+__Iosbase$ = 12						; size = 4
+__Fill$ = 16						; size = 1
+__Val$ = 20						; size = 4
+__Dest$ = 24						; size = 8
+?put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DJ@Z PROC ; std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::put, COMDAT
+; _this$ = ecx
+
+; 1136 : 		{	// put formatted long to _Dest
+
+	push	ebp
+	mov	ebp, esp
+
+; 1137 : 		return (do_put(_Dest, _Iosbase, _Fill, _Val));
+
+	push	DWORD PTR __Val$[ebp]
+	mov	eax, DWORD PTR [ecx]
+	push	DWORD PTR __Fill$[ebp]
+	push	DWORD PTR __Iosbase$[ebp]
+	push	DWORD PTR __Dest$[ebp+4]
+	push	DWORD PTR __Dest$[ebp]
+	push	DWORD PTR ___$ReturnUdt$[ebp]
+	call	DWORD PTR [eax+36]
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1138 : 		}
+
+	pop	ebp
+	ret	24					; 00000018H
+?put@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QBE?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AAVios_base@2@DJ@Z ENDP ; std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::put
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\iosfwd
+;	COMDAT ??0?$fpos@H@std@@QAE@_J@Z
+_TEXT	SEGMENT
+__Off$ = 8						; size = 8
+??0?$fpos@H@std@@QAE@_J@Z PROC				; std::fpos<int>::fpos<int>, COMDAT
+; _this$ = ecx
+
+; 43   : 		{	// construct with stream offset
+
+	push	ebp
+	mov	ebp, esp
+	mov	eax, DWORD PTR __Off$[ebp]
+	mov	DWORD PTR [ecx], eax
+	mov	eax, DWORD PTR __Off$[ebp+4]
+	mov	DWORD PTR [ecx+4], eax
+	mov	DWORD PTR [ecx+8], 0
+	mov	DWORD PTR [ecx+12], 0
+	mov	DWORD PTR [ecx+16], 0
+
+; 44   : 		}
+
+	mov	eax, ecx
+	pop	ebp
+	ret	8
+??0?$fpos@H@std@@QAE@_J@Z ENDP				; std::fpos<int>::fpos<int>
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\iosfwd
+;	COMDAT ??B?$fpos@H@std@@QBE_JXZ
+_TEXT	SEGMENT
+??B?$fpos@H@std@@QBE_JXZ PROC				; std::fpos<int>::operator __int64, COMDAT
+; _this$ = ecx
+
+; 68   : 		return ((streamoff)(_Myoff + _FPOSOFF(_Fpos)));
+
+	mov	eax, DWORD PTR [ecx+8]
+	add	eax, DWORD PTR [ecx]
+	mov	edx, DWORD PTR [ecx+12]
+	adc	edx, DWORD PTR [ecx+4]
+
+; 69   : 		}
+
+	ret	0
+??B?$fpos@H@std@@QBE_JXZ ENDP				; std::fpos<int>::operator __int64
+_TEXT	ENDS
+; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\xstring
 ; File f:\program_files\vc\include\iosfwd
 ; File f:\program_files\vc\include\xstring
@@ -49853,6 +52607,2473 @@ __Count$ = 12						; size = 4
 ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBDI@Z ENDP ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\ios
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\ios
+;	COMDAT ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+_TEXT	SEGMENT
+$T2 = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+__Byte$ = 8						; size = 1
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z PROC ; std::basic_ios<char,std::char_traits<char> >::widen, COMDAT
+; _this$ = ecx
+
+; 134  : 		{	// convert _Byte to character using imbued locale
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	push	esi
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+
+; 135  : 		const _Ctype& _Ctype_fac = _USE(getloc(), _Ctype);
+
+	lea	eax, DWORD PTR $T2[ebp]
+	push	eax
+	call	?getloc@ios_base@std@@QBE?AVlocale@2@XZ	; std::ios_base::getloc
+	push	eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+	call	??$use_facet@V?$ctype@D@std@@@std@@YAABV?$ctype@D@0@ABVlocale@0@@Z ; std::use_facet<std::ctype<char> >
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	mov	ecx, DWORD PTR $T2[ebp]
+; File f:\program_files\vc\include\ios
+
+; 135  : 		const _Ctype& _Ctype_fac = _USE(getloc(), _Ctype);
+
+	add	esp, 4
+	mov	esi, eax
+; File f:\program_files\vc\include\xlocale
+
+; 422  : 		if (_Ptr != 0)
+
+	test	ecx, ecx
+	je	SHORT $LN7@widen
+
+; 423  : 			_DELETE_CRT(_Ptr->_Decref());
+
+	mov	edx, DWORD PTR [ecx]
+	call	DWORD PTR [edx+8]
+	test	eax, eax
+	je	SHORT $LN7@widen
+	mov	edx, DWORD PTR [eax]
+	push	1
+	mov	ecx, eax
+	call	DWORD PTR [edx]
+$LN7@widen:
+
+; 424  : 		}
+; 425  : 
+; 426  : 	locale& operator=(const locale& _Right) _THROW0()
+; 427  : 		{	// assign a locale
+; 428  : 		if (_Ptr != _Right._Ptr)
+; 429  : 			{	// different implementation, point at new one
+; 430  : 			_DELETE_CRT(_Ptr->_Decref());
+; 431  : 			_Ptr = _Right._Ptr;
+; 432  : 			_Ptr->_Incref();
+; 433  : 			}
+; 434  : 		return (*this);
+; 435  : 		}
+; 436  :  #endif /* _NO_LOCALES */
+; 437  : 
+; 438  : 	string name() const
+; 439  : 		{	// return locale name
+; 440  : 		return (_Ptr == 0 ? string() : _Ptr->_Name.c_str());
+; 441  : 		}
+; 442  : 
+; 443  : 	const char *c_str() const
+; 444  : 		{	// return locale name as NTBS
+; 445  : 		return (_Ptr == 0 ? "" : _Ptr->_Name.c_str());
+; 446  : 		}
+; 447  : 
+; 448  : 	const facet *_Getfacet(size_t _Id) const
+; 449  : 		{	// look up a facet in locale object
+; 450  : 		const facet *_Facptr = _Id < _Ptr->_Facetcount
+; 451  : 			? _Ptr->_Facetvec[_Id] : 0;	// null if id off end
+; 452  : 		if (_Facptr != 0 || !_Ptr->_Xparent)
+; 453  : 			return (_Facptr);	// found facet or not transparent
+; 454  : 		else
+; 455  : 			{	// look in current locale
+; 456  : 			locale::_Locimp *_Ptr = _Getgloballocale();
+; 457  : 			return (_Id < _Ptr->_Facetcount
+; 458  : 				? _Ptr->_Facetvec[_Id]	// get from current locale
+; 459  : 				: 0);	// no entry in current locale
+; 460  : 			}
+; 461  : 		}
+; 462  : 
+; 463  : 	bool operator==(const locale& _Loc) const
+; 464  : 		{	// compare locales for equality
+; 465  : 		return (_Ptr == _Loc._Ptr
+; 466  : 			|| name().compare("*") != 0 && name().compare(_Loc.name()) == 0);
+; 467  : 		}
+; 468  : 
+; 469  : 	bool operator!=(const locale& _Right) const
+; 470  : 		{	// test for locale inequality
+; 471  : 		return (!(*this == _Right));
+; 472  : 		}
+; 473  : 
+; 474  : 	static _MRTIMP2_PURE const locale& __CLRCALL_PURE_OR_CDECL
+; 475  : 		classic();	// classic "C" locale
+; 476  : 
+; 477  : 	static _MRTIMP2_PURE locale __CLRCALL_PURE_OR_CDECL
+; 478  : 		global(const locale&);	// current locale
+; 479  : 
+; 480  : 	static _MRTIMP2_PURE locale __CLRCALL_PURE_OR_CDECL
+; 481  : 		empty();	// empty (transparent) locale
+; 482  : 
+; 483  : private:
+; 484  : 	locale(_Locimp *_Ptrimp)
+; 485  : 		: _Ptr(_Ptrimp)
+; 486  : 		{	// construct from _Locimp pointer
+; 487  : 		}
+; 488  : 
+; 489  :     static _MRTIMP2_PURE _Locimp *__CLRCALL_PURE_OR_CDECL
+; 490  : 		_Init(bool _Do_incref = false);	// initialize locale
+; 491  : 	static _MRTIMP2_PURE _Locimp *__CLRCALL_PURE_OR_CDECL
+; 492  : 		_Getgloballocale();
+; 493  : 	static _MRTIMP2_PURE void __CLRCALL_PURE_OR_CDECL
+; 494  : 		_Setgloballocale(void *);
+; 495  : 
+; 496  : 	bool _Badname(const _Locinfo& _Lobj)
+; 497  : 		{	// test if name is "*"
+; 498  : 		return (_CSTD strcmp(_Lobj._Getname(), "*") == 0);
+; 499  : 		}
+; 500  : 
+; 501  : 	_Locimp *_Ptr;	// pointer to locale implementation object
+; 502  : 	};
+; 503  : 
+; 504  : 		// SUPPORT TEMPLATES
+; 505  : 
+; 506  :  #if _NO_LOCALES
+; 507  : inline _Locinfo& _Get_locinfo()
+; 508  : 	{	// get reference to common locale info
+; 509  : 	static _Locinfo _Lobj;
+; 510  : 	return (_Lobj);
+; 511  : 	}
+; 512  : 
+; 513  : template<class _Facet>
+; 514  : 	class _Wrap_facet
+; 515  : 		: public _Facet
+; 516  : 	{	// makes a facet destructible and shareable
+; 517  : public:
+; 518  : 	_Wrap_facet()
+; 519  : 		: _Facet(_Get_locinfo())
+; 520  : 		{	// construct from locale object
+; 521  : 		}
+; 522  : 	};
+; 523  :  #endif /* _NO_LOCALES */
+; 524  : 
+; 525  : template<class _Facet>
+; 526  : 	struct _Facetptr
+; 527  : 	{	// store pointer to lazy facet for use_facet
+; 528  : 	__PURE_APPDOMAIN_GLOBAL static const locale::facet *_Psave;
+; 529  : 	};
+; 530  : 
+; 531  : template<class _Facet>
+; 532  : 	__PURE_APPDOMAIN_GLOBAL const locale::facet *_Facetptr<_Facet>::
+; 533  : 		_Psave = 0;
+; 534  : 
+; 535  :   #define _ADDFAC(loc, pfac)	locale(loc, pfac)	/* add facet to locale */
+; 536  : 
+; 537  :   #define _USE(loc, fac)	\
+; 538  : 	use_facet< fac >(loc)	/* get facet reference from locale */
+; 539  : 
+; 540  : template<class _Facet> inline
+; 541  : 	const _Facet& __CRTDECL use_facet(const locale& _Loc)
+; 542  : 
+; 543  : 	{	// get facet reference from locale
+; 544  :  #if _NO_LOCALES
+; 545  : 	static _Wrap_facet<_Facet> _Wfac;
+; 546  : 	return (*(_Facet *)&_Wfac);
+; 547  : 
+; 548  :  #else /* _NO_LOCALES */
+; 549  : 	_BEGIN_LOCK(_LOCK_LOCALE)	// the thread lock, make get atomic
+; 550  : 		const locale::facet *_Psave =
+; 551  : 			_Facetptr<_Facet>::_Psave;	// static pointer to lazy facet
+; 552  : 
+; 553  : 		size_t _Id = _Facet::id;
+; 554  : 		const locale::facet *_Pf = _Loc._Getfacet(_Id);
+; 555  : 
+; 556  : 		if (_Pf != 0)
+; 557  : 			;	// got facet from locale
+; 558  : 		else if (_Psave != 0)
+; 559  : 			_Pf = _Psave;	// lazy facet already allocated
+; 560  : 		else if (_Facet::_Getcat(&_Psave, &_Loc) == (size_t)(-1))
+; 561  : 
+; 562  :  #if _HAS_EXCEPTIONS
+; 563  : 
+; 564  : 			_THROW_NCEE(_XSTD bad_cast, _EMPTY_ARGUMENT);	// lazy disallowed
+; 565  : 
+; 566  :  #else /* _HAS_EXCEPTIONS */
+; 567  : 			abort();	// lazy disallowed
+; 568  :  #endif /* _HAS_EXCEPTIONS */
+; 569  : 
+; 570  : 		else
+; 571  : 			{	// queue up lazy facet for destruction
+; 572  : 			_Pf = _Psave;
+; 573  : 			_Facetptr<_Facet>::_Psave = _Psave;
+; 574  : 
+; 575  : 			locale::facet *_Pfmod = (_Facet *)_Psave;
+; 576  : 			_Pfmod->_Incref();
+; 577  : 
+; 578  :  #if defined(_M_CEE)
+; 579  : 			_Facet_Register_m(_Pfmod);
+; 580  : 
+; 581  :  #else /* defined(_M_CEE) */
+; 582  : 			_Facet_Register(_Pfmod);
+; 583  :  #endif /* defined(_M_CEE) */
+; 584  : 			}
+; 585  : 
+; 586  : 		return ((const _Facet&)(*_Pf));	// should be dynamic_cast
+; 587  : 	_END_LOCK()
+; 588  :  #endif /* _NO_LOCALES */
+; 589  : 	}	// end of use_facet body
+; 590  : 
+; 591  : 		// TEMPLATE FUNCTION _Getloctxt
+; 592  : template<class _Elem,
+; 593  : 	class _InIt> inline
+; 594  : 	int __CRTDECL _Getloctxt(_InIt& _First, _InIt& _Last, size_t _Numfields,
+; 595  : 		const _Elem *_Ptr)
+; 596  : 	{	// find field at _Ptr that matches longest in [_First, _Last)
+; 597  : 	for (size_t _Off = 0; _Ptr[_Off] != (_Elem)0; ++_Off)
+; 598  : 		if (_Ptr[_Off] == _Ptr[0])
+; 599  : 			++_Numfields;	// add fields with leading mark to initial count
+; 600  : 	string _Str(_Numfields, '\0');	// one column counter for each field
+; 601  : 
+; 602  : 	int _Ans = -2;	// no candidates so far
+; 603  : 	for (size_t _Column = 1; ; ++_Column, ++_First, _Ans = -1)
+; 604  : 		{	// test each element against all viable fields
+; 605  : 		bool _Prefix = false;	// seen at least one valid prefix
+; 606  : 		size_t _Off = 0;	// offset into fields
+; 607  : 		size_t _Field = 0;	// current field number
+; 608  : 
+; 609  : 		for (; _Field < _Numfields; ++_Field)
+; 610  : 			{	// test element at _Column in field _Field
+; 611  : 			for (; _Ptr[_Off] != (_Elem)0 && _Ptr[_Off] != _Ptr[0]; ++_Off)
+; 612  : 				;	// find beginning of field
+; 613  : 
+; 614  : 			if (_Str[_Field] != '\0')
+; 615  : 				_Off += _Str[_Field];	// skip tested columns in field
+; 616  : 			else if (_Ptr[_Off += _Column] == _Ptr[0]
+; 617  : 				|| _Ptr[_Off] == (_Elem)0)
+; 618  : 				{	// matched all of field, save as possible answer
+; 619  : 				_Str[_Field] = (char)(_Column < 127
+; 620  : 					? _Column : 127);	// save skip count if small enough
+; 621  : 				_Ans = (int)_Field;	// save answer
+; 622  : 				}
+; 623  : 			else if (_First == _Last || _Ptr[_Off] != *_First)
+; 624  : 				_Str[_Field] = (char)(_Column < 127
+; 625  : 					? _Column : 127);	// no match, just save skip count
+; 626  : 			else
+; 627  : 				_Prefix = true;	// still a valid prefix
+; 628  : 			}
+; 629  : 
+; 630  : 		if (!_Prefix || _First == _Last)
+; 631  : 			break;	// no pending prefixes or no input, give up
+; 632  : 		}
+; 633  : 	return (_Ans);	// return field number or negative value on failure
+; 634  : 	}
+; 635  : 
+; 636  : 		// TEMPLATE FUNCTION _Maklocbyte
+; 637  : #define _MAKLOCBYTE(Elem, chr, cvt) \
+; 638  : 	_Maklocbyte((_Elem)chr, cvt)	/* convert Elem to char */
+; 639  : 
+; 640  : template<class _Elem> inline
+; 641  : 	char __CRTDECL _Maklocbyte(_Elem _Char,
+; 642  : 		const _Locinfo::_Cvtvec&)
+; 643  : 	{	// convert _Elem to char using _Cvtvec
+; 644  : 	return ((char)(unsigned char)_Char);
+; 645  : 	}
+; 646  : 
+; 647  : template<> inline
+; 648  : 	char __CRTDECL _Maklocbyte(wchar_t _Char,
+; 649  : 		const _Locinfo::_Cvtvec& _Cvt)
+; 650  : 	{	// convert wchar_t to char using _Cvtvec
+; 651  : 	char _Byte = '\0';
+; 652  : 	_Mbstinit(_Mbst1);
+; 653  : 	_Wcrtomb(&_Byte, _Char, &_Mbst1, &_Cvt);
+; 654  : 	return (_Byte);
+; 655  : 	}
+; 656  : 
+; 657  :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 658  : template<> inline
+; 659  : 	char __CRTDECL _Maklocbyte(unsigned short _Char,
+; 660  : 		const _Locinfo::_Cvtvec &_Cvt)
+; 661  : 	{	// convert unsigned short to char using _Cvtvec
+; 662  : 	char _Byte = '\0';
+; 663  : 	_Mbstinit(_Mbst1);
+; 664  : 	_Wcrtomb(&_Byte, (wchar_t)_Char, &_Mbst1, &_Cvt);
+; 665  : 	return (_Byte);
+; 666  : 	}
+; 667  :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 668  : 
+; 669  : 		// TEMPLATE FUNCTION _Maklocchr
+; 670  : #define _MAKLOCCHR(Elem, chr, cvt) \
+; 671  : 	_Maklocchr(chr, (Elem *)0, cvt)	/* convert char to Elem */
+; 672  : 
+; 673  : template<class _Elem> inline
+; 674  : 	_Elem __CRTDECL _Maklocchr(char _Byte, _Elem *,
+; 675  : 		const _Locinfo::_Cvtvec&)
+; 676  : 	{	// convert char to _Elem using _Cvtvec
+; 677  : 	return ((_Elem)(unsigned char)_Byte);
+; 678  : 	}
+; 679  : 
+; 680  : template<> inline
+; 681  : 	wchar_t __CRTDECL _Maklocchr(char _Byte, wchar_t *,
+; 682  : 		const _Locinfo::_Cvtvec& _Cvt)
+; 683  : 	{	// convert char to wchar_t using _Cvtvec
+; 684  : 	wchar_t _Wc = L'\0';
+; 685  : 	_Mbstinit(_Mbst1);
+; 686  : 	_Mbrtowc(&_Wc, &_Byte, 1, &_Mbst1, &_Cvt);
+; 687  : 	return (_Wc);
+; 688  : 	}
+; 689  : 
+; 690  :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 691  : template<> inline
+; 692  : 	unsigned short __CRTDECL _Maklocchr(char _Byte, unsigned short *,
+; 693  : 		const _Locinfo::_Cvtvec &_Cvt)
+; 694  : 	{	// convert char to unsigned short using _Cvtvec
+; 695  : 	unsigned short _Wc = (unsigned short)0;
+; 696  : 	_Mbstinit(_Mbst1);
+; 697  : 	_Mbrtowc((wchar_t *)&_Wc, &_Byte, 1, &_Mbst1, &_Cvt);
+; 698  : 	return (_Wc);
+; 699  : 	}
+; 700  :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 701  : 
+; 702  : 		// TEMPLATE FUNCTION _Maklocstr
+; 703  : #define _MAKLOCSTR(Elem, str, cvt)	\
+; 704  : 	_Maklocstr(str, (Elem *)0, cvt)	/* convert C string to Elem sequence */
+; 705  : 
+; 706  : template<class _Elem> inline
+; 707  : 	_Elem *__CRTDECL _Maklocstr(const char *_Ptr, _Elem *,
+; 708  : 		const _Locinfo::_Cvtvec&)
+; 709  : 	{	// convert C string to _Elem sequence using _Cvtvec
+; 710  : 	size_t _Count = _CSTD strlen(_Ptr) + 1;
+; 711  : 	_Elem *_Ptrdest = _NEW_CRT _Elem[_Count];
+; 712  : 
+; 713  :  #pragma warning(push)
+; 714  :  #pragma warning(disable: 6011)	/* quiet prefast noise */
+; 715  : 	for (_Elem *_Ptrnext = _Ptrdest; 0 < _Count; --_Count, ++_Ptrnext, ++_Ptr)
+; 716  : 		*_Ptrnext = (_Elem)(unsigned char)*_Ptr;
+; 717  :  #pragma warning(pop)
+; 718  : 
+; 719  : 	return (_Ptrdest);
+; 720  : 	}
+; 721  : 
+; 722  : template<> inline
+; 723  : 	wchar_t *__CRTDECL _Maklocstr(const char *_Ptr, wchar_t *,
+; 724  : 		const _Locinfo::_Cvtvec& _Cvt)
+; 725  : 	{	// convert C string to wchar_t sequence using _Cvtvec
+; 726  : 	size_t _Count, _Count1;
+; 727  : 	size_t _Wchars;
+; 728  : 	const char *_Ptr1;
+; 729  : 	int _Bytes;
+; 730  : 	wchar_t _Wc;
+; 731  : 	_Mbstinit(_Mbst1);
+; 732  : 
+; 733  : 	_Count1 = _CSTD strlen(_Ptr) + 1;
+; 734  : 	for (_Count = _Count1, _Wchars = 0, _Ptr1 = _Ptr; 0 < _Count;
+; 735  : 		_Count -= _Bytes, _Ptr1 += _Bytes, ++_Wchars)
+; 736  : 		if ((_Bytes = _Mbrtowc(&_Wc, _Ptr1, _Count, &_Mbst1, &_Cvt)) <= 0)
+; 737  : 			break;
+; 738  : 	++_Wchars;	// count terminating nul
+; 739  : 
+; 740  : 	wchar_t *_Ptrdest = _NEW_CRT wchar_t[_Wchars];
+; 741  : 	wchar_t *_Ptrnext = _Ptrdest;
+; 742  : 	_Mbstinit(_Mbst2);
+; 743  : 
+; 744  :  #pragma warning(push)
+; 745  :  #pragma warning(disable: 6011)	/* quiet prefast noise */
+; 746  : 	for (; 0 < _Wchars;
+; 747  : 		_Count -= _Bytes, _Ptr += _Bytes, --_Wchars, ++_Ptrnext)
+; 748  : 		if ((_Bytes = _Mbrtowc(_Ptrnext, _Ptr, _Count1, &_Mbst2, &_Cvt)) <= 0)
+; 749  : 			break;
+; 750  : 	*_Ptrnext = L'\0';
+; 751  :  #pragma warning(pop)
+; 752  : 
+; 753  : 	return (_Ptrdest);
+; 754  : 	}
+; 755  : 
+; 756  :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 757  : template<> inline
+; 758  : 	unsigned short *__CRTDECL _Maklocstr(const char *_Ptr, unsigned short *,
+; 759  : 		const _Locinfo::_Cvtvec &_Cvt)
+; 760  : 	{	// convert C string to unsigned short sequence using _Cvtvec
+; 761  : 	size_t _Count, _Count1;
+; 762  : 	size_t _Wchars;
+; 763  : 	const char *_Ptr1;
+; 764  : 	int _Bytes;
+; 765  : 	unsigned short _Wc;
+; 766  : 	_Mbstinit(_Mbst1);
+; 767  : 
+; 768  : 	_Count1 = _CSTD strlen(_Ptr) + 1;
+; 769  : 	for (_Count = _Count1, _Wchars = 0, _Ptr1 = _Ptr; 0 < _Count;
+; 770  : 		_Count -= _Bytes, _Ptr1 += _Bytes, ++_Wchars)
+; 771  : 		if ((_Bytes =
+; 772  : 			_Mbrtowc((wchar_t *)&_Wc, _Ptr1, _Count, &_Mbst1, &_Cvt)) <= 0)
+; 773  : 			break;
+; 774  : 	++_Wchars;	// count terminating nul
+; 775  : 
+; 776  : 	wchar_t *_Ptrdest = _NEW_CRT wchar_t[_Wchars];
+; 777  : 	wchar_t *_Ptrnext = _Ptrdest;
+; 778  : 	_Mbstinit(_Mbst2);
+; 779  : 	for (; 0 < _Wchars;
+; 780  : 		_Count -= _Bytes, _Ptr += _Bytes, --_Wchars, ++_Ptrnext)
+; 781  : 		if ((_Bytes = _Mbrtowc(_Ptrnext, _Ptr, _Count1, &_Mbst2, &_Cvt)) <= 0)
+; 782  : 			break;
+; 783  : 	*_Ptrnext = L'\0';
+; 784  : 	return ((unsigned short *)_Ptrdest);
+; 785  : 	}
+; 786  :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 787  : 
+; 788  : 		// STRUCT codecvt_base
+; 789  :  #pragma warning(push)
+; 790  :  #pragma warning(disable: 4275)
+; 791  : 
+; 792  : class _CRTIMP2_PURE codecvt_base
+; 793  : 	: public locale::facet
+; 794  : 	{	// base class for codecvt
+; 795  : public:
+; 796  : 	enum
+; 797  : 		{	// constants for different parse states
+; 798  : 		ok, partial, error, noconv};
+; 799  : 	typedef int result;
+; 800  : 
+; 801  : 	__CLR_OR_THIS_CALL codecvt_base(size_t _Refs = 0)
+; 802  : 		: locale::facet(_Refs)
+; 803  : 		{	// default constructor
+; 804  : 		}
+; 805  : 
+; 806  : 	bool __CLR_OR_THIS_CALL always_noconv() const _THROW0()
+; 807  : 		{	// return true if conversions never change input (from codecvt)
+; 808  : 		return (do_always_noconv());
+; 809  : 		}
+; 810  : 
+; 811  : 	int __CLR_OR_THIS_CALL max_length() const _THROW0()
+; 812  : 		{	// return maximum length required for a conversion (from codecvt)
+; 813  : 		return (do_max_length());
+; 814  : 		}
+; 815  : 
+; 816  : 	int __CLR_OR_THIS_CALL encoding() const _THROW0()
+; 817  : 		{	// return length of code sequence (from codecvt)
+; 818  : 		return (do_encoding());
+; 819  : 		}
+; 820  : 
+; 821  : 	__CLR_OR_THIS_CALL ~codecvt_base() _NOEXCEPT
+; 822  : 		{	// destroy the object
+; 823  : 		}
+; 824  : 
+; 825  : protected:
+; 826  : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 827  : 		{	// return true if conversions never change input (from codecvt)
+; 828  : 		return (false);
+; 829  : 		}
+; 830  : 
+; 831  : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 832  : 		{	// return maximum length required for a conversion (from codecvt)
+; 833  : 		return (1);
+; 834  : 		}
+; 835  : 
+; 836  : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 837  : 		{	// return length of code sequence (from codecvt)
+; 838  : 		return (1);	// -1 ==> state dependent, 0 ==> varying length
+; 839  : 		}
+; 840  : 	};
+; 841  : 
+; 842  :  #pragma warning(pop)
+; 843  : 
+; 844  : 		// TEMPLATE CLASS codecvt
+; 845  : template<class _Elem,
+; 846  : 	class _Byte,
+; 847  : 	class _Statype>
+; 848  : 	class codecvt
+; 849  : 		: public codecvt_base
+; 850  : 	{	// facet for converting between _Elem and char (_Byte) sequences
+; 851  : public:
+; 852  : 	typedef _Elem intern_type;
+; 853  : 	typedef _Byte extern_type;
+; 854  : 	typedef _Statype state_type;
+; 855  : 
+; 856  : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 857  : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 858  : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 859  : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 860  : 		return (do_in(_State,
+; 861  : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 862  : 		}
+; 863  : 
+; 864  : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 865  : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 866  : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 867  : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last2)
+; 868  : 		return (do_out(_State,
+; 869  : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 870  : 		}
+; 871  : 
+; 872  : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 873  : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 874  : 		{	// generate bytes to return to default shift state
+; 875  : 		return (do_unshift(_State, _First2, _Last2, _Mid2));
+; 876  : 		}
+; 877  : 
+; 878  : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 879  : 		const _Byte *_Last1, size_t _Count) const
+; 880  : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 881  : 		return (do_length(_State, _First1, _Last1, _Count));
+; 882  : 		}
+; 883  : 
+; 884  : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;	// unique facet id
+; 885  : 
+; 886  : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 887  : 		: codecvt_base(_Refs)
+; 888  : 		{	// construct from current locale
+; 889  : 		_Init(_Locinfo());
+; 890  : 		}
+; 891  : 
+; 892  : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 893  : 		: codecvt_base(_Refs)
+; 894  : 		{	// construct from specified locale
+; 895  : 		_Init(_Lobj);
+; 896  : 		}
+; 897  : 
+; 898  : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 899  : 		const locale *_Ploc = 0)
+; 900  : 		{	// return locale category mask and construct standard facet
+; 901  : 		if (_Ppf != 0 && *_Ppf == 0)
+; 902  : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 903  : 				_Locinfo(_Ploc->c_str()));
+; 904  : 		return (_X_CTYPE);
+; 905  : 		}
+; 906  : 
+; 907  : protected:
+; 908  : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 909  : 		{	// destroy the object
+; 910  : 		}
+; 911  : 
+; 912  : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo&)
+; 913  : 		{	// initialize from _Locinfo object
+; 914  : 		}
+; 915  : 
+; 916  : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 917  : 		{	// return true if conversions never change input (from codecvt)
+; 918  : 		return (is_same<_Byte, _Elem>::value);
+; 919  : 		}
+; 920  : 
+; 921  : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype&,
+; 922  : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 923  : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 924  : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 925  : 		_Mid1 = _First1, _Mid2 = _First2;
+; 926  : 		if (is_same<_Byte, _Elem>::value)
+; 927  : 			return (noconv);	// convert nothing
+; 928  : 		else
+; 929  : 			{	// types differ, copy one for one
+; 930  : 			for (; _Mid1 != _Last1 && _Mid2 != _Last2; ++_Mid1, ++_Mid2)
+; 931  : 				*_Mid2 = (_Elem)*_Mid1;
+; 932  : 			return (ok);
+; 933  : 			}
+; 934  : 		}
+; 935  : 
+; 936  : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype&,
+; 937  : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 938  : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 939  : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 940  : 		_Mid1 = _First1, _Mid2 = _First2;
+; 941  : 		if (is_same<_Byte, _Elem>::value)
+; 942  : 			return (noconv);	// convert nothing
+; 943  : 		else
+; 944  : 			{	// types differ, copy one for one
+; 945  : 			for (; _Mid1 != _Last1 && _Mid2 != _Last2; ++_Mid1, ++_Mid2)
+; 946  : 				*_Mid2 = (_Byte)*_Mid1;
+; 947  : 			return (ok);
+; 948  : 			}
+; 949  : 		}
+; 950  : 
+; 951  : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype&,
+; 952  : 		_Byte *_First2, _Byte *, _Byte *&_Mid2) const
+; 953  : 		{	// generate bytes to return to default shift state
+; 954  : 		_Mid2 = _First2;
+; 955  : 		return (ok);	// convert nothing
+; 956  : 		}
+; 957  : 
+; 958  : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype&, const _Byte *_First1,
+; 959  : 		const _Byte *_Last1, size_t _Count) const
+; 960  : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 961  : 		return ((int)(_Count < (size_t)(_Last1 - _First1)
+; 962  : 			? _Count : _Last1 - _First1));	// assume 1-to-1 conversion
+; 963  : 		}
+; 964  : 	};
+; 965  : 
+; 966  : 		// STATIC codecvt::id OBJECT
+; 967  : template<class _Elem,
+; 968  : 	class _Byte,
+; 969  : 	class _Statype>
+; 970  : 	__PURE_APPDOMAIN_GLOBAL locale::id codecvt<_Elem, _Byte, _Statype>::id;
+; 971  : 
+; 972  :  #if _HAS_CHAR16_T_LANGUAGE_SUPPORT
+; 973  : 		// ENUM _Codecvt_mode
+; 974  : enum _Codecvt_mode {
+; 975  : 	_Consume_header = 4,
+; 976  : 	_Generate_header = 2
+; 977  : 	};
+; 978  : 
+; 979  : 		// CLASS codecvt<char16_t, char, _Mbstatet>
+; 980  : template<>
+; 981  : 	class _CRTIMP2_PURE codecvt<char16_t, char, _Mbstatet>
+; 982  : 	: public codecvt_base
+; 983  : 	{	// facet for converting between char16_t and UTF-8 byte sequences
+; 984  : public:
+; 985  : 	typedef codecvt<char16_t, char, _Mbstatet> _Mybase;
+; 986  : 	typedef char16_t _Elem;
+; 987  : 	typedef char _Byte;
+; 988  : 	typedef _Mbstatet _Statype;
+; 989  : 	typedef _Elem intern_type;
+; 990  : 	typedef _Byte extern_type;
+; 991  : 	typedef _Statype state_type;
+; 992  : 
+; 993  : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 994  : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 995  : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 996  : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 997  : 		return (do_in(_State,
+; 998  : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 999  : 		}
+; 1000 : 
+; 1001 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1002 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1003 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1004 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1005 : 		return (do_out(_State,
+; 1006 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1007 : 		}
+; 1008 : 
+; 1009 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1010 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1011 : 		{	// generate bytes to return to default shift state
+; 1012 : 		return (do_unshift(_State,
+; 1013 : 			_First2, _Last2, _Mid2));
+; 1014 : 		}
+; 1015 : 
+; 1016 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1017 : 		const _Byte *_Last1, size_t _Count) const
+; 1018 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1019 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1020 : 		}
+; 1021 : 
+; 1022 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1023 : 
+; 1024 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1025 : 		: codecvt_base(_Refs), _Maxcode(0x10ffff), _Mode(_Consume_header)
+; 1026 : 		{	// construct from current locale
+; 1027 : 		_BEGIN_LOCINFO(_Lobj)
+; 1028 : 			_Init(_Lobj);
+; 1029 : 		_END_LOCINFO()
+; 1030 : 		}
+; 1031 : 
+; 1032 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1033 : 		: codecvt_base(_Refs), _Maxcode(0x10ffff), _Mode(_Consume_header)
+; 1034 : 		{	// construct from specified locale
+; 1035 : 		_Init(_Lobj);
+; 1036 : 		}
+; 1037 : 
+; 1038 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, unsigned long _Maxcode_arg,
+; 1039 : 		_Codecvt_mode _Mode_arg, size_t _Refs = 0)
+; 1040 : 		: codecvt_base(_Refs), _Maxcode(_Maxcode_arg), _Mode(_Mode_arg)
+; 1041 : 		{	// construct from specified locale and parameters
+; 1042 : 		_Init(_Lobj);
+; 1043 : 		}
+; 1044 : 
+; 1045 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1046 : 		const locale *_Ploc = 0)
+; 1047 : 		{	// return locale category mask and construct standard facet
+; 1048 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1049 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1050 : 				_Locinfo(_Ploc->c_str()));
+; 1051 : 		return (_X_CTYPE);
+; 1052 : 		}
+; 1053 : 
+; 1054 : protected:
+; 1055 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1056 : 		{	// destroy the object
+; 1057 : 		}
+; 1058 : 
+; 1059 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo&)
+; 1060 : 		{	// initialize
+; 1061 : 		}
+; 1062 : 
+; 1063 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1064 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1065 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1066 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last2)
+; 1067 : 		unsigned short *_Pstate = (unsigned short *)&_State;
+; 1068 : 		_Mid1 = _First1;
+; 1069 : 		_Mid2 = _First2;
+; 1070 : 
+; 1071 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1072 : 			{	// convert a multibyte sequence
+; 1073 : 			unsigned char _By = (unsigned char)*_Mid1;
+; 1074 : 			unsigned long _Ch;
+; 1075 : 			int _Nextra, _Nskip;
+; 1076 : 
+; 1077 : 			if (*_Pstate <= 1)
+; 1078 : 				;	// no leftover word
+; 1079 : 			else if (_By < 0x80 || 0xc0 <= _By)
+; 1080 : 				return (_Mybase::error);	// not continuation byte
+; 1081 : 			else
+; 1082 : 				{	// deliver second half of two-word value
+; 1083 : 				++_Mid1;
+; 1084 : 				*_Mid2++ = (_Elem)(*_Pstate | _By & 0x3f);
+; 1085 : 				*_Pstate = 1;
+; 1086 : 				continue;
+; 1087 : 				}
+; 1088 : 
+; 1089 : 			if (_By < 0x80)
+; 1090 : 				_Ch = _By, _Nextra = 0;
+; 1091 : 			else if (_By < 0xc0)
+; 1092 : 				{	// 0x80-0xdf not first byte
+; 1093 : 				++_Mid1;
+; 1094 : 				return (_Mybase::error);
+; 1095 : 				}
+; 1096 : 			else if (_By < 0xe0)
+; 1097 : 				_Ch = _By & 0x1f, _Nextra = 1;
+; 1098 : 			else if (_By < 0xf0)
+; 1099 : 				_Ch = _By & 0x0f, _Nextra = 2;
+; 1100 : 			else if (_By < 0xf8)
+; 1101 : 				_Ch = _By & 0x07, _Nextra = 3;
+; 1102 : 			else
+; 1103 : 				_Ch = _By & 0x03, _Nextra = _By < 0xfc ? 4 : 5;
+; 1104 : 
+; 1105 : 			_Nskip = _Nextra < 3 ? 0 : 1;	// leave a byte for 2nd word
+; 1106 : 			_First1 = _Mid1;	// roll back point
+; 1107 : 
+; 1108 : 			if (_Nextra == 0)
+; 1109 : 				++_Mid1;
+; 1110 : 			else if (_Last1 - _Mid1 < _Nextra + 1 - _Nskip)
+; 1111 : 				break;	// not enough input
+; 1112 : 			else
+; 1113 : 				for (++_Mid1; _Nskip < _Nextra; --_Nextra, ++_Mid1)
+; 1114 : 					if ((_By = (unsigned char)*_Mid1) < 0x80 || 0xc0 <= _By)
+; 1115 : 						return (_Mybase::error);	// not continuation byte
+; 1116 : 					else
+; 1117 : 						_Ch = _Ch << 6 | _By & 0x3f;
+; 1118 : 			if (0 < _Nskip)
+; 1119 : 				_Ch <<= 6;	// get last byte on next call
+; 1120 : 
+; 1121 : 			if ((_Maxcode < 0x10ffff ? _Maxcode : 0x10ffff) < _Ch)
+; 1122 : 				return (_Mybase::error);	// value too large
+; 1123 : 			else if (0xffff < _Ch)
+; 1124 : 				{	// deliver first half of two-word value, save second word
+; 1125 : 				unsigned short _Ch0 =
+; 1126 : 					(unsigned short)(0xd800 | (_Ch >> 10) - 0x0040);
+; 1127 : 
+; 1128 : 				*_Mid2++ = (_Elem)_Ch0;
+; 1129 : 				*_Pstate = (unsigned short)(0xdc00 | _Ch & 0x03ff);
+; 1130 : 				continue;
+; 1131 : 				}
+; 1132 : 
+; 1133 : 			if (_Nskip == 0)
+; 1134 : 				;
+; 1135 : 			else if (_Mid1 == _Last1)
+; 1136 : 				{	// not enough bytes, noncanonical value
+; 1137 : 				_Mid1 = _First1;
+; 1138 : 				break;
+; 1139 : 				}
+; 1140 : 			else if ((_By = (unsigned char)*_Mid1++) < 0x80 || 0xc0 <= _By)
+; 1141 : 				return (_Mybase::error);	// not continuation byte
+; 1142 : 			else
+; 1143 : 				_Ch |= _By & 0x3f;	// complete noncanonical value
+; 1144 : 
+; 1145 : 			if (*_Pstate == 0)
+; 1146 : 				{	// first time, maybe look for and consume header
+; 1147 : 				*_Pstate = 1;
+; 1148 : 
+; 1149 : 				if ((_Mode & _Consume_header) != 0 && _Ch == 0xfeff)
+; 1150 : 					{	// drop header and retry
+; 1151 : 					result _Ans = do_in(_State, _Mid1, _Last1, _Mid1,
+; 1152 : 						_First2, _Last2, _Mid2);
+; 1153 : 
+; 1154 : 					if (_Ans == _Mybase::partial)
+; 1155 : 						{	// roll back header determination
+; 1156 : 						*_Pstate = 0;
+; 1157 : 						_Mid1 = _First1;
+; 1158 : 						}
+; 1159 : 					return (_Ans);
+; 1160 : 					}
+; 1161 : 				}
+; 1162 : 
+; 1163 : 			*_Mid2++ = (_Elem)_Ch;
+; 1164 : 			}
+; 1165 : 
+; 1166 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1167 : 		}
+; 1168 : 
+; 1169 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1170 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1171 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1172 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1173 : 		unsigned short *_Pstate = (unsigned short *)&_State;
+; 1174 : 		_Mid1 = _First1;
+; 1175 : 		_Mid2 = _First2;
+; 1176 : 
+; 1177 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1178 : 			{	// convert and put a wide char
+; 1179 : 			unsigned long _Ch;
+; 1180 : 			unsigned short _Ch1 = (unsigned short)*_Mid1;
+; 1181 : 			bool _Save = false;
+; 1182 : 
+; 1183 : 			if (1 < *_Pstate)
+; 1184 : 				{	// get saved MS 11 bits from *_Pstate
+; 1185 : 				if (_Ch1 < 0xdc00 || 0xe000 <= _Ch1)
+; 1186 : 					return (_Mybase::error);	// bad second word
+; 1187 : 				_Ch = (*_Pstate << 10) | (_Ch1 - 0xdc00);
+; 1188 : 				}
+; 1189 : 			else if (0xd800 <= _Ch1 && _Ch1 < 0xdc00)
+; 1190 : 				{	// get new first word
+; 1191 : 				_Ch = (_Ch1 - 0xd800 + 0x0040) << 10;
+; 1192 : 				_Save = true;	// put only first byte, rest with second word
+; 1193 : 				}
+; 1194 : 			else
+; 1195 : 				_Ch = _Ch1;	// not first word, just put it
+; 1196 : 
+; 1197 : 			_Byte _By;
+; 1198 : 			int _Nextra;
+; 1199 : 
+; 1200 : 			if (_Ch < 0x0080)
+; 1201 : 				_By = (_Byte)_Ch, _Nextra = 0;
+; 1202 : 			else if (_Ch < 0x0800)
+; 1203 : 				_By = (_Byte)(0xc0 | _Ch >> 6), _Nextra = 1;
+; 1204 : 			else if (_Ch < 0x10000)
+; 1205 : 				_By = (_Byte)(0xe0 | _Ch >> 12), _Nextra = 2;
+; 1206 : 			else
+; 1207 : 				_By = (_Byte)(0xf0 | _Ch >> 18), _Nextra = 3;
+; 1208 : 
+; 1209 : 			int _Nput = _Nextra < 3 ? _Nextra + 1 : _Save ? 1 : 3;
+; 1210 : 
+; 1211 : 			if (_Last2 - _Mid2 < _Nput)
+; 1212 : 				break;	// not enough room, even without header
+; 1213 : 			else if (*_Pstate != 0 || (_Mode & _Generate_header) == 0)
+; 1214 : 				;	// no header to put
+; 1215 : 			else if (_Last2 - _Mid2 < 3 + _Nput)
+; 1216 : 				break;	// not enough room for header + output
+; 1217 : 			else
+; 1218 : 				{	// prepend header
+; 1219 : 				*_Mid2++ = (_Byte)(unsigned char)0xef;
+; 1220 : 				*_Mid2++ = (_Byte)(unsigned char)0xbb;
+; 1221 : 				*_Mid2++ = (_Byte)(unsigned char)0xbf;
+; 1222 : 				}
+; 1223 : 
+; 1224 : 			++_Mid1;
+; 1225 : 			if (_Save || _Nextra < 3)
+; 1226 : 				{	// put first byte of sequence, if not already put
+; 1227 : 				*_Mid2++ = _By;
+; 1228 : 				--_Nput;
+; 1229 : 				}
+; 1230 : 			for (; 0 < _Nput; --_Nput)
+; 1231 : 				*_Mid2++ = (_Byte)(_Ch >> 6 * --_Nextra & 0x3f | 0x80);
+; 1232 : 
+; 1233 : 			*_Pstate = (unsigned short)(_Save ? _Ch >> 10 : 1);
+; 1234 : 			}
+; 1235 : 
+; 1236 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1237 : 		}
+; 1238 : 
+; 1239 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype& _State,
+; 1240 : 		_Byte *_First2, _Byte *, _Byte *& _Mid2) const
+; 1241 : 		{	// generate bytes to return to default shift state
+; 1242 : 		unsigned short *_Pstate = (unsigned short *)&_State;
+; 1243 : 		_Mid2 = _First2;
+; 1244 : 
+; 1245 : 		return (1 < *_Pstate
+; 1246 : 			? _Mybase::error : _Mybase::ok);	// fail if trailing first word
+; 1247 : 		}
+; 1248 : 
+; 1249 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1250 : 		const _Byte *_Last1, size_t _Count) const _THROW0()
+; 1251 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1252 : 		size_t _Wchars = 0;
+; 1253 : 		_Statype _Mystate = _State;
+; 1254 : 
+; 1255 : 		for (; _Wchars < _Count && _First1 != _Last1; )
+; 1256 : 			{	// convert another wide character
+; 1257 : 			const _Byte *_Mid1;
+; 1258 : 			_Elem *_Mid2;
+; 1259 : 			_Elem _Ch;
+; 1260 : 
+; 1261 : 			switch (do_in(_Mystate, _First1, _Last1, _Mid1,
+; 1262 : 				&_Ch, &_Ch + 1, _Mid2))
+; 1263 : 				{	// test result of single wide-char conversion
+; 1264 : 			case _Mybase::noconv:
+; 1265 : 				return ((int)(_Wchars + (_Last1 - _First1)));
+; 1266 : 
+; 1267 : 			case _Mybase::ok:
+; 1268 : 				if (_Mid2 == &_Ch + 1)
+; 1269 : 					++_Wchars;	// replacement do_in might not convert one
+; 1270 : 				_First1 = _Mid1;
+; 1271 : 				break;
+; 1272 : 
+; 1273 : 			default:
+; 1274 : 				return ((int)_Wchars);	// error or partial
+; 1275 : 				}
+; 1276 : 			}
+; 1277 : 
+; 1278 : 		return ((int)_Wchars);
+; 1279 : 		}
+; 1280 : 
+; 1281 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 1282 : 		{	// return true if conversions never change input
+; 1283 : 		return (false);
+; 1284 : 		}
+; 1285 : 
+; 1286 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 1287 : 		{	// return maximum length required for a conversion
+; 1288 : 		return ((_Mode & _Consume_header) != 0 ? 9	// header + max input
+; 1289 : 			: (_Mode & _Generate_header) != 0 ? 7	// header + max output
+; 1290 : 			: 6);	// 6-byte max input sequence, no 3-byte header
+; 1291 : 		}
+; 1292 : 
+; 1293 : 	virtual int do_encoding() const _THROW0()
+; 1294 : 		{	// return length of code sequence (from codecvt)
+; 1295 : 		return (0);	// 0 => varying length
+; 1296 : 		}
+; 1297 : 
+; 1298 : private:
+; 1299 : 	unsigned long _Maxcode;	// default: 0x10ffff
+; 1300 : 	_Codecvt_mode _Mode;	// default: _Consume_header
+; 1301 : 	};
+; 1302 : 
+; 1303 : 		// CLASS codecvt<char32_t, char, _Mbstatet>
+; 1304 : template<>
+; 1305 : 	class _CRTIMP2_PURE codecvt<char32_t, char, _Mbstatet>
+; 1306 : 	: public codecvt_base
+; 1307 : 	{	// facet for converting between char32_t and UTF-8 byte sequences
+; 1308 : public:
+; 1309 : 	typedef codecvt<char32_t, char, _Mbstatet> _Mybase;
+; 1310 : 	typedef char32_t _Elem;
+; 1311 : 	typedef char _Byte;
+; 1312 : 	typedef _Mbstatet _Statype;
+; 1313 : 	typedef _Elem intern_type;
+; 1314 : 	typedef _Byte extern_type;
+; 1315 : 	typedef _Statype state_type;
+; 1316 : 
+; 1317 : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 1318 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1319 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1320 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1321 : 		return (do_in(_State,
+; 1322 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1323 : 		}
+; 1324 : 
+; 1325 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1326 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1327 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1328 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1329 : 		return (do_out(_State,
+; 1330 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1331 : 		}
+; 1332 : 
+; 1333 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1334 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1335 : 		{	// generate bytes to return to default shift state
+; 1336 : 		return (do_unshift(_State,
+; 1337 : 			_First2, _Last2, _Mid2));
+; 1338 : 		}
+; 1339 : 
+; 1340 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1341 : 		const _Byte *_Last1, size_t _Count) const
+; 1342 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1343 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1344 : 		}
+; 1345 : 
+; 1346 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1347 : 
+; 1348 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1349 : 		: codecvt_base(_Refs), _Maxcode(0xffffffff), _Mode(_Consume_header)
+; 1350 : 		{	// construct from current locale
+; 1351 : 		_BEGIN_LOCINFO(_Lobj)
+; 1352 : 			_Init(_Lobj);
+; 1353 : 		_END_LOCINFO()
+; 1354 : 		}
+; 1355 : 
+; 1356 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1357 : 		: codecvt_base(_Refs), _Maxcode(0xffffffff), _Mode(_Consume_header)
+; 1358 : 		{	// construct from specified locale
+; 1359 : 		_Init(_Lobj);
+; 1360 : 		}
+; 1361 : 
+; 1362 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, unsigned long _Maxcode_arg,
+; 1363 : 		_Codecvt_mode _Mode_arg, size_t _Refs = 0)
+; 1364 : 		: codecvt_base(_Refs), _Maxcode(_Maxcode_arg), _Mode(_Mode_arg)
+; 1365 : 		{	// construct from specified locale and parameters
+; 1366 : 		_Init(_Lobj);
+; 1367 : 		}
+; 1368 : 
+; 1369 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1370 : 		const locale *_Ploc = 0)
+; 1371 : 		{	// return locale category mask and construct standard facet
+; 1372 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1373 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1374 : 				_Locinfo(_Ploc->c_str()));
+; 1375 : 		return (_X_CTYPE);
+; 1376 : 		}
+; 1377 : 
+; 1378 : protected:
+; 1379 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1380 : 		{	// destroy the object
+; 1381 : 		}
+; 1382 : 
+; 1383 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo&)
+; 1384 : 		{	// initialize
+; 1385 : 		}
+; 1386 : 
+; 1387 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1388 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1389 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1390 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1391 : 		char *_Pstate = (char *)&_State;
+; 1392 : 		_Mid1 = _First1;
+; 1393 : 		_Mid2 = _First2;
+; 1394 : 
+; 1395 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1396 : 			{	// convert a multibyte sequence
+; 1397 : 			unsigned char _By = (unsigned char)*_Mid1;
+; 1398 : 			unsigned long _Ch;
+; 1399 : 			int _Nextra;
+; 1400 : 
+; 1401 : 			if (_By < 0x80)
+; 1402 : 				_Ch = _By, _Nextra = 0;
+; 1403 : 			else if (_By < 0xc0)
+; 1404 : 				{	// 0x80-0xdf not first byte
+; 1405 : 				++_Mid1;
+; 1406 : 				return (_Mybase::error);
+; 1407 : 				}
+; 1408 : 			else if (_By < 0xe0)
+; 1409 : 				_Ch = _By & 0x1f, _Nextra = 1;
+; 1410 : 			else if (_By < 0xf0)
+; 1411 : 				_Ch = _By & 0x0f, _Nextra = 2;
+; 1412 : 			else if (_By < 0xf8)
+; 1413 : 				_Ch = _By & 0x07, _Nextra = 3;
+; 1414 : 			else
+; 1415 : 				_Ch = _By & 0x03, _Nextra = _By < 0xfc ? 4 : 5;
+; 1416 : 
+; 1417 : 			if (_Nextra == 0)
+; 1418 : 				++_Mid1;
+; 1419 : 			else if (_Last1 - _Mid1 < _Nextra + 1)
+; 1420 : 				break;	// not enough input
+; 1421 : 			else
+; 1422 : 				for (++_Mid1; 0 < _Nextra; --_Nextra, ++_Mid1)
+; 1423 : 					if ((_By = (unsigned char)*_Mid1) < 0x80 || 0xc0 <= _By)
+; 1424 : 						return (_Mybase::error);	// not continuation byte
+; 1425 : 					else
+; 1426 : 						_Ch = _Ch << 6 | _By & 0x3f;
+; 1427 : 
+; 1428 : 			if (*_Pstate == 0)
+; 1429 : 				{	// first time, maybe look for and consume header
+; 1430 : 				*_Pstate = 1;
+; 1431 : 
+; 1432 : 				if ((_Mode & _Consume_header) != 0 && _Ch == 0xfeff)
+; 1433 : 					{	// drop header and retry
+; 1434 : 					result _Ans = do_in(_State, _Mid1, _Last1, _Mid1,
+; 1435 : 						_First2, _Last2, _Mid2);
+; 1436 : 
+; 1437 : 					if (_Ans == _Mybase::partial)
+; 1438 : 						{	// roll back header determination
+; 1439 : 						*_Pstate = 0;
+; 1440 : 						_Mid1 = _First1;
+; 1441 : 						}
+; 1442 : 					return (_Ans);
+; 1443 : 					}
+; 1444 : 				}
+; 1445 : 
+; 1446 : 			if (_Maxcode < _Ch)
+; 1447 : 				return (_Mybase::error);	// code too large
+; 1448 : 			*_Mid2++ = (_Elem)_Ch;
+; 1449 : 			}
+; 1450 : 
+; 1451 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1452 : 		}
+; 1453 : 
+; 1454 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1455 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1456 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1457 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1458 : 		char *_Pstate = (char *)&_State;
+; 1459 : 		_Mid1 = _First1;
+; 1460 : 		_Mid2 = _First2;
+; 1461 : 
+; 1462 : 		for (; _Mid1 != _Last1 && _Mid2 != _Last2; )
+; 1463 : 			{	// convert and put a wide char
+; 1464 : 			_Byte _By;
+; 1465 : 			int _Nextra;
+; 1466 : 			unsigned long _Ch = (unsigned long)*_Mid1;
+; 1467 : 
+; 1468 : 			if (_Maxcode < _Ch)
+; 1469 : 				return (_Mybase::error);
+; 1470 : 
+; 1471 : 			if (_Ch < 0x0080)
+; 1472 : 				_By = (_Byte)_Ch, _Nextra = 0;
+; 1473 : 			else if (_Ch < 0x0800)
+; 1474 : 				_By = (_Byte)(0xc0 | _Ch >> 6), _Nextra = 1;
+; 1475 : 			else if (_Ch < 0x00010000)
+; 1476 : 				_By = (_Byte)(0xe0 | _Ch >> 12), _Nextra = 2;
+; 1477 : 			else if (_Ch < 0x00200000)
+; 1478 : 				_By = (_Byte)(0xf0 | _Ch >> 18), _Nextra = 3;
+; 1479 : 			else if (_Ch < 0x04000000)
+; 1480 : 				_By = (_Byte)(0xf8 | _Ch >> 24), _Nextra = 4;
+; 1481 : 			else
+; 1482 : 				_By = (_Byte)(0xfc | _Ch >> 30 & 0x03), _Nextra = 5;
+; 1483 : 
+; 1484 : 			if (*_Pstate == 0)
+; 1485 : 				{	// first time, maybe generate header
+; 1486 : 				*_Pstate = 1;
+; 1487 : 				if ((_Mode & _Generate_header) == 0)
+; 1488 : 					;
+; 1489 : 				else if (_Last2 - _Mid2 < 3 + 1 + _Nextra)
+; 1490 : 					return (_Mybase::partial);	// not enough room for both
+; 1491 : 				else
+; 1492 : 					{	// prepend header
+; 1493 : 					*_Mid2++ = (_Byte)(unsigned char)0xef;
+; 1494 : 					*_Mid2++ = (_Byte)(unsigned char)0xbb;
+; 1495 : 					*_Mid2++ = (_Byte)(unsigned char)0xbf;
+; 1496 : 					}
+; 1497 : 				}
+; 1498 : 
+; 1499 : 			if (_Last2 - _Mid2 < 1 + _Nextra)
+; 1500 : 				break;	// not enough room for output
+; 1501 : 
+; 1502 : 			++_Mid1;
+; 1503 : 			for (*_Mid2++ = _By; 0 < _Nextra; )
+; 1504 : 				*_Mid2++ = (_Byte)(_Ch >> 6 * --_Nextra & 0x3f | 0x80);
+; 1505 : 			}
+; 1506 : 		return (_First1 == _Mid1 ? _Mybase::partial : _Mybase::ok);
+; 1507 : 		}
+; 1508 : 
+; 1509 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype&,
+; 1510 : 		_Byte *_First2, _Byte *, _Byte *& _Mid2) const
+; 1511 : 		{	// generate bytes to return to default shift state
+; 1512 : 		_Mid2 = _First2;
+; 1513 : 		return (_Mybase::ok);
+; 1514 : 		}
+; 1515 : 
+; 1516 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1517 : 		const _Byte *_Last1, size_t _Count) const _THROW0()
+; 1518 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1519 : 		int _Wchars = 0;
+; 1520 : 		_Statype _Mystate = _State;
+; 1521 : 
+; 1522 : 		for (; (size_t)_Wchars < _Count && _First1 != _Last1; )
+; 1523 : 			{	// convert another wide character
+; 1524 : 			const _Byte *_Mid1;
+; 1525 : 			_Elem *_Mid2;
+; 1526 : 			_Elem _Ch;
+; 1527 : 
+; 1528 : 			switch (do_in(_Mystate, _First1, _Last1, _Mid1,
+; 1529 : 				&_Ch, &_Ch + 1, _Mid2))
+; 1530 : 				{	// test result of single wide-char conversion
+; 1531 : 			case _Mybase::noconv:
+; 1532 : 				return ((int)(_Wchars + (int)(_Last1 - _First1)));
+; 1533 : 
+; 1534 : 			case _Mybase::ok:
+; 1535 : 				if (_Mid2 == &_Ch + 1)
+; 1536 : 					++_Wchars;	// replacement do_in might not convert one
+; 1537 : 				_First1 = _Mid1;
+; 1538 : 				break;
+; 1539 : 
+; 1540 : 			default:
+; 1541 : 				return ((int)_Wchars);	// error or partial
+; 1542 : 				}
+; 1543 : 			}
+; 1544 : 
+; 1545 : 		return ((int)_Wchars);
+; 1546 : 		}
+; 1547 : 
+; 1548 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 1549 : 		{	// return true if conversions never change input
+; 1550 : 		return (false);
+; 1551 : 		}
+; 1552 : 
+; 1553 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 1554 : 		{	// return maximum length required for a conversion
+; 1555 : 		return ((_Mode & (_Consume_header | _Generate_header)) != 0
+; 1556 : 			? 9 : 6);
+; 1557 : 		}
+; 1558 : 
+; 1559 : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 1560 : 		{	// return length of code sequence (from codecvt)
+; 1561 : 		return ((_Mode & (_Consume_header | _Generate_header)) != 0
+; 1562 : 			? -1 : 0);	// -1 => state dependent, 0 => varying length
+; 1563 : 		}
+; 1564 : 
+; 1565 : private:
+; 1566 : 	unsigned long _Maxcode;	// default: 0xffffffff
+; 1567 : 	_Codecvt_mode _Mode;	// default: _Consume_header
+; 1568 : 	};
+; 1569 :  #endif /* _HAS_CHAR16_T_LANGUAGE_SUPPORT */
+; 1570 : 
+; 1571 : 		// CLASS codecvt<wchar_t, char, _Mbstatet>
+; 1572 : template<>
+; 1573 : 	class _CRTIMP2_PURE codecvt<wchar_t, char, _Mbstatet>
+; 1574 : 	: public codecvt_base
+; 1575 : 	{	// facet for converting between wchar_t and char (_Byte) sequences
+; 1576 : public:
+; 1577 : 	typedef wchar_t _Elem;
+; 1578 : 	typedef char _Byte;
+; 1579 : 	typedef _Mbstatet _Statype;
+; 1580 : 	typedef _Elem intern_type;
+; 1581 : 	typedef _Byte extern_type;
+; 1582 : 	typedef _Statype state_type;
+; 1583 : 
+; 1584 : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 1585 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1586 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1587 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1588 : 		return (do_in(_State,
+; 1589 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1590 : 		}
+; 1591 : 
+; 1592 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1593 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1594 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1595 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1596 : 		return (do_out(_State,
+; 1597 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1598 : 		}
+; 1599 : 
+; 1600 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1601 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1602 : 		{	// generate bytes to return to default shift state
+; 1603 : 		return (do_unshift(_State,
+; 1604 : 			_First2, _Last2, _Mid2));
+; 1605 : 		}
+; 1606 : 
+; 1607 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1608 : 		const _Byte *_Last1, size_t _Count) const
+; 1609 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1610 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1611 : 		}
+; 1612 : 
+; 1613 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1614 : 
+; 1615 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1616 : 		: codecvt_base(_Refs)
+; 1617 : 		{	// construct from current locale
+; 1618 : 		_BEGIN_LOCINFO(_Lobj)
+; 1619 : 			_Init(_Lobj);
+; 1620 : 		_END_LOCINFO()
+; 1621 : 		}
+; 1622 : 
+; 1623 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1624 : 		: codecvt_base(_Refs)
+; 1625 : 		{	// construct from specified locale
+; 1626 : 		_Init(_Lobj);
+; 1627 : 		}
+; 1628 : 
+; 1629 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1630 : 		const locale *_Ploc = 0)
+; 1631 : 		{	// return locale category mask and construct standard facet
+; 1632 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1633 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1634 : 				_Locinfo(_Ploc->c_str()));
+; 1635 : 		return (_X_CTYPE);
+; 1636 : 		}
+; 1637 : 
+; 1638 : protected:
+; 1639 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1640 : 		{	// destroy the object
+; 1641 : 		}
+; 1642 : 
+; 1643 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo& _Lobj)
+; 1644 : 		{	// initialize from _Lobj
+; 1645 : 		_Cvt = _Lobj._Getcvt();
+; 1646 : 		}
+; 1647 : 
+; 1648 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1649 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1650 : 			_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1651 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1652 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1653 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1654 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1655 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1656 : 		int _Bytes;
+; 1657 : 
+; 1658 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1659 : 			switch (_Bytes = _Mbrtowc(_Mid2, _Mid1, _Last1 - _Mid1,
+; 1660 : 				&_State, &_Cvt))
+; 1661 : 			{	// test result of locale-specific mbrtowc call
+; 1662 : 			case -2:	// partial conversion
+; 1663 : 				_Mid1 = _Last1;
+; 1664 : 				return (_Ans);
+; 1665 : 
+; 1666 : 			case -1:	// failed conversion
+; 1667 : 				return (error);
+; 1668 : 
+; 1669 : 			case 0:	// may have converted null character
+; 1670 : 				if (*_Mid2 == (_Elem)0)
+; 1671 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 1672 : 				// fall through
+; 1673 : 
+; 1674 : 			default:	// converted _Bytes bytes to a wchar_t
+; 1675 : 				if (_Bytes == -3)
+; 1676 : 					_Bytes = 0;	// wchar_t generated from state info
+; 1677 : 				_Mid1 += _Bytes;
+; 1678 : 				++_Mid2;
+; 1679 : 				_Ans = ok;
+; 1680 : 			}
+; 1681 : 		return (_Ans);
+; 1682 : 		}
+; 1683 : 
+; 1684 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1685 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1686 : 			_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1687 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1688 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1689 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1690 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1691 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1692 : 		int _Bytes;
+; 1693 : 
+; 1694 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1695 : 			if ((int)MB_CUR_MAX <= _Last2 - _Mid2)
+; 1696 : 				if ((_Bytes = _Wcrtomb(_Mid2, *_Mid1,
+; 1697 : 					&_State, &_Cvt)) < 0)
+; 1698 : 					return (error);	// locale-specific wcrtomb failed
+; 1699 : 				else
+; 1700 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1701 : 			else
+; 1702 : 				{	// destination too small, convert into buffer
+; 1703 : 				_Byte _Buf[MB_LEN_MAX];
+; 1704 : 				_Statype _Stsave = _State;
+; 1705 : 
+; 1706 : 				if ((_Bytes = _Wcrtomb(_Buf, *_Mid1,
+; 1707 : 					&_State, &_Cvt)) < 0)
+; 1708 : 					return (error);	// locale-specific wcrtomb failed
+; 1709 : 				else if (_Last2 - _Mid2 < _Bytes)
+; 1710 : 					{	// converted too many, roll back and return previous
+; 1711 : 					_State = _Stsave;
+; 1712 : 					return (_Ans);
+; 1713 : 					}
+; 1714 : 				else
+; 1715 : 					{	// copy converted bytes from buffer
+; 1716 : 					_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1717 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1718 : 					}
+; 1719 : 				}
+; 1720 : 		return (_Ans);
+; 1721 : 		}
+; 1722 : 
+; 1723 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype& _State,
+; 1724 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1725 : 		{	// generate bytes to return to default shift state
+; 1726 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1727 : 		_Mid2 = _First2;
+; 1728 : 		result _Ans = ok;
+; 1729 : 		int _Bytes;
+; 1730 : 		_Byte _Buf[MB_LEN_MAX];
+; 1731 : 		_Statype _Stsave = _State;
+; 1732 : 
+; 1733 : 		if ((_Bytes = _Wcrtomb(_Buf, L'\0', &_State, &_Cvt)) <= 0)
+; 1734 : 			_Ans = error;	// locale-specific wcrtomb failed
+; 1735 : 		else if (_Last2 - _Mid2 < --_Bytes)
+; 1736 : 			{	// converted too many, roll back and return
+; 1737 : 			_State = _Stsave;
+; 1738 : 			_Ans = partial;
+; 1739 : 			}
+; 1740 : 		else if (0 < _Bytes)
+; 1741 : 			{	// copy converted bytes from buffer
+; 1742 : 			_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1743 : 			_Mid2 += _Bytes;
+; 1744 : 			}
+; 1745 : 		return (_Ans);
+; 1746 : 		}
+; 1747 : 
+; 1748 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1749 : 		const _Byte *_Last1, size_t _Count) const
+; 1750 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1751 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1752 : 		int _Wchars;
+; 1753 : 		const _Byte *_Mid1;
+; 1754 : 		_Statype _Mystate = _State;
+; 1755 : 
+; 1756 : 		for (_Wchars = 0, _Mid1 = _First1;
+; 1757 : 			(size_t)_Wchars < _Count && _Mid1 != _Last1; )
+; 1758 : 			{	// convert another wchar_t
+; 1759 : 			int _Bytes;
+; 1760 : 			_Elem _Ch;
+; 1761 : 
+; 1762 : 			switch (_Bytes = _Mbrtowc(&_Ch, _Mid1, _Last1 - _Mid1,
+; 1763 : 				&_Mystate, &_Cvt))
+; 1764 : 				{	// test result of locale-specific mbrtowc call
+; 1765 : 			case -2:	// partial conversion
+; 1766 : 				return (_Wchars);
+; 1767 : 
+; 1768 : 			case -1:	// failed conversion
+; 1769 : 				return (_Wchars);
+; 1770 : 
+; 1771 : 			case 0:	// may have converted null character
+; 1772 : 				if (_Ch == (_Elem)0)
+; 1773 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 1774 : 				// fall through
+; 1775 : 
+; 1776 : 			default:	// converted _Bytes bytes to a wchar_t
+; 1777 : 				if (_Bytes == -3)
+; 1778 : 					_Bytes = 0;	// wchar_t generated from state info
+; 1779 : 				_Mid1 += _Bytes;
+; 1780 : 				++_Wchars;
+; 1781 : 				}
+; 1782 : 			}
+; 1783 : 		return (_Wchars);
+; 1784 : 		}
+; 1785 : 
+; 1786 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 1787 : 		{	// return true if conversions never change input
+; 1788 : 		return (false);
+; 1789 : 		}
+; 1790 : 
+; 1791 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 1792 : 		{	// return maximum length required for a conversion (from codecvt)
+; 1793 : 		return (MB_LEN_MAX);
+; 1794 : 		}
+; 1795 : 
+; 1796 : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 1797 : 		{	// return length of code sequence (from codecvt)
+; 1798 : 		return (0);	// 0 => varying length
+; 1799 : 		}
+; 1800 : 
+; 1801 : private:
+; 1802 : 	_Locinfo::_Cvtvec _Cvt;	// locale info passed to _Mbrtowc, _Wcrtomb
+; 1803 : 	};
+; 1804 : 
+; 1805 :  #ifdef _NATIVE_WCHAR_T_DEFINED
+; 1806 : 		// CLASS codecvt<unsigned short, char, _Mbstatet>
+; 1807 : template<>
+; 1808 : 	class _CRTIMP2_PURE codecvt<unsigned short, char, _Mbstatet>
+; 1809 : 	: public codecvt_base
+; 1810 : 	{	// facet for converting between unsigned short and char sequences
+; 1811 : public:
+; 1812 : 	typedef unsigned short _Elem;
+; 1813 : 	typedef char _Byte;
+; 1814 : 	typedef _Mbstatet _Statype;
+; 1815 : 	typedef _Elem intern_type;
+; 1816 : 	typedef _Byte extern_type;
+; 1817 : 	typedef _Statype state_type;
+; 1818 : 
+; 1819 : 	result __CLR_OR_THIS_CALL in(_Statype& _State,
+; 1820 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1821 : 		_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1822 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1823 : 		return (do_in(_State,
+; 1824 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1825 : 		}
+; 1826 : 
+; 1827 : 	result __CLR_OR_THIS_CALL out(_Statype& _State,
+; 1828 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1829 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1830 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1831 : 		return (do_out(_State,
+; 1832 : 			_First1, _Last1, _Mid1, _First2, _Last2, _Mid2));
+; 1833 : 		}
+; 1834 : 
+; 1835 : 	result __CLR_OR_THIS_CALL unshift(_Statype& _State,
+; 1836 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1837 : 		{	// generate bytes to return to default shift state
+; 1838 : 		return (do_unshift(_State,
+; 1839 : 			_First2, _Last2, _Mid2));
+; 1840 : 		}
+; 1841 : 
+; 1842 : 	int __CLR_OR_THIS_CALL length(_Statype& _State, const _Byte *_First1,
+; 1843 : 		const _Byte *_Last1, size_t _Count) const
+; 1844 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1845 : 		return (do_length(_State, _First1, _Last1, _Count));
+; 1846 : 		}
+; 1847 : 
+; 1848 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 1849 : 
+; 1850 : 	explicit __CLR_OR_THIS_CALL codecvt(size_t _Refs = 0)
+; 1851 : 		: codecvt_base(_Refs)
+; 1852 : 		{	// construct from current locale
+; 1853 : 		_BEGIN_LOCINFO(_Lobj)
+; 1854 : 			_Init(_Lobj);
+; 1855 : 		_END_LOCINFO()
+; 1856 : 		}
+; 1857 : 
+; 1858 : 	__CLR_OR_THIS_CALL codecvt(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 1859 : 		: codecvt_base(_Refs)
+; 1860 : 		{	// construct from specified locale
+; 1861 : 		_Init(_Lobj);
+; 1862 : 		}
+; 1863 : 
+; 1864 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 1865 : 		const locale *_Ploc = 0)
+; 1866 : 		{	// return locale category mask and construct standard facet
+; 1867 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 1868 : 			*_Ppf = _NEW_CRT codecvt<_Elem, _Byte, _Statype>(
+; 1869 : 				_Locinfo(_Ploc->c_str()));
+; 1870 : 		return (_X_CTYPE);
+; 1871 : 		}
+; 1872 : 
+; 1873 : protected:
+; 1874 : 	virtual __CLR_OR_THIS_CALL ~codecvt() _NOEXCEPT
+; 1875 : 		{	// destroy the object
+; 1876 : 		}
+; 1877 : 
+; 1878 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo& _Lobj)
+; 1879 : 		{	// initialize from _Lobj
+; 1880 : 		_Cvt = _Lobj._Getcvt();
+; 1881 : 		}
+; 1882 : 
+; 1883 : 	virtual result __CLR_OR_THIS_CALL do_in(_Statype& _State,
+; 1884 : 		const _Byte *_First1, const _Byte *_Last1, const _Byte *& _Mid1,
+; 1885 : 			_Elem *_First2, _Elem *_Last2, _Elem *& _Mid2) const
+; 1886 : 		{	// convert bytes [_First1, _Last1) to [_First2, _Last)
+; 1887 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1888 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1889 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1890 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1891 : 		int _Bytes;
+; 1892 : 
+; 1893 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1894 : 			switch (_Bytes = _Mbrtowc((wchar_t *)_Mid2, _Mid1, _Last1 - _Mid1,
+; 1895 : 				&_State, &_Cvt))
+; 1896 : 			{	// test result of locale-specific mbrtowc call
+; 1897 : 			case -2:	// partial conversion
+; 1898 : 				_Mid1 = _Last1;
+; 1899 : 				return (_Ans);
+; 1900 : 
+; 1901 : 			case -1:	// failed conversion
+; 1902 : 				return (error);
+; 1903 : 
+; 1904 : 			case 0:	// may have converted null character
+; 1905 : 				if (*_Mid2 == (_Elem)0)
+; 1906 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 1907 : 				// fall through
+; 1908 : 
+; 1909 : 			default:	// converted _Bytes bytes to an unsigned short
+; 1910 : 				if (_Bytes == -3)
+; 1911 : 					_Bytes = 0;	// wchar_t generated from state info
+; 1912 : 				_Mid1 += _Bytes;
+; 1913 : 				++_Mid2;
+; 1914 : 				_Ans = ok;
+; 1915 : 			}
+; 1916 : 		return (_Ans);
+; 1917 : 		}
+; 1918 : 
+; 1919 : 	virtual result __CLR_OR_THIS_CALL do_out(_Statype& _State,
+; 1920 : 		const _Elem *_First1, const _Elem *_Last1, const _Elem *& _Mid1,
+; 1921 : 			_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1922 : 		{	// convert [_First1, _Last1) to bytes [_First2, _Last)
+; 1923 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1924 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1925 : 		_Mid1 = _First1, _Mid2 = _First2;
+; 1926 : 		result _Ans = _Mid1 == _Last1 ? ok : partial;
+; 1927 : 		int _Bytes;
+; 1928 : 
+; 1929 : 		while (_Mid1 != _Last1 && _Mid2 != _Last2)
+; 1930 : 			if ((int)MB_CUR_MAX <= _Last2 - _Mid2)
+; 1931 : 				if ((_Bytes = _Wcrtomb(_Mid2, *_Mid1,
+; 1932 : 					&_State, &_Cvt)) < 0)
+; 1933 : 					return (error);	// locale-specific wcrtomb failed
+; 1934 : 				else
+; 1935 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1936 : 			else
+; 1937 : 				{	// destination too small, convert into buffer
+; 1938 : 				_Byte _Buf[MB_LEN_MAX];
+; 1939 : 				_Statype _Stsave = _State;
+; 1940 : 
+; 1941 : 				if ((_Bytes = _Wcrtomb(_Buf, *_Mid1,
+; 1942 : 					&_State, &_Cvt)) < 0)
+; 1943 : 					return (error);	// locale-specific wcrtomb failed
+; 1944 : 				else if (_Last2 - _Mid2 < _Bytes)
+; 1945 : 					{	// converted too many, roll back and return previous
+; 1946 : 					_State = _Stsave;
+; 1947 : 					return (_Ans);
+; 1948 : 					}
+; 1949 : 				else
+; 1950 : 					{	// copy converted bytes from buffer
+; 1951 : 					_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1952 : 					++_Mid1, _Mid2 += _Bytes, _Ans = ok;
+; 1953 : 					}
+; 1954 : 				}
+; 1955 : 		return (_Ans);
+; 1956 : 		}
+; 1957 : 
+; 1958 : 	virtual result __CLR_OR_THIS_CALL do_unshift(_Statype& _State,
+; 1959 : 		_Byte *_First2, _Byte *_Last2, _Byte *& _Mid2) const
+; 1960 : 		{	// generate bytes to return to default shift state
+; 1961 : 		_DEBUG_RANGE(_First2, _Last2);
+; 1962 : 		_Mid2 = _First2;
+; 1963 : 		result _Ans = ok;
+; 1964 : 		int _Bytes;
+; 1965 : 		_Byte _Buf[MB_LEN_MAX];
+; 1966 : 		_Statype _Stsave = _State;
+; 1967 : 
+; 1968 : 		if ((_Bytes = _Wcrtomb(_Buf, L'\0', &_State, &_Cvt)) <= 0)
+; 1969 : 			_Ans = error;	// locale-specific wcrtomb failed
+; 1970 : 		else if (_Last2 - _Mid2 < --_Bytes)
+; 1971 : 			{	// converted too many, roll back and return
+; 1972 : 			_State = _Stsave;
+; 1973 : 			_Ans = partial;
+; 1974 : 			}
+; 1975 : 		else if (0 < _Bytes)
+; 1976 : 			{	// copy converted bytes from buffer
+; 1977 : 			_CSTD memcpy(_Mid2, _Buf, _Bytes);
+; 1978 : 			_Mid2 += _Bytes;
+; 1979 : 			}
+; 1980 : 		return (_Ans);
+; 1981 : 		}
+; 1982 : 
+; 1983 : 	virtual int __CLR_OR_THIS_CALL do_length(_Statype& _State, const _Byte *_First1,
+; 1984 : 		const _Byte *_Last1, size_t _Count) const
+; 1985 : 		{	// return min(_Count, converted length of bytes [_First1, _Last1))
+; 1986 : 		_DEBUG_RANGE(_First1, _Last1);
+; 1987 : 		int _Wchars;
+; 1988 : 		const _Byte *_Mid1;
+; 1989 : 		_Statype _Mystate = _State;
+; 1990 : 
+; 1991 : 		for (_Wchars = 0, _Mid1 = _First1;
+; 1992 : 			(size_t)_Wchars < _Count && _Mid1 != _Last1; )
+; 1993 : 			{	// convert another unsigned char
+; 1994 : 			int _Bytes;
+; 1995 : 			_Elem _Ch;
+; 1996 : 
+; 1997 : 			switch (_Bytes = _Mbrtowc((wchar_t *)&_Ch, _Mid1, _Last1 - _Mid1,
+; 1998 : 				&_Mystate, &_Cvt))
+; 1999 : 				{	// test result of locale-specific mbrtowc call
+; 2000 : 			case -2:	// partial conversion
+; 2001 : 				return (_Wchars);
+; 2002 : 
+; 2003 : 			case -1:	// failed conversion
+; 2004 : 				return (_Wchars);
+; 2005 : 
+; 2006 : 			case 0:	// may have converted null character
+; 2007 : 				if (_Ch == (_Elem)0)
+; 2008 : 					_Bytes = (int)_CSTD strlen(_Mid1) + 1;
+; 2009 : 				// fall through
+; 2010 : 
+; 2011 : 			default:	// converted _Bytes bytes to an unsigned char
+; 2012 : 				if (_Bytes == -3)
+; 2013 : 					_Bytes = 0;	// wchar_t generated from state info
+; 2014 : 				_Mid1 += _Bytes;
+; 2015 : 				++_Wchars;
+; 2016 : 				}
+; 2017 : 			}
+; 2018 : 		return (_Wchars);
+; 2019 : 		}
+; 2020 : 
+; 2021 : 	virtual bool __CLR_OR_THIS_CALL do_always_noconv() const _THROW0()
+; 2022 : 		{	// return true if conversions never change input
+; 2023 : 		return (false);
+; 2024 : 		}
+; 2025 : 
+; 2026 : 	virtual int __CLR_OR_THIS_CALL do_max_length() const _THROW0()
+; 2027 : 		{	// return maximum length required for a conversion (from codecvt)
+; 2028 : 		return (MB_LEN_MAX);
+; 2029 : 		}
+; 2030 : 
+; 2031 : 	virtual int __CLR_OR_THIS_CALL do_encoding() const _THROW0()
+; 2032 : 		{	// return length of code sequence (from codecvt)
+; 2033 : 		return (0);	// 0 => varying length
+; 2034 : 		}
+; 2035 : 
+; 2036 : private:
+; 2037 : 	_Locinfo::_Cvtvec _Cvt;	// locale info passed to _Mbrtowc, _Wcrtomb
+; 2038 : 	};
+; 2039 :  #endif /* _NATIVE_WCHAR_T_DEFINED */
+; 2040 : 
+; 2041 : 		// TEMPLATE CLASS codecvt_byname
+; 2042 : template<class _Elem,
+; 2043 : 	class _Byte,
+; 2044 : 	class _Statype>
+; 2045 : 	class codecvt_byname
+; 2046 : 		: public codecvt<_Elem, _Byte, _Statype>
+; 2047 : 	{	// codecvt for named locale
+; 2048 : public:
+; 2049 : 	explicit __CLR_OR_THIS_CALL codecvt_byname(const char *_Locname, size_t _Refs = 0)
+; 2050 : 		: codecvt<_Elem, _Byte, _Statype>(_Locinfo(_Locname), _Refs)
+; 2051 : 		{	// construct for named locale
+; 2052 : 		}
+; 2053 : 
+; 2054 :  #if _HAS_CPP0X
+; 2055 : 	explicit __CLR_OR_THIS_CALL codecvt_byname(const string& _Str, size_t _Refs = 0)
+; 2056 : 		: codecvt<_Elem, _Byte, _Statype>(_Locinfo(_Str.c_str()), _Refs)
+; 2057 : 		{	// construct for named locale
+; 2058 : 		}
+; 2059 :  #endif /* _HAS_CPP0X */
+; 2060 : 
+; 2061 : protected:
+; 2062 : 	virtual __CLR_OR_THIS_CALL ~codecvt_byname() _NOEXCEPT
+; 2063 : 		{	// destroy the object
+; 2064 : 		}
+; 2065 : 	};
+; 2066 : 
+; 2067 : 		// STRUCT ctype_base
+; 2068 :  #pragma warning(push)
+; 2069 :  #pragma warning(disable: 4275)
+; 2070 : 
+; 2071 : struct _CRTIMP2_PURE ctype_base
+; 2072 : 	: public locale::facet
+; 2073 : 	{	// base for ctype
+; 2074 : 	enum
+; 2075 : 		{	// constants for character classifications
+; 2076 : 		alnum = _DI | _LO | _UP | _XA, alpha = _LO | _UP | _XA,
+; 2077 : 		cntrl = _BB, digit = _DI, graph = _DI | _LO | _PU | _UP | _XA,
+; 2078 : 		lower = _LO, print = _DI | _LO | _PU | _SP | _UP | _XA | _XD,
+; 2079 : 		punct = _PU, space = _CN | _SP | _XS, upper = _UP,
+; 2080 : 		xdigit = _XD, blank = _CN | _SP | _XS | _XB};
+; 2081 : 	typedef short mask;	// to match <ctype.h>
+; 2082 : 
+; 2083 : 	__CLR_OR_THIS_CALL ctype_base(size_t _Refs = 0)
+; 2084 : 		: locale::facet(_Refs)
+; 2085 : 		{	// default constructor
+; 2086 : 		}
+; 2087 : 
+; 2088 : 	__CLR_OR_THIS_CALL ~ctype_base() _NOEXCEPT
+; 2089 : 		{	// destroy the object
+; 2090 : 		}
+; 2091 : 	};
+; 2092 : 
+; 2093 :  #pragma warning(pop)
+; 2094 : 
+; 2095 : 		// TEMPLATE CLASS ctype
+; 2096 : template<class _Elem>
+; 2097 : 	class ctype
+; 2098 : 		: public ctype_base
+; 2099 : 	{	// facet for classifying elements, converting cases
+; 2100 : public:
+; 2101 : 	typedef _Elem char_type;
+; 2102 : 
+; 2103 : 	bool __CLR_OR_THIS_CALL is(mask _Maskval, _Elem _Ch) const
+; 2104 : 		{	// test if element fits any mask classifications
+; 2105 : 		return (do_is(_Maskval, _Ch));
+; 2106 : 		}
+; 2107 : 
+; 2108 : 	const _Elem *__CLR_OR_THIS_CALL is(const _Elem *_First, const _Elem *_Last,
+; 2109 : 		mask *_Dest) const
+; 2110 : 		{	// get mask sequence for elements in [_First, _Last)
+; 2111 : 		return (do_is(_First, _Last, _Dest));
+; 2112 : 		}
+; 2113 : 
+; 2114 : 	const _Elem *__CLR_OR_THIS_CALL scan_is(mask _Maskval, const _Elem *_First,
+; 2115 : 		const _Elem *_Last) const
+; 2116 : 		{	// find first in [_First, _Last) that fits mask classification
+; 2117 : 		return (do_scan_is(_Maskval, _First, _Last));
+; 2118 : 		}
+; 2119 : 
+; 2120 : 	const _Elem *__CLR_OR_THIS_CALL scan_not(mask _Maskval, const _Elem *_First,
+; 2121 : 		const _Elem *_Last) const
+; 2122 : 		{	// find first in [_First, _Last) not fitting mask classification
+; 2123 : 		return (do_scan_not(_Maskval, _First, _Last));
+; 2124 : 		}
+; 2125 : 
+; 2126 : 	_Elem __CLR_OR_THIS_CALL tolower(_Elem _Ch) const
+; 2127 : 		{	// convert element to lower case
+; 2128 : 		return (do_tolower(_Ch));
+; 2129 : 		}
+; 2130 : 
+; 2131 : 	const _Elem *__CLR_OR_THIS_CALL tolower(_Elem *_First, const _Elem *_Last) const
+; 2132 : 		{	// convert [_First, _Last) in place to lower case
+; 2133 : 		return (do_tolower(_First, _Last));
+; 2134 : 		}
+; 2135 : 
+; 2136 : 	_Elem __CLR_OR_THIS_CALL toupper(_Elem _Ch) const
+; 2137 : 		{	// convert element to upper case
+; 2138 : 		return (do_toupper(_Ch));
+; 2139 : 		}
+; 2140 : 
+; 2141 : 	const _Elem *__CLR_OR_THIS_CALL toupper(_Elem *_First, const _Elem *_Last) const
+; 2142 : 		{	// convert [_First, _Last) in place to upper case
+; 2143 : 		return (do_toupper(_First, _Last));
+; 2144 : 		}
+; 2145 : 
+; 2146 : 	_Elem __CLR_OR_THIS_CALL widen(char _Byte) const
+; 2147 : 		{	// widen char
+; 2148 : 		return (do_widen(_Byte));
+; 2149 : 		}
+; 2150 : 
+; 2151 : 	const char *__CLR_OR_THIS_CALL widen(const char *_First, const char *_Last,
+; 2152 : 		_Elem *_Dest) const
+; 2153 : 		{	// widen chars in [_First, _Last)
+; 2154 : 		return (do_widen(_First, _Last, _Dest));
+; 2155 : 		}
+; 2156 : 
+; 2157 : 	char __CLR_OR_THIS_CALL narrow(_Elem _Ch, char _Dflt = '\0') const
+; 2158 : 		{	// narrow element to char
+; 2159 : 		return (do_narrow(_Ch, _Dflt));
+; 2160 : 		}
+; 2161 : 
+; 2162 : 	const _Elem *__CLR_OR_THIS_CALL narrow(const _Elem *_First, const _Elem *_Last,
+; 2163 : 		char _Dflt, char *_Dest) const
+; 2164 : 		{	// narrow elements in [_First, _Last) to chars
+; 2165 : 		return (do_narrow(_First, _Last, _Dflt, _Dest));
+; 2166 : 		}
+; 2167 : 
+; 2168 : 	__PURE_APPDOMAIN_GLOBAL static locale::id id;
+; 2169 : 
+; 2170 : 	explicit __CLR_OR_THIS_CALL ctype(size_t _Refs = 0)
+; 2171 : 		: ctype_base(_Refs)
+; 2172 : 		{	// construct from current locale
+; 2173 : 		_BEGIN_LOCINFO(_Lobj)
+; 2174 : 			_Init(_Lobj);
+; 2175 : 		_END_LOCINFO()
+; 2176 : 		}
+; 2177 : 
+; 2178 : 	__CLR_OR_THIS_CALL ctype(const _Locinfo& _Lobj, size_t _Refs = 0)
+; 2179 : 		: ctype_base(_Refs)
+; 2180 : 		{	// construct from specified locale
+; 2181 : 		_Init(_Lobj);
+; 2182 : 		}
+; 2183 : 
+; 2184 : 	static size_t __CLRCALL_OR_CDECL _Getcat(const locale::facet **_Ppf = 0,
+; 2185 : 		const locale *_Ploc = 0)
+; 2186 : 		{	// return locale category mask and construct standard facet
+; 2187 : 		if (_Ppf != 0 && *_Ppf == 0)
+; 2188 : 			*_Ppf = _NEW_CRT ctype<_Elem>(
+; 2189 : 				_Locinfo(_Ploc->c_str()));
+; 2190 : 		return (_X_CTYPE);
+; 2191 : 		}
+; 2192 : 
+; 2193 : protected:
+; 2194 : 	virtual __CLR_OR_THIS_CALL ~ctype() _NOEXCEPT
+; 2195 : 		{	// destroy the object
+; 2196 : 		if (_Ctype._Delfl)
+; 2197 : 			free((void *)_Ctype._Table);
+; 2198 : 
+; 2199 : 		free((void *)_Ctype._LocaleName);
+; 2200 : 		}
+; 2201 : 
+; 2202 : 	void __CLR_OR_THIS_CALL _Init(const _Locinfo& _Lobj)
+; 2203 : 		{	// initialize from _Lobj
+; 2204 : 		_Ctype = _Lobj._Getctype();
+; 2205 : 		_Cvt = _Lobj._Getcvt();
+; 2206 : 		}
+; 2207 : 
+; 2208 : 	virtual bool __CLR_OR_THIS_CALL do_is(mask _Maskval, _Elem _Ch) const
+; 2209 : 		{	// test if element fits any mask classifications
+; 2210 : 		return ((_Ctype._Table[(unsigned char)narrow(_Ch)]
+; 2211 : 			& _Maskval) != 0);
+; 2212 : 		}
+; 2213 : 
+; 2214 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_is(const _Elem *_First, const _Elem *_Last,
+; 2215 : 		mask *_Dest) const
+; 2216 : 		{	// get mask sequence for elements in [_First, _Last)
+; 2217 : 		_DEBUG_RANGE(_First, _Last);
+; 2218 : 		_DEBUG_POINTER(_Dest);
+; 2219 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2220 : 			*_Dest = _Ctype._Table[(unsigned char)narrow(*_First)];
+; 2221 : 		return (_First);
+; 2222 : 		}
+; 2223 : 
+; 2224 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_scan_is(mask _Maskval,
+; 2225 : 		const _Elem *_First, const _Elem *_Last) const
+; 2226 : 		{	// find first in [_First, _Last) that fits mask classification
+; 2227 : 		_DEBUG_RANGE(_First, _Last);
+; 2228 : 		for (; _First != _Last && !is(_Maskval, *_First); ++_First)
+; 2229 : 			;
+; 2230 : 		return (_First);
+; 2231 : 		}
+; 2232 : 
+; 2233 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_scan_not(mask _Maskval,
+; 2234 : 		const _Elem *_First, const _Elem *_Last) const
+; 2235 : 		{	// find first in [_First, _Last) not fitting mask classification
+; 2236 : 		_DEBUG_RANGE(_First, _Last);
+; 2237 : 		for (; _First != _Last && is(_Maskval, *_First); ++_First)
+; 2238 : 			;
+; 2239 : 		return (_First);
+; 2240 : 		}
+; 2241 : 
+; 2242 : 	virtual _Elem __CLR_OR_THIS_CALL do_tolower(_Elem _Ch) const
+; 2243 : 		{	// convert element to lower case
+; 2244 : 		unsigned char _Byte = (unsigned char)narrow(_Ch, '\0');
+; 2245 : 		if (_Byte == '\0')
+; 2246 : 			return (_Ch);
+; 2247 : 		else
+; 2248 : 			return (widen((char)_Tolower(_Byte, &_Ctype)));
+; 2249 : 		}
+; 2250 : 
+; 2251 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_tolower(_Elem *_First,
+; 2252 : 		const _Elem *_Last) const
+; 2253 : 		{	// convert [_First, _Last) in place to lower case
+; 2254 : 		_DEBUG_RANGE((const _Elem *)_First, _Last);
+; 2255 : 		for (; _First != _Last; ++_First)
+; 2256 : 			{	// convert *_First to lower case
+; 2257 : 			unsigned char _Byte = (unsigned char)narrow(*_First, '\0');
+; 2258 : 			if (_Byte != '\0')
+; 2259 : 				*_First = (widen((char)_Tolower(_Byte, &_Ctype)));
+; 2260 : 			}
+; 2261 : 		return ((const _Elem *)_First);
+; 2262 : 		}
+; 2263 : 
+; 2264 : 	virtual _Elem __CLR_OR_THIS_CALL do_toupper(_Elem _Ch) const
+; 2265 : 		{	// convert element to upper case
+; 2266 : 		unsigned char _Byte = (unsigned char)narrow(_Ch, '\0');
+; 2267 : 		if (_Byte == '\0')
+; 2268 : 			return (_Ch);
+; 2269 : 		else
+; 2270 : 			return (widen((char)_Toupper(_Byte, &_Ctype)));
+; 2271 : 		}
+; 2272 : 
+; 2273 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_toupper(_Elem *_First,
+; 2274 : 		const _Elem *_Last) const
+; 2275 : 		{	// convert [_First, _Last) in place to upper case
+; 2276 : 		_DEBUG_RANGE((const _Elem *)_First, _Last);
+; 2277 : 		for (; _First != _Last; ++_First)
+; 2278 : 			{	// convert *_First to upper case
+; 2279 : 			unsigned char _Byte = (unsigned char)narrow(*_First, '\0');
+; 2280 : 			if (_Byte != '\0')
+; 2281 : 				*_First = (widen((char)_Toupper(_Byte, &_Ctype)));
+; 2282 : 			}
+; 2283 : 		return ((const _Elem *)_First);
+; 2284 : 		}
+; 2285 : 
+; 2286 : 	virtual _Elem __CLR_OR_THIS_CALL do_widen(char _Byte) const
+; 2287 : 		{	// widen char
+; 2288 : 		return (_MAKLOCCHR(_Elem, _Byte, _Cvt));
+; 2289 : 		}
+; 2290 : 
+; 2291 : 	virtual const char *__CLR_OR_THIS_CALL do_widen(const char *_First,
+; 2292 : 		const char *_Last, _Elem *_Dest) const
+; 2293 : 		{	// widen chars in [_First, _Last)
+; 2294 : 		_DEBUG_RANGE(_First, _Last);
+; 2295 : 		_DEBUG_POINTER(_Dest);
+; 2296 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2297 : 			*_Dest = _MAKLOCCHR(_Elem, *_First, _Cvt);
+; 2298 : 		return (_First);
+; 2299 : 		}
+; 2300 : 
+; 2301 : 	char __CLR_OR_THIS_CALL _Donarrow(_Elem _Ch, char _Dflt) const
+; 2302 : 		{	// narrow element to char
+; 2303 : 		char _Byte;
+; 2304 : 		if (_Ch == (_Elem)0)
+; 2305 : 			return ('\0');
+; 2306 : 		else if ((_Byte = _MAKLOCBYTE(_Elem, _Ch, _Cvt)) == '\0')
+; 2307 : 			return (_Dflt);
+; 2308 : 		else
+; 2309 : 			return (_Byte);
+; 2310 : 		}
+; 2311 : 
+; 2312 : 	virtual char __CLR_OR_THIS_CALL do_narrow(_Elem _Ch, char _Dflt) const
+; 2313 : 		{	// narrow element to char
+; 2314 : 		return (_Donarrow(_Ch, _Dflt));
+; 2315 : 		}
+; 2316 : 
+; 2317 : 	virtual const _Elem *__CLR_OR_THIS_CALL do_narrow(const _Elem *_First,
+; 2318 : 		const _Elem *_Last, char _Dflt, char *_Dest) const
+; 2319 : 		{	// narrow elements in [_First, _Last) to chars
+; 2320 : 		_DEBUG_RANGE(_First, _Last);
+; 2321 : 		_DEBUG_POINTER(_Dest);
+; 2322 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2323 : 			*_Dest = _Donarrow(*_First, _Dflt);
+; 2324 : 		return (_First);
+; 2325 : 		}
+; 2326 : 
+; 2327 : private:
+; 2328 : 	_Locinfo::_Ctypevec _Ctype;	// locale info passed to _Tolower, etc.
+; 2329 : 	_Locinfo::_Cvtvec _Cvt;		// conversion information
+; 2330 : 	};
+; 2331 : 
+; 2332 : 		// STATIC ctype::id OBJECT
+; 2333 : template<class _Elem>
+; 2334 : 	locale::id ctype<_Elem>::id;
+; 2335 : 
+; 2336 : 		// CLASS ctype<char>
+; 2337 : template<>
+; 2338 : 	class _CRTIMP2_PURE ctype<char>
+; 2339 : 	: public ctype_base
+; 2340 : 	{	// facet for classifying char elements, converting cases
+; 2341 : 	typedef ctype<char> _Myt;
+; 2342 : 
+; 2343 : public:
+; 2344 : 	typedef char _Elem;
+; 2345 : 	typedef _Elem char_type;
+; 2346 : 
+; 2347 : 	bool __CLR_OR_THIS_CALL is(mask _Maskval, _Elem _Ch) const
+; 2348 : 		{	// test if element fits any mask classifications
+; 2349 : 		return ((_Ctype._Table[(unsigned char)_Ch] & _Maskval) != 0);
+; 2350 : 		}
+; 2351 : 
+; 2352 : 	const _Elem *__CLR_OR_THIS_CALL is(const _Elem *_First,
+; 2353 : 		const _Elem *_Last, mask *_Dest) const
+; 2354 : 		{	// get mask sequence for elements in [_First, _Last)
+; 2355 : 		_DEBUG_RANGE(_First, _Last);
+; 2356 : 		_DEBUG_POINTER(_Dest);
+; 2357 : 		for (; _First != _Last; ++_First, ++_Dest)
+; 2358 : 			*_Dest = _Ctype._Table[(unsigned char)*_First];
+; 2359 : 		return (_First);
+; 2360 : 		}
+; 2361 : 
+; 2362 : 	const _Elem *__CLR_OR_THIS_CALL scan_is(mask _Maskval,
+; 2363 : 		const _Elem *_First, const _Elem *_Last) const
+; 2364 : 		{	// find first in [_First, _Last) that fits mask classification
+; 2365 : 		_DEBUG_RANGE(_First, _Last);
+; 2366 : 		for (; _First != _Last && !is(_Maskval, *_First); ++_First)
+; 2367 : 			;
+; 2368 : 		return (_First);
+; 2369 : 		}
+; 2370 : 
+; 2371 : 	const _Elem *__CLR_OR_THIS_CALL scan_not(mask _Maskval,
+; 2372 : 		const _Elem *_First, const _Elem *_Last) const
+; 2373 : 		{	// find first in [_First, _Last) not fitting mask classification
+; 2374 : 		_DEBUG_RANGE(_First, _Last);
+; 2375 : 		for (; _First != _Last && is(_Maskval, *_First); ++_First)
+; 2376 : 			;
+; 2377 : 		return (_First);
+; 2378 : 		}
+; 2379 : 
+; 2380 : 	_Elem __CLR_OR_THIS_CALL tolower(_Elem _Ch) const
+; 2381 : 		{	// convert element to lower case
+; 2382 : 		return (do_tolower(_Ch));
+; 2383 : 		}
+; 2384 : 
+; 2385 : 	const _Elem *__CLR_OR_THIS_CALL tolower(_Elem *_First, const _Elem *_Last) const
+; 2386 : 		{	// convert [_First, _Last) in place to lower case
+; 2387 : 		return (do_tolower(_First, _Last));
+; 2388 : 		}
+; 2389 : 
+; 2390 : 	_Elem __CLR_OR_THIS_CALL toupper(_Elem _Ch) const
+; 2391 : 		{	// convert element to upper case
+; 2392 : 		return (do_toupper(_Ch));
+; 2393 : 		}
+; 2394 : 
+; 2395 : 	const _Elem *__CLR_OR_THIS_CALL toupper(_Elem *_First, const _Elem *_Last) const
+; 2396 : 		{	// convert [_First, _Last) in place to upper case
+; 2397 : 		return (do_toupper(_First, _Last));
+; 2398 : 		}
+; 2399 : 
+; 2400 : 	_Elem __CLR_OR_THIS_CALL widen(char _Byte) const
+; 2401 : 		{	// widen char
+; 2402 : 		return (do_widen(_Byte));
+
+	mov	eax, DWORD PTR [esi]
+	push	DWORD PTR __Byte$[ebp]
+	mov	eax, DWORD PTR [eax+32]
+	mov	ecx, esi
+	call	eax
+; File f:\program_files\vc\include\ios
+
+; 137  : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	esi
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z$0:
+	lea	ecx, DWORD PTR $T2[ebp]
+	jmp	??1locale@std@@QAE@XZ			; std::locale::~locale
+__ehhandler$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-12]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z ENDP ; std::basic_ios<char,std::char_traits<char> >::widen
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+; File f:\program_files\vc\include\xlocale
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+_TEXT	SEGMENT
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::basic_streambuf<char,std::char_traits<char> >, COMDAT
+; _this$ = ecx
+
+; 26   : 		{	// construct with no buffers
+
+	push	esi
+	mov	esi, ecx
+	push	edi
+	push	4
+	mov	DWORD PTR [esi], OFFSET ??_7?$basic_streambuf@DU?$char_traits@D@std@@@std@@6B@
+	call	??2@YAPAXI@Z				; operator new
+	mov	edi, eax
+	add	esp, 4
+	test	edi, edi
+	je	SHORT $LN3@basic_stre
+; File f:\program_files\vc\include\xlocale
+
+; 329  : 		{	// construct from current locale
+
+	push	1
+	call	?_Init@locale@std@@CAPAV_Locimp@12@_N@Z	; std::locale::_Init
+	add	esp, 4
+	mov	DWORD PTR [edi], eax
+; File f:\program_files\vc\include\streambuf
+
+; 26   : 		{	// construct with no buffers
+
+	jmp	SHORT $LN4@basic_stre
+$LN3@basic_stre:
+	xor	edi, edi
+$LN4@basic_stre:
+
+; 291  : 		}
+; 292  : 
+; 293  : 	void __CLR_OR_THIS_CALL setp(_Elem *_First, _Elem *_Next, _Elem *_Last)
+; 294  : 		{	// set pointers for write buffer, extended version
+; 295  : 		*_IPfirst = _First;
+; 296  : 		*_IPnext = _Next;
+; 297  : 		*_IPcount = (int)(_Last - _Next);
+; 298  : 		}
+; 299  : 
+; 300  : 	_Elem *__CLR_OR_THIS_CALL _Pninc()
+; 301  : 		{	// increment current position in write buffer
+; 302  : 		--*_IPcount;
+; 303  : 		return ((*_IPnext)++);
+; 304  : 		}
+; 305  : 
+; 306  : 	streamsize __CLR_OR_THIS_CALL _Pnavail() const
+; 307  : 		{	// count number of available positions in write buffer
+; 308  : 		return (*_IPnext != 0 ? *_IPcount : 0);
+; 309  : 		}
+; 310  : 
+; 311  : 	void __CLR_OR_THIS_CALL _Init()
+; 312  : 		{	// initialize buffer parameters for no buffers
+; 313  : 		_IGfirst = &_Gfirst;
+
+	lea	eax, DWORD PTR [esi+4]
+	mov	DWORD PTR [esi+12], eax
+
+; 314  : 		_IPfirst = &_Pfirst;
+; 315  : 		_IGnext = &_Gnext;
+
+	lea	eax, DWORD PTR [esi+20]
+	mov	DWORD PTR [esi+28], eax
+
+; 316  : 		_IPnext = &_Pnext;
+
+	lea	eax, DWORD PTR [esi+24]
+	mov	DWORD PTR [esi+32], eax
+
+; 26   : 		{	// construct with no buffers
+
+	mov	DWORD PTR [esi+52], edi
+
+; 317  : 		_IGcount = &_Gcount;
+
+	lea	eax, DWORD PTR [esi+36]
+	mov	DWORD PTR [esi+44], eax
+	lea	ecx, DWORD PTR [esi+8]
+	mov	DWORD PTR [esi+16], ecx
+
+; 318  : 		_IPcount = &_Pcount;
+
+	lea	eax, DWORD PTR [esi+40]
+	mov	DWORD PTR [esi+48], eax
+
+; 250  : 		}
+; 251  : 
+; 252  : 	_Elem *__CLR_OR_THIS_CALL epptr() const
+; 253  : 		{	// return end of write buffer
+; 254  : 		return (*_IPnext + *_IPcount);
+; 255  : 		}
+; 256  : 
+; 257  : 	_Elem *__CLR_OR_THIS_CALL _Gndec()
+; 258  : 		{	// decrement current position in read buffer
+; 259  : 		++*_IGcount;
+; 260  : 		return (--*_IGnext);
+; 261  : 		}
+; 262  : 
+; 263  : 	_Elem *__CLR_OR_THIS_CALL _Gninc()
+; 264  : 		{	// increment current position in read buffer
+; 265  : 		--*_IGcount;
+; 266  : 		return ((*_IGnext)++);
+; 267  : 		}
+; 268  : 
+; 269  : 	_Elem *__CLR_OR_THIS_CALL _Gnpreinc()
+; 270  : 		{	// preincrement current position in read buffer
+; 271  : 		--*_IGcount;
+; 272  : 		return (++(*_IGnext));
+; 273  : 		}
+; 274  : 
+; 275  : 	streamsize __CLR_OR_THIS_CALL _Gnavail() const
+; 276  : 		{	// count number of available elements in read buffer
+; 277  : 		return (*_IGnext != 0 ? *_IGcount : 0);
+; 278  : 		}
+; 279  : 
+; 280  : 	void __CLR_OR_THIS_CALL pbump(int _Off)
+; 281  : 		{	// alter current position in write buffer by _Off
+; 282  : 		*_IPcount -= _Off;
+; 283  : 		*_IPnext += _Off;
+; 284  : 		}
+; 285  : 
+; 286  : 	void __CLR_OR_THIS_CALL setp(_Elem *_First, _Elem *_Last)
+; 287  : 		{	// set pointers for write buffer
+; 288  : 		*_IPfirst = _First;
+
+	mov	DWORD PTR [ecx], 0
+
+; 289  : 		*_IPnext = _First;
+
+	mov	eax, DWORD PTR [esi+32]
+	pop	edi
+	mov	DWORD PTR [eax], 0
+
+; 290  : 		*_IPcount = (int)(_Last - _First);
+
+	mov	eax, DWORD PTR [esi+48]
+	mov	DWORD PTR [eax], 0
+
+; 29   : 
+; 30   : 	__CLR_OR_THIS_CALL basic_streambuf(_Uninitialized)
+; 31   : 		{	// construct uninitialized
+; 32   : 		}
+; 33   : 
+; 34   : 	__CLR_OR_THIS_CALL basic_streambuf(const _Myt& _Right)
+; 35   : 		: _Plocale(_NEW_CRT locale(_Right.getloc()))
+; 36   : 		{	// construct by copying _Right
+; 37   : 		_Init();
+; 38   : 		setp(_Right.pbase(), _Right.pptr(), _Right.epptr());
+; 39   : 		setg(_Right.eback(), _Right.gptr(), _Right.egptr());
+; 40   : 		}
+; 41   : 
+; 42   : 	_Myt& __CLR_OR_THIS_CALL operator=(const _Myt& _Right)
+; 43   : 		{	// assign from _Right
+; 44   : 		if (this != &_Right)
+; 45   : 			{	// different, worth copying
+; 46   : 			setp(_Right.pbase(), _Right.pptr(), _Right.epptr());
+; 47   : 			setg(_Right.eback(), _Right.gptr(), _Right.egptr());
+; 48   : 			pubimbue(_Right.getloc());
+; 49   : 			}
+; 50   : 		return (*this);
+; 51   : 		}
+; 52   : 
+; 53   : 	void __CLR_OR_THIS_CALL swap(_Myt& _Right)
+; 54   : 		{	// swap with _Right
+; 55   : 		if (this != &_Right)
+; 56   : 			{	// different, worth swapping
+; 57   : 			_Elem *_Pfirst = pbase();
+; 58   : 			_Elem *_Pnext = pptr();
+; 59   : 			_Elem *_Pend = epptr();
+; 60   : 			_Elem *_Gfirst = eback();
+; 61   : 			_Elem *_Gnext = gptr();
+; 62   : 			_Elem *_Gend = egptr();
+; 63   : 
+; 64   : 			setp(_Right.pbase(), _Right.pptr(), _Right.epptr());
+; 65   : 			_Right.setp(_Pfirst, _Pnext, _Pend);
+; 66   : 
+; 67   : 			setg(_Right.eback(), _Right.gptr(), _Right.egptr());
+; 68   : 			_Right.setg(_Gfirst, _Gnext, _Gend);
+; 69   : 
+; 70   : 			_STD swap(_Plocale, _Right._Plocale);
+; 71   : 			}
+; 72   : 		}
+; 73   : 
+; 74   : public:
+; 75   : 	typedef _Elem char_type;
+; 76   : 	typedef _Traits traits_type;
+; 77   : 
+; 78   : 	virtual __CLR_OR_THIS_CALL ~basic_streambuf() _NOEXCEPT
+; 79   : 		{	// destroy the object
+; 80   : 		_DELETE_CRT(_Plocale);
+; 81   : 		}
+; 82   : 
+; 83   : 	typedef typename _Traits::int_type int_type;
+; 84   : 	typedef typename _Traits::pos_type pos_type;
+; 85   : 	typedef typename _Traits::off_type off_type;
+; 86   : 
+; 87   : 	pos_type __CLR_OR_THIS_CALL pubseekoff(off_type _Off,
+; 88   : 		ios_base::seekdir _Way,
+; 89   : 		ios_base::openmode _Mode = ios_base::in | ios_base::out)
+; 90   : 		{	// change position by _Off, according to _Way, _Mode
+; 91   : 		return (seekoff(_Off, _Way, _Mode));
+; 92   : 		}
+; 93   : 
+; 94   : 	pos_type __CLR_OR_THIS_CALL pubseekoff(off_type _Off,
+; 95   : 		ios_base::seek_dir _Way,
+; 96   : 		ios_base::open_mode _Mode)
+; 97   : 		{	// change position by _Off, according to _Way, _Mode (old style)
+; 98   : 		return (pubseekoff(_Off, (ios_base::seekdir)_Way,
+; 99   : 			(ios_base::openmode)_Mode));
+; 100  : 		}
+; 101  : 
+; 102  : 	pos_type __CLR_OR_THIS_CALL pubseekpos(pos_type _Pos,
+; 103  : 		ios_base::openmode _Mode = ios_base::in | ios_base::out)
+; 104  : 		{	// change position to _Pos, according to _Mode
+; 105  : 		return (seekpos(_Pos, _Mode));
+; 106  : 		}
+; 107  : 
+; 108  : 	pos_type __CLR_OR_THIS_CALL pubseekpos(pos_type _Pos,
+; 109  : 		ios_base::open_mode _Mode)
+; 110  : 		{	// change position to _Pos, according to _Mode (old style)
+; 111  : 		return (seekpos(_Pos, (ios_base::openmode)_Mode));
+; 112  : 		}
+; 113  : 
+; 114  : 	_Myt *__CLR_OR_THIS_CALL pubsetbuf(_Elem *_Buffer,
+; 115  : 		streamsize _Count)
+; 116  : 		{	// offer _Buffer to external agent
+; 117  : 		return (setbuf(_Buffer, _Count));
+; 118  : 		}
+; 119  : 
+; 120  : 	locale __CLR_OR_THIS_CALL pubimbue(const locale &_Newlocale)
+; 121  : 		{	// set locale to argument
+; 122  : 		locale _Oldlocale = *_Plocale;
+; 123  : 		imbue(_Newlocale);
+; 124  : 		*_Plocale = _Newlocale;
+; 125  : 		return (_Oldlocale);
+; 126  : 		}
+; 127  : 
+; 128  : 	locale __CLR_OR_THIS_CALL getloc() const
+; 129  : 		{	// get locale
+; 130  : 		return (*_Plocale);
+; 131  : 		}
+; 132  : 
+; 133  : 	streamsize __CLR_OR_THIS_CALL in_avail()
+; 134  : 		{	// return count of buffered input characters
+; 135  : 		streamsize _Res = _Gnavail();
+; 136  : 		return (0 < _Res ? _Res : showmanyc());
+; 137  : 		}
+; 138  : 
+; 139  : 	int __CLR_OR_THIS_CALL pubsync()
+; 140  : 		{	// synchronize with external agent
+; 141  : 		return (sync());
+; 142  : 		}
+; 143  : 
+; 144  : 	int_type __CLR_OR_THIS_CALL sbumpc()
+; 145  : 		{	// get a character and point past it
+; 146  : 		return (0 < _Gnavail()
+; 147  : 			? _Traits::to_int_type(*_Gninc()) : uflow());
+; 148  : 		}
+; 149  : 
+; 150  : 	int_type __CLR_OR_THIS_CALL sgetc()
+; 151  : 		{	// get a character and don't point past it
+; 152  : 		return (0 < _Gnavail()
+; 153  : 			? _Traits::to_int_type(*gptr()) : underflow());
+; 154  : 		}
+; 155  : 
+; 156  : 	streamsize __CLR_OR_THIS_CALL sgetn(_Elem *_Ptr,
+; 157  : 		streamsize _Count)
+; 158  : 		{	// get up to _Count characters into array beginning at _Ptr
+; 159  : 		return (xsgetn(_Ptr, _Count));
+; 160  : 		}
+; 161  : 
+; 162  : 	int_type __CLR_OR_THIS_CALL snextc()
+; 163  : 		{	// point to next character and return it
+; 164  : 		return (1 < _Gnavail()
+; 165  : 			? _Traits::to_int_type(*_Gnpreinc())
+; 166  : 			: _Traits::eq_int_type(_Traits::eof(), sbumpc())
+; 167  : 				? _Traits::eof() : sgetc());
+; 168  : 		}
+; 169  : 
+; 170  : 	int_type __CLR_OR_THIS_CALL sputbackc(_Elem _Ch)
+; 171  : 		{	// put back _Ch
+; 172  : 		return (gptr() != 0 && eback() < gptr()
+; 173  : 			&& _Traits::eq(_Ch, gptr()[-1])
+; 174  : 			? _Traits::to_int_type(*_Gndec())
+; 175  : 			: pbackfail(_Traits::to_int_type(_Ch)));
+; 176  : 		}
+; 177  : 
+; 178  : 	void __CLR_OR_THIS_CALL stossc()
+; 179  : 		{	// point past a character
+; 180  : 		if (0 < _Gnavail())
+; 181  : 			_Gninc();
+; 182  : 		else
+; 183  : 			uflow();
+; 184  : 		}
+; 185  : 
+; 186  : 	int_type __CLR_OR_THIS_CALL sungetc()
+; 187  : 		{	// back up one position
+; 188  : 		return (gptr() != 0 && eback() < gptr()
+; 189  : 			? _Traits::to_int_type(*_Gndec()) : pbackfail());
+; 190  : 		}
+; 191  : 
+; 192  : 	int_type __CLR_OR_THIS_CALL sputc(_Elem _Ch)
+; 193  : 		{	// put a character
+; 194  : 		return (0 < _Pnavail()
+; 195  : 			? _Traits::to_int_type(*_Pninc() = _Ch)
+; 196  : 			: overflow(_Traits::to_int_type(_Ch)));
+; 197  : 		}
+; 198  : 
+; 199  : 	streamsize __CLR_OR_THIS_CALL sputn(const _Elem *_Ptr,
+; 200  : 		streamsize _Count)
+; 201  : 		{	// put _Count characters from array beginning at _Ptr
+; 202  : 		return (xsputn(_Ptr, _Count));
+; 203  : 		}
+; 204  : 
+; 205  : 	virtual void __CLR_OR_THIS_CALL _Lock()
+; 206  : 		{	// set the thread lock (overridden by basic_filebuf)
+; 207  : 		}
+; 208  : 
+; 209  : 	virtual void __CLR_OR_THIS_CALL _Unlock()
+; 210  : 		{	// clear the thread lock (overridden by basic_filebuf)
+; 211  : 		}
+; 212  : 
+; 213  : protected:
+; 214  : 	_Elem *__CLR_OR_THIS_CALL eback() const
+; 215  : 		{	// return beginning of read buffer
+; 216  : 		return (*_IGfirst);
+; 217  : 		}
+; 218  : 
+; 219  : 	_Elem *__CLR_OR_THIS_CALL gptr() const
+; 220  : 		{	// return current position in read buffer
+; 221  : 		return (*_IGnext);
+; 222  : 		}
+; 223  : 
+; 224  : 	_Elem *__CLR_OR_THIS_CALL pbase() const
+; 225  : 		{	// return beginning of write buffer
+; 226  : 		return (*_IPfirst);
+; 227  : 		}
+; 228  : 
+; 229  : 	_Elem *__CLR_OR_THIS_CALL pptr() const
+; 230  : 		{	// return current position in write buffer
+; 231  : 		return (*_IPnext);
+; 232  : 		}
+; 233  : 
+; 234  : 	_Elem *__CLR_OR_THIS_CALL egptr() const
+; 235  : 		{	// return end of read buffer
+; 236  : 		return (*_IGnext + *_IGcount);
+; 237  : 		}
+; 238  : 
+; 239  : 	void __CLR_OR_THIS_CALL gbump(int _Off)
+; 240  : 		{	// alter current position in read buffer by _Off
+; 241  : 		*_IGcount -= _Off;
+; 242  : 		*_IGnext += _Off;
+; 243  : 		}
+; 244  : 
+; 245  : 	void __CLR_OR_THIS_CALL setg(_Elem *_First, _Elem *_Next, _Elem *_Last)
+; 246  : 		{	// set pointers for read buffer
+; 247  : 		*_IGfirst = _First;
+
+	mov	eax, DWORD PTR [esi+12]
+	mov	DWORD PTR [eax], 0
+
+; 248  : 		*_IGnext = _Next;
+
+	mov	eax, DWORD PTR [esi+28]
+	mov	DWORD PTR [eax], 0
+
+; 249  : 		*_IGcount = (int)(_Last - _Next);
+
+	mov	eax, DWORD PTR [esi+44]
+	mov	DWORD PTR [eax], 0
+
+; 27   : 		_Init();
+; 28   : 		}
+
+	mov	eax, esi
+	pop	esi
+	ret	0
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::basic_streambuf<char,std::char_traits<char> >
+_TEXT	ENDS
+; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\sstream
 ; File f:\program_files\vc\include\xmemory0
 ; File f:\program_files\vc\include\iosfwd
@@ -50090,6 +55311,115 @@ __Pvector$dead$ = 12					; size = 4
 	pop	ebp
 	ret	8
 ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@QAE@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PBU_Container_base0@1@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >
+_TEXT	ENDS
+; Function compile flags: /Ogtp
+; File f:\program_files\vc\include\streambuf
+;	COMDAT ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ
+_TEXT	SEGMENT
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ PROC ; std::basic_streambuf<char,std::char_traits<char> >::_Init, COMDAT
+; _this$ = ecx
+
+; 313  : 		_IGfirst = &_Gfirst;
+
+	lea	eax, DWORD PTR [ecx+4]
+	mov	DWORD PTR [ecx+12], eax
+
+; 314  : 		_IPfirst = &_Pfirst;
+; 315  : 		_IGnext = &_Gnext;
+
+	lea	eax, DWORD PTR [ecx+20]
+	mov	DWORD PTR [ecx+28], eax
+
+; 316  : 		_IPnext = &_Pnext;
+
+	lea	eax, DWORD PTR [ecx+24]
+	mov	DWORD PTR [ecx+32], eax
+
+; 317  : 		_IGcount = &_Gcount;
+
+	lea	eax, DWORD PTR [ecx+36]
+	mov	DWORD PTR [ecx+44], eax
+	lea	edx, DWORD PTR [ecx+8]
+	mov	DWORD PTR [ecx+16], edx
+
+; 318  : 		_IPcount = &_Pcount;
+
+	lea	eax, DWORD PTR [ecx+40]
+	mov	DWORD PTR [ecx+48], eax
+
+; 250  : 		}
+; 251  : 
+; 252  : 	_Elem *__CLR_OR_THIS_CALL epptr() const
+; 253  : 		{	// return end of write buffer
+; 254  : 		return (*_IPnext + *_IPcount);
+; 255  : 		}
+; 256  : 
+; 257  : 	_Elem *__CLR_OR_THIS_CALL _Gndec()
+; 258  : 		{	// decrement current position in read buffer
+; 259  : 		++*_IGcount;
+; 260  : 		return (--*_IGnext);
+; 261  : 		}
+; 262  : 
+; 263  : 	_Elem *__CLR_OR_THIS_CALL _Gninc()
+; 264  : 		{	// increment current position in read buffer
+; 265  : 		--*_IGcount;
+; 266  : 		return ((*_IGnext)++);
+; 267  : 		}
+; 268  : 
+; 269  : 	_Elem *__CLR_OR_THIS_CALL _Gnpreinc()
+; 270  : 		{	// preincrement current position in read buffer
+; 271  : 		--*_IGcount;
+; 272  : 		return (++(*_IGnext));
+; 273  : 		}
+; 274  : 
+; 275  : 	streamsize __CLR_OR_THIS_CALL _Gnavail() const
+; 276  : 		{	// count number of available elements in read buffer
+; 277  : 		return (*_IGnext != 0 ? *_IGcount : 0);
+; 278  : 		}
+; 279  : 
+; 280  : 	void __CLR_OR_THIS_CALL pbump(int _Off)
+; 281  : 		{	// alter current position in write buffer by _Off
+; 282  : 		*_IPcount -= _Off;
+; 283  : 		*_IPnext += _Off;
+; 284  : 		}
+; 285  : 
+; 286  : 	void __CLR_OR_THIS_CALL setp(_Elem *_First, _Elem *_Last)
+; 287  : 		{	// set pointers for write buffer
+; 288  : 		*_IPfirst = _First;
+
+	mov	DWORD PTR [edx], 0
+
+; 289  : 		*_IPnext = _First;
+
+	mov	eax, DWORD PTR [ecx+32]
+	mov	DWORD PTR [eax], 0
+
+; 290  : 		*_IPcount = (int)(_Last - _First);
+
+	mov	eax, DWORD PTR [ecx+48]
+	mov	DWORD PTR [eax], 0
+
+; 247  : 		*_IGfirst = _First;
+
+	mov	eax, DWORD PTR [ecx+12]
+	mov	DWORD PTR [eax], 0
+
+; 248  : 		*_IGnext = _Next;
+
+	mov	eax, DWORD PTR [ecx+28]
+	mov	DWORD PTR [eax], 0
+
+; 249  : 		*_IGcount = (int)(_Last - _Next);
+
+	mov	eax, DWORD PTR [ecx+44]
+	mov	DWORD PTR [eax], 0
+
+; 319  : 		setp(0, 0);
+; 320  : 		setg(0, 0, 0);
+; 321  : 		}
+
+	ret	0
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ ENDP ; std::basic_streambuf<char,std::char_traits<char> >::_Init
 _TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File f:\program_files\vc\include\iomanip

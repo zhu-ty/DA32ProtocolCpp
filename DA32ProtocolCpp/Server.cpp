@@ -6,10 +6,7 @@
 #include<mutex>
 
 //线程之间传递的参数
-mutex mtx_server_acceptlist;//用来保护acceptlist的互斥锁
-mutex mtx_cout;//用来保护cout的互斥锁
-mutex mtx_clientlist;
-mutex mtx_handle;
+mutex mtx;
 
 extern vector<Client>clientList;//本机客户端组
 //线程通信参数
@@ -33,23 +30,20 @@ DWORD WINAPI ReceiveThread(LPVOID lparam)
 	string rcv;//接收到的字节流。
 	int x=-1;
 	int nAddrLen = sizeof(dest_add);
-	while (mtx_server_acceptlist.try_lock()!=1);
+	mtx.lock();
 	server_p->addSocket(*ReceiveSocket);
-	mtx_server_acceptlist.unlock();
+	mtx.unlock();
 	if(::getpeername(*ReceiveSocket, (SOCKADDR*)&dest_add, &nAddrLen) != 0)
     {
-		while(mtx_cout.try_lock()!=1);
-		std::cout<<"Get IP address by socket failed!n"<<endl;
-		system("pause");
-		mtx_cout.unlock();
-		while (mtx_server_acceptlist.try_lock()!=1);
+		mtx.lock();
+		std::cout<<"Get IP address by socket failed!"<<endl;
 		server_p->exitSocket(*ReceiveSocket);//在server中删除这个socket
-		mtx_server_acceptlist.unlock();
+		mtx.unlock();
         return 0;
     }
-	while(mtx_cout.try_lock()!=1);
-	cout<<"IP: "<<::inet_ntoa(dest_add.sin_addr)<<"  PORT: "<<ntohs(dest_add.sin_port)<<endl;
-	mtx_cout.unlock();
+	mtx.lock();
+	cout<<"IP: "<<::inet_ntoa(dest_add.sin_addr)<<"  PORT: "<<ntohs(dest_add.sin_port)<<"开始向您通话！"<<endl;
+	mtx.unlock();
 	for(int i=0;i<clientList.size();i++)
 	{
 		if(inet_ntoa(clientList[i].getAddr().sin_addr)==inet_ntoa(dest_add.sin_addr))
@@ -60,12 +54,11 @@ DWORD WINAPI ReceiveThread(LPVOID lparam)
 	}
 	if(respond_client==NULL)//如果不在，就新建一个客户端
 	{
-		respond_client=new Client(inet_ntoa(dest_add.sin_addr),3232);
-		while(!mtx_clientlist.try_lock())
-		{
-			clientList.push_back(*respond_client);//加入到List中
-			mtx_clientlist.unlock();
-		}
+		respond_client=new Client();
+		while(respond_client->newClient(inet_ntoa(dest_add.sin_addr),3232)==false);
+		mtx.lock();
+		clientList.push_back(*respond_client);//加入到List中
+		mtx.unlock();
 	}
 	//主循环
 	while(1)
@@ -77,19 +70,18 @@ DWORD WINAPI ReceiveThread(LPVOID lparam)
 			rcv=server_p->receiveData(*ReceiveSocket);//接收信息，在这里线程会等待到接收到为止
 			infomation=mess.getContent(rcv);//这里完成了从字节层到信息层的解包
 			if(infomation.type_s=="exit")
-			{
-				infomation.showJson_in_console();
-				respond_client->~Client();
+			{	
+				mtx.lock();
 				//注销这个客户端			
-				while(mtx_clientlist.try_lock()!=1);
 				vector<Client>::iterator itr = find(clientList.begin(),clientList.end(),*respond_client);
-				clientList.erase(itr);
-				mtx_clientlist.unlock();
-				//从客户端list中删除它
-				while(mtx_server_acceptlist.try_lock()!=1);
+				if (itr!=clientList.end())//如果找到了这个Client还活着，就杀了它
+				{
+					//itr->~Client();
+					clientList.erase(itr);
+				}
 				server_p->exitSocket(*ReceiveSocket);//在server中删除这个socket
-				mtx_server_acceptlist.unlock();
-				delete respond_client;//内存回收
+				mtx.unlock();
+				cout<<inet_ntoa(dest_add.sin_addr)<<"下线了！"<<endl;
 				respond_client=NULL;
 				return 0;
 			}
@@ -98,11 +90,11 @@ DWORD WINAPI ReceiveThread(LPVOID lparam)
 				if(infomation.type_s=="text")
 				{
 					respond_client->respend();
-					while(mtx_cout.try_lock()!=1);
-					cout<<"Server Receive:"<<endl;
+					mtx.lock();
+					//cout<<inet_ntoa(dest_add.sin_addr)<<endl;
 					infomation.showJson_in_console();
 					cout<<endl;
-					mtx_cout.unlock();
+					mtx.unlock();
 				}
 				else
 				{
@@ -113,16 +105,16 @@ DWORD WINAPI ReceiveThread(LPVOID lparam)
 		catch(exception e)//TODO：应当处理此类异常！
 		{
 			cout<<e.what();
-			while(mtx_server_acceptlist.try_lock()!=1);
+			mtx.lock();
 			server_p->exitSocket(*ReceiveSocket);
-			mtx_server_acceptlist.unlock();
+			mtx.unlock();
 			delete respond_client;
 			return -1;
 		}
 	}
-	while(mtx_server_acceptlist.try_lock()!=1);
+	mtx.lock();
 	server_p->exitSocket(*ReceiveSocket);
-	mtx_server_acceptlist.unlock();
+	mtx.unlock();
 	delete respond_client;
 	respond_client=NULL;
 	return 1;
@@ -138,22 +130,22 @@ DWORD WINAPI ListenerThread(LPVOID lparam)
 		try
 		{
 			*AcceptSocket = accept(sr,0, 0);//会在这一步一直等到天荒地老
-			while(mtx_cout.try_lock()!=1);
-			cout<<"A Client connetted!"<<endl;//监听到结果,建立了一个连接
-			mtx_cout.unlock();
-			while(mtx_server_acceptlist.try_lock()!=1);
+			//while(mtx_cout.try_lock()!=1);
+			//cout<<"A Client connetted!"<<endl;//监听到结果,建立了一个连接
+			//mtx_cout.unlock();
+			mtx.lock();
 			server->get_AcceptList().push_back(*AcceptSocket);
-			mtx_server_acceptlist.unlock();
+			mtx.unlock();
 			DWORD *newId= new DWORD;//新的线程id
 			HANDLE *newThread=new HANDLE;//新的线程变量
 			ThreadParament pa;//线程间通信的参数
 			pa.rec_socket=AcceptSocket;
 			pa.server=server;
-			while(mtx_handle.try_lock()!=1);
+			mtx.lock();
 			*newThread=CreateThread(NULL, NULL, ReceiveThread, (LPVOID)&pa, 0, newId);
 			server->get_hThread().push_back(*newThread);
 			server->get_threadId().push_back(*newId);
-			mtx_handle.unlock();
+			mtx.unlock();
 		}
 		catch(exception e)
 		{
@@ -201,7 +193,6 @@ bool Server::Init(int port_id)//加载字库等操作
 	}
 	max_binner=20;
 	sockSrv=socket(AF_INET,SOCK_STREAM,0);//服务器，第二个参数是选择了流套接字，UDP选择SOCK_DGRAM数据报套接字
-	//Init();
 	addrSrv.sin_family=AF_INET;//定义类型
 	addrSrv.sin_port=htons(port_id);//定义服务器的端口
 	addrSrv.sin_addr.S_un.S_addr=htonl(INADDR_ANY);//定义服务器ip地址筛选,因为是服务器，操作时listen，所以参数是ANY，将自动选择默认的本地网卡。如果是客户，则操作时connet，需要将参数置为目标ip。 
@@ -220,7 +211,7 @@ bool Server::Init(int port_id)//加载字库等操作
 		system("pause");
 		return false;
 	}
-	//cout<<"Server Created!"<<endl<<"Now,Listening``````"<<endl;
+	cout<<"Server Created!"<<endl<<"Now,Listening``````"<<endl;
 	return true;
 }
 //创建独立的线程，让监听socket开始accpet
@@ -248,7 +239,15 @@ string Server::receiveData(SOCKET torcv)
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
 	{
 		bytesRecv = recv(torcv, recvbuf, 2, 0);
-		if (recvbuf[0]!='\x32' || recvbuf[1]!='\xA0') bytesRecv=-1;//改为||
+		try
+		{
+			if (recvbuf[0]!='\x32' || recvbuf[1]!='\xA0') bytesRecv=-1;//server运行到此处会阻塞，直到接收信息或触发异常
+		}
+		catch(exception e)
+		{
+			//TODO:可能会有断线异常。
+			break;
+		}
 	}
 	bytesRecv=-1;
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)

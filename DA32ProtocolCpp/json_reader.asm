@@ -682,8 +682,6 @@ __$EHRec$ = -12						; size = 12
 ??0Reader@Json@@QAE@XZ PROC				; Json::Reader::Reader, COMDAT
 ; _this$ = ecx
 
-; 111  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -759,8 +757,6 @@ $LN28@Reader:
 	mov	eax, DWORD PTR [esi]
 	mov	DWORD PTR [eax], esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 111  : {
 
 	lea	edi, DWORD PTR [esi+20]
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
@@ -852,11 +848,7 @@ $LN76@Reader:
 	mov	BYTE PTR [esi+84], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 22   : {
-
 	mov	WORD PTR [esi+108], 1
-
-; 112  : }
 
 	mov	eax, esi
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
@@ -900,25 +892,18 @@ _collectComments$dead$ = 16				; size = 1
 ?parse@Reader@Json@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVValue@2@_N@Z PROC ; Json::Reader::parse, COMDAT
 ; _this$ = ecx
 
-; 125  : {
-
 	push	ebp
 	mov	ebp, esp
-	push	ecx
 ; File f:\program_files\vc\include\xstring
 
 ; 971  : 		if (this != &_Right)
 
 	mov	eax, DWORD PTR _document$[ebp]
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 125  : {
-
 	push	esi
 	push	edi
-	mov	edi, ecx
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 126  :    document_ = document;
+	mov	edi, ecx
 
 	lea	esi, DWORD PTR [edi+40]
 ; File f:\program_files\vc\include\xstring
@@ -1067,21 +1052,19 @@ $LN55@parse:
 ; 524  : 			: this->_Bx._Buf);
 
 	cmp	DWORD PTR [esi+20], 16			; 00000010H
-	jb	SHORT $LN62@parse
+	jb	SHORT $LN61@parse
 ; File f:\program_files\vc\include\xstddef
 
 ; 88   : 		reinterpret_cast<const volatile char&>(_Val)))));
 
 	mov	esi, DWORD PTR [esi]
-$LN62@parse:
+$LN61@parse:
 ; File f:\program_files\vc\include\xstring
 
 ; 1728 : 		return (this->_Mysize);
 
 	mov	eax, DWORD PTR [edi+56]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 129  :    return parse( begin, end, root, collectComments );
 
 	push	ecx
 	push	DWORD PTR _root$[ebp]
@@ -1090,12 +1073,9 @@ $LN62@parse:
 	push	esi
 	mov	ecx, edi
 	call	?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z ; Json::Reader::parse
-
-; 130  : }
-
 	pop	edi
 	pop	esi
-	pop	ecx
+
 	pop	ebp
 	ret	12					; 0000000cH
 ?parse@Reader@Json@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVValue@2@_N@Z ENDP ; Json::Reader::parse
@@ -1509,11 +1489,7 @@ _TEXT	SEGMENT
 ??0Features@Json@@QAE@XZ PROC				; Json::Features::Features, COMDAT
 ; _this$ = ecx
 
-; 22   : {
-
 	mov	WORD PTR [ecx], 1
-
-; 23   : }
 
 	mov	eax, ecx
 	ret	0
@@ -1526,15 +1502,9 @@ _TEXT	SEGMENT
 ?all@Features@Json@@SA?AV12@XZ PROC			; Json::Features::all, COMDAT
 ; ___$ReturnUdt$ = ecx
 
-; 22   : {
-
 	mov	WORD PTR [ecx], 1
 
-; 29   :    return Features();
-
 	mov	eax, ecx
-
-; 30   : }
 
 	ret	0
 ?all@Features@Json@@SA?AV12@XZ ENDP			; Json::Features::all
@@ -1546,8 +1516,6 @@ _TEXT	SEGMENT
 ?in@Json@@YA_NDDDDD@Z PROC				; Json::in, COMDAT
 ; _c$ = cl
 
-; 49   :    return c == c1  ||  c == c2  ||  c == c3  ||  c == c4;
-
 	cmp	cl, 101					; 00000065H
 	je	SHORT $LN5@in
 	cmp	cl, 69					; 00000045H
@@ -1556,16 +1524,10 @@ _TEXT	SEGMENT
 	je	SHORT $LN5@in
 	xor	al, al
 
-; 50   : }
-
 	ret	0
 $LN5@in:
 
-; 49   :    return c == c1  ||  c == c2  ||  c == c3  ||  c == c4;
-
 	mov	al, 1
-
-; 50   : }
 
 	ret	0
 ?in@Json@@YA_NDDDDD@Z ENDP				; Json::in
@@ -1577,8 +1539,6 @@ _TEXT	SEGMENT
 ?in@Json@@YA_NDDDDDD@Z PROC				; Json::in, COMDAT
 ; _c$ = cl
 
-; 55   :    return c == c1  ||  c == c2  ||  c == c3  ||  c == c4  ||  c == c5;
-
 	cmp	cl, 101					; 00000065H
 	je	SHORT $LN5@in
 	cmp	cl, 69					; 00000045H
@@ -1589,16 +1549,10 @@ _TEXT	SEGMENT
 	je	SHORT $LN5@in
 	xor	al, al
 
-; 56   : }
-
 	ret	0
 $LN5@in:
 
-; 55   :    return c == c1  ||  c == c2  ||  c == c3  ||  c == c4  ||  c == c5;
-
 	mov	al, 1
-
-; 56   : }
 
 	ret	0
 ?in@Json@@YA_NDDDDDD@Z ENDP				; Json::in
@@ -1611,13 +1565,9 @@ _TEXT	SEGMENT
 ; _begin$ = ecx
 ; _end$ = edx
 
-; 63   :    for ( ;begin < end; ++begin )
-
 	cmp	ecx, edx
 	jae	SHORT $LN3@containsNe
 $LL5@containsNe:
-
-; 64   :       if ( *begin == '\n'  ||  *begin == '\r' )
 
 	mov	al, BYTE PTR [ecx]
 	cmp	al, 10					; 0000000aH
@@ -1625,27 +1575,17 @@ $LL5@containsNe:
 	cmp	al, 13					; 0000000dH
 	je	SHORT $LN9@containsNe
 
-; 63   :    for ( ;begin < end; ++begin )
-
 	inc	ecx
 	cmp	ecx, edx
 	jb	SHORT $LL5@containsNe
 $LN3@containsNe:
 
-; 66   :    return false;
-
 	xor	al, al
-
-; 67   : }
 
 	ret	0
 $LN9@containsNe:
 
-; 65   :          return true;
-
 	mov	al, 1
-
-; 67   : }
 
 	ret	0
 ?containsNewLine@Json@@YA_NPBD0@Z ENDP			; Json::containsNewLine
@@ -1720,8 +1660,6 @@ __$EHRec$ = -12						; size = 12
 ?codePointToUTF8@Json@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z PROC ; Json::codePointToUTF8, COMDAT
 ; ___$ReturnUdt$ = ecx
 ; _cp$ = edx
-
-; 70   : {
 
 	push	ebp
 	mov	ebp, esp
@@ -2221,8 +2159,6 @@ __$EHRec$ = -12						; size = 12
 
 	mov	BYTE PTR [esi], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 102  :    return result;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 	mov	DWORD PTR $T2[ebp], 1
@@ -2772,13 +2708,8 @@ $LN70@codePointT:
 	mov	eax, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 78   :       result[0] = static_cast<char>(cp);
-
 	jmp	$LN71@codePointT
 $LN7@codePointT:
-
-; 79   :    } 
-; 80   :    else if (cp <= 0x7FF) 
 
 	cmp	ebx, 2047				; 000007ffH
 	ja	SHORT $LN5@codePointT
@@ -3327,8 +3258,6 @@ $LN94@codePointT:
 $LN95@codePointT:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 83   :       result[1] = static_cast<char>(0x80 | (0x3f & cp));
-
 	mov	al, bl
 	and	al, 63					; 0000003fH
 	or	al, -128				; ffffff80H
@@ -3346,8 +3275,6 @@ $LN95@codePointT:
 	mov	eax, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 84   :       result[0] = static_cast<char>(0xC0 | (0x1f & (cp >> 6)));
-
 	shr	ebx, 6
 	and	bl, 31					; 0000001fH
 	or	bl, -64					; ffffffc0H
@@ -3362,14 +3289,9 @@ $LN102@codePointT:
 	mov	eax, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 84   :       result[0] = static_cast<char>(0xC0 | (0x1f & (cp >> 6)));
-
 	or	bl, -64					; ffffffc0H
 	jmp	$LN71@codePointT
 $LN5@codePointT:
-
-; 85   :    } 
-; 86   :    else if (cp <= 0xFFFF) 
 
 	cmp	ebx, 65535				; 0000ffffH
 	ja	$LN3@codePointT
@@ -3918,8 +3840,6 @@ $LN126@codePointT:
 $LN127@codePointT:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 89   :       result[2] = static_cast<char>(0x80 | (0x3f & cp));
-
 	mov	al, bl
 	and	al, 63					; 0000003fH
 	or	al, -128				; ffffff80H
@@ -3945,8 +3865,6 @@ $LN134@codePointT:
 $LN135@codePointT:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 90   :       result[1] = 0x80 | static_cast<char>((0x3f & (cp >> 6)));
-
 	mov	eax, ebx
 	shr	eax, 6
 	and	al, 63					; 0000003fH
@@ -3965,8 +3883,6 @@ $LN135@codePointT:
 	mov	eax, DWORD PTR [esi]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 91   :       result[0] = 0xE0 | static_cast<char>((0xf & (cp >> 12)));
-
 	shr	ebx, 12					; 0000000cH
 	and	bl, 15					; 0000000fH
 	or	bl, -32					; ffffffe0H
@@ -3981,20 +3897,12 @@ $LN142@codePointT:
 	mov	eax, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 91   :       result[0] = 0xE0 | static_cast<char>((0xf & (cp >> 12)));
-
 	or	bl, -32					; ffffffe0H
 	jmp	SHORT $LN71@codePointT
 $LN3@codePointT:
 
-; 92   :    }
-; 93   :    else if (cp <= 0x10FFFF) 
-
 	cmp	ebx, 1114111				; 0010ffffH
 	ja	SHORT $LN178@codePointT
-
-; 94   :    {
-; 95   :       result.resize(4);
 
 	push	4
 	mov	ecx, esi
@@ -4020,8 +3928,6 @@ $LN150@codePointT:
 $LN151@codePointT:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 96   :       result[3] = static_cast<char>(0x80 | (0x3f & cp));
-
 	mov	al, bl
 	and	al, 63					; 0000003fH
 	or	al, -128				; ffffff80H
@@ -4046,8 +3952,6 @@ $LN158@codePointT:
 	mov	ecx, esi
 $LN159@codePointT:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 97   :       result[2] = static_cast<char>(0x80 | (0x3f & (cp >> 6)));
 
 	mov	eax, ebx
 	shr	eax, 6
@@ -4075,8 +3979,6 @@ $LN166@codePointT:
 $LN167@codePointT:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 98   :       result[1] = static_cast<char>(0x80 | (0x3f & (cp >> 12)));
-
 	mov	eax, ebx
 	shr	eax, 12					; 0000000cH
 	and	al, 63					; 0000003fH
@@ -4103,8 +4005,6 @@ $LN174@codePointT:
 $LN175@codePointT:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 99   :       result[0] = static_cast<char>(0xF0 | (0x7 & (cp >> 18)));
-
 	shr	ebx, 18					; 00000012H
 	and	bl, 7
 	or	bl, -16					; fffffff0H
@@ -4112,11 +4012,7 @@ $LN71@codePointT:
 	mov	BYTE PTR [eax], bl
 $LN178@codePointT:
 
-; 102  :    return result;
-
 	mov	eax, esi
-
-; 103  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -4171,12 +4067,12 @@ text$x	ENDS
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 ;	COMDAT ?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z
 _TEXT	SEGMENT
-_token$ = -64						; size = 12
-_root$GSCopy$ = -52					; size = 4
-_beginDoc$GSCopy$1$ = -48				; size = 4
-_endDoc$GSCopy$1$ = -44					; size = 4
-$T2 = -40						; size = 24
-__$ArrayPad$ = -16					; size = 4
+_endDoc$GSCopy$1$ = -68					; size = 4
+_root$GSCopy$ = -64					; size = 4
+_beginDoc$GSCopy$1$ = -60				; size = 4
+_token$ = -56						; size = 12
+$T2 = -44						; size = 24
+__$ArrayPad$ = -20					; size = 4
 __$EHRec$ = -12						; size = 12
 _beginDoc$ = 8						; size = 4
 _endDoc$ = 12						; size = 4
@@ -4185,23 +4081,24 @@ _collectComments$dead$ = 20				; size = 1
 ?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z PROC	; Json::Reader::parse, COMDAT
 ; _this$ = ecx
 
-; 154  : {
-
 	push	ebp
 	mov	ebp, esp
+	and	esp, -8					; fffffff8H
 	push	-1
 	push	__ehhandler$?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z
 	mov	eax, DWORD PTR fs:0
 	push	eax
-	sub	esp, 52					; 00000034H
+	sub	esp, 56					; 00000038H
 	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	xor	eax, esp
+	mov	DWORD PTR __$ArrayPad$[esp+68], eax
 	push	ebx
 	push	esi
 	push	edi
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, esp
 	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
+	lea	eax, DWORD PTR __$EHRec$[esp+84]
 	mov	DWORD PTR fs:0, eax
 	mov	esi, ecx
 	mov	ecx, DWORD PTR _endDoc$[ebp]
@@ -4212,14 +4109,10 @@ _collectComments$dead$ = 20				; size = 1
 ; 1144 : 		return (assign(_Ptr, _Traits::length(_Ptr)));
 
 	push	0
-	mov	DWORD PTR _endDoc$GSCopy$1$[ebp], ecx
+	mov	DWORD PTR _endDoc$GSCopy$1$[esp+88], ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 161  :    end_ = endDoc;
-
 	mov	DWORD PTR [esi+68], ecx
-
-; 166  :    commentsBefore_ = "";
 
 	lea	ecx, DWORD PTR [esi+84]
 ; File f:\program_files\vc\include\xstring
@@ -4227,27 +4120,17 @@ _collectComments$dead$ = 20				; size = 1
 ; 1144 : 		return (assign(_Ptr, _Traits::length(_Ptr)));
 
 	push	OFFSET ??_C@_00CNPNBAHC@?$AA@
-	mov	DWORD PTR _beginDoc$GSCopy$1$[ebp], eax
-	mov	DWORD PTR _root$GSCopy$[ebp], edi
+	mov	DWORD PTR _beginDoc$GSCopy$1$[esp+92], eax
+	mov	DWORD PTR _root$GSCopy$[esp+92], edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 160  :    begin_ = beginDoc;
 
 	mov	DWORD PTR [esi+64], eax
 
-; 162  :    collectComments_ = collectComments;
-
 	mov	BYTE PTR [esi+110], 0
-
-; 163  :    current_ = begin_;
 
 	mov	DWORD PTR [esi+72], eax
 
-; 164  :    lastValueEnd_ = 0;
-
 	mov	DWORD PTR [esi+76], 0
-
-; 165  :    lastValue_ = 0;
 
 	mov	DWORD PTR [esi+80], 0
 ; File f:\program_files\vc\include\xstring
@@ -4256,8 +4139,6 @@ _collectComments$dead$ = 20				; size = 1
 
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 167  :    errors_.clear();
 
 	lea	ecx, DWORD PTR [esi+20]
 ; File f:\program_files\vc\include\deque
@@ -4270,8 +4151,6 @@ _collectComments$dead$ = 20				; size = 1
 
 	cmp	DWORD PTR [esi+16], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 168  :    while ( !nodes_.empty() )
 
 	je	SHORT $LN4@parse
 	mov	eax, DWORD PTR [esi+16]
@@ -4433,8 +4312,6 @@ $LN26@parse:
 	test	eax, eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 168  :    while ( !nodes_.empty() )
-
 	jne	SHORT $LN89@parse
 $LN86@parse:
 	mov	DWORD PTR [esi+16], eax
@@ -4443,27 +4320,20 @@ $LN4@parse:
 
 ; 107  : 		c.push_back(_STD move(_Val));
 
-	lea	eax, DWORD PTR _root$GSCopy$[ebp]
+	lea	eax, DWORD PTR _root$GSCopy$[esp+84]
 	push	eax
 	mov	ecx, esi
 	call	?push_back@?$deque@PAVValue@Json@@V?$allocator@PAVValue@Json@@@std@@@std@@QAEX$$QAPAVValue@Json@@@Z ; std::deque<Json::Value *,std::allocator<Json::Value *> >::push_back
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 172  :    bool successful = readValue();
-
 	mov	ecx, esi
 	call	?readValue@Reader@Json@@AAE_NXZ		; Json::Reader::readValue
 	mov	bl, al
 
-; 173  :    Token token;
-; 174  :    skipCommentTokens( token );
-
-	lea	eax, DWORD PTR _token$[ebp]
+	lea	eax, DWORD PTR _token$[esp+84]
 	push	eax
 	mov	ecx, esi
 	call	?skipCommentTokens@Reader@Json@@AAEXAAVToken@12@@Z ; Json::Reader::skipCommentTokens
-
-; 175  :    if ( collectComments_  &&  !commentsBefore_.empty() )
 
 	cmp	BYTE PTR [esi+110], 0
 	je	SHORT $LN3@parse
@@ -4474,11 +4344,7 @@ $LN4@parse:
 	cmp	DWORD PTR [esi+100], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 175  :    if ( collectComments_  &&  !commentsBefore_.empty() )
-
 	je	SHORT $LN3@parse
-
-; 176  :       root.setComment( commentsBefore_, commentAfter );
 
 	push	2
 	lea	eax, DWORD PTR [esi+84]
@@ -4487,13 +4353,9 @@ $LN4@parse:
 	call	?setComment@Value@Json@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4CommentPlacement@2@@Z ; Json::Value::setComment
 $LN3@parse:
 
-; 177  :    if ( features_.strictRoot_ )
-
 	cmp	BYTE PTR [esi+109], 0
 	je	SHORT $LN1@parse
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 1315 :    return type_ == nullValue  ||  type_ == arrayValue;
 
 	mov	al, BYTE PTR [edi+8]
 	test	al, al
@@ -4501,82 +4363,59 @@ $LN3@parse:
 	cmp	al, 6
 	je	SHORT $LN1@parse
 
-; 1316 : }
-; 1317 : 
-; 1318 : 
-; 1319 : bool 
-; 1320 : Value::isObject() const
-; 1321 : {
-; 1322 :    return type_ == nullValue  ||  type_ == objectValue;
-
 	cmp	al, 7
 	je	SHORT $LN1@parse
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 183  :          token.start_ = beginDoc;
+	mov	eax, DWORD PTR _beginDoc$GSCopy$1$[esp+84]
+	mov	DWORD PTR _token$[esp+88], eax
 
-	mov	eax, DWORD PTR _beginDoc$GSCopy$1$[ebp]
-	mov	DWORD PTR _token$[ebp+4], eax
-
-; 184  :          token.end_ = endDoc;
-
-	mov	eax, DWORD PTR _endDoc$GSCopy$1$[ebp]
-
-; 185  :          addError( "A valid JSON document must be either an array or an object value.",
-; 186  :                    token );
+	mov	eax, DWORD PTR _endDoc$GSCopy$1$[esp+84]
 
 	push	OFFSET ??_C@_0EC@HCHNIDLM@A?5valid?5JSON?5document?5must?5be?5ei@
-	lea	ecx, DWORD PTR $T2[ebp]
-	mov	DWORD PTR _token$[ebp], 13		; 0000000dH
-	mov	DWORD PTR _token$[ebp+8], eax
+	lea	ecx, DWORD PTR $T2[esp+88]
+	mov	DWORD PTR _token$[esp+88], 13		; 0000000dH
+	mov	DWORD PTR _token$[esp+96], eax
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	push	0
-	lea	eax, DWORD PTR _token$[ebp]
+	lea	eax, DWORD PTR _token$[esp+88]
 	push	eax
-	lea	eax, DWORD PTR $T2[ebp]
+	lea	eax, DWORD PTR $T2[esp+92]
 	push	eax
 	mov	ecx, esi
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
+	mov	DWORD PTR __$EHRec$[esp+104], 0
 	call	?addError@Reader@Json@@AAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVToken@12@PBD@Z ; Json::Reader::addError
 ; File f:\program_files\vc\include\xstring
 
 ; 2256 : 		else if (this->_BUF_SIZE <= this->_Myres)
 
-	cmp	DWORD PTR $T2[ebp+20], 16		; 00000010H
+	cmp	DWORD PTR $T2[esp+104], 16		; 00000010H
 	jb	SHORT $LN70@parse
 ; File f:\program_files\vc\include\xmemory0
 
 ; 586  : 		::operator delete(_Ptr);
 
-	push	DWORD PTR $T2[ebp]
+	push	DWORD PTR $T2[esp+84]
 	call	??3@YAXPAX@Z				; operator delete
 	add	esp, 4
 $LN70@parse:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 187  :          return false;
-
 	xor	al, al
 	jmp	SHORT $LN7@parse
 $LN1@parse:
 
-; 188  :       }
-; 189  :    }
-; 190  :    return successful;
-
 	mov	al, bl
 $LN7@parse:
 
-; 191  : }
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[esp+84]
 	mov	DWORD PTR fs:0, ecx
 	pop	ecx
 	pop	edi
 	pop	esi
 	pop	ebx
-	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
-	xor	ecx, ebp
+	mov	ecx, DWORD PTR __$ArrayPad$[esp+68]
+	xor	ecx, esp
 	call	@__security_check_cookie@4
 	mov	esp, ebp
 	pop	ebp
@@ -4589,11 +4428,12 @@ __unwindfunclet$?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z$0:
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __ehhandler$?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z:
 	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-68]
+	lea	eax, DWORD PTR [edx-68]
+	mov	ecx, DWORD PTR [edx-72]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
-	mov	ecx, DWORD PTR [edx-4]
+	add	eax, 12					; 0000000cH
+	mov	ecx, DWORD PTR [edx-8]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
 	mov	eax, OFFSET __ehfuncinfo$?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z
@@ -4647,8 +4487,6 @@ __$EHRec$ = -12						; size = 12
 ?readValue@Reader@Json@@AAE_NXZ PROC			; Json::Reader::readValue, COMDAT
 ; _this$ = ecx
 
-; 196  : {
-
 	push	ebp
 	mov	ebp, esp
 	and	esp, -8					; fffffff8H
@@ -4670,14 +4508,9 @@ __$EHRec$ = -12						; size = 12
 	mov	DWORD PTR fs:0, eax
 	mov	edi, ecx
 
-; 197  :    Token token;
-; 198  :    skipCommentTokens( token );
-
 	lea	eax, DWORD PTR _token$[esp+116]
 	push	eax
 	call	?skipCommentTokens@Reader@Json@@AAEXAAVToken@12@@Z ; Json::Reader::skipCommentTokens
-
-; 201  :    if ( collectComments_  &&  !commentsBefore_.empty() )
 
 	cmp	BYTE PTR [edi+110], 0
 	mov	bl, 1
@@ -4688,8 +4521,6 @@ __$EHRec$ = -12						; size = 12
 
 	cmp	DWORD PTR [edi+100], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 201  :    if ( collectComments_  &&  !commentsBefore_.empty() )
 
 	je	SHORT $LN37@readValue
 ; File f:\program_files\vc\include\deque
@@ -4733,8 +4564,6 @@ $LN34@readValue:
 	mov	eax, DWORD PTR [eax+ecx*4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 203  :       currentValue().setComment( commentsBefore_, commentBefore );
-
 	push	0
 	mov	ecx, DWORD PTR [eax+edx*4]
 	lea	esi, DWORD PTR [edi+84]
@@ -4751,8 +4580,6 @@ $LN34@readValue:
 $LN37@readValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 208  :    switch ( token.type_ )
-
 	mov	eax, DWORD PTR _token$[esp+116]
 	dec	eax
 	cmp	eax, 8
@@ -4760,35 +4587,21 @@ $LN37@readValue:
 	jmp	DWORD PTR $LN175@readValue[eax*4]
 $LN9@readValue:
 
-; 209  :    {
-; 210  :    case tokenObjectBegin:
-; 211  :       successful = readObject( token );
-
 	push	ecx
 	mov	ecx, edi
 	call	?readObject@Reader@Json@@AAE_NAAVToken@12@@Z ; Json::Reader::readObject
 	mov	bl, al
 
-; 212  :       break;
-
 	jmp	$LN10@readValue
 $LN8@readValue:
-
-; 213  :    case tokenArrayBegin:
-; 214  :       successful = readArray( token );
 
 	push	ecx
 	mov	ecx, edi
 	call	?readArray@Reader@Json@@AAE_NAAVToken@12@@Z ; Json::Reader::readArray
 	mov	bl, al
 
-; 215  :       break;
-
 	jmp	$LN10@readValue
 $LN7@readValue:
-
-; 216  :    case tokenNumber:
-; 217  :       successful = decodeNumber( token );
 
 	lea	eax, DWORD PTR _token$[esp+116]
 	push	eax
@@ -4796,13 +4609,8 @@ $LN7@readValue:
 	call	?decodeNumber@Reader@Json@@AAE_NAAVToken@12@@Z ; Json::Reader::decodeNumber
 	mov	bl, al
 
-; 218  :       break;
-
 	jmp	$LN10@readValue
 $LN6@readValue:
-
-; 219  :    case tokenString:
-; 220  :       successful = decodeString( token );
 
 	lea	eax, DWORD PTR _token$[esp+116]
 	push	eax
@@ -4810,13 +4618,9 @@ $LN6@readValue:
 	call	?decodeString@Reader@Json@@AAE_NAAVToken@12@@Z ; Json::Reader::decodeString
 	mov	bl, al
 
-; 221  :       break;
-
 	jmp	$LN10@readValue
 $LN5@readValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 413  : {
 
 	mov	eax, DWORD PTR $T5[esp+124]
 	and	eax, -251				; ffffff05H
@@ -4824,22 +4628,14 @@ $LN5@readValue:
 	mov	DWORD PTR $T5[esp+124], eax
 	mov	DWORD PTR $T5[esp+128], 0
 
-; 414  :    value_.bool_ = value;
-
 	mov	BYTE PTR $T5[esp+116], 1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 223  :       currentValue() = true;
-
 	mov	DWORD PTR __$EHRec$[esp+124], 0
-
-; 224  :       break;
 
 	jmp	SHORT $LN174@readValue
 $LN4@readValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 413  : {
 
 	mov	eax, DWORD PTR $T4[esp+124]
 	and	eax, -251				; ffffff05H
@@ -4847,28 +4643,18 @@ $LN4@readValue:
 	mov	DWORD PTR $T4[esp+124], eax
 	mov	DWORD PTR $T4[esp+128], 0
 
-; 414  :    value_.bool_ = value;
-
 	mov	BYTE PTR $T4[esp+116], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 226  :       currentValue() = false;
-
 	mov	DWORD PTR __$EHRec$[esp+124], 1
-
-; 227  :       break;
 
 	jmp	SHORT $LN174@readValue
 $LN3@readValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 275  : {
-
 	and	DWORD PTR $T3[esp+124], -512		; fffffe00H
 	mov	DWORD PTR $T3[esp+128], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 229  :       currentValue() = Value();
 
 	mov	DWORD PTR __$EHRec$[esp+124], 3
 $LN174@readValue:
@@ -4883,15 +4669,8 @@ $LN174@readValue:
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 $LN10@readValue:
 
-; 233  :    }
-; 234  : 
-; 235  :    if ( collectComments_ )
-
 	cmp	BYTE PTR [edi+110], 0
 	je	$LN145@readValue
-
-; 236  :    {
-; 237  :       lastValueEnd_ = current_;
 
 	mov	eax, DWORD PTR [edi+72]
 	mov	DWORD PTR [edi+76], eax
@@ -4930,8 +4709,6 @@ $LN170@readValue:
 	and	ecx, eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 238  :       lastValue_ = &currentValue();
-
 	mov	eax, DWORD PTR [esi+4]
 ; File f:\program_files\vc\include\deque
 
@@ -4940,15 +4717,9 @@ $LN170@readValue:
 	and	edx, 3
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 238  :       lastValue_ = &currentValue();
-
 	mov	eax, DWORD PTR [eax+ecx*4]
 	mov	eax, DWORD PTR [eax+edx*4]
 	mov	DWORD PTR [edi+80], eax
-
-; 239  :    }
-; 240  : 
-; 241  :    return successful;
 
 	jmp	SHORT $LN145@readValue
 $LN2@readValue:
@@ -5432,8 +5203,6 @@ $LN2@readValue:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 232  :       return addError( "Syntax error: value, object or array expected.", token );
-
 	push	0
 	lea	eax, DWORD PTR _token$[esp+120]
 	push	eax
@@ -5448,8 +5217,6 @@ $LN2@readValue:
 
 	cmp	DWORD PTR $T9[esp+136], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 232  :       return addError( "Syntax error: value, object or array expected.", token );
 
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
@@ -5467,11 +5234,7 @@ $LN2@readValue:
 $LN145@readValue:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 232  :       return addError( "Syntax error: value, object or array expected.", token );
-
 	mov	al, bl
-
-; 242  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[esp+116]
 	mov	DWORD PTR fs:0, ecx
@@ -5533,8 +5296,6 @@ _token$ = 8						; size = 4
 ?skipCommentTokens@Reader@Json@@AAEXAAVToken@12@@Z PROC	; Json::Reader::skipCommentTokens, COMDAT
 ; _this$ = ecx
 
-; 247  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
@@ -5542,21 +5303,10 @@ _token$ = 8						; size = 4
 	mov	esi, ecx
 	push	edi
 
-; 248  :    if ( features_.allowComments_ )
-
 	cmp	BYTE PTR [esi+108], 0
 	je	$LN5@skipCommen
 	mov	edi, DWORD PTR _token$[ebp]
 $LL4@skipCommen:
-
-; 344  :    return true;
-; 345  : }
-; 346  : 
-; 347  : 
-; 348  : void 
-; 349  : Reader::skipSpaces()
-; 350  : {
-; 351  :    while ( current_ != end_ )
 
 	mov	edx, DWORD PTR [esi+68]
 	cmp	DWORD PTR [esi+72], edx
@@ -5564,13 +5314,8 @@ $LL4@skipCommen:
 	npad	3
 $LL31@skipCommen:
 
-; 352  :    {
-; 353  :       Char c = *current_;
-
 	mov	ecx, DWORD PTR [esi+72]
 	mov	al, BYTE PTR [ecx]
-
-; 354  :       if ( c == ' '  ||  c == '\t'  ||  c == '\r'  ||  c == '\n' )
 
 	cmp	al, 32					; 00000020H
 	je	SHORT $LN28@skipCommen
@@ -5582,494 +5327,27 @@ $LL31@skipCommen:
 	jne	SHORT $LN29@skipCommen
 $LN28@skipCommen:
 
-; 355  :          ++current_;
-
 	lea	eax, DWORD PTR [ecx+1]
 	mov	DWORD PTR [esi+72], eax
 	cmp	eax, edx
 	jne	SHORT $LL31@skipCommen
 $LN29@skipCommen:
 
-; 261  : 
-; 262  : 
-; 263  : bool 
-; 264  : Reader::expectToken( TokenType type, Token &token, const char *message )
-; 265  : {
-; 266  :    readToken( token );
-; 267  :    if ( token.type_ != type )
-; 268  :       return addError( message, token );
-; 269  :    return true;
-; 270  : }
-; 271  : 
-; 272  : 
-; 273  : bool 
-; 274  : Reader::readToken( Token &token )
-; 275  : {
-; 276  :    skipSpaces();
-; 277  :    token.start_ = current_;
-
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+4], eax
-
-; 373  :    return true;
-; 374  : }
-; 375  : 
-; 376  : 
-; 377  : bool
-; 378  : Reader::readComment()
-; 379  : {
-; 380  :    Location commentBegin = current_ - 1;
-; 381  :    Char c = getNextChar();
-; 382  :    bool successful = false;
-; 383  :    if ( c == '*' )
-; 384  :       successful = readCStyleComment();
-; 385  :    else if ( c == '/' )
-; 386  :       successful = readCppStyleComment();
-; 387  :    if ( !successful )
-; 388  :       return false;
-; 389  : 
-; 390  :    if ( collectComments_ )
-; 391  :    {
-; 392  :       CommentPlacement placement = commentBefore;
-; 393  :       if ( lastValueEnd_  &&  !containsNewLine( lastValueEnd_, commentBegin ) )
-; 394  :       {
-; 395  :          if ( c != '*'  ||  !containsNewLine( commentBegin, current_ ) )
-; 396  :             placement = commentAfterOnSameLine;
-; 397  :       }
-; 398  : 
-; 399  :       addComment( commentBegin, current_, placement );
-; 400  :    }
-; 401  :    return true;
-; 402  : }
-; 403  : 
-; 404  : 
-; 405  : void 
-; 406  : Reader::addComment( Location begin, 
-; 407  :                     Location end, 
-; 408  :                     CommentPlacement placement )
-; 409  : {
-; 410  :    assert( collectComments_ );
-; 411  :    if ( placement == commentAfterOnSameLine )
-; 412  :    {
-; 413  :       assert( lastValue_ != 0 );
-; 414  :       lastValue_->setComment( std::string( begin, end ), placement );
-; 415  :    }
-; 416  :    else
-; 417  :    {
-; 418  :       if ( !commentsBefore_.empty() )
-; 419  :          commentsBefore_ += "\n";
-; 420  :       commentsBefore_ += std::string( begin, end );
-; 421  :    }
-; 422  : }
-; 423  : 
-; 424  : 
-; 425  : bool 
-; 426  : Reader::readCStyleComment()
-; 427  : {
-; 428  :    while ( current_ != end_ )
-; 429  :    {
-; 430  :       Char c = getNextChar();
-; 431  :       if ( c == '*'  &&  *current_ == '/' )
-; 432  :          break;
-; 433  :    }
-; 434  :    return getNextChar() == '/';
-; 435  : }
-; 436  : 
-; 437  : 
-; 438  : bool 
-; 439  : Reader::readCppStyleComment()
-; 440  : {
-; 441  :    while ( current_ != end_ )
-; 442  :    {
-; 443  :       Char c = getNextChar();
-; 444  :       if (  c == '\r'  ||  c == '\n' )
-; 445  :          break;
-; 446  :    }
-; 447  :    return true;
-; 448  : }
-; 449  : 
-; 450  : 
-; 451  : void 
-; 452  : Reader::readNumber()
-; 453  : {
-; 454  :    while ( current_ != end_ )
-; 455  :    {
-; 456  :       if ( !(*current_ >= '0'  &&  *current_ <= '9')  &&
-; 457  :            !in( *current_, '.', 'e', 'E', '+', '-' ) )
-; 458  :          break;
-; 459  :       ++current_;
-; 460  :    }
-; 461  : }
-; 462  : 
-; 463  : bool
-; 464  : Reader::readString()
-; 465  : {
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
-; 468  :    {
-; 469  :       c = getNextChar();
-; 470  :       if ( c == '\\' )
-; 471  :          getNextChar();
-; 472  :       else if ( c == '"' )
-; 473  :          break;
-; 474  :    }
-; 475  :    return c == '"';
-; 476  : }
-; 477  : 
-; 478  : 
-; 479  : bool 
-; 480  : Reader::readObject( Token &tokenStart )
-; 481  : {
-; 482  :    Token tokenName;
-; 483  :    std::string name;
-; 484  :    currentValue() = Value( objectValue );
-; 485  :    while ( readToken( tokenName ) )
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
-; 489  :          initialTokenOk = readToken( tokenName );
-; 490  :       if  ( !initialTokenOk )
-; 491  :          break;
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
-; 495  :          break;
-; 496  :       
-; 497  :       name = "";
-; 498  :       if ( !decodeString( tokenName, name ) )
-; 499  :          return recoverFromError( tokenObjectEnd );
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
-; 503  :       {
-; 504  :          return addErrorAndRecover( "Missing ':' after object member name", 
-; 505  :                                     colon, 
-; 506  :                                     tokenObjectEnd );
-; 507  :       }
-; 508  :       Value &value = currentValue()[ name ];
-; 509  :       nodes_.push( &value );
-; 510  :       bool ok = readValue();
-; 511  :       nodes_.pop();
-; 512  :       if ( !ok ) // error already set
-; 513  :          return recoverFromError( tokenObjectEnd );
-; 514  : 
-; 515  :       Token comma;
-; 516  :       if ( !readToken( comma )
-; 517  :             ||  ( comma.type_ != tokenObjectEnd  &&  
-; 518  :                   comma.type_ != tokenArraySeparator &&
-; 519  : 		  comma.type_ != tokenComment ) )
-; 520  :       {
-; 521  :          return addErrorAndRecover( "Missing ',' or '}' in object declaration", 
-; 522  :                                     comma, 
-; 523  :                                     tokenObjectEnd );
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
-; 528  :          finalizeTokenOk = readToken( comma );
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-; 530  :          return true;
-; 531  :    }
-; 532  :    return addErrorAndRecover( "Missing '}' or object member name", 
-; 533  :                               tokenName, 
-; 534  :                               tokenObjectEnd );
-; 535  : }
-; 536  : 
-; 537  : 
-; 538  : bool 
-; 539  : Reader::readArray( Token &tokenStart )
-; 540  : {
-; 541  :    currentValue() = Value( arrayValue );
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
-; 547  :       return true;
-; 548  :    }
-; 549  :    int index = 0;
-; 550  :    while ( true )
-; 551  :    {
-; 552  :       Value &value = currentValue()[ index++ ];
-; 553  :       nodes_.push( &value );
-; 554  :       bool ok = readValue();
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-; 558  : 
-; 559  :       Token token;
-; 560  :       // Accept Comment after last item in the array.
-; 561  :       ok = readToken( token );
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-; 563  :       {
-; 564  :          ok = readToken( token );
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-; 569  :       {
-; 570  :          return addErrorAndRecover( "Missing ',' or ']' in array declaration", 
-; 571  :                                     token, 
-; 572  :                                     tokenArrayEnd );
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-; 578  : }
-; 579  : 
-; 580  : 
-; 581  : bool 
-; 582  : Reader::decodeNumber( Token &token )
-; 583  : {
-; 584  :    bool isDouble = false;
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-; 590  :    }
-; 591  :    if ( isDouble )
-; 592  :       return decodeDouble( token );
-; 593  :    Location current = token.start_;
-; 594  :    bool isNegative = *current == '-';
-; 595  :    if ( isNegative )
-; 596  :       ++current;
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
-; 599  :    Value::UInt value = 0;
-; 600  :    while ( current < token.end_ )
-; 601  :    {
-; 602  :       Char c = *current++;
-; 603  :       if ( c < '0'  ||  c > '9' )
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 605  :       if ( value >= threshold )
-; 606  :          return decodeDouble( token );
-; 607  :       value = value * 10 + Value::UInt(c - '0');
-; 608  :    }
-; 609  :    if ( isNegative )
-; 610  :       currentValue() = -Value::Int( value );
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
-; 612  :       currentValue() = Value::Int( value );
-; 613  :    else
-; 614  :       currentValue() = value;
-; 615  :    return true;
-; 616  : }
-; 617  : 
-; 618  : 
-; 619  : bool 
-; 620  : Reader::decodeDouble( Token &token )
-; 621  : {
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-; 626  :    if ( length <= bufferSize )
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
-; 630  :       buffer[length] = 0;
-; 631  :       count = sscanf( buffer, "%lf", &value );
-; 632  :    }
-; 633  :    else
-; 634  :    {
-; 635  :       std::string buffer( token.start_, token.end_ );
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-; 637  :    }
-; 638  : 
-; 639  :    if ( count != 1 )
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 641  :    currentValue() = value;
-; 642  :    return true;
-; 643  : }
-; 644  : 
-; 645  : 
-; 646  : bool 
-; 647  : Reader::decodeString( Token &token )
-; 648  : {
-; 649  :    std::string decoded;
-; 650  :    if ( !decodeString( token, decoded ) )
-; 651  :       return false;
-; 652  :    currentValue() = decoded;
-; 653  :    return true;
-; 654  : }
-; 655  : 
-; 656  : 
-; 657  : bool 
-; 658  : Reader::decodeString( Token &token, std::string &decoded )
-; 659  : {
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-; 661  :    Location current = token.start_ + 1; // skip '"'
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
-; 663  :    while ( current != end )
-; 664  :    {
-; 665  :       Char c = *current++;
-; 666  :       if ( c == '"' )
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
-; 669  :       {
-; 670  :          if ( current == end )
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-; 672  :          Char escape = *current++;
-; 673  :          switch ( escape )
-; 674  :          {
-; 675  :          case '"': decoded += '"'; break;
-; 676  :          case '/': decoded += '/'; break;
-; 677  :          case '\\': decoded += '\\'; break;
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
-; 687  :                   return false;
-; 688  :                decoded += codePointToUTF8(unicode);
-; 689  :             }
-; 690  :             break;
-; 691  :          default:
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-; 693  :          }
-; 694  :       }
-; 695  :       else
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-; 701  : }
-; 702  : 
-; 703  : bool
-; 704  : Reader::decodeUnicodeCodePoint( Token &token, 
-; 705  :                                      Location &current, 
-; 706  :                                      Location end, 
-; 707  :                                      unsigned int &unicode )
-; 708  : {
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-; 711  :       return false;
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
-; 729  :    }
-; 730  :    return true;
-; 731  : }
-; 732  : 
-; 733  : bool 
-; 734  : Reader::decodeUnicodeEscapeSequence( Token &token, 
-; 735  :                                      Location &current, 
-; 736  :                                      Location end, 
-; 737  :                                      unsigned int &unicode )
-; 738  : {
-; 739  :    if ( end - current < 4 )
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-; 741  :    unicode = 0;
-; 742  :    for ( int index =0; index < 4; ++index )
-; 743  :    {
-; 744  :       Char c = *current++;
-; 745  :       unicode *= 16;
-; 746  :       if ( c >= '0'  &&  c <= '9' )
-; 747  :          unicode += c - '0';
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
-; 749  :          unicode += c - 'a' + 10;
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-; 751  :          unicode += c - 'A' + 10;
-; 752  :       else
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-; 754  :    }
-; 755  :    return true;
-; 756  : }
-; 757  : 
-; 758  : 
-; 759  : bool 
-; 760  : Reader::addError( const std::string &message, 
-; 761  :                   Token &token,
-; 762  :                   Location extra )
-; 763  : {
-; 764  :    ErrorInfo info;
-; 765  :    info.token_ = token;
-; 766  :    info.message_ = message;
-; 767  :    info.extra_ = extra;
-; 768  :    errors_.push_back( info );
-; 769  :    return false;
-; 770  : }
-; 771  : 
-; 772  : 
-; 773  : bool 
-; 774  : Reader::recoverFromError( TokenType skipUntilToken )
-; 775  : {
-; 776  :    int errorCount = int(errors_.size());
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-; 786  :    return false;
-; 787  : }
-; 788  : 
-; 789  : 
-; 790  : bool 
-; 791  : Reader::addErrorAndRecover( const std::string &message, 
-; 792  :                             Token &token,
-; 793  :                             TokenType skipUntilToken )
-; 794  : {
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-; 797  : }
-; 798  : 
-; 799  : 
-; 800  : Value &
-; 801  : Reader::currentValue()
-; 802  : {
-; 803  :    return *(nodes_.top());
-; 804  : }
-; 805  : 
-; 806  : 
-; 807  : Reader::Char 
-; 808  : Reader::getNextChar()
-; 809  : {
-; 810  :    if ( current_ == end_ )
 
 	mov	eax, DWORD PTR [esi+72]
 	cmp	eax, DWORD PTR [esi+68]
 	jne	SHORT $LN34@skipCommen
 
-; 811  :       return 0;
-
 	xor	cl, cl
 	jmp	SHORT $LN35@skipCommen
 $LN34@skipCommen:
-
-; 812  :    return *current_++;
 
 	mov	cl, BYTE PTR [eax]
 	inc	eax
 	mov	DWORD PTR [esi+72], eax
 $LN35@skipCommen:
-
-; 278  :    Char c = getNextChar();
-; 279  :    bool ok = true;
-; 280  :    switch ( c )
 
 	movsx	eax, cl
 	cmp	eax, 125				; 0000007dH
@@ -6078,109 +5356,51 @@ $LN35@skipCommen:
 	jmp	DWORD PTR $LN75@skipCommen[eax*4]
 $LN22@skipCommen:
 
-; 281  :    {
-; 282  :    case '{':
-; 283  :       token.type_ = tokenObjectBegin;
-
 	mov	DWORD PTR [edi], 1
-
-; 284  :       break;
 
 	jmp	SHORT $LN8@skipCommen
 $LN21@skipCommen:
 
-; 285  :    case '}':
-; 286  :       token.type_ = tokenObjectEnd;
-
 	mov	DWORD PTR [edi], 2
-
-; 287  :       break;
 
 	jmp	SHORT $LN8@skipCommen
 $LN20@skipCommen:
 
-; 288  :    case '[':
-; 289  :       token.type_ = tokenArrayBegin;
-
 	mov	DWORD PTR [edi], 3
-
-; 290  :       break;
 
 	jmp	SHORT $LN8@skipCommen
 $LN19@skipCommen:
 
-; 291  :    case ']':
-; 292  :       token.type_ = tokenArrayEnd;
-
 	mov	DWORD PTR [edi], 4
-
-; 293  :       break;
 
 	jmp	SHORT $LN8@skipCommen
 $LN18@skipCommen:
-
-; 294  :    case '"':
-; 295  :       token.type_ = tokenString;
-; 296  :       ok = readString();
 
 	mov	ecx, esi
 	mov	DWORD PTR [edi], 5
 	call	?readString@Reader@Json@@AAE_NXZ	; Json::Reader::readString
 
-; 297  :       break;
-
 	jmp	SHORT $LN23@skipCommen
 $LN17@skipCommen:
-
-; 298  :    case '/':
-; 299  :       token.type_ = tokenComment;
-; 300  :       ok = readComment();
 
 	mov	ecx, esi
 	mov	DWORD PTR [edi], 12			; 0000000cH
 	call	?readComment@Reader@Json@@AAE_NXZ	; Json::Reader::readComment
 $LN23@skipCommen:
 
-; 337  :    default:
-; 338  :       ok = false;
-; 339  :       break;
-; 340  :    }
-; 341  :    if ( !ok )
-
 	test	al, al
 	jne	SHORT $LN8@skipCommen
 $LN71@skipCommen:
 
-; 342  :       token.type_ = tokenError;
-
 	mov	DWORD PTR [edi], 13			; 0000000dH
 $LN8@skipCommen:
 
-; 249  :    {
-; 250  :       do
-; 251  :       {
-; 252  :          readToken( token );
-; 253  :       }
-; 254  :       while ( token.type_ == tokenComment );
-
 	cmp	DWORD PTR [edi], 12			; 0000000cH
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 249  :    {
-; 250  :       do
-; 251  :       {
-; 252  :          readToken( token );
-; 253  :       }
-; 254  :       while ( token.type_ == tokenComment );
-
 	je	$LL4@skipCommen
-
-; 259  :    }
-; 260  : }
 
 	pop	edi
 	pop	esi
@@ -6189,46 +5409,14 @@ $LN8@skipCommen:
 	ret	4
 $LN16@skipCommen:
 
-; 301  :       break;
-; 302  :    case '0':
-; 303  :    case '1':
-; 304  :    case '2':
-; 305  :    case '3':
-; 306  :    case '4':
-; 307  :    case '5':
-; 308  :    case '6':
-; 309  :    case '7':
-; 310  :    case '8':
-; 311  :    case '9':
-; 312  :    case '-':
-; 313  :       token.type_ = tokenNumber;
-; 314  :       readNumber();
-
 	mov	ecx, esi
 	mov	DWORD PTR [edi], 6
 	call	?readNumber@Reader@Json@@AAEXXZ		; Json::Reader::readNumber
 
-; 315  :       break;
-
 	jmp	SHORT $LN8@skipCommen
 $LN15@skipCommen:
 
-; 316  :    case 't':
-; 317  :       token.type_ = tokenTrue;
-
 	mov	DWORD PTR [edi], 7
-
-; 356  :       else
-; 357  :          break;
-; 358  :    }
-; 359  : }
-; 360  : 
-; 361  : 
-; 362  : bool 
-; 363  : Reader::match( Location pattern, 
-; 364  :                int patternLength )
-; 365  : {
-; 366  :    if ( end_ - current_ < patternLength )
 
 	mov	edx, DWORD PTR [esi+72]
 	mov	eax, DWORD PTR [esi+68]
@@ -6236,52 +5424,24 @@ $LN15@skipCommen:
 	cmp	eax, 3
 	jl	SHORT $LN71@skipCommen
 
-; 367  :       return false;
-; 368  :    int index = patternLength;
-
 	mov	ecx, 3
 $LL39@skipCommen:
-
-; 370  :       if ( current_[index] != pattern[index] )
 
 	mov	al, BYTE PTR [edx+ecx-1]
 	dec	ecx
 	cmp	al, BYTE PTR ??_C@_03FFDNHNKN@rue?$AA@[ecx]
 	jne	SHORT $LN71@skipCommen
 
-; 369  :    while ( index-- )
-
 	test	ecx, ecx
 	jne	SHORT $LL39@skipCommen
-
-; 371  :          return false;
-; 372  :    current_ += patternLength;
 
 	lea	eax, DWORD PTR [edx+3]
 	mov	DWORD PTR [esi+72], eax
 
-; 318  :       ok = match( "rue", 3 );
-; 319  :       break;
-
 	jmp	SHORT $LN8@skipCommen
 $LN14@skipCommen:
 
-; 320  :    case 'f':
-; 321  :       token.type_ = tokenFalse;
-
 	mov	DWORD PTR [edi], 8
-
-; 356  :       else
-; 357  :          break;
-; 358  :    }
-; 359  : }
-; 360  : 
-; 361  : 
-; 362  : bool 
-; 363  : Reader::match( Location pattern, 
-; 364  :                int patternLength )
-; 365  : {
-; 366  :    if ( end_ - current_ < patternLength )
 
 	mov	edx, DWORD PTR [esi+72]
 	mov	eax, DWORD PTR [esi+68]
@@ -6289,52 +5449,24 @@ $LN14@skipCommen:
 	cmp	eax, 4
 	jl	SHORT $LN71@skipCommen
 
-; 367  :       return false;
-; 368  :    int index = patternLength;
-
 	mov	ecx, 4
 $LL45@skipCommen:
-
-; 370  :       if ( current_[index] != pattern[index] )
 
 	mov	al, BYTE PTR [edx+ecx-1]
 	dec	ecx
 	cmp	al, BYTE PTR ??_C@_04KCECFHEP@alse?$AA@[ecx]
 	jne	$LN71@skipCommen
 
-; 369  :    while ( index-- )
-
 	test	ecx, ecx
 	jne	SHORT $LL45@skipCommen
-
-; 371  :          return false;
-; 372  :    current_ += patternLength;
 
 	lea	eax, DWORD PTR [edx+4]
 	mov	DWORD PTR [esi+72], eax
 
-; 322  :       ok = match( "alse", 4 );
-; 323  :       break;
-
 	jmp	$LN8@skipCommen
 $LN13@skipCommen:
 
-; 324  :    case 'n':
-; 325  :       token.type_ = tokenNull;
-
 	mov	DWORD PTR [edi], 9
-
-; 356  :       else
-; 357  :          break;
-; 358  :    }
-; 359  : }
-; 360  : 
-; 361  : 
-; 362  : bool 
-; 363  : Reader::match( Location pattern, 
-; 364  :                int patternLength )
-; 365  : {
-; 366  :    if ( end_ - current_ < patternLength )
 
 	mov	edx, DWORD PTR [esi+72]
 	mov	eax, DWORD PTR [esi+68]
@@ -6342,77 +5474,41 @@ $LN13@skipCommen:
 	cmp	eax, 3
 	jl	$LN71@skipCommen
 
-; 367  :       return false;
-; 368  :    int index = patternLength;
-
 	mov	ecx, 3
 	npad	3
 $LL51@skipCommen:
-
-; 370  :       if ( current_[index] != pattern[index] )
 
 	mov	al, BYTE PTR [edx+ecx-1]
 	dec	ecx
 	cmp	al, BYTE PTR ??_C@_03KNPGGKC@ull?$AA@[ecx]
 	jne	$LN71@skipCommen
 
-; 369  :    while ( index-- )
-
 	test	ecx, ecx
 	jne	SHORT $LL51@skipCommen
-
-; 371  :          return false;
-; 372  :    current_ += patternLength;
 
 	lea	eax, DWORD PTR [edx+3]
 	mov	DWORD PTR [esi+72], eax
 
-; 326  :       ok = match( "ull", 3 );
-; 327  :       break;
-
 	jmp	$LN8@skipCommen
 $LN12@skipCommen:
 
-; 328  :    case ',':
-; 329  :       token.type_ = tokenArraySeparator;
-
 	mov	DWORD PTR [edi], 10			; 0000000aH
-
-; 330  :       break;
 
 	jmp	$LN8@skipCommen
 $LN11@skipCommen:
 
-; 331  :    case ':':
-; 332  :       token.type_ = tokenMemberSeparator;
-
 	mov	DWORD PTR [edi], 11			; 0000000bH
-
-; 333  :       break;
 
 	jmp	$LN8@skipCommen
 $LN10@skipCommen:
 
-; 334  :    case 0:
-; 335  :       token.type_ = tokenEndOfStream;
-
 	mov	DWORD PTR [edi], 0
-
-; 336  :       break;
 
 	jmp	$LN8@skipCommen
 $LN5@skipCommen:
 
-; 255  :    }
-; 256  :    else
-; 257  :    {
-; 258  :       readToken( token );
-
 	push	DWORD PTR _token$[ebp]
 	call	?readToken@Reader@Json@@AAE_NAAVToken@12@@Z ; Json::Reader::readToken
-
-; 259  :    }
-; 260  : }
 
 	pop	edi
 	pop	esi
@@ -6571,8 +5667,6 @@ _token$ = 8						; size = 4
 ?readToken@Reader@Json@@AAE_NAAVToken@12@@Z PROC	; Json::Reader::readToken, COMDAT
 ; _this$ = ecx
 
-; 275  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
@@ -6580,25 +5674,13 @@ _token$ = 8						; size = 4
 	mov	esi, ecx
 	push	edi
 
-; 346  : 
-; 347  : 
-; 348  : void 
-; 349  : Reader::skipSpaces()
-; 350  : {
-; 351  :    while ( current_ != end_ )
-
 	mov	edx, DWORD PTR [esi+68]
 	cmp	DWORD PTR [esi+72], edx
 	je	SHORT $LN22@readToken
 $LL24@readToken:
 
-; 352  :    {
-; 353  :       Char c = *current_;
-
 	mov	ecx, DWORD PTR [esi+72]
 	mov	al, BYTE PTR [ecx]
-
-; 354  :       if ( c == ' '  ||  c == '\t'  ||  c == '\r'  ||  c == '\n' )
 
 	cmp	al, 32					; 00000020H
 	je	SHORT $LN21@readToken
@@ -6610,480 +5692,28 @@ $LL24@readToken:
 	jne	SHORT $LN22@readToken
 $LN21@readToken:
 
-; 355  :          ++current_;
-
 	lea	eax, DWORD PTR [ecx+1]
 	mov	DWORD PTR [esi+72], eax
 	cmp	eax, edx
 	jne	SHORT $LL24@readToken
 $LN22@readToken:
 
-; 276  :    skipSpaces();
-; 277  :    token.start_ = current_;
-
 	mov	eax, DWORD PTR [esi+72]
 	mov	edi, DWORD PTR _token$[ebp]
 	mov	DWORD PTR [edi+4], eax
-
-; 373  :    return true;
-; 374  : }
-; 375  : 
-; 376  : 
-; 377  : bool
-; 378  : Reader::readComment()
-; 379  : {
-; 380  :    Location commentBegin = current_ - 1;
-; 381  :    Char c = getNextChar();
-; 382  :    bool successful = false;
-; 383  :    if ( c == '*' )
-; 384  :       successful = readCStyleComment();
-; 385  :    else if ( c == '/' )
-; 386  :       successful = readCppStyleComment();
-; 387  :    if ( !successful )
-; 388  :       return false;
-; 389  : 
-; 390  :    if ( collectComments_ )
-; 391  :    {
-; 392  :       CommentPlacement placement = commentBefore;
-; 393  :       if ( lastValueEnd_  &&  !containsNewLine( lastValueEnd_, commentBegin ) )
-; 394  :       {
-; 395  :          if ( c != '*'  ||  !containsNewLine( commentBegin, current_ ) )
-; 396  :             placement = commentAfterOnSameLine;
-; 397  :       }
-; 398  : 
-; 399  :       addComment( commentBegin, current_, placement );
-; 400  :    }
-; 401  :    return true;
-; 402  : }
-; 403  : 
-; 404  : 
-; 405  : void 
-; 406  : Reader::addComment( Location begin, 
-; 407  :                     Location end, 
-; 408  :                     CommentPlacement placement )
-; 409  : {
-; 410  :    assert( collectComments_ );
-; 411  :    if ( placement == commentAfterOnSameLine )
-; 412  :    {
-; 413  :       assert( lastValue_ != 0 );
-; 414  :       lastValue_->setComment( std::string( begin, end ), placement );
-; 415  :    }
-; 416  :    else
-; 417  :    {
-; 418  :       if ( !commentsBefore_.empty() )
-; 419  :          commentsBefore_ += "\n";
-; 420  :       commentsBefore_ += std::string( begin, end );
-; 421  :    }
-; 422  : }
-; 423  : 
-; 424  : 
-; 425  : bool 
-; 426  : Reader::readCStyleComment()
-; 427  : {
-; 428  :    while ( current_ != end_ )
-; 429  :    {
-; 430  :       Char c = getNextChar();
-; 431  :       if ( c == '*'  &&  *current_ == '/' )
-; 432  :          break;
-; 433  :    }
-; 434  :    return getNextChar() == '/';
-; 435  : }
-; 436  : 
-; 437  : 
-; 438  : bool 
-; 439  : Reader::readCppStyleComment()
-; 440  : {
-; 441  :    while ( current_ != end_ )
-; 442  :    {
-; 443  :       Char c = getNextChar();
-; 444  :       if (  c == '\r'  ||  c == '\n' )
-; 445  :          break;
-; 446  :    }
-; 447  :    return true;
-; 448  : }
-; 449  : 
-; 450  : 
-; 451  : void 
-; 452  : Reader::readNumber()
-; 453  : {
-; 454  :    while ( current_ != end_ )
-; 455  :    {
-; 456  :       if ( !(*current_ >= '0'  &&  *current_ <= '9')  &&
-; 457  :            !in( *current_, '.', 'e', 'E', '+', '-' ) )
-; 458  :          break;
-; 459  :       ++current_;
-; 460  :    }
-; 461  : }
-; 462  : 
-; 463  : bool
-; 464  : Reader::readString()
-; 465  : {
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
-; 468  :    {
-; 469  :       c = getNextChar();
-; 470  :       if ( c == '\\' )
-; 471  :          getNextChar();
-; 472  :       else if ( c == '"' )
-; 473  :          break;
-; 474  :    }
-; 475  :    return c == '"';
-; 476  : }
-; 477  : 
-; 478  : 
-; 479  : bool 
-; 480  : Reader::readObject( Token &tokenStart )
-; 481  : {
-; 482  :    Token tokenName;
-; 483  :    std::string name;
-; 484  :    currentValue() = Value( objectValue );
-; 485  :    while ( readToken( tokenName ) )
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
-; 489  :          initialTokenOk = readToken( tokenName );
-; 490  :       if  ( !initialTokenOk )
-; 491  :          break;
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
-; 495  :          break;
-; 496  :       
-; 497  :       name = "";
-; 498  :       if ( !decodeString( tokenName, name ) )
-; 499  :          return recoverFromError( tokenObjectEnd );
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
-; 503  :       {
-; 504  :          return addErrorAndRecover( "Missing ':' after object member name", 
-; 505  :                                     colon, 
-; 506  :                                     tokenObjectEnd );
-; 507  :       }
-; 508  :       Value &value = currentValue()[ name ];
-; 509  :       nodes_.push( &value );
-; 510  :       bool ok = readValue();
-; 511  :       nodes_.pop();
-; 512  :       if ( !ok ) // error already set
-; 513  :          return recoverFromError( tokenObjectEnd );
-; 514  : 
-; 515  :       Token comma;
-; 516  :       if ( !readToken( comma )
-; 517  :             ||  ( comma.type_ != tokenObjectEnd  &&  
-; 518  :                   comma.type_ != tokenArraySeparator &&
-; 519  : 		  comma.type_ != tokenComment ) )
-; 520  :       {
-; 521  :          return addErrorAndRecover( "Missing ',' or '}' in object declaration", 
-; 522  :                                     comma, 
-; 523  :                                     tokenObjectEnd );
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
-; 528  :          finalizeTokenOk = readToken( comma );
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-; 530  :          return true;
-; 531  :    }
-; 532  :    return addErrorAndRecover( "Missing '}' or object member name", 
-; 533  :                               tokenName, 
-; 534  :                               tokenObjectEnd );
-; 535  : }
-; 536  : 
-; 537  : 
-; 538  : bool 
-; 539  : Reader::readArray( Token &tokenStart )
-; 540  : {
-; 541  :    currentValue() = Value( arrayValue );
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
-; 547  :       return true;
-; 548  :    }
-; 549  :    int index = 0;
-; 550  :    while ( true )
-; 551  :    {
-; 552  :       Value &value = currentValue()[ index++ ];
-; 553  :       nodes_.push( &value );
-; 554  :       bool ok = readValue();
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-; 558  : 
-; 559  :       Token token;
-; 560  :       // Accept Comment after last item in the array.
-; 561  :       ok = readToken( token );
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-; 563  :       {
-; 564  :          ok = readToken( token );
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-; 569  :       {
-; 570  :          return addErrorAndRecover( "Missing ',' or ']' in array declaration", 
-; 571  :                                     token, 
-; 572  :                                     tokenArrayEnd );
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-; 578  : }
-; 579  : 
-; 580  : 
-; 581  : bool 
-; 582  : Reader::decodeNumber( Token &token )
-; 583  : {
-; 584  :    bool isDouble = false;
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-; 590  :    }
-; 591  :    if ( isDouble )
-; 592  :       return decodeDouble( token );
-; 593  :    Location current = token.start_;
-; 594  :    bool isNegative = *current == '-';
-; 595  :    if ( isNegative )
-; 596  :       ++current;
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
-; 599  :    Value::UInt value = 0;
-; 600  :    while ( current < token.end_ )
-; 601  :    {
-; 602  :       Char c = *current++;
-; 603  :       if ( c < '0'  ||  c > '9' )
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 605  :       if ( value >= threshold )
-; 606  :          return decodeDouble( token );
-; 607  :       value = value * 10 + Value::UInt(c - '0');
-; 608  :    }
-; 609  :    if ( isNegative )
-; 610  :       currentValue() = -Value::Int( value );
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
-; 612  :       currentValue() = Value::Int( value );
-; 613  :    else
-; 614  :       currentValue() = value;
-; 615  :    return true;
-; 616  : }
-; 617  : 
-; 618  : 
-; 619  : bool 
-; 620  : Reader::decodeDouble( Token &token )
-; 621  : {
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-; 626  :    if ( length <= bufferSize )
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
-; 630  :       buffer[length] = 0;
-; 631  :       count = sscanf( buffer, "%lf", &value );
-; 632  :    }
-; 633  :    else
-; 634  :    {
-; 635  :       std::string buffer( token.start_, token.end_ );
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-; 637  :    }
-; 638  : 
-; 639  :    if ( count != 1 )
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 641  :    currentValue() = value;
-; 642  :    return true;
-; 643  : }
-; 644  : 
-; 645  : 
-; 646  : bool 
-; 647  : Reader::decodeString( Token &token )
-; 648  : {
-; 649  :    std::string decoded;
-; 650  :    if ( !decodeString( token, decoded ) )
-; 651  :       return false;
-; 652  :    currentValue() = decoded;
-; 653  :    return true;
-; 654  : }
-; 655  : 
-; 656  : 
-; 657  : bool 
-; 658  : Reader::decodeString( Token &token, std::string &decoded )
-; 659  : {
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-; 661  :    Location current = token.start_ + 1; // skip '"'
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
-; 663  :    while ( current != end )
-; 664  :    {
-; 665  :       Char c = *current++;
-; 666  :       if ( c == '"' )
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
-; 669  :       {
-; 670  :          if ( current == end )
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-; 672  :          Char escape = *current++;
-; 673  :          switch ( escape )
-; 674  :          {
-; 675  :          case '"': decoded += '"'; break;
-; 676  :          case '/': decoded += '/'; break;
-; 677  :          case '\\': decoded += '\\'; break;
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
-; 687  :                   return false;
-; 688  :                decoded += codePointToUTF8(unicode);
-; 689  :             }
-; 690  :             break;
-; 691  :          default:
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-; 693  :          }
-; 694  :       }
-; 695  :       else
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-; 701  : }
-; 702  : 
-; 703  : bool
-; 704  : Reader::decodeUnicodeCodePoint( Token &token, 
-; 705  :                                      Location &current, 
-; 706  :                                      Location end, 
-; 707  :                                      unsigned int &unicode )
-; 708  : {
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-; 711  :       return false;
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
-; 729  :    }
-; 730  :    return true;
-; 731  : }
-; 732  : 
-; 733  : bool 
-; 734  : Reader::decodeUnicodeEscapeSequence( Token &token, 
-; 735  :                                      Location &current, 
-; 736  :                                      Location end, 
-; 737  :                                      unsigned int &unicode )
-; 738  : {
-; 739  :    if ( end - current < 4 )
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-; 741  :    unicode = 0;
-; 742  :    for ( int index =0; index < 4; ++index )
-; 743  :    {
-; 744  :       Char c = *current++;
-; 745  :       unicode *= 16;
-; 746  :       if ( c >= '0'  &&  c <= '9' )
-; 747  :          unicode += c - '0';
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
-; 749  :          unicode += c - 'a' + 10;
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-; 751  :          unicode += c - 'A' + 10;
-; 752  :       else
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-; 754  :    }
-; 755  :    return true;
-; 756  : }
-; 757  : 
-; 758  : 
-; 759  : bool 
-; 760  : Reader::addError( const std::string &message, 
-; 761  :                   Token &token,
-; 762  :                   Location extra )
-; 763  : {
-; 764  :    ErrorInfo info;
-; 765  :    info.token_ = token;
-; 766  :    info.message_ = message;
-; 767  :    info.extra_ = extra;
-; 768  :    errors_.push_back( info );
-; 769  :    return false;
-; 770  : }
-; 771  : 
-; 772  : 
-; 773  : bool 
-; 774  : Reader::recoverFromError( TokenType skipUntilToken )
-; 775  : {
-; 776  :    int errorCount = int(errors_.size());
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-; 786  :    return false;
-; 787  : }
-; 788  : 
-; 789  : 
-; 790  : bool 
-; 791  : Reader::addErrorAndRecover( const std::string &message, 
-; 792  :                             Token &token,
-; 793  :                             TokenType skipUntilToken )
-; 794  : {
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-; 797  : }
-; 798  : 
-; 799  : 
-; 800  : Value &
-; 801  : Reader::currentValue()
-; 802  : {
-; 803  :    return *(nodes_.top());
-; 804  : }
-; 805  : 
-; 806  : 
-; 807  : Reader::Char 
-; 808  : Reader::getNextChar()
-; 809  : {
-; 810  :    if ( current_ == end_ )
 
 	mov	eax, DWORD PTR [esi+72]
 	cmp	eax, DWORD PTR [esi+68]
 	jne	SHORT $LN27@readToken
 
-; 811  :       return 0;
-
 	xor	cl, cl
 	jmp	SHORT $LN28@readToken
 $LN27@readToken:
-
-; 812  :    return *current_++;
 
 	mov	cl, BYTE PTR [eax]
 	inc	eax
 	mov	DWORD PTR [esi+72], eax
 $LN28@readToken:
-
-; 278  :    Char c = getNextChar();
-; 279  :    bool ok = true;
-; 280  :    switch ( c )
 
 	movsx	eax, cl
 	cmp	eax, 125				; 0000007dH
@@ -7092,22 +5722,12 @@ $LN28@readToken:
 	jmp	DWORD PTR $LN66@readToken[eax*4]
 $LN15@readToken:
 
-; 281  :    {
-; 282  :    case '{':
-; 283  :       token.type_ = tokenObjectBegin;
-
 	mov	DWORD PTR [edi], 1
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7116,22 +5736,12 @@ $LN15@readToken:
 	ret	4
 $LN14@readToken:
 
-; 284  :       break;
-; 285  :    case '}':
-; 286  :       token.type_ = tokenObjectEnd;
-
 	mov	DWORD PTR [edi], 2
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7140,22 +5750,12 @@ $LN14@readToken:
 	ret	4
 $LN13@readToken:
 
-; 287  :       break;
-; 288  :    case '[':
-; 289  :       token.type_ = tokenArrayBegin;
-
 	mov	DWORD PTR [edi], 3
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7164,22 +5764,12 @@ $LN13@readToken:
 	ret	4
 $LN12@readToken:
 
-; 290  :       break;
-; 291  :    case ']':
-; 292  :       token.type_ = tokenArrayEnd;
-
 	mov	DWORD PTR [edi], 4
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7188,55 +5778,29 @@ $LN12@readToken:
 	ret	4
 $LN11@readToken:
 
-; 293  :       break;
-; 294  :    case '"':
-; 295  :       token.type_ = tokenString;
-; 296  :       ok = readString();
-
 	mov	ecx, esi
 	mov	DWORD PTR [edi], 5
 	call	?readString@Reader@Json@@AAE_NXZ	; Json::Reader::readString
 
-; 297  :       break;
-
 	jmp	SHORT $LN16@readToken
 $LN10@readToken:
-
-; 298  :    case '/':
-; 299  :       token.type_ = tokenComment;
-; 300  :       ok = readComment();
 
 	mov	ecx, esi
 	mov	DWORD PTR [edi], 12			; 0000000cH
 	call	?readComment@Reader@Json@@AAE_NXZ	; Json::Reader::readComment
 $LN16@readToken:
 
-; 336  :       break;
-; 337  :    default:
-; 338  :       ok = false;
-; 339  :       break;
-; 340  :    }
-; 341  :    if ( !ok )
-
 	test	al, al
 	jne	SHORT $LN1@readToken
 $LN62@readToken:
 
-; 342  :       token.type_ = tokenError;
-
 	mov	DWORD PTR [edi], 13			; 0000000dH
 $LN1@readToken:
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7245,35 +5809,14 @@ $LN1@readToken:
 	ret	4
 $LN9@readToken:
 
-; 301  :       break;
-; 302  :    case '0':
-; 303  :    case '1':
-; 304  :    case '2':
-; 305  :    case '3':
-; 306  :    case '4':
-; 307  :    case '5':
-; 308  :    case '6':
-; 309  :    case '7':
-; 310  :    case '8':
-; 311  :    case '9':
-; 312  :    case '-':
-; 313  :       token.type_ = tokenNumber;
-; 314  :       readNumber();
-
 	mov	ecx, esi
 	mov	DWORD PTR [edi], 6
 	call	?readNumber@Reader@Json@@AAEXXZ		; Json::Reader::readNumber
 
-; 343  :    token.end_ = current_;
-
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7282,23 +5825,7 @@ $LN9@readToken:
 	ret	4
 $LN8@readToken:
 
-; 315  :       break;
-; 316  :    case 't':
-; 317  :       token.type_ = tokenTrue;
-
 	mov	DWORD PTR [edi], 7
-
-; 356  :       else
-; 357  :          break;
-; 358  :    }
-; 359  : }
-; 360  : 
-; 361  : 
-; 362  : bool 
-; 363  : Reader::match( Location pattern, 
-; 364  :                int patternLength )
-; 365  : {
-; 366  :    if ( end_ - current_ < patternLength )
 
 	mov	edx, DWORD PTR [esi+72]
 	mov	eax, DWORD PTR [esi+68]
@@ -7306,39 +5833,23 @@ $LN8@readToken:
 	cmp	eax, 3
 	jl	SHORT $LN62@readToken
 
-; 367  :       return false;
-; 368  :    int index = patternLength;
-
 	mov	ecx, 3
 $LL32@readToken:
-
-; 370  :       if ( current_[index] != pattern[index] )
 
 	mov	al, BYTE PTR [edx+ecx-1]
 	dec	ecx
 	cmp	al, BYTE PTR ??_C@_03FFDNHNKN@rue?$AA@[ecx]
 	jne	SHORT $LN62@readToken
 
-; 369  :    while ( index-- )
-
 	test	ecx, ecx
 	jne	SHORT $LL32@readToken
-
-; 371  :          return false;
-; 372  :    current_ += patternLength;
 
 	lea	eax, DWORD PTR [edx+3]
 	mov	DWORD PTR [esi+72], eax
 
-; 343  :    token.end_ = current_;
-
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7347,24 +5858,7 @@ $LL32@readToken:
 	ret	4
 $LN7@readToken:
 
-; 318  :       ok = match( "rue", 3 );
-; 319  :       break;
-; 320  :    case 'f':
-; 321  :       token.type_ = tokenFalse;
-
 	mov	DWORD PTR [edi], 8
-
-; 356  :       else
-; 357  :          break;
-; 358  :    }
-; 359  : }
-; 360  : 
-; 361  : 
-; 362  : bool 
-; 363  : Reader::match( Location pattern, 
-; 364  :                int patternLength )
-; 365  : {
-; 366  :    if ( end_ - current_ < patternLength )
 
 	mov	edx, DWORD PTR [esi+72]
 	mov	eax, DWORD PTR [esi+68]
@@ -7372,40 +5866,24 @@ $LN7@readToken:
 	cmp	eax, 4
 	jl	SHORT $LN62@readToken
 
-; 367  :       return false;
-; 368  :    int index = patternLength;
-
 	mov	ecx, 4
 	npad	4
 $LL38@readToken:
-
-; 370  :       if ( current_[index] != pattern[index] )
 
 	mov	al, BYTE PTR [edx+ecx-1]
 	dec	ecx
 	cmp	al, BYTE PTR ??_C@_04KCECFHEP@alse?$AA@[ecx]
 	jne	$LN62@readToken
 
-; 369  :    while ( index-- )
-
 	test	ecx, ecx
 	jne	SHORT $LL38@readToken
-
-; 371  :          return false;
-; 372  :    current_ += patternLength;
 
 	lea	eax, DWORD PTR [edx+4]
 	mov	DWORD PTR [esi+72], eax
 
-; 343  :    token.end_ = current_;
-
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7414,24 +5892,7 @@ $LL38@readToken:
 	ret	4
 $LN6@readToken:
 
-; 322  :       ok = match( "alse", 4 );
-; 323  :       break;
-; 324  :    case 'n':
-; 325  :       token.type_ = tokenNull;
-
 	mov	DWORD PTR [edi], 9
-
-; 356  :       else
-; 357  :          break;
-; 358  :    }
-; 359  : }
-; 360  : 
-; 361  : 
-; 362  : bool 
-; 363  : Reader::match( Location pattern, 
-; 364  :                int patternLength )
-; 365  : {
-; 366  :    if ( end_ - current_ < patternLength )
 
 	mov	edx, DWORD PTR [esi+72]
 	mov	eax, DWORD PTR [esi+68]
@@ -7439,39 +5900,23 @@ $LN6@readToken:
 	cmp	eax, 3
 	jl	$LN62@readToken
 
-; 367  :       return false;
-; 368  :    int index = patternLength;
-
 	mov	ecx, 3
 $LL44@readToken:
-
-; 370  :       if ( current_[index] != pattern[index] )
 
 	mov	al, BYTE PTR [edx+ecx-1]
 	dec	ecx
 	cmp	al, BYTE PTR ??_C@_03KNPGGKC@ull?$AA@[ecx]
 	jne	$LN62@readToken
 
-; 369  :    while ( index-- )
-
 	test	ecx, ecx
 	jne	SHORT $LL44@readToken
-
-; 371  :          return false;
-; 372  :    current_ += patternLength;
 
 	lea	eax, DWORD PTR [edx+3]
 	mov	DWORD PTR [esi+72], eax
 
-; 343  :    token.end_ = current_;
-
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7480,23 +5925,12 @@ $LL44@readToken:
 	ret	4
 $LN5@readToken:
 
-; 326  :       ok = match( "ull", 3 );
-; 327  :       break;
-; 328  :    case ',':
-; 329  :       token.type_ = tokenArraySeparator;
-
 	mov	DWORD PTR [edi], 10			; 0000000aH
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7505,22 +5939,12 @@ $LN5@readToken:
 	ret	4
 $LN4@readToken:
 
-; 330  :       break;
-; 331  :    case ':':
-; 332  :       token.type_ = tokenMemberSeparator;
-
 	mov	DWORD PTR [edi], 11			; 0000000bH
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
 
-; 344  :    return true;
-
 	mov	al, 1
-
-; 345  : }
 
 	pop	edi
 	pop	esi
@@ -7529,18 +5953,10 @@ $LN4@readToken:
 	ret	4
 $LN3@readToken:
 
-; 333  :       break;
-; 334  :    case 0:
-; 335  :       token.type_ = tokenEndOfStream;
-
 	mov	DWORD PTR [edi], 0
-
-; 343  :    token.end_ = current_;
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	DWORD PTR [edi+8], eax
-
-; 345  : }
 
 	pop	edi
 	mov	al, 1
@@ -7700,11 +6116,7 @@ _TEXT	SEGMENT
 ?skipSpaces@Reader@Json@@AAEXXZ PROC			; Json::Reader::skipSpaces, COMDAT
 ; _this$ = ecx
 
-; 350  : {
-
 	push	esi
-
-; 351  :    while ( current_ != end_ )
 
 	mov	esi, DWORD PTR [ecx+68]
 	cmp	DWORD PTR [ecx+72], esi
@@ -7712,13 +6124,8 @@ _TEXT	SEGMENT
 	npad	7
 $LL5@skipSpaces:
 
-; 352  :    {
-; 353  :       Char c = *current_;
-
 	mov	edx, DWORD PTR [ecx+72]
 	mov	al, BYTE PTR [edx]
-
-; 354  :       if ( c == ' '  ||  c == '\t'  ||  c == '\r'  ||  c == '\n' )
 
 	cmp	al, 32					; 00000020H
 	je	SHORT $LN2@skipSpaces
@@ -7730,19 +6137,12 @@ $LL5@skipSpaces:
 	jne	SHORT $LN10@skipSpaces
 $LN2@skipSpaces:
 
-; 355  :          ++current_;
-
 	lea	eax, DWORD PTR [edx+1]
 	mov	DWORD PTR [ecx+72], eax
 	cmp	eax, esi
 	jne	SHORT $LL5@skipSpaces
 $LN10@skipSpaces:
 	pop	esi
-
-; 356  :       else
-; 357  :          break;
-; 358  :    }
-; 359  : }
 
 	ret	0
 ?skipSpaces@Reader@Json@@AAEXXZ ENDP			; Json::Reader::skipSpaces
@@ -7756,15 +6156,11 @@ _patternLength$ = 12					; size = 4
 ?match@Reader@Json@@AAE_NPBDH@Z PROC			; Json::Reader::match, COMDAT
 ; _this$ = ecx
 
-; 365  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ebx
 	mov	ebx, ecx
 	push	esi
-
-; 366  :    if ( end_ - current_ < patternLength )
 
 	mov	edx, DWORD PTR [ebx+72]
 	mov	eax, DWORD PTR [ebx+68]
@@ -7773,56 +6169,38 @@ _patternLength$ = 12					; size = 4
 	cmp	eax, esi
 	jge	SHORT $LN4@match
 
-; 367  :       return false;
-
 	pop	esi
 	xor	al, al
 	pop	ebx
-
-; 374  : }
 
 	pop	ebp
 	ret	8
 $LN4@match:
 	push	edi
 
-; 368  :    int index = patternLength;
-
 	mov	ecx, esi
-
-; 369  :    while ( index-- )
 
 	test	esi, esi
 	je	SHORT $LN9@match
 	mov	edi, DWORD PTR _pattern$[ebp]
 $LL3@match:
 
-; 370  :       if ( current_[index] != pattern[index] )
-
 	mov	al, BYTE PTR [edx+ecx-1]
 	dec	ecx
 	cmp	al, BYTE PTR [ecx+edi]
 	jne	SHORT $LN8@match
 
-; 369  :    while ( index-- )
-
 	test	ecx, ecx
 	jne	SHORT $LL3@match
 $LN9@match:
-
-; 372  :    current_ += patternLength;
 
 	lea	eax, DWORD PTR [edx+esi]
 	pop	edi
 	mov	DWORD PTR [ebx+72], eax
 	pop	esi
 
-; 373  :    return true;
-
 	mov	al, 1
 	pop	ebx
-
-; 374  : }
 
 	pop	ebp
 	ret	8
@@ -7830,12 +6208,8 @@ $LN8@match:
 	pop	edi
 	pop	esi
 
-; 371  :          return false;
-
 	xor	al, al
 	pop	ebx
-
-; 374  : }
 
 	pop	ebp
 	ret	8
@@ -7849,8 +6223,6 @@ _c$1$ = -1						; size = 1
 ?readComment@Reader@Json@@AAE_NXZ PROC			; Json::Reader::readComment, COMDAT
 ; _this$ = ecx
 
-; 379  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	ecx
@@ -7859,787 +6231,31 @@ _c$1$ = -1						; size = 1
 	mov	esi, ecx
 	push	edi
 
-; 380  :    Location commentBegin = current_ - 1;
-
 	mov	eax, DWORD PTR [esi+72]
-
-; 445  :          break;
-; 446  :    }
-; 447  :    return true;
-; 448  : }
-; 449  : 
-; 450  : 
-; 451  : void 
-; 452  : Reader::readNumber()
-; 453  : {
-; 454  :    while ( current_ != end_ )
-; 455  :    {
-; 456  :       if ( !(*current_ >= '0'  &&  *current_ <= '9')  &&
-; 457  :            !in( *current_, '.', 'e', 'E', '+', '-' ) )
-; 458  :          break;
-; 459  :       ++current_;
-; 460  :    }
-; 461  : }
-; 462  : 
-; 463  : bool
-; 464  : Reader::readString()
-; 465  : {
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
-; 468  :    {
-; 469  :       c = getNextChar();
-; 470  :       if ( c == '\\' )
-; 471  :          getNextChar();
-; 472  :       else if ( c == '"' )
-; 473  :          break;
-; 474  :    }
-; 475  :    return c == '"';
-; 476  : }
-; 477  : 
-; 478  : 
-; 479  : bool 
-; 480  : Reader::readObject( Token &tokenStart )
-; 481  : {
-; 482  :    Token tokenName;
-; 483  :    std::string name;
-; 484  :    currentValue() = Value( objectValue );
-; 485  :    while ( readToken( tokenName ) )
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
-; 489  :          initialTokenOk = readToken( tokenName );
-; 490  :       if  ( !initialTokenOk )
-; 491  :          break;
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
-; 495  :          break;
-; 496  :       
-; 497  :       name = "";
-; 498  :       if ( !decodeString( tokenName, name ) )
-; 499  :          return recoverFromError( tokenObjectEnd );
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
-; 503  :       {
-; 504  :          return addErrorAndRecover( "Missing ':' after object member name", 
-; 505  :                                     colon, 
-; 506  :                                     tokenObjectEnd );
-; 507  :       }
-; 508  :       Value &value = currentValue()[ name ];
-; 509  :       nodes_.push( &value );
-; 510  :       bool ok = readValue();
-; 511  :       nodes_.pop();
-; 512  :       if ( !ok ) // error already set
-; 513  :          return recoverFromError( tokenObjectEnd );
-; 514  : 
-; 515  :       Token comma;
-; 516  :       if ( !readToken( comma )
-; 517  :             ||  ( comma.type_ != tokenObjectEnd  &&  
-; 518  :                   comma.type_ != tokenArraySeparator &&
-; 519  : 		  comma.type_ != tokenComment ) )
-; 520  :       {
-; 521  :          return addErrorAndRecover( "Missing ',' or '}' in object declaration", 
-; 522  :                                     comma, 
-; 523  :                                     tokenObjectEnd );
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
-; 528  :          finalizeTokenOk = readToken( comma );
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-; 530  :          return true;
-; 531  :    }
-; 532  :    return addErrorAndRecover( "Missing '}' or object member name", 
-; 533  :                               tokenName, 
-; 534  :                               tokenObjectEnd );
-; 535  : }
-; 536  : 
-; 537  : 
-; 538  : bool 
-; 539  : Reader::readArray( Token &tokenStart )
-; 540  : {
-; 541  :    currentValue() = Value( arrayValue );
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
-; 547  :       return true;
-; 548  :    }
-; 549  :    int index = 0;
-; 550  :    while ( true )
-; 551  :    {
-; 552  :       Value &value = currentValue()[ index++ ];
-; 553  :       nodes_.push( &value );
-; 554  :       bool ok = readValue();
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-; 558  : 
-; 559  :       Token token;
-; 560  :       // Accept Comment after last item in the array.
-; 561  :       ok = readToken( token );
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-; 563  :       {
-; 564  :          ok = readToken( token );
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-; 569  :       {
-; 570  :          return addErrorAndRecover( "Missing ',' or ']' in array declaration", 
-; 571  :                                     token, 
-; 572  :                                     tokenArrayEnd );
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-; 578  : }
-; 579  : 
-; 580  : 
-; 581  : bool 
-; 582  : Reader::decodeNumber( Token &token )
-; 583  : {
-; 584  :    bool isDouble = false;
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-; 590  :    }
-; 591  :    if ( isDouble )
-; 592  :       return decodeDouble( token );
-; 593  :    Location current = token.start_;
-; 594  :    bool isNegative = *current == '-';
-; 595  :    if ( isNegative )
-; 596  :       ++current;
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
-; 599  :    Value::UInt value = 0;
-; 600  :    while ( current < token.end_ )
-; 601  :    {
-; 602  :       Char c = *current++;
-; 603  :       if ( c < '0'  ||  c > '9' )
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 605  :       if ( value >= threshold )
-; 606  :          return decodeDouble( token );
-; 607  :       value = value * 10 + Value::UInt(c - '0');
-; 608  :    }
-; 609  :    if ( isNegative )
-; 610  :       currentValue() = -Value::Int( value );
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
-; 612  :       currentValue() = Value::Int( value );
-; 613  :    else
-; 614  :       currentValue() = value;
-; 615  :    return true;
-; 616  : }
-; 617  : 
-; 618  : 
-; 619  : bool 
-; 620  : Reader::decodeDouble( Token &token )
-; 621  : {
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-; 626  :    if ( length <= bufferSize )
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
-; 630  :       buffer[length] = 0;
-; 631  :       count = sscanf( buffer, "%lf", &value );
-; 632  :    }
-; 633  :    else
-; 634  :    {
-; 635  :       std::string buffer( token.start_, token.end_ );
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-; 637  :    }
-; 638  : 
-; 639  :    if ( count != 1 )
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 641  :    currentValue() = value;
-; 642  :    return true;
-; 643  : }
-; 644  : 
-; 645  : 
-; 646  : bool 
-; 647  : Reader::decodeString( Token &token )
-; 648  : {
-; 649  :    std::string decoded;
-; 650  :    if ( !decodeString( token, decoded ) )
-; 651  :       return false;
-; 652  :    currentValue() = decoded;
-; 653  :    return true;
-; 654  : }
-; 655  : 
-; 656  : 
-; 657  : bool 
-; 658  : Reader::decodeString( Token &token, std::string &decoded )
-; 659  : {
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-; 661  :    Location current = token.start_ + 1; // skip '"'
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
-; 663  :    while ( current != end )
-; 664  :    {
-; 665  :       Char c = *current++;
-; 666  :       if ( c == '"' )
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
-; 669  :       {
-; 670  :          if ( current == end )
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-; 672  :          Char escape = *current++;
-; 673  :          switch ( escape )
-; 674  :          {
-; 675  :          case '"': decoded += '"'; break;
-; 676  :          case '/': decoded += '/'; break;
-; 677  :          case '\\': decoded += '\\'; break;
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
-; 687  :                   return false;
-; 688  :                decoded += codePointToUTF8(unicode);
-; 689  :             }
-; 690  :             break;
-; 691  :          default:
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-; 693  :          }
-; 694  :       }
-; 695  :       else
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-; 701  : }
-; 702  : 
-; 703  : bool
-; 704  : Reader::decodeUnicodeCodePoint( Token &token, 
-; 705  :                                      Location &current, 
-; 706  :                                      Location end, 
-; 707  :                                      unsigned int &unicode )
-; 708  : {
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-; 711  :       return false;
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
-; 729  :    }
-; 730  :    return true;
-; 731  : }
-; 732  : 
-; 733  : bool 
-; 734  : Reader::decodeUnicodeEscapeSequence( Token &token, 
-; 735  :                                      Location &current, 
-; 736  :                                      Location end, 
-; 737  :                                      unsigned int &unicode )
-; 738  : {
-; 739  :    if ( end - current < 4 )
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-; 741  :    unicode = 0;
-; 742  :    for ( int index =0; index < 4; ++index )
-; 743  :    {
-; 744  :       Char c = *current++;
-; 745  :       unicode *= 16;
-; 746  :       if ( c >= '0'  &&  c <= '9' )
-; 747  :          unicode += c - '0';
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
-; 749  :          unicode += c - 'a' + 10;
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-; 751  :          unicode += c - 'A' + 10;
-; 752  :       else
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-; 754  :    }
-; 755  :    return true;
-; 756  : }
-; 757  : 
-; 758  : 
-; 759  : bool 
-; 760  : Reader::addError( const std::string &message, 
-; 761  :                   Token &token,
-; 762  :                   Location extra )
-; 763  : {
-; 764  :    ErrorInfo info;
-; 765  :    info.token_ = token;
-; 766  :    info.message_ = message;
-; 767  :    info.extra_ = extra;
-; 768  :    errors_.push_back( info );
-; 769  :    return false;
-; 770  : }
-; 771  : 
-; 772  : 
-; 773  : bool 
-; 774  : Reader::recoverFromError( TokenType skipUntilToken )
-; 775  : {
-; 776  :    int errorCount = int(errors_.size());
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-; 786  :    return false;
-; 787  : }
-; 788  : 
-; 789  : 
-; 790  : bool 
-; 791  : Reader::addErrorAndRecover( const std::string &message, 
-; 792  :                             Token &token,
-; 793  :                             TokenType skipUntilToken )
-; 794  : {
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-; 797  : }
-; 798  : 
-; 799  : 
-; 800  : Value &
-; 801  : Reader::currentValue()
-; 802  : {
-; 803  :    return *(nodes_.top());
-; 804  : }
-; 805  : 
-; 806  : 
-; 807  : Reader::Char 
-; 808  : Reader::getNextChar()
-; 809  : {
-; 810  :    if ( current_ == end_ )
 
 	mov	edx, DWORD PTR [esi+68]
 
-; 380  :    Location commentBegin = current_ - 1;
-
 	lea	edi, DWORD PTR [eax-1]
-
-; 445  :          break;
-; 446  :    }
-; 447  :    return true;
-; 448  : }
-; 449  : 
-; 450  : 
-; 451  : void 
-; 452  : Reader::readNumber()
-; 453  : {
-; 454  :    while ( current_ != end_ )
-; 455  :    {
-; 456  :       if ( !(*current_ >= '0'  &&  *current_ <= '9')  &&
-; 457  :            !in( *current_, '.', 'e', 'E', '+', '-' ) )
-; 458  :          break;
-; 459  :       ++current_;
-; 460  :    }
-; 461  : }
-; 462  : 
-; 463  : bool
-; 464  : Reader::readString()
-; 465  : {
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
-; 468  :    {
-; 469  :       c = getNextChar();
-; 470  :       if ( c == '\\' )
-; 471  :          getNextChar();
-; 472  :       else if ( c == '"' )
-; 473  :          break;
-; 474  :    }
-; 475  :    return c == '"';
-; 476  : }
-; 477  : 
-; 478  : 
-; 479  : bool 
-; 480  : Reader::readObject( Token &tokenStart )
-; 481  : {
-; 482  :    Token tokenName;
-; 483  :    std::string name;
-; 484  :    currentValue() = Value( objectValue );
-; 485  :    while ( readToken( tokenName ) )
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
-; 489  :          initialTokenOk = readToken( tokenName );
-; 490  :       if  ( !initialTokenOk )
-; 491  :          break;
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
-; 495  :          break;
-; 496  :       
-; 497  :       name = "";
-; 498  :       if ( !decodeString( tokenName, name ) )
-; 499  :          return recoverFromError( tokenObjectEnd );
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
-; 503  :       {
-; 504  :          return addErrorAndRecover( "Missing ':' after object member name", 
-; 505  :                                     colon, 
-; 506  :                                     tokenObjectEnd );
-; 507  :       }
-; 508  :       Value &value = currentValue()[ name ];
-; 509  :       nodes_.push( &value );
-; 510  :       bool ok = readValue();
-; 511  :       nodes_.pop();
-; 512  :       if ( !ok ) // error already set
-; 513  :          return recoverFromError( tokenObjectEnd );
-; 514  : 
-; 515  :       Token comma;
-; 516  :       if ( !readToken( comma )
-; 517  :             ||  ( comma.type_ != tokenObjectEnd  &&  
-; 518  :                   comma.type_ != tokenArraySeparator &&
-; 519  : 		  comma.type_ != tokenComment ) )
-; 520  :       {
-; 521  :          return addErrorAndRecover( "Missing ',' or '}' in object declaration", 
-; 522  :                                     comma, 
-; 523  :                                     tokenObjectEnd );
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
-; 528  :          finalizeTokenOk = readToken( comma );
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-; 530  :          return true;
-; 531  :    }
-; 532  :    return addErrorAndRecover( "Missing '}' or object member name", 
-; 533  :                               tokenName, 
-; 534  :                               tokenObjectEnd );
-; 535  : }
-; 536  : 
-; 537  : 
-; 538  : bool 
-; 539  : Reader::readArray( Token &tokenStart )
-; 540  : {
-; 541  :    currentValue() = Value( arrayValue );
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
-; 547  :       return true;
-; 548  :    }
-; 549  :    int index = 0;
-; 550  :    while ( true )
-; 551  :    {
-; 552  :       Value &value = currentValue()[ index++ ];
-; 553  :       nodes_.push( &value );
-; 554  :       bool ok = readValue();
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-; 558  : 
-; 559  :       Token token;
-; 560  :       // Accept Comment after last item in the array.
-; 561  :       ok = readToken( token );
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-; 563  :       {
-; 564  :          ok = readToken( token );
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-; 569  :       {
-; 570  :          return addErrorAndRecover( "Missing ',' or ']' in array declaration", 
-; 571  :                                     token, 
-; 572  :                                     tokenArrayEnd );
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-; 578  : }
-; 579  : 
-; 580  : 
-; 581  : bool 
-; 582  : Reader::decodeNumber( Token &token )
-; 583  : {
-; 584  :    bool isDouble = false;
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-; 590  :    }
-; 591  :    if ( isDouble )
-; 592  :       return decodeDouble( token );
-; 593  :    Location current = token.start_;
-; 594  :    bool isNegative = *current == '-';
-; 595  :    if ( isNegative )
-; 596  :       ++current;
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
-; 599  :    Value::UInt value = 0;
-; 600  :    while ( current < token.end_ )
-; 601  :    {
-; 602  :       Char c = *current++;
-; 603  :       if ( c < '0'  ||  c > '9' )
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 605  :       if ( value >= threshold )
-; 606  :          return decodeDouble( token );
-; 607  :       value = value * 10 + Value::UInt(c - '0');
-; 608  :    }
-; 609  :    if ( isNegative )
-; 610  :       currentValue() = -Value::Int( value );
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
-; 612  :       currentValue() = Value::Int( value );
-; 613  :    else
-; 614  :       currentValue() = value;
-; 615  :    return true;
-; 616  : }
-; 617  : 
-; 618  : 
-; 619  : bool 
-; 620  : Reader::decodeDouble( Token &token )
-; 621  : {
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-; 626  :    if ( length <= bufferSize )
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
-; 630  :       buffer[length] = 0;
-; 631  :       count = sscanf( buffer, "%lf", &value );
-; 632  :    }
-; 633  :    else
-; 634  :    {
-; 635  :       std::string buffer( token.start_, token.end_ );
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-; 637  :    }
-; 638  : 
-; 639  :    if ( count != 1 )
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 641  :    currentValue() = value;
-; 642  :    return true;
-; 643  : }
-; 644  : 
-; 645  : 
-; 646  : bool 
-; 647  : Reader::decodeString( Token &token )
-; 648  : {
-; 649  :    std::string decoded;
-; 650  :    if ( !decodeString( token, decoded ) )
-; 651  :       return false;
-; 652  :    currentValue() = decoded;
-; 653  :    return true;
-; 654  : }
-; 655  : 
-; 656  : 
-; 657  : bool 
-; 658  : Reader::decodeString( Token &token, std::string &decoded )
-; 659  : {
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-; 661  :    Location current = token.start_ + 1; // skip '"'
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
-; 663  :    while ( current != end )
-; 664  :    {
-; 665  :       Char c = *current++;
-; 666  :       if ( c == '"' )
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
-; 669  :       {
-; 670  :          if ( current == end )
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-; 672  :          Char escape = *current++;
-; 673  :          switch ( escape )
-; 674  :          {
-; 675  :          case '"': decoded += '"'; break;
-; 676  :          case '/': decoded += '/'; break;
-; 677  :          case '\\': decoded += '\\'; break;
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
-; 687  :                   return false;
-; 688  :                decoded += codePointToUTF8(unicode);
-; 689  :             }
-; 690  :             break;
-; 691  :          default:
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-; 693  :          }
-; 694  :       }
-; 695  :       else
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-; 701  : }
-; 702  : 
-; 703  : bool
-; 704  : Reader::decodeUnicodeCodePoint( Token &token, 
-; 705  :                                      Location &current, 
-; 706  :                                      Location end, 
-; 707  :                                      unsigned int &unicode )
-; 708  : {
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-; 711  :       return false;
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
-; 729  :    }
-; 730  :    return true;
-; 731  : }
-; 732  : 
-; 733  : bool 
-; 734  : Reader::decodeUnicodeEscapeSequence( Token &token, 
-; 735  :                                      Location &current, 
-; 736  :                                      Location end, 
-; 737  :                                      unsigned int &unicode )
-; 738  : {
-; 739  :    if ( end - current < 4 )
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-; 741  :    unicode = 0;
-; 742  :    for ( int index =0; index < 4; ++index )
-; 743  :    {
-; 744  :       Char c = *current++;
-; 745  :       unicode *= 16;
-; 746  :       if ( c >= '0'  &&  c <= '9' )
-; 747  :          unicode += c - '0';
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
-; 749  :          unicode += c - 'a' + 10;
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-; 751  :          unicode += c - 'A' + 10;
-; 752  :       else
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-; 754  :    }
-; 755  :    return true;
-; 756  : }
-; 757  : 
-; 758  : 
-; 759  : bool 
-; 760  : Reader::addError( const std::string &message, 
-; 761  :                   Token &token,
-; 762  :                   Location extra )
-; 763  : {
-; 764  :    ErrorInfo info;
-; 765  :    info.token_ = token;
-; 766  :    info.message_ = message;
-; 767  :    info.extra_ = extra;
-; 768  :    errors_.push_back( info );
-; 769  :    return false;
-; 770  : }
-; 771  : 
-; 772  : 
-; 773  : bool 
-; 774  : Reader::recoverFromError( TokenType skipUntilToken )
-; 775  : {
-; 776  :    int errorCount = int(errors_.size());
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-; 786  :    return false;
-; 787  : }
-; 788  : 
-; 789  : 
-; 790  : bool 
-; 791  : Reader::addErrorAndRecover( const std::string &message, 
-; 792  :                             Token &token,
-; 793  :                             TokenType skipUntilToken )
-; 794  : {
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-; 797  : }
-; 798  : 
-; 799  : 
-; 800  : Value &
-; 801  : Reader::currentValue()
-; 802  : {
-; 803  :    return *(nodes_.top());
-; 804  : }
-; 805  : 
-; 806  : 
-; 807  : Reader::Char 
-; 808  : Reader::getNextChar()
-; 809  : {
-; 810  :    if ( current_ == end_ )
 
 	cmp	eax, edx
 	je	SHORT $LN37@readCommen
-
-; 811  :       return 0;
-; 812  :    return *current_++;
 
 	mov	ch, BYTE PTR [eax]
 	inc	eax
 	mov	BYTE PTR _c$1$[ebp], ch
 	mov	DWORD PTR [esi+72], eax
 
-; 381  :    Char c = getNextChar();
-; 382  :    bool successful = false;
-; 383  :    if ( c == '*' )
-
 	cmp	ch, 42					; 0000002aH
 	jne	SHORT $LN8@readCommen
 
-; 384  :       successful = readCStyleComment();
-
 	mov	ecx, esi
 	call	?readCStyleComment@Reader@Json@@AAE_NXZ	; Json::Reader::readCStyleComment
-
-; 386  :       successful = readCppStyleComment();
-; 387  :    if ( !successful )
 
 	test	al, al
 	jne	SHORT $LN43@readCommen
 $LN37@readCommen:
 
-; 388  :       return false;
-
 	xor	al, al
-
-; 400  :    }
-; 401  :    return true;
-; 402  : }
 
 	pop	edi
 	pop	esi
@@ -8649,110 +6265,21 @@ $LN37@readCommen:
 	ret	0
 $LN8@readCommen:
 
-; 385  :    else if ( c == '/' )
-
 	cmp	ch, 47					; 0000002fH
 	jne	SHORT $LN37@readCommen
-
-; 403  : 
-; 404  : 
-; 405  : void 
-; 406  : Reader::addComment( Location begin, 
-; 407  :                     Location end, 
-; 408  :                     CommentPlacement placement )
-; 409  : {
-; 410  :    assert( collectComments_ );
-; 411  :    if ( placement == commentAfterOnSameLine )
-; 412  :    {
-; 413  :       assert( lastValue_ != 0 );
-; 414  :       lastValue_->setComment( std::string( begin, end ), placement );
-; 415  :    }
-; 416  :    else
-; 417  :    {
-; 418  :       if ( !commentsBefore_.empty() )
-; 419  :          commentsBefore_ += "\n";
-; 420  :       commentsBefore_ += std::string( begin, end );
-; 421  :    }
-; 422  : }
-; 423  : 
-; 424  : 
-; 425  : bool 
-; 426  : Reader::readCStyleComment()
-; 427  : {
-; 428  :    while ( current_ != end_ )
-; 429  :    {
-; 430  :       Char c = getNextChar();
-; 431  :       if ( c == '*'  &&  *current_ == '/' )
-; 432  :          break;
-; 433  :    }
-; 434  :    return getNextChar() == '/';
-; 435  : }
-; 436  : 
-; 437  : 
-; 438  : bool 
-; 439  : Reader::readCppStyleComment()
-; 440  : {
-; 441  :    while ( current_ != end_ )
 
 	cmp	eax, edx
 	je	SHORT $LN5@readCommen
 $LN45@readCommen:
 
-; 811  :       return 0;
-; 812  :    return *current_++;
-
 	mov	cl, BYTE PTR [eax]
 	inc	eax
 	mov	DWORD PTR [esi+72], eax
-
-; 442  :    {
-; 443  :       Char c = getNextChar();
-; 444  :       if (  c == '\r'  ||  c == '\n' )
 
 	cmp	cl, 13					; 0000000dH
 	je	SHORT $LN5@readCommen
 	cmp	cl, 10					; 0000000aH
 	je	SHORT $LN5@readCommen
-
-; 403  : 
-; 404  : 
-; 405  : void 
-; 406  : Reader::addComment( Location begin, 
-; 407  :                     Location end, 
-; 408  :                     CommentPlacement placement )
-; 409  : {
-; 410  :    assert( collectComments_ );
-; 411  :    if ( placement == commentAfterOnSameLine )
-; 412  :    {
-; 413  :       assert( lastValue_ != 0 );
-; 414  :       lastValue_->setComment( std::string( begin, end ), placement );
-; 415  :    }
-; 416  :    else
-; 417  :    {
-; 418  :       if ( !commentsBefore_.empty() )
-; 419  :          commentsBefore_ += "\n";
-; 420  :       commentsBefore_ += std::string( begin, end );
-; 421  :    }
-; 422  : }
-; 423  : 
-; 424  : 
-; 425  : bool 
-; 426  : Reader::readCStyleComment()
-; 427  : {
-; 428  :    while ( current_ != end_ )
-; 429  :    {
-; 430  :       Char c = getNextChar();
-; 431  :       if ( c == '*'  &&  *current_ == '/' )
-; 432  :          break;
-; 433  :    }
-; 434  :    return getNextChar() == '/';
-; 435  : }
-; 436  : 
-; 437  : 
-; 438  : bool 
-; 439  : Reader::readCppStyleComment()
-; 440  : {
-; 441  :    while ( current_ != end_ )
 
 	cmp	eax, edx
 	jne	SHORT $LN45@readCommen
@@ -8761,29 +6288,18 @@ $LN43@readCommen:
 	mov	ch, BYTE PTR _c$1$[ebp]
 $LN5@readCommen:
 
-; 389  : 
-; 390  :    if ( collectComments_ )
-
 	cmp	BYTE PTR [esi+110], 0
 	je	SHORT $LN4@readCommen
-
-; 391  :    {
-; 392  :       CommentPlacement placement = commentBefore;
-; 393  :       if ( lastValueEnd_  &&  !containsNewLine( lastValueEnd_, commentBegin ) )
 
 	mov	eax, DWORD PTR [esi+76]
 	xor	ebx, ebx
 	test	eax, eax
 	je	SHORT $LN2@readCommen
 
-; 63   :    for ( ;begin < end; ++begin )
-
 	cmp	eax, edi
 	jae	SHORT $LN25@readCommen
 	npad	3
 $LL27@readCommen:
-
-; 64   :       if ( *begin == '\n'  ||  *begin == '\r' )
 
 	mov	cl, BYTE PTR [eax]
 	cmp	cl, 10					; 0000000aH
@@ -8791,15 +6307,10 @@ $LL27@readCommen:
 	cmp	cl, 13					; 0000000dH
 	je	SHORT $LN2@readCommen
 
-; 63   :    for ( ;begin < end; ++begin )
-
 	inc	eax
 	cmp	eax, edi
 	jb	SHORT $LL27@readCommen
 $LN25@readCommen:
-
-; 394  :       {
-; 395  :          if ( c != '*'  ||  !containsNewLine( commentBegin, current_ ) )
 
 	cmp	ch, 42					; 0000002aH
 	jne	SHORT $LN1@readCommen
@@ -8810,14 +6321,8 @@ $LN25@readCommen:
 	jne	SHORT $LN2@readCommen
 $LN1@readCommen:
 
-; 396  :             placement = commentAfterOnSameLine;
-
 	mov	ebx, 1
 $LN2@readCommen:
-
-; 397  :       }
-; 398  : 
-; 399  :       addComment( commentBegin, current_, placement );
 
 	push	ebx
 	push	DWORD PTR [esi+72]
@@ -8825,10 +6330,6 @@ $LN2@readCommen:
 	push	edi
 	call	?addComment@Reader@Json@@AAEXPBD0W4CommentPlacement@2@@Z ; Json::Reader::addComment
 $LN4@readCommen:
-
-; 400  :    }
-; 401  :    return true;
-; 402  : }
 
 	pop	edi
 	pop	esi
@@ -8871,8 +6372,6 @@ _placement$ = 16					; size = 4
 ?addComment@Reader@Json@@AAEXPBD0W4CommentPlacement@2@@Z PROC ; Json::Reader::addComment, COMDAT
 ; _this$ = ecx
 
-; 409  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -8890,9 +6389,6 @@ _placement$ = 16					; size = 4
 	lea	eax, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, eax
 	mov	ebx, ecx
-
-; 410  :    assert( collectComments_ );
-; 411  :    if ( placement == commentAfterOnSameLine )
 
 	cmp	DWORD PTR _placement$[ebp], 1
 	mov	edi, DWORD PTR _begin$[ebp]
@@ -9374,8 +6870,6 @@ _placement$ = 16					; size = 4
 $LN8@addComment:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 414  :       lastValue_->setComment( std::string( begin, end ), placement );
-
 	push	1
 	lea	eax, DWORD PTR $T3[ebp]
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
@@ -9395,8 +6889,6 @@ $LN8@addComment:
 	push	DWORD PTR $T3[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 416  :    else
-
 	jmp	SHORT $LN165@addComment
 $LN3@addComment:
 ; File f:\program_files\vc\include\xstring
@@ -9406,8 +6898,6 @@ $LN3@addComment:
 	cmp	DWORD PTR [ebx+100], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 418  :       if ( !commentsBefore_.empty() )
-
 	je	SHORT $LN81@addComment
 ; File f:\program_files\vc\include\xstring
 
@@ -9416,8 +6906,6 @@ $LN3@addComment:
 	push	1
 	push	OFFSET ??_C@_01EEMJAFIK@?6?$AA@
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 419  :          commentsBefore_ += "\n";
 
 	lea	ecx, DWORD PTR [ebx+84]
 ; File f:\program_files\vc\include\xstring
@@ -9908,8 +7396,6 @@ $LN89@addComment:
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 420  :       commentsBefore_ += std::string( begin, end );
-
 	lea	ecx, DWORD PTR [ebx+84]
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
 ; File f:\program_files\vc\include\xstring
@@ -9932,8 +7418,6 @@ $LN165@addComment:
 	add	esp, 4
 $LN152@addComment:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 422  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -9976,12 +7460,8 @@ _TEXT	SEGMENT
 ?readCStyleComment@Reader@Json@@AAE_NXZ PROC		; Json::Reader::readCStyleComment, COMDAT
 ; _this$ = ecx
 
-; 427  : {
-
 	push	esi
 	mov	esi, ecx
-
-; 428  :    while ( current_ != end_ )
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	edx, DWORD PTR [esi+68]
@@ -9989,15 +7469,9 @@ _TEXT	SEGMENT
 	je	SHORT $LN16@readCStyle
 $LN18@readCStyle:
 
-; 812  :    return *current_++;
-
 	mov	cl, BYTE PTR [eax]
 	inc	eax
 	mov	DWORD PTR [esi+72], eax
-
-; 429  :    {
-; 430  :       Char c = getNextChar();
-; 431  :       if ( c == '*'  &&  *current_ == '/' )
 
 	cmp	cl, 42					; 0000002aH
 	jne	SHORT $LN1@readCStyle
@@ -10005,426 +7479,32 @@ $LN18@readCStyle:
 	je	SHORT $LN16@readCStyle
 $LN1@readCStyle:
 
-; 428  :    while ( current_ != end_ )
-
 	cmp	eax, edx
 	jne	SHORT $LN18@readCStyle
 $LN16@readCStyle:
-
-; 436  : 
-; 437  : 
-; 438  : bool 
-; 439  : Reader::readCppStyleComment()
-; 440  : {
-; 441  :    while ( current_ != end_ )
-; 442  :    {
-; 443  :       Char c = getNextChar();
-; 444  :       if (  c == '\r'  ||  c == '\n' )
-; 445  :          break;
-; 446  :    }
-; 447  :    return true;
-; 448  : }
-; 449  : 
-; 450  : 
-; 451  : void 
-; 452  : Reader::readNumber()
-; 453  : {
-; 454  :    while ( current_ != end_ )
-; 455  :    {
-; 456  :       if ( !(*current_ >= '0'  &&  *current_ <= '9')  &&
-; 457  :            !in( *current_, '.', 'e', 'E', '+', '-' ) )
-; 458  :          break;
-; 459  :       ++current_;
-; 460  :    }
-; 461  : }
-; 462  : 
-; 463  : bool
-; 464  : Reader::readString()
-; 465  : {
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
-; 468  :    {
-; 469  :       c = getNextChar();
-; 470  :       if ( c == '\\' )
-; 471  :          getNextChar();
-; 472  :       else if ( c == '"' )
-; 473  :          break;
-; 474  :    }
-; 475  :    return c == '"';
-; 476  : }
-; 477  : 
-; 478  : 
-; 479  : bool 
-; 480  : Reader::readObject( Token &tokenStart )
-; 481  : {
-; 482  :    Token tokenName;
-; 483  :    std::string name;
-; 484  :    currentValue() = Value( objectValue );
-; 485  :    while ( readToken( tokenName ) )
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
-; 489  :          initialTokenOk = readToken( tokenName );
-; 490  :       if  ( !initialTokenOk )
-; 491  :          break;
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
-; 495  :          break;
-; 496  :       
-; 497  :       name = "";
-; 498  :       if ( !decodeString( tokenName, name ) )
-; 499  :          return recoverFromError( tokenObjectEnd );
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
-; 503  :       {
-; 504  :          return addErrorAndRecover( "Missing ':' after object member name", 
-; 505  :                                     colon, 
-; 506  :                                     tokenObjectEnd );
-; 507  :       }
-; 508  :       Value &value = currentValue()[ name ];
-; 509  :       nodes_.push( &value );
-; 510  :       bool ok = readValue();
-; 511  :       nodes_.pop();
-; 512  :       if ( !ok ) // error already set
-; 513  :          return recoverFromError( tokenObjectEnd );
-; 514  : 
-; 515  :       Token comma;
-; 516  :       if ( !readToken( comma )
-; 517  :             ||  ( comma.type_ != tokenObjectEnd  &&  
-; 518  :                   comma.type_ != tokenArraySeparator &&
-; 519  : 		  comma.type_ != tokenComment ) )
-; 520  :       {
-; 521  :          return addErrorAndRecover( "Missing ',' or '}' in object declaration", 
-; 522  :                                     comma, 
-; 523  :                                     tokenObjectEnd );
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
-; 528  :          finalizeTokenOk = readToken( comma );
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-; 530  :          return true;
-; 531  :    }
-; 532  :    return addErrorAndRecover( "Missing '}' or object member name", 
-; 533  :                               tokenName, 
-; 534  :                               tokenObjectEnd );
-; 535  : }
-; 536  : 
-; 537  : 
-; 538  : bool 
-; 539  : Reader::readArray( Token &tokenStart )
-; 540  : {
-; 541  :    currentValue() = Value( arrayValue );
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
-; 547  :       return true;
-; 548  :    }
-; 549  :    int index = 0;
-; 550  :    while ( true )
-; 551  :    {
-; 552  :       Value &value = currentValue()[ index++ ];
-; 553  :       nodes_.push( &value );
-; 554  :       bool ok = readValue();
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-; 558  : 
-; 559  :       Token token;
-; 560  :       // Accept Comment after last item in the array.
-; 561  :       ok = readToken( token );
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-; 563  :       {
-; 564  :          ok = readToken( token );
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-; 569  :       {
-; 570  :          return addErrorAndRecover( "Missing ',' or ']' in array declaration", 
-; 571  :                                     token, 
-; 572  :                                     tokenArrayEnd );
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-; 578  : }
-; 579  : 
-; 580  : 
-; 581  : bool 
-; 582  : Reader::decodeNumber( Token &token )
-; 583  : {
-; 584  :    bool isDouble = false;
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-; 590  :    }
-; 591  :    if ( isDouble )
-; 592  :       return decodeDouble( token );
-; 593  :    Location current = token.start_;
-; 594  :    bool isNegative = *current == '-';
-; 595  :    if ( isNegative )
-; 596  :       ++current;
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
-; 599  :    Value::UInt value = 0;
-; 600  :    while ( current < token.end_ )
-; 601  :    {
-; 602  :       Char c = *current++;
-; 603  :       if ( c < '0'  ||  c > '9' )
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 605  :       if ( value >= threshold )
-; 606  :          return decodeDouble( token );
-; 607  :       value = value * 10 + Value::UInt(c - '0');
-; 608  :    }
-; 609  :    if ( isNegative )
-; 610  :       currentValue() = -Value::Int( value );
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
-; 612  :       currentValue() = Value::Int( value );
-; 613  :    else
-; 614  :       currentValue() = value;
-; 615  :    return true;
-; 616  : }
-; 617  : 
-; 618  : 
-; 619  : bool 
-; 620  : Reader::decodeDouble( Token &token )
-; 621  : {
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-; 626  :    if ( length <= bufferSize )
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
-; 630  :       buffer[length] = 0;
-; 631  :       count = sscanf( buffer, "%lf", &value );
-; 632  :    }
-; 633  :    else
-; 634  :    {
-; 635  :       std::string buffer( token.start_, token.end_ );
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-; 637  :    }
-; 638  : 
-; 639  :    if ( count != 1 )
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 641  :    currentValue() = value;
-; 642  :    return true;
-; 643  : }
-; 644  : 
-; 645  : 
-; 646  : bool 
-; 647  : Reader::decodeString( Token &token )
-; 648  : {
-; 649  :    std::string decoded;
-; 650  :    if ( !decodeString( token, decoded ) )
-; 651  :       return false;
-; 652  :    currentValue() = decoded;
-; 653  :    return true;
-; 654  : }
-; 655  : 
-; 656  : 
-; 657  : bool 
-; 658  : Reader::decodeString( Token &token, std::string &decoded )
-; 659  : {
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-; 661  :    Location current = token.start_ + 1; // skip '"'
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
-; 663  :    while ( current != end )
-; 664  :    {
-; 665  :       Char c = *current++;
-; 666  :       if ( c == '"' )
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
-; 669  :       {
-; 670  :          if ( current == end )
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-; 672  :          Char escape = *current++;
-; 673  :          switch ( escape )
-; 674  :          {
-; 675  :          case '"': decoded += '"'; break;
-; 676  :          case '/': decoded += '/'; break;
-; 677  :          case '\\': decoded += '\\'; break;
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
-; 687  :                   return false;
-; 688  :                decoded += codePointToUTF8(unicode);
-; 689  :             }
-; 690  :             break;
-; 691  :          default:
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-; 693  :          }
-; 694  :       }
-; 695  :       else
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-; 701  : }
-; 702  : 
-; 703  : bool
-; 704  : Reader::decodeUnicodeCodePoint( Token &token, 
-; 705  :                                      Location &current, 
-; 706  :                                      Location end, 
-; 707  :                                      unsigned int &unicode )
-; 708  : {
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-; 711  :       return false;
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
-; 729  :    }
-; 730  :    return true;
-; 731  : }
-; 732  : 
-; 733  : bool 
-; 734  : Reader::decodeUnicodeEscapeSequence( Token &token, 
-; 735  :                                      Location &current, 
-; 736  :                                      Location end, 
-; 737  :                                      unsigned int &unicode )
-; 738  : {
-; 739  :    if ( end - current < 4 )
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-; 741  :    unicode = 0;
-; 742  :    for ( int index =0; index < 4; ++index )
-; 743  :    {
-; 744  :       Char c = *current++;
-; 745  :       unicode *= 16;
-; 746  :       if ( c >= '0'  &&  c <= '9' )
-; 747  :          unicode += c - '0';
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
-; 749  :          unicode += c - 'a' + 10;
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-; 751  :          unicode += c - 'A' + 10;
-; 752  :       else
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-; 754  :    }
-; 755  :    return true;
-; 756  : }
-; 757  : 
-; 758  : 
-; 759  : bool 
-; 760  : Reader::addError( const std::string &message, 
-; 761  :                   Token &token,
-; 762  :                   Location extra )
-; 763  : {
-; 764  :    ErrorInfo info;
-; 765  :    info.token_ = token;
-; 766  :    info.message_ = message;
-; 767  :    info.extra_ = extra;
-; 768  :    errors_.push_back( info );
-; 769  :    return false;
-; 770  : }
-; 771  : 
-; 772  : 
-; 773  : bool 
-; 774  : Reader::recoverFromError( TokenType skipUntilToken )
-; 775  : {
-; 776  :    int errorCount = int(errors_.size());
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-; 786  :    return false;
-; 787  : }
-; 788  : 
-; 789  : 
-; 790  : bool 
-; 791  : Reader::addErrorAndRecover( const std::string &message, 
-; 792  :                             Token &token,
-; 793  :                             TokenType skipUntilToken )
-; 794  : {
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-; 797  : }
-; 798  : 
-; 799  : 
-; 800  : Value &
-; 801  : Reader::currentValue()
-; 802  : {
-; 803  :    return *(nodes_.top());
-; 804  : }
-; 805  : 
-; 806  : 
-; 807  : Reader::Char 
-; 808  : Reader::getNextChar()
-; 809  : {
-; 810  :    if ( current_ == end_ )
 
 	mov	eax, DWORD PTR [esi+72]
 	cmp	eax, edx
 	jne	SHORT $LN9@readCStyle
 
-; 811  :       return 0;
-
 	xor	cl, cl
-
-; 432  :          break;
-; 433  :    }
-; 434  :    return getNextChar() == '/';
 
 	xor	eax, eax
 	cmp	cl, 47					; 0000002fH
 	sete	al
 	pop	esi
 
-; 435  : }
-
 	ret	0
 $LN9@readCStyle:
-
-; 812  :    return *current_++;
 
 	mov	cl, BYTE PTR [eax]
 	inc	eax
 	mov	DWORD PTR [esi+72], eax
 
-; 432  :          break;
-; 433  :    }
-; 434  :    return getNextChar() == '/';
-
 	xor	eax, eax
 	cmp	cl, 47					; 0000002fH
 	sete	al
 	pop	esi
-
-; 435  : }
 
 	ret	0
 ?readCStyleComment@Reader@Json@@AAE_NXZ ENDP		; Json::Reader::readCStyleComment
@@ -10436,12 +7516,8 @@ _TEXT	SEGMENT
 ?readCppStyleComment@Reader@Json@@AAE_NXZ PROC		; Json::Reader::readCppStyleComment, COMDAT
 ; _this$ = ecx
 
-; 440  : {
-
 	push	esi
 	mov	esi, ecx
-
-; 441  :    while ( current_ != end_ )
 
 	mov	eax, DWORD PTR [esi+72]
 	mov	edx, DWORD PTR [esi+68]
@@ -10449,398 +7525,21 @@ _TEXT	SEGMENT
 	je	SHORT $LN19@readCppSty
 $LN21@readCppSty:
 
-; 449  : 
-; 450  : 
-; 451  : void 
-; 452  : Reader::readNumber()
-; 453  : {
-; 454  :    while ( current_ != end_ )
-; 455  :    {
-; 456  :       if ( !(*current_ >= '0'  &&  *current_ <= '9')  &&
-; 457  :            !in( *current_, '.', 'e', 'E', '+', '-' ) )
-; 458  :          break;
-; 459  :       ++current_;
-; 460  :    }
-; 461  : }
-; 462  : 
-; 463  : bool
-; 464  : Reader::readString()
-; 465  : {
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
-; 468  :    {
-; 469  :       c = getNextChar();
-; 470  :       if ( c == '\\' )
-; 471  :          getNextChar();
-; 472  :       else if ( c == '"' )
-; 473  :          break;
-; 474  :    }
-; 475  :    return c == '"';
-; 476  : }
-; 477  : 
-; 478  : 
-; 479  : bool 
-; 480  : Reader::readObject( Token &tokenStart )
-; 481  : {
-; 482  :    Token tokenName;
-; 483  :    std::string name;
-; 484  :    currentValue() = Value( objectValue );
-; 485  :    while ( readToken( tokenName ) )
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
-; 489  :          initialTokenOk = readToken( tokenName );
-; 490  :       if  ( !initialTokenOk )
-; 491  :          break;
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
-; 495  :          break;
-; 496  :       
-; 497  :       name = "";
-; 498  :       if ( !decodeString( tokenName, name ) )
-; 499  :          return recoverFromError( tokenObjectEnd );
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
-; 503  :       {
-; 504  :          return addErrorAndRecover( "Missing ':' after object member name", 
-; 505  :                                     colon, 
-; 506  :                                     tokenObjectEnd );
-; 507  :       }
-; 508  :       Value &value = currentValue()[ name ];
-; 509  :       nodes_.push( &value );
-; 510  :       bool ok = readValue();
-; 511  :       nodes_.pop();
-; 512  :       if ( !ok ) // error already set
-; 513  :          return recoverFromError( tokenObjectEnd );
-; 514  : 
-; 515  :       Token comma;
-; 516  :       if ( !readToken( comma )
-; 517  :             ||  ( comma.type_ != tokenObjectEnd  &&  
-; 518  :                   comma.type_ != tokenArraySeparator &&
-; 519  : 		  comma.type_ != tokenComment ) )
-; 520  :       {
-; 521  :          return addErrorAndRecover( "Missing ',' or '}' in object declaration", 
-; 522  :                                     comma, 
-; 523  :                                     tokenObjectEnd );
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
-; 528  :          finalizeTokenOk = readToken( comma );
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-; 530  :          return true;
-; 531  :    }
-; 532  :    return addErrorAndRecover( "Missing '}' or object member name", 
-; 533  :                               tokenName, 
-; 534  :                               tokenObjectEnd );
-; 535  : }
-; 536  : 
-; 537  : 
-; 538  : bool 
-; 539  : Reader::readArray( Token &tokenStart )
-; 540  : {
-; 541  :    currentValue() = Value( arrayValue );
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
-; 547  :       return true;
-; 548  :    }
-; 549  :    int index = 0;
-; 550  :    while ( true )
-; 551  :    {
-; 552  :       Value &value = currentValue()[ index++ ];
-; 553  :       nodes_.push( &value );
-; 554  :       bool ok = readValue();
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-; 558  : 
-; 559  :       Token token;
-; 560  :       // Accept Comment after last item in the array.
-; 561  :       ok = readToken( token );
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-; 563  :       {
-; 564  :          ok = readToken( token );
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-; 569  :       {
-; 570  :          return addErrorAndRecover( "Missing ',' or ']' in array declaration", 
-; 571  :                                     token, 
-; 572  :                                     tokenArrayEnd );
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-; 578  : }
-; 579  : 
-; 580  : 
-; 581  : bool 
-; 582  : Reader::decodeNumber( Token &token )
-; 583  : {
-; 584  :    bool isDouble = false;
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-; 590  :    }
-; 591  :    if ( isDouble )
-; 592  :       return decodeDouble( token );
-; 593  :    Location current = token.start_;
-; 594  :    bool isNegative = *current == '-';
-; 595  :    if ( isNegative )
-; 596  :       ++current;
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
-; 599  :    Value::UInt value = 0;
-; 600  :    while ( current < token.end_ )
-; 601  :    {
-; 602  :       Char c = *current++;
-; 603  :       if ( c < '0'  ||  c > '9' )
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 605  :       if ( value >= threshold )
-; 606  :          return decodeDouble( token );
-; 607  :       value = value * 10 + Value::UInt(c - '0');
-; 608  :    }
-; 609  :    if ( isNegative )
-; 610  :       currentValue() = -Value::Int( value );
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
-; 612  :       currentValue() = Value::Int( value );
-; 613  :    else
-; 614  :       currentValue() = value;
-; 615  :    return true;
-; 616  : }
-; 617  : 
-; 618  : 
-; 619  : bool 
-; 620  : Reader::decodeDouble( Token &token )
-; 621  : {
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-; 626  :    if ( length <= bufferSize )
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
-; 630  :       buffer[length] = 0;
-; 631  :       count = sscanf( buffer, "%lf", &value );
-; 632  :    }
-; 633  :    else
-; 634  :    {
-; 635  :       std::string buffer( token.start_, token.end_ );
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-; 637  :    }
-; 638  : 
-; 639  :    if ( count != 1 )
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 641  :    currentValue() = value;
-; 642  :    return true;
-; 643  : }
-; 644  : 
-; 645  : 
-; 646  : bool 
-; 647  : Reader::decodeString( Token &token )
-; 648  : {
-; 649  :    std::string decoded;
-; 650  :    if ( !decodeString( token, decoded ) )
-; 651  :       return false;
-; 652  :    currentValue() = decoded;
-; 653  :    return true;
-; 654  : }
-; 655  : 
-; 656  : 
-; 657  : bool 
-; 658  : Reader::decodeString( Token &token, std::string &decoded )
-; 659  : {
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-; 661  :    Location current = token.start_ + 1; // skip '"'
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
-; 663  :    while ( current != end )
-; 664  :    {
-; 665  :       Char c = *current++;
-; 666  :       if ( c == '"' )
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
-; 669  :       {
-; 670  :          if ( current == end )
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-; 672  :          Char escape = *current++;
-; 673  :          switch ( escape )
-; 674  :          {
-; 675  :          case '"': decoded += '"'; break;
-; 676  :          case '/': decoded += '/'; break;
-; 677  :          case '\\': decoded += '\\'; break;
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
-; 687  :                   return false;
-; 688  :                decoded += codePointToUTF8(unicode);
-; 689  :             }
-; 690  :             break;
-; 691  :          default:
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-; 693  :          }
-; 694  :       }
-; 695  :       else
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-; 701  : }
-; 702  : 
-; 703  : bool
-; 704  : Reader::decodeUnicodeCodePoint( Token &token, 
-; 705  :                                      Location &current, 
-; 706  :                                      Location end, 
-; 707  :                                      unsigned int &unicode )
-; 708  : {
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-; 711  :       return false;
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
-; 729  :    }
-; 730  :    return true;
-; 731  : }
-; 732  : 
-; 733  : bool 
-; 734  : Reader::decodeUnicodeEscapeSequence( Token &token, 
-; 735  :                                      Location &current, 
-; 736  :                                      Location end, 
-; 737  :                                      unsigned int &unicode )
-; 738  : {
-; 739  :    if ( end - current < 4 )
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-; 741  :    unicode = 0;
-; 742  :    for ( int index =0; index < 4; ++index )
-; 743  :    {
-; 744  :       Char c = *current++;
-; 745  :       unicode *= 16;
-; 746  :       if ( c >= '0'  &&  c <= '9' )
-; 747  :          unicode += c - '0';
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
-; 749  :          unicode += c - 'a' + 10;
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-; 751  :          unicode += c - 'A' + 10;
-; 752  :       else
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-; 754  :    }
-; 755  :    return true;
-; 756  : }
-; 757  : 
-; 758  : 
-; 759  : bool 
-; 760  : Reader::addError( const std::string &message, 
-; 761  :                   Token &token,
-; 762  :                   Location extra )
-; 763  : {
-; 764  :    ErrorInfo info;
-; 765  :    info.token_ = token;
-; 766  :    info.message_ = message;
-; 767  :    info.extra_ = extra;
-; 768  :    errors_.push_back( info );
-; 769  :    return false;
-; 770  : }
-; 771  : 
-; 772  : 
-; 773  : bool 
-; 774  : Reader::recoverFromError( TokenType skipUntilToken )
-; 775  : {
-; 776  :    int errorCount = int(errors_.size());
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-; 786  :    return false;
-; 787  : }
-; 788  : 
-; 789  : 
-; 790  : bool 
-; 791  : Reader::addErrorAndRecover( const std::string &message, 
-; 792  :                             Token &token,
-; 793  :                             TokenType skipUntilToken )
-; 794  : {
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-; 797  : }
-; 798  : 
-; 799  : 
-; 800  : Value &
-; 801  : Reader::currentValue()
-; 802  : {
-; 803  :    return *(nodes_.top());
-; 804  : }
-; 805  : 
-; 806  : 
-; 807  : Reader::Char 
-; 808  : Reader::getNextChar()
-; 809  : {
-; 810  :    if ( current_ == end_ )
-; 811  :       return 0;
-; 812  :    return *current_++;
-
 	mov	cl, BYTE PTR [eax]
 	inc	eax
 	mov	DWORD PTR [esi+72], eax
-
-; 442  :    {
-; 443  :       Char c = getNextChar();
-; 444  :       if (  c == '\r'  ||  c == '\n' )
 
 	cmp	cl, 13					; 0000000dH
 	je	SHORT $LN19@readCppSty
 	cmp	cl, 10					; 0000000aH
 	je	SHORT $LN19@readCppSty
 
-; 441  :    while ( current_ != end_ )
-
 	cmp	eax, edx
 	jne	SHORT $LN21@readCppSty
 $LN19@readCppSty:
 
-; 445  :          break;
-; 446  :    }
-; 447  :    return true;
-
 	mov	al, 1
 	pop	esi
-
-; 448  : }
 
 	ret	0
 ?readCppStyleComment@Reader@Json@@AAE_NXZ ENDP		; Json::Reader::readCppStyleComment
@@ -10852,21 +7551,13 @@ _TEXT	SEGMENT
 ?readNumber@Reader@Json@@AAEXXZ PROC			; Json::Reader::readNumber, COMDAT
 ; _this$ = ecx
 
-; 453  : {
-
 	push	esi
-
-; 454  :    while ( current_ != end_ )
 
 	mov	esi, DWORD PTR [ecx+68]
 	cmp	DWORD PTR [ecx+72], esi
 	je	SHORT $LN16@readNumber
 	npad	7
 $LL4@readNumber:
-
-; 455  :    {
-; 456  :       if ( !(*current_ >= '0'  &&  *current_ <= '9')  &&
-; 457  :            !in( *current_, '.', 'e', 'E', '+', '-' ) )
 
 	mov	edx, DWORD PTR [ecx+72]
 	mov	al, BYTE PTR [edx]
@@ -10875,8 +7566,6 @@ $LL4@readNumber:
 	cmp	al, 57					; 00000039H
 	jle	SHORT $LN9@readNumber
 $LN1@readNumber:
-
-; 55   :    return c == c1  ||  c == c2  ||  c == c3  ||  c == c4  ||  c == c5;
 
 	cmp	al, 46					; 0000002eH
 	je	SHORT $LN9@readNumber
@@ -10890,18 +7579,12 @@ $LN1@readNumber:
 	jne	SHORT $LN16@readNumber
 $LN9@readNumber:
 
-; 458  :          break;
-; 459  :       ++current_;
-
 	lea	eax, DWORD PTR [edx+1]
 	mov	DWORD PTR [ecx+72], eax
 	cmp	eax, esi
 	jne	SHORT $LL4@readNumber
 $LN16@readNumber:
 	pop	esi
-
-; 460  :    }
-; 461  : }
 
 	ret	0
 ?readNumber@Reader@Json@@AAEXXZ ENDP			; Json::Reader::readNumber
@@ -10913,9 +7596,6 @@ _TEXT	SEGMENT
 ?readString@Reader@Json@@AAE_NXZ PROC			; Json::Reader::readString, COMDAT
 ; _this$ = ecx
 
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
-
 	mov	eax, DWORD PTR [ecx+72]
 	push	esi
 	mov	esi, DWORD PTR [ecx+68]
@@ -10924,394 +7604,35 @@ _TEXT	SEGMENT
 	je	SHORT $LN17@readString
 $LN8@readString:
 
-; 811  :       return 0;
-; 812  :    return *current_++;
-
 	mov	dl, BYTE PTR [eax]
 	inc	eax
 	mov	DWORD PTR [ecx+72], eax
 
-; 468  :    {
-; 469  :       c = getNextChar();
-; 470  :       if ( c == '\\' )
-
 	cmp	dl, 92					; 0000005cH
 	jne	SHORT $LN3@readString
-
-; 477  : 
-; 478  : 
-; 479  : bool 
-; 480  : Reader::readObject( Token &tokenStart )
-; 481  : {
-; 482  :    Token tokenName;
-; 483  :    std::string name;
-; 484  :    currentValue() = Value( objectValue );
-; 485  :    while ( readToken( tokenName ) )
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
-; 489  :          initialTokenOk = readToken( tokenName );
-; 490  :       if  ( !initialTokenOk )
-; 491  :          break;
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
-; 495  :          break;
-; 496  :       
-; 497  :       name = "";
-; 498  :       if ( !decodeString( tokenName, name ) )
-; 499  :          return recoverFromError( tokenObjectEnd );
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
-; 503  :       {
-; 504  :          return addErrorAndRecover( "Missing ':' after object member name", 
-; 505  :                                     colon, 
-; 506  :                                     tokenObjectEnd );
-; 507  :       }
-; 508  :       Value &value = currentValue()[ name ];
-; 509  :       nodes_.push( &value );
-; 510  :       bool ok = readValue();
-; 511  :       nodes_.pop();
-; 512  :       if ( !ok ) // error already set
-; 513  :          return recoverFromError( tokenObjectEnd );
-; 514  : 
-; 515  :       Token comma;
-; 516  :       if ( !readToken( comma )
-; 517  :             ||  ( comma.type_ != tokenObjectEnd  &&  
-; 518  :                   comma.type_ != tokenArraySeparator &&
-; 519  : 		  comma.type_ != tokenComment ) )
-; 520  :       {
-; 521  :          return addErrorAndRecover( "Missing ',' or '}' in object declaration", 
-; 522  :                                     comma, 
-; 523  :                                     tokenObjectEnd );
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
-; 528  :          finalizeTokenOk = readToken( comma );
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-; 530  :          return true;
-; 531  :    }
-; 532  :    return addErrorAndRecover( "Missing '}' or object member name", 
-; 533  :                               tokenName, 
-; 534  :                               tokenObjectEnd );
-; 535  : }
-; 536  : 
-; 537  : 
-; 538  : bool 
-; 539  : Reader::readArray( Token &tokenStart )
-; 540  : {
-; 541  :    currentValue() = Value( arrayValue );
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
-; 547  :       return true;
-; 548  :    }
-; 549  :    int index = 0;
-; 550  :    while ( true )
-; 551  :    {
-; 552  :       Value &value = currentValue()[ index++ ];
-; 553  :       nodes_.push( &value );
-; 554  :       bool ok = readValue();
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-; 558  : 
-; 559  :       Token token;
-; 560  :       // Accept Comment after last item in the array.
-; 561  :       ok = readToken( token );
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-; 563  :       {
-; 564  :          ok = readToken( token );
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-; 569  :       {
-; 570  :          return addErrorAndRecover( "Missing ',' or ']' in array declaration", 
-; 571  :                                     token, 
-; 572  :                                     tokenArrayEnd );
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-; 578  : }
-; 579  : 
-; 580  : 
-; 581  : bool 
-; 582  : Reader::decodeNumber( Token &token )
-; 583  : {
-; 584  :    bool isDouble = false;
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-; 590  :    }
-; 591  :    if ( isDouble )
-; 592  :       return decodeDouble( token );
-; 593  :    Location current = token.start_;
-; 594  :    bool isNegative = *current == '-';
-; 595  :    if ( isNegative )
-; 596  :       ++current;
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
-; 599  :    Value::UInt value = 0;
-; 600  :    while ( current < token.end_ )
-; 601  :    {
-; 602  :       Char c = *current++;
-; 603  :       if ( c < '0'  ||  c > '9' )
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 605  :       if ( value >= threshold )
-; 606  :          return decodeDouble( token );
-; 607  :       value = value * 10 + Value::UInt(c - '0');
-; 608  :    }
-; 609  :    if ( isNegative )
-; 610  :       currentValue() = -Value::Int( value );
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
-; 612  :       currentValue() = Value::Int( value );
-; 613  :    else
-; 614  :       currentValue() = value;
-; 615  :    return true;
-; 616  : }
-; 617  : 
-; 618  : 
-; 619  : bool 
-; 620  : Reader::decodeDouble( Token &token )
-; 621  : {
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-; 626  :    if ( length <= bufferSize )
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
-; 630  :       buffer[length] = 0;
-; 631  :       count = sscanf( buffer, "%lf", &value );
-; 632  :    }
-; 633  :    else
-; 634  :    {
-; 635  :       std::string buffer( token.start_, token.end_ );
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-; 637  :    }
-; 638  : 
-; 639  :    if ( count != 1 )
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-; 641  :    currentValue() = value;
-; 642  :    return true;
-; 643  : }
-; 644  : 
-; 645  : 
-; 646  : bool 
-; 647  : Reader::decodeString( Token &token )
-; 648  : {
-; 649  :    std::string decoded;
-; 650  :    if ( !decodeString( token, decoded ) )
-; 651  :       return false;
-; 652  :    currentValue() = decoded;
-; 653  :    return true;
-; 654  : }
-; 655  : 
-; 656  : 
-; 657  : bool 
-; 658  : Reader::decodeString( Token &token, std::string &decoded )
-; 659  : {
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-; 661  :    Location current = token.start_ + 1; // skip '"'
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
-; 663  :    while ( current != end )
-; 664  :    {
-; 665  :       Char c = *current++;
-; 666  :       if ( c == '"' )
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
-; 669  :       {
-; 670  :          if ( current == end )
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-; 672  :          Char escape = *current++;
-; 673  :          switch ( escape )
-; 674  :          {
-; 675  :          case '"': decoded += '"'; break;
-; 676  :          case '/': decoded += '/'; break;
-; 677  :          case '\\': decoded += '\\'; break;
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
-; 687  :                   return false;
-; 688  :                decoded += codePointToUTF8(unicode);
-; 689  :             }
-; 690  :             break;
-; 691  :          default:
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-; 693  :          }
-; 694  :       }
-; 695  :       else
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-; 701  : }
-; 702  : 
-; 703  : bool
-; 704  : Reader::decodeUnicodeCodePoint( Token &token, 
-; 705  :                                      Location &current, 
-; 706  :                                      Location end, 
-; 707  :                                      unsigned int &unicode )
-; 708  : {
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-; 711  :       return false;
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
-; 729  :    }
-; 730  :    return true;
-; 731  : }
-; 732  : 
-; 733  : bool 
-; 734  : Reader::decodeUnicodeEscapeSequence( Token &token, 
-; 735  :                                      Location &current, 
-; 736  :                                      Location end, 
-; 737  :                                      unsigned int &unicode )
-; 738  : {
-; 739  :    if ( end - current < 4 )
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-; 741  :    unicode = 0;
-; 742  :    for ( int index =0; index < 4; ++index )
-; 743  :    {
-; 744  :       Char c = *current++;
-; 745  :       unicode *= 16;
-; 746  :       if ( c >= '0'  &&  c <= '9' )
-; 747  :          unicode += c - '0';
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
-; 749  :          unicode += c - 'a' + 10;
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-; 751  :          unicode += c - 'A' + 10;
-; 752  :       else
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-; 754  :    }
-; 755  :    return true;
-; 756  : }
-; 757  : 
-; 758  : 
-; 759  : bool 
-; 760  : Reader::addError( const std::string &message, 
-; 761  :                   Token &token,
-; 762  :                   Location extra )
-; 763  : {
-; 764  :    ErrorInfo info;
-; 765  :    info.token_ = token;
-; 766  :    info.message_ = message;
-; 767  :    info.extra_ = extra;
-; 768  :    errors_.push_back( info );
-; 769  :    return false;
-; 770  : }
-; 771  : 
-; 772  : 
-; 773  : bool 
-; 774  : Reader::recoverFromError( TokenType skipUntilToken )
-; 775  : {
-; 776  :    int errorCount = int(errors_.size());
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-; 786  :    return false;
-; 787  : }
-; 788  : 
-; 789  : 
-; 790  : bool 
-; 791  : Reader::addErrorAndRecover( const std::string &message, 
-; 792  :                             Token &token,
-; 793  :                             TokenType skipUntilToken )
-; 794  : {
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-; 797  : }
-; 798  : 
-; 799  : 
-; 800  : Value &
-; 801  : Reader::currentValue()
-; 802  : {
-; 803  :    return *(nodes_.top());
-; 804  : }
-; 805  : 
-; 806  : 
-; 807  : Reader::Char 
-; 808  : Reader::getNextChar()
-; 809  : {
-; 810  :    if ( current_ == end_ )
 
 	cmp	eax, esi
 	je	SHORT $LN1@readString
 
-; 811  :       return 0;
-; 812  :    return *current_++;
-
 	inc	eax
 	mov	DWORD PTR [ecx+72], eax
-
-; 813  : }
 
 	jmp	SHORT $LN1@readString
 $LN3@readString:
 
-; 471  :          getNextChar();
-; 472  :       else if ( c == '"' )
-
 	cmp	dl, 34					; 00000022H
 	je	SHORT $LN17@readString
 $LN1@readString:
-
-; 466  :    Char c = 0;
-; 467  :    while ( current_ != end_ )
 
 	mov	eax, DWORD PTR [ecx+72]
 	cmp	eax, esi
 	jne	SHORT $LN8@readString
 $LN17@readString:
 
-; 473  :          break;
-; 474  :    }
-; 475  :    return c == '"';
-
 	xor	eax, eax
 	cmp	dl, 34					; 00000022H
 	sete	al
 	pop	esi
-
-; 476  : }
 
 	ret	0
 ?readString@Reader@Json@@AAE_NXZ ENDP			; Json::Reader::readString
@@ -11394,8 +7715,6 @@ __$EHRec$ = -12						; size = 12
 _tokenStart$dead$ = 8					; size = 4
 ?readObject@Reader@Json@@AAE_NAAVToken@12@@Z PROC	; Json::Reader::readObject, COMDAT
 ; _this$ = ecx
-
-; 481  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -11875,18 +8194,12 @@ _tokenStart$dead$ = 8					; size = 4
 	mov	BYTE PTR _name$[ebp], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 483  :    std::string name;
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 275  : {
 
 	mov	eax, DWORD PTR $T11[ebp+8]
 	and	eax, -505				; fffffe07H
 	or	eax, 7
-
-; 293  :       value_.map_ = new ObjectValues();
 
 	push	8
 	mov	DWORD PTR $T11[ebp+8], eax
@@ -12117,8 +8430,6 @@ _tokenStart$dead$ = 8					; size = 4
 	mov	DWORD PTR [edi], eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 293  :       value_.map_ = new ObjectValues();
-
 	jmp	SHORT $LN80@readObject
 $LN79@readObject:
 	xor	edi, edi
@@ -12135,8 +8446,6 @@ $LN80@readObject:
 	push	eax
 	mov	ecx, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 484  :    currentValue() = Value( objectValue );
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
 ; File f:\program_files\vc\include\deque
@@ -12174,8 +8483,6 @@ $LN113@readObject:
 	mov	eax, DWORD PTR [eax+ecx*4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 484  :    currentValue() = Value( objectValue );
-
 	lea	ecx, DWORD PTR $T11[ebp]
 	push	ecx
 	mov	ecx, DWORD PTR [eax+edx*4]
@@ -12184,8 +8491,6 @@ $LN113@readObject:
 	mov	BYTE PTR __$EHRec$[ebp+8], 0
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 
-; 485  :    while ( readToken( tokenName ) )
-
 	lea	eax, DWORD PTR _tokenName$[ebp]
 	push	eax
 	mov	ecx, esi
@@ -12193,10 +8498,6 @@ $LN113@readObject:
 	test	al, al
 	je	$LN15@readObject
 $LL16@readObject:
-
-; 486  :    {
-; 487  :       bool initialTokenOk = true;
-; 488  :       while ( tokenName.type_ == tokenComment  &&  initialTokenOk )
 
 	mov	eax, DWORD PTR _tokenName$[ebp]
 	mov	cl, 1
@@ -12207,8 +8508,6 @@ $LL14@readObject:
 	test	cl, cl
 	je	$LN15@readObject
 
-; 489  :          initialTokenOk = readToken( tokenName );
-
 	lea	eax, DWORD PTR _tokenName$[ebp]
 	push	eax
 	mov	ecx, esi
@@ -12218,19 +8517,12 @@ $LL14@readObject:
 	cmp	eax, 12					; 0000000cH
 	je	SHORT $LL14@readObject
 
-; 490  :       if  ( !initialTokenOk )
-
 	test	cl, cl
 	je	$LN15@readObject
 $LN404@readObject:
 
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
-
 	cmp	eax, 2
 	je	$LN406@readObject
-
-; 493  :          return true;
-; 494  :       if ( tokenName.type_ != tokenString )
 
 	cmp	eax, 5
 	jne	$LN15@readObject
@@ -12244,18 +8536,12 @@ $LN404@readObject:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 498  :       if ( !decodeString( tokenName, name ) )
-
 	lea	eax, DWORD PTR _name$[ebp]
 	push	eax
 	lea	eax, DWORD PTR _tokenName$[ebp]
 	push	eax
 	mov	ecx, esi
 	call	?decodeString@Reader@Json@@AAE_NAAVToken@12@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Json::Reader::decodeString
-
-; 500  : 
-; 501  :       Token colon;
-; 502  :       if ( !readToken( colon ) ||  colon.type_ != tokenMemberSeparator )
 
 	mov	ecx, esi
 	test	al, al
@@ -12315,8 +8601,6 @@ $LN171@readObject:
 	cmp	DWORD PTR _name$[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 803  :    return *(nodes_.top());
-
 	mov	ecx, DWORD PTR [eax+edx*4]
 ; File f:\program_files\vc\include\xstring
 
@@ -12325,8 +8609,6 @@ $LN171@readObject:
 	lea	eax, DWORD PTR _name$[ebp]
 	cmovae	eax, DWORD PTR _name$[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 1017 :    return resolveReference( key, false );
 
 	push	ecx
 	push	eax
@@ -12339,8 +8621,6 @@ $LN171@readObject:
 	mov	ecx, DWORD PTR [esi+12]
 	add	ecx, edx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 508  :       Value &value = currentValue()[ name ];
 
 	mov	DWORD PTR _value$1$[ebp], eax
 ; File f:\program_files\vc\include\deque
@@ -12415,8 +8695,6 @@ $LN227@readObject:
 
 	inc	DWORD PTR [esi+16]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 510  :       bool ok = readValue();
 
 	mov	ecx, esi
 	call	?readValue@Reader@Json@@AAE_NXZ		; Json::Reader::readValue
@@ -12521,8 +8799,6 @@ $LN227@readObject:
 $LN237@readObject:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 519  : 		  comma.type_ != tokenComment ) )
-
 	mov	ecx, esi
 	test	al, al
 	je	$LN393@readObject
@@ -12540,21 +8816,13 @@ $LN237@readObject:
 	jne	$LN4@readObject
 $LN5@readObject:
 
-; 524  :       }
-; 525  :       bool finalizeTokenOk = true;
-
 	mov	cl, 1
-
-; 526  :       while ( comma.type_ == tokenComment &&
-; 527  :               finalizeTokenOk )
 
 	cmp	eax, 12					; 0000000cH
 	jne	SHORT $LN408@readObject
 $LL3@readObject:
 	test	cl, cl
 	je	SHORT $LN408@readObject
-
-; 528  :          finalizeTokenOk = readToken( comma );
 
 	lea	eax, DWORD PTR _comma$6[ebp]
 	push	eax
@@ -12566,12 +8834,8 @@ $LL3@readObject:
 	je	SHORT $LL3@readObject
 $LN408@readObject:
 
-; 529  :       if ( comma.type_ == tokenObjectEnd )
-
 	cmp	eax, 2
 	je	$LN398@readObject
-
-; 485  :    while ( readToken( tokenName ) )
 
 	lea	eax, DWORD PTR _tokenName$[ebp]
 	push	eax
@@ -13052,8 +9316,6 @@ $LN15@readObject:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 534  :                               tokenObjectEnd );
-
 	push	2
 	lea	eax, DWORD PTR _tokenName$[ebp]
 	push	eax
@@ -13068,8 +9330,6 @@ $LN15@readObject:
 
 	cmp	DWORD PTR $T8[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 534  :                               tokenObjectEnd );
 
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
@@ -13561,11 +9821,7 @@ $LN353@readObject:
 $LN375@readObject:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 534  :                               tokenObjectEnd );
-
 	mov	al, bl
-
-; 535  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -13589,8 +9845,6 @@ $LN413@readObject:
 $LN4@readObject:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 523  :                                     tokenObjectEnd );
-
 	push	OFFSET ??_C@_0CJ@NGKOAFKA@Missing?5?8?0?8?5or?5?8?$HN?8?5in?5object?5dec@
 	lea	ecx, DWORD PTR $T9[ebp]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
@@ -13603,8 +9857,6 @@ $LN4@readObject:
 	jmp	SHORT $LN412@readObject
 $LN7@readObject:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 506  :                                     tokenObjectEnd );
 
 	push	OFFSET ??_C@_0CF@GCCDMCPH@Missing?5?8?3?8?5after?5object?5member?5@
 	lea	ecx, DWORD PTR $T10[ebp]
@@ -13625,8 +9877,6 @@ $LN412@readObject:
 	cmp	DWORD PTR $T10[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 506  :                                     tokenObjectEnd );
-
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
 
@@ -13644,8 +9894,6 @@ $LN412@readObject:
 $LN393@readObject:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 499  :          return recoverFromError( tokenObjectEnd );
-
 	push	2
 	call	?recoverFromError@Reader@Json@@AAE_NW4TokenType@12@@Z ; Json::Reader::recoverFromError
 	mov	bl, al
@@ -13657,8 +9905,6 @@ $LN406@readObject:
 
 	cmp	DWORD PTR _name$[ebp+16], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 492  :       if ( tokenName.type_ == tokenObjectEnd  &&  name.empty() )  // empty object
 
 	jne	$LN15@readObject
 $LN398@readObject:
@@ -13746,8 +9992,6 @@ _tokenStart$dead$ = 8					; size = 4
 ?readArray@Reader@Json@@AAE_NAAVToken@12@@Z PROC	; Json::Reader::readArray, COMDAT
 ; _this$ = ecx
 
-; 540  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -13767,13 +10011,9 @@ _tokenStart$dead$ = 8					; size = 4
 	mov	esi, ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 275  : {
-
 	mov	eax, DWORD PTR $T5[ebp+8]
 	and	eax, -506				; fffffe06H
 	or	eax, 6
-
-; 293  :       value_.map_ = new ObjectValues();
 
 	push	8
 	mov	DWORD PTR $T5[ebp+8], eax
@@ -14004,8 +10244,6 @@ _tokenStart$dead$ = 8					; size = 4
 	mov	DWORD PTR [edi], eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 293  :       value_.map_ = new ObjectValues();
-
 	jmp	SHORT $LN28@readArray
 $LN27@readArray:
 	xor	edi, edi
@@ -14022,8 +10260,6 @@ $LN28@readArray:
 	push	eax
 	mov	ecx, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 541  :    currentValue() = Value( arrayValue );
 
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
 ; File f:\program_files\vc\include\deque
@@ -14061,8 +10297,6 @@ $LN61@readArray:
 	mov	eax, DWORD PTR [eax+ecx*4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 541  :    currentValue() = Value( arrayValue );
-
 	lea	ecx, DWORD PTR $T5[ebp]
 	push	ecx
 	mov	ecx, DWORD PTR [eax+edx*4]
@@ -14071,20 +10305,13 @@ $LN61@readArray:
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 
-; 351  :    while ( current_ != end_ )
-
 	mov	edx, DWORD PTR [esi+68]
 	cmp	DWORD PTR [esi+72], edx
 	je	SHORT $LN146@readArray
 $LL68@readArray:
 
-; 352  :    {
-; 353  :       Char c = *current_;
-
 	mov	ecx, DWORD PTR [esi+72]
 	mov	al, BYTE PTR [ecx]
-
-; 354  :       if ( c == ' '  ||  c == '\t'  ||  c == '\r'  ||  c == '\n' )
 
 	cmp	al, 32					; 00000020H
 	je	SHORT $LN65@readArray
@@ -14096,38 +10323,24 @@ $LL68@readArray:
 	jne	SHORT $LN146@readArray
 $LN65@readArray:
 
-; 355  :          ++current_;
-
 	lea	eax, DWORD PTR [ecx+1]
 	mov	DWORD PTR [esi+72], eax
 	cmp	eax, edx
 	jne	SHORT $LL68@readArray
 $LN146@readArray:
 
-; 542  :    skipSpaces();
-; 543  :    if ( *current_ == ']' ) // empty array
-
 	mov	eax, DWORD PTR [esi+72]
 	cmp	BYTE PTR [eax], 93			; 0000005dH
 	jne	SHORT $LN9@readArray
-
-; 544  :    {
-; 545  :       Token endArray;
-; 546  :       readToken( endArray );
 
 	lea	eax, DWORD PTR _endArray$4[ebp]
 	push	eax
 	mov	ecx, esi
 	call	?readToken@Reader@Json@@AAE_NAAVToken@12@@Z ; Json::Reader::readToken
 
-; 547  :       return true;
-
 	mov	al, 1
 	jmp	$LN10@readArray
 $LN9@readArray:
-
-; 548  :    }
-; 549  :    int index = 0;
 
 	xor	ebx, ebx
 $LL8@readArray:
@@ -14174,8 +10387,6 @@ $LN84@readArray:
 	mov	ecx, DWORD PTR [eax+ecx*4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 552  :       Value &value = currentValue()[ index++ ];
-
 	push	ebx
 	mov	ecx, DWORD PTR [ecx+edx*4]
 	call	??AValue@Json@@QAEAAV01@I@Z		; Json::Value::operator[]
@@ -14189,8 +10400,6 @@ $LN84@readArray:
 	mov	ecx, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 552  :       Value &value = currentValue()[ index++ ];
-
 	inc	ebx
 ; File f:\program_files\vc\include\stack
 
@@ -14198,8 +10407,6 @@ $LN84@readArray:
 
 	call	?push_back@?$deque@PAVValue@Json@@V?$allocator@PAVValue@Json@@@std@@@std@@QAEX$$QAPAVValue@Json@@@Z ; std::deque<Json::Value *,std::allocator<Json::Value *> >::push_back
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 554  :       bool ok = readValue();
 
 	mov	ecx, esi
 	call	?readValue@Reader@Json@@AAE_NXZ		; Json::Reader::readValue
@@ -14304,8 +10511,6 @@ $LN84@readArray:
 $LN93@readArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 561  :       ok = readToken( token );
-
 	mov	ecx, esi
 	test	al, al
 	je	SHORT $LN138@readArray
@@ -14313,17 +10518,12 @@ $LN93@readArray:
 	push	eax
 	call	?readToken@Reader@Json@@AAE_NAAVToken@12@@Z ; Json::Reader::readToken
 
-; 562  :       while ( token.type_ == tokenComment  &&  ok )
-
 	mov	ecx, DWORD PTR _token$8[ebp]
 	cmp	ecx, 12					; 0000000cH
 	jne	SHORT $LN4@readArray
 $LL5@readArray:
 	test	al, al
 	je	SHORT $LN2@readArray
-
-; 563  :       {
-; 564  :          ok = readToken( token );
 
 	lea	eax, DWORD PTR _token$8[ebp]
 	push	eax
@@ -14334,29 +10534,15 @@ $LL5@readArray:
 	je	SHORT $LL5@readArray
 $LN4@readArray:
 
-; 565  :       }
-; 566  :       bool badTokenType = ( token.type_ == tokenArraySeparator  &&  
-; 567  :                             token.type_ == tokenArrayEnd );
-; 568  :       if ( !ok  ||  badTokenType )
-
 	test	al, al
 	je	SHORT $LN2@readArray
-
-; 573  :       }
-; 574  :       if ( token.type_ == tokenArrayEnd )
 
 	cmp	ecx, 4
 	jne	$LL8@readArray
 
-; 575  :          break;
-; 576  :    }
-; 577  :    return true;
-
 	mov	al, 1
 	jmp	SHORT $LN10@readArray
 $LN2@readArray:
-
-; 572  :                                     tokenArrayEnd );
 
 	push	OFFSET ??_C@_0CI@DPCANLPO@Missing?5?8?0?8?5or?5?8?$FN?8?5in?5array?5decl@
 	lea	ecx, DWORD PTR $T11[ebp]
@@ -14376,8 +10562,6 @@ $LN2@readArray:
 	cmp	DWORD PTR $T11[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 572  :                                     tokenArrayEnd );
-
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
 
@@ -14394,21 +10578,13 @@ $LN2@readArray:
 $LN123@readArray:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 572  :                                     tokenArrayEnd );
-
 	mov	al, bl
 	jmp	SHORT $LN10@readArray
 $LN138@readArray:
 
-; 555  :       nodes_.pop();
-; 556  :       if ( !ok ) // error already set
-; 557  :          return recoverFromError( tokenArrayEnd );
-
 	push	4
 	call	?recoverFromError@Reader@Json@@AAE_NW4TokenType@12@@Z ; Json::Reader::recoverFromError
 $LN10@readArray:
-
-; 578  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -14515,8 +10691,6 @@ _token$ = 8						; size = 4
 ?decodeNumber@Reader@Json@@AAE_NAAVToken@12@@Z PROC	; Json::Reader::decodeNumber, COMDAT
 ; _this$ = ecx
 
-; 583  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -14537,11 +10711,7 @@ _token$ = 8						; size = 4
 	mov	DWORD PTR _this$GSCopy$1$[ebp], edx
 	mov	esi, DWORD PTR _token$[ebp]
 
-; 584  :    bool isDouble = false;
-
 	xor	al, al
-
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
 
 	mov	ebx, DWORD PTR [esi+4]
 	mov	edi, DWORD PTR [esi+8]
@@ -14552,16 +10722,9 @@ _token$ = 8						; size = 4
 	npad	3
 $LL14@decodeNumb:
 
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
-
 	test	al, al
 	jne	SHORT $LN17@decodeNumb
 	mov	al, BYTE PTR [ecx]
-
-; 49   :    return c == c1  ||  c == c2  ||  c == c3  ||  c == c4;
 
 	cmp	al, 46					; 0000002eH
 	je	SHORT $LN17@decodeNumb
@@ -14571,11 +10734,6 @@ $LL14@decodeNumb:
 	je	SHORT $LN17@decodeNumb
 	cmp	al, 43					; 0000002bH
 	je	SHORT $LN17@decodeNumb
-
-; 586  :    {
-; 587  :       isDouble = isDouble  
-; 588  :                  ||  in( *inspect, '.', 'e', 'E', '+' )  
-; 589  :                  ||  ( *inspect == '-'  &&  inspect != token.start_ );
 
 	cmp	al, 45					; 0000002dH
 	jne	SHORT $LN18@decodeNumb
@@ -14588,19 +10746,12 @@ $LN17@decodeNumb:
 	mov	al, 1
 $LN19@decodeNumb:
 
-; 585  :    for ( Location inspect = token.start_; inspect != token.end_; ++inspect )
-
 	inc	ecx
 	cmp	ecx, edi
 	jne	SHORT $LL14@decodeNumb
 
-; 590  :    }
-; 591  :    if ( isDouble )
-
 	test	al, al
 	je	SHORT $LN11@decodeNumb
-
-; 592  :       return decodeDouble( token );
 
 	push	esi
 	mov	ecx, edx
@@ -14608,27 +10759,16 @@ $LN19@decodeNumb:
 	jmp	$LN15@decodeNumb
 $LN11@decodeNumb:
 
-; 593  :    Location current = token.start_;
-
 	mov	esi, ebx
-
-; 594  :    bool isNegative = *current == '-';
 
 	cmp	BYTE PTR [esi], 45			; 0000002dH
 	sete	al
 	mov	BYTE PTR _isNegative$1$[ebp], al
 
-; 595  :    if ( isNegative )
-
 	test	al, al
 	je	SHORT $LN20@decodeNumb
 
-; 596  :       ++current;
-
 	inc	esi
-
-; 597  :    Value::UInt threshold = (isNegative ? Value::UInt(-Value::minInt) 
-; 598  :                                        : Value::maxUInt) / 10;
 
 	mov	ecx, -2147483648			; 80000000H
 	jmp	SHORT $LN21@decodeNumb
@@ -14639,35 +10779,22 @@ $LN21@decodeNumb:
 	mul	ecx
 	shr	edx, 3
 
-; 599  :    Value::UInt value = 0;
-
 	xor	ecx, ecx
-
-; 600  :    while ( current < token.end_ )
 
 	cmp	esi, edi
 	jae	SHORT $LN8@decodeNumb
 $LL9@decodeNumb:
 
-; 601  :    {
-; 602  :       Char c = *current++;
-
 	mov	al, BYTE PTR [esi]
 	inc	esi
-
-; 603  :       if ( c < '0'  ||  c > '9' )
 
 	cmp	al, 48					; 00000030H
 	jl	$LN6@decodeNumb
 	cmp	al, 57					; 00000039H
 	jg	$LN6@decodeNumb
 
-; 605  :       if ( value >= threshold )
-
 	cmp	ecx, edx
 	jae	SHORT $LN323@decodeNumb
-
-; 607  :       value = value * 10 + Value::UInt(c - '0');
 
 	lea	ecx, DWORD PTR [ecx+ecx*4]
 	movsx	eax, al
@@ -14677,38 +10804,24 @@ $LL9@decodeNumb:
 	jb	SHORT $LL9@decodeNumb
 $LN8@decodeNumb:
 
-; 609  :    if ( isNegative )
-
 	cmp	BYTE PTR _isNegative$1$[ebp], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 318  : {
 
 	mov	eax, DWORD PTR $T10[ebp+8]
 	mov	DWORD PTR $T10[ebp+12], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 609  :    if ( isNegative )
-
 	je	$LN4@decodeNumb
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 318  : {
 
 	and	eax, -255				; ffffff01H
 	or	eax, 1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 610  :       currentValue() = -Value::Int( value );
-
 	neg	ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 318  : {
-
 	mov	DWORD PTR $T10[ebp+8], eax
-
-; 319  :    value_.int_ = value;
 
 	mov	DWORD PTR $T10[ebp], ecx
 ; File f:\program_files\vc\include\deque
@@ -14722,8 +10835,6 @@ $LN8@decodeNumb:
 	lea	eax, DWORD PTR $T4[ebp]
 	push	eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 610  :       currentValue() = -Value::Int( value );
 
 	mov	DWORD PTR __$EHRec$[ebp+8], 4
 ; File f:\program_files\vc\include\deque
@@ -14743,8 +10854,6 @@ $LN8@decodeNumb:
 	jmp	$LN313@decodeNumb
 $LN323@decodeNumb:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 606  :          return decodeDouble( token );
 
 	mov	ecx, DWORD PTR _token$GSCopy$1$[ebp]
 	push	ecx
@@ -15901,8 +12010,6 @@ $LN6@decodeNumb:
 $LN32@decodeNumb:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-
 	lea	eax, DWORD PTR $T7[ebp]
 	push	eax
 	mov	edx, OFFSET ??_C@_01GEODFPGF@?8?$AA@
@@ -17050,8 +13157,6 @@ $LN32@decodeNumb:
 	mov	BYTE PTR _info$2[ebp+12], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 765  :    info.token_ = token;
-
 	mov	ecx, DWORD PTR _token$GSCopy$1$[ebp]
 	mov	BYTE PTR __$EHRec$[ebp+8], 3
 	movq	xmm0, QWORD PTR [ecx]
@@ -17063,8 +13168,6 @@ $LN32@decodeNumb:
 
 	lea	ecx, DWORD PTR _info$2[ebp+12]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 765  :    info.token_ = token;
 
 	movq	QWORD PTR _info$2[ebp], xmm0
 ; File f:\program_files\vc\include\xstring
@@ -17209,8 +13312,6 @@ $LN32@decodeNumb:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 $LN166@decodeNumb:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 768  :    errors_.push_back( info );
 
 	mov	ecx, DWORD PTR _this$GSCopy$1$[ebp]
 	lea	eax, DWORD PTR _info$2[ebp]
@@ -19546,8 +15647,6 @@ $LN254@decodeNumb:
 $LN286@decodeNumb:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 604  :          return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-
 	xor	al, al
 	jmp	SHORT $LN15@decodeNumb
 $LN312@decodeNumb:
@@ -19575,8 +15674,6 @@ $LN313@decodeNumb:
 	mov	eax, DWORD PTR [eax+ecx*4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 610  :       currentValue() = -Value::Int( value );
-
 	lea	ecx, DWORD PTR $T10[ebp]
 	push	ecx
 	mov	ecx, DWORD PTR [eax+edx*4]
@@ -19584,42 +15681,28 @@ $LN313@decodeNumb:
 $LN4@decodeNumb:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 319  :    value_.int_ = value;
-
 	mov	DWORD PTR $T9[ebp], ecx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 611  :    else if ( value <= Value::UInt(Value::maxInt) )
 
 	cmp	ecx, 2147483647				; 7fffffffH
 	ja	SHORT $LN2@decodeNumb
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 318  : {
 
 	and	eax, -255				; ffffff01H
 	or	eax, 1
 	mov	DWORD PTR $T9[ebp+8], eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 612  :       currentValue() = Value::Int( value );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 5
-
-; 613  :    else
 
 	jmp	SHORT $LN331@decodeNumb
 $LN2@decodeNumb:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 329  : {
-
 	and	eax, -254				; ffffff02H
 	or	eax, 2
 	mov	DWORD PTR $T8[ebp+8], eax
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 614  :       currentValue() = value;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], 6
 $LN331@decodeNumb:
@@ -19634,12 +15717,8 @@ $LN330@decodeNumb:
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 
-; 615  :    return true;
-
 	mov	al, 1
 $LN15@decodeNumb:
-
-; 616  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -19744,8 +15823,6 @@ _token$ = 8						; size = 4
 ?decodeDouble@Reader@Json@@AAE_NAAVToken@12@@Z PROC	; Json::Reader::decodeDouble, COMDAT
 ; _this$ = ecx
 
-; 621  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -19766,25 +15843,14 @@ _token$ = 8						; size = 4
 	mov	edi, DWORD PTR _token$[ebp]
 	xorps	xmm0, xmm0
 
-; 622  :    double value = 0;
-; 623  :    const int bufferSize = 32;
-; 624  :    int count;
-; 625  :    int length = int(token.end_ - token.start_);
-
 	mov	ecx, DWORD PTR [edi+8]
 	mov	eax, DWORD PTR [edi+4]
 	mov	esi, ecx
 	sub	esi, eax
 	movsd	QWORD PTR _value$[ebp], xmm0
 
-; 626  :    if ( length <= bufferSize )
-
 	cmp	esi, 32					; 00000020H
 	jg	SHORT $LN3@decodeDoub
-
-; 627  :    {
-; 628  :       Char buffer[bufferSize];
-; 629  :       memcpy( buffer, token.start_, length );
 
 	push	esi
 	push	eax
@@ -19793,12 +15859,8 @@ _token$ = 8						; size = 4
 	call	_memcpy
 	add	esp, 12					; 0000000cH
 
-; 630  :       buffer[length] = 0;
-
 	cmp	esi, 32					; 00000020H
 	jae	SHORT $LN6@decodeDoub
-
-; 631  :       count = sscanf( buffer, "%lf", &value );
 
 	lea	eax, DWORD PTR _value$[ebp]
 	push	eax
@@ -19810,13 +15872,8 @@ _token$ = 8						; size = 4
 	add	esp, 12					; 0000000cH
 	mov	esi, eax
 
-; 632  :    }
-; 633  :    else
-
 	jmp	SHORT $LN80@decodeDoub
 $LN6@decodeDoub:
-
-; 630  :       buffer[length] = 0;
 
 	call	___report_rangecheckfailure
 $LN247@decodeDoub:
@@ -21211,8 +17268,6 @@ $LN56@decodeDoub:
 $LN57@decodeDoub:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
-
 	lea	ecx, DWORD PTR _value$[ebp]
 	push	ecx
 	push	OFFSET ??_C@_03DLDNIBIK@?$CFlf?$AA@
@@ -21225,8 +17280,6 @@ $LN57@decodeDoub:
 
 	cmp	DWORD PTR _buffer$6[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 636  :       count = sscanf( buffer.c_str(), "%lf", &value );
 
 	mov	esi, eax
 ; File f:\program_files\vc\include\xstring
@@ -21244,12 +17297,8 @@ $LN57@decodeDoub:
 $LN80@decodeDoub:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 639  :    if ( count != 1 )
-
 	cmp	esi, 1
 	je	$LN1@decodeDoub
-
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
 
 	mov	eax, DWORD PTR [edi+8]
 	mov	ecx, DWORD PTR [edi+4]
@@ -22627,8 +18676,6 @@ $LN80@decodeDoub:
 $LN92@decodeDoub:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-
 	lea	eax, DWORD PTR $T5[ebp]
 	push	eax
 	mov	edx, OFFSET ??_C@_01GEODFPGF@?8?$AA@
@@ -22654,8 +18701,6 @@ $LN92@decodeDoub:
 
 	cmp	DWORD PTR $T4[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
 
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
@@ -25421,18 +21466,12 @@ $LN183@decodeDoub:
 $LN215@decodeDoub:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 640  :       return addError( "'" + std::string( token.start_, token.end_ ) + "' is not a number.", token );
-
 	mov	al, bl
 	jmp	SHORT $LN4@decodeDoub
 $LN1@decodeDoub:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 339  : {
-
 	mov	eax, DWORD PTR $T7[ebp+8]
-
-; 340  :    value_.real_ = value;
 
 	movsd	xmm0, QWORD PTR _value$[ebp]
 	and	eax, -253				; ffffff03H
@@ -25451,8 +21490,6 @@ $LN1@decodeDoub:
 	push	eax
 	mov	ecx, ebx
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 641  :    currentValue() = value;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], 3
 ; File f:\program_files\vc\include\deque
@@ -25490,8 +21527,6 @@ $LN242@decodeDoub:
 	mov	eax, DWORD PTR [eax+ecx*4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 641  :    currentValue() = value;
-
 	lea	ecx, DWORD PTR $T7[ebp]
 	push	ecx
 	mov	ecx, DWORD PTR [eax+edx*4]
@@ -25500,12 +21535,8 @@ $LN242@decodeDoub:
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
 
-; 642  :    return true;
-
 	mov	al, 1
 $LN4@decodeDoub:
-
-; 643  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -25578,8 +21609,6 @@ __$EHRec$ = -12						; size = 12
 _token$ = 8						; size = 4
 ?decodeString@Reader@Json@@AAE_NAAVToken@12@@Z PROC	; Json::Reader::decodeString, COMDAT
 ; _this$ = ecx
-
-; 648  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -27307,8 +23336,6 @@ _token$ = 8						; size = 4
 	mov	BYTE PTR _decoded$[ebp], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 650  :    if ( !decodeString( token, decoded ) )
-
 	lea	ecx, DWORD PTR _decoded$[ebp]
 	push	ecx
 	push	eax
@@ -27322,22 +23349,14 @@ _token$ = 8						; size = 4
 $LN1@decodeStri:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 376  : {
-
 	mov	eax, DWORD PTR $T4[ebp+8]
 	and	eax, -252				; ffffff04H
 	or	eax, 260				; 00000104H
 	mov	DWORD PTR $T4[ebp+8], eax
 
-; 100  :    static DefaultValueAllocator defaultAllocator;
-
 	mov	eax, DWORD PTR ?$S1@?1??valueAllocator@Json@@YAAAPAVValueAllocator@2@XZ@4IA
 
-; 376  : {
-
 	mov	DWORD PTR $T4[ebp+12], 0
-
-; 100  :    static DefaultValueAllocator defaultAllocator;
 
 	test	al, 1
 	jne	SHORT $LN47@decodeStri
@@ -27355,8 +23374,6 @@ $LN47@decodeStri:
 	cmp	DWORD PTR _decoded$[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 
-; 378  :                                                             (unsigned int)value.length() );
-
 	mov	ecx, DWORD PTR ?valueAllocator@?1??0Json@@YAAAPAVValueAllocator@1@XZ@4PAV21@A
 	push	DWORD PTR _decoded$[ebp+16]
 	mov	eax, DWORD PTR [ecx]
@@ -27367,8 +23384,6 @@ $LN47@decodeStri:
 	lea	edx, DWORD PTR _decoded$[ebp]
 	cmovae	edx, DWORD PTR _decoded$[ebp]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-; 378  :                                                             (unsigned int)value.length() );
 
 	push	edx
 	call	DWORD PTR [eax+12]
@@ -27384,8 +23399,6 @@ $LN47@decodeStri:
 	push	eax
 	mov	ecx, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 652  :    currentValue() = decoded;
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 ; File f:\program_files\vc\include\deque
@@ -27423,8 +23436,6 @@ $LN77@decodeStri:
 	mov	eax, DWORD PTR [eax+ecx*4]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 652  :    currentValue() = decoded;
-
 	lea	ecx, DWORD PTR $T4[ebp]
 	push	ecx
 	mov	ecx, DWORD PTR [eax+edx*4]
@@ -27432,8 +23443,6 @@ $LN77@decodeStri:
 	lea	ecx, DWORD PTR $T4[ebp]
 	mov	BYTE PTR __$EHRec$[ebp+8], 0
 	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
-
-; 653  :    return true;
 
 	mov	bl, 1
 $LN6@decodeStri:
@@ -27453,11 +23462,7 @@ $LN6@decodeStri:
 $LN112@decodeStri:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 653  :    return true;
-
 	mov	al, bl
-
-; 654  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -27626,8 +23631,6 @@ _decoded$ = 12						; size = 4
 ?decodeString@Reader@Json@@AAE_NAAVToken@12@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z PROC ; Json::Reader::decodeString, COMDAT
 ; _this$ = ecx
 
-; 659  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -27649,8 +23652,6 @@ _decoded$ = 12						; size = 4
 	mov	ebx, DWORD PTR _token$[ebp]
 	mov	esi, DWORD PTR _decoded$[ebp]
 
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
-
 	mov	eax, DWORD PTR [ebx+8]
 	sub	eax, DWORD PTR [ebx+4]
 ; File f:\program_files\vc\include\xstring
@@ -27659,8 +23660,6 @@ _decoded$ = 12						; size = 4
 
 	mov	edi, DWORD PTR [esi+16]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 660  :    decoded.reserve( token.end_ - token.start_ - 2 );
 
 	sub	eax, 2
 	mov	DWORD PTR _token$GSCopy$1$[ebp], ebx
@@ -28170,52 +24169,31 @@ $LN1157@decodeStri:
 $LN38@decodeStri:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 661  :    Location current = token.start_ + 1; // skip '"'
-
 	mov	edi, DWORD PTR [ebx+4]
-
-; 662  :    Location end = token.end_ - 1;      // do not include '"'
 
 	mov	ecx, DWORD PTR [ebx+8]
 	dec	ecx
 	inc	edi
 	mov	DWORD PTR _end$1$[ebp], ecx
 
-; 663  :    while ( current != end )
-
 	cmp	edi, ecx
 	je	$LN19@decodeStri
 $LL20@decodeStri:
-
-; 664  :    {
-; 665  :       Char c = *current++;
 
 	mov	bl, BYTE PTR [edi]
 	inc	edi
 	mov	DWORD PTR _current$1$[ebp], edi
 
-; 666  :       if ( c == '"' )
-
 	cmp	bl, 34					; 00000022H
 	je	$LN19@decodeStri
-
-; 667  :          break;
-; 668  :       else if ( c == '\\' )
 
 	cmp	bl, 92					; 0000005cH
 	jne	$LN16@decodeStri
 
-; 669  :       {
-; 670  :          if ( current == end )
-
 	cmp	edi, ecx
 	je	$LN1132@decodeStri
 
-; 672  :          Char escape = *current++;
-
 	mov	al, BYTE PTR [edi]
-
-; 673  :          switch ( escape )
 
 	movsx	eax, al
 	inc	edi
@@ -29290,8 +25268,6 @@ $LN153@decodeStri:
 	mov	BYTE PTR [eax+ebx], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 675  :          case '"': decoded += '"'; break;
-
 	jmp	$LN1127@decodeStri
 $LN170@decodeStri:
 ; File f:\program_files\vc\include\xstring
@@ -29305,8 +25281,6 @@ $LN170@decodeStri:
 
 	mov	BYTE PTR [eax+ebx], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 675  :          case '"': decoded += '"'; break;
 
 	jmp	$LN1127@decodeStri
 $LN11@decodeStri:
@@ -29883,8 +25857,6 @@ $LN259@decodeStri:
 	mov	BYTE PTR [eax+ebx], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 675  :          case '"': decoded += '"'; break;
-
 	jmp	$LN1127@decodeStri
 $LN10@decodeStri:
 ; File f:\program_files\vc\include\xstring
@@ -30460,8 +26432,6 @@ $LN364@decodeStri:
 	mov	BYTE PTR [ebx+eax], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 677  :          case '\\': decoded += '\\'; break;
-
 	jmp	$LN1127@decodeStri
 $LN381@decodeStri:
 ; File f:\program_files\vc\include\xstring
@@ -30475,8 +26445,6 @@ $LN381@decodeStri:
 
 	mov	BYTE PTR [ebx+eax], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 677  :          case '\\': decoded += '\\'; break;
 
 	jmp	$LN1127@decodeStri
 $LN9@decodeStri:
@@ -31053,8 +27021,6 @@ $LN469@decodeStri:
 	mov	BYTE PTR [ebx+eax], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 677  :          case '\\': decoded += '\\'; break;
-
 	jmp	$LN1127@decodeStri
 $LN8@decodeStri:
 ; File f:\program_files\vc\include\xstring
@@ -31629,8 +27595,6 @@ $LN574@decodeStri:
 
 	mov	BYTE PTR [eax+ebx], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 675  :          case '"': decoded += '"'; break;
 
 	jmp	$LN1127@decodeStri
 $LN7@decodeStri:
@@ -32207,8 +28171,6 @@ $LN679@decodeStri:
 	mov	BYTE PTR [eax+ebx], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 675  :          case '"': decoded += '"'; break;
-
 	jmp	$LN1127@decodeStri
 $LN6@decodeStri:
 ; File f:\program_files\vc\include\xstring
@@ -32783,8 +28745,6 @@ $LN784@decodeStri:
 
 	mov	BYTE PTR [ebx+eax], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 677  :          case '\\': decoded += '\\'; break;
 
 	jmp	$LN1127@decodeStri
 $LN5@decodeStri:
@@ -33361,20 +29321,8 @@ $LN889@decodeStri:
 	mov	BYTE PTR [ebx+eax], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 677  :          case '\\': decoded += '\\'; break;
-
 	jmp	$LN1127@decodeStri
 $LN4@decodeStri:
-
-; 678  :          case 'b': decoded += '\b'; break;
-; 679  :          case 'f': decoded += '\f'; break;
-; 680  :          case 'n': decoded += '\n'; break;
-; 681  :          case 'r': decoded += '\r'; break;
-; 682  :          case 't': decoded += '\t'; break;
-; 683  :          case 'u':
-; 684  :             {
-; 685  :                unsigned int unicode;
-; 686  :                if ( !decodeUnicodeCodePoint( token, current, end, unicode ) )
 
 	lea	eax, DWORD PTR _unicode$2[ebp]
 	push	eax
@@ -33386,8 +29334,6 @@ $LN4@decodeStri:
 	call	?decodeUnicodeCodePoint@Reader@Json@@AAE_NAAVToken@12@AAPBDPBDAAI@Z ; Json::Reader::decodeUnicodeCodePoint
 	test	al, al
 	je	$LN1149@decodeStri
-
-; 688  :                decoded += codePointToUTF8(unicode);
 
 	mov	edx, DWORD PTR _unicode$2[ebp]
 	lea	ecx, DWORD PTR $T3[ebp]
@@ -33402,8 +29348,6 @@ $LN4@decodeStri:
 	mov	ecx, esi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 688  :                decoded += codePointToUTF8(unicode);
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
 ; File f:\program_files\vc\include\xstring
 
@@ -33411,8 +29355,6 @@ $LN4@decodeStri:
 
 	call	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 688  :                decoded += codePointToUTF8(unicode);
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File f:\program_files\vc\include\xstring
@@ -33429,8 +29371,6 @@ $LN4@decodeStri:
 	call	??3@YAXPAX@Z				; operator delete
 	add	esp, 4
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 695  :       else
 
 	jmp	SHORT $LN1156@decodeStri
 $LN16@decodeStri:
@@ -34508,8 +30448,6 @@ $LN1156@decodeStri:
 $LN1127@decodeStri:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 663  :    while ( current != end )
-
 	mov	ecx, DWORD PTR _end$1$[ebp]
 	cmp	edi, ecx
 	je	SHORT $LN19@decodeStri
@@ -34525,8 +30463,6 @@ $LN1134@decodeStri:
 $LN1181@decodeStri:
 $LN1149@decodeStri:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 687  :                   return false;
 
 	xor	al, al
 	jmp	SHORT $LN21@decodeStri
@@ -35018,13 +30954,9 @@ $LN2@decodeStri:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 692  :             return addError( "Bad escape sequence in string", token, current );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 2
 	jmp	SHORT $LN1178@decodeStri
 $LN1132@decodeStri:
-
-; 671  :             return addError( "Empty escape sequence in string", token, current );
 
 	push	OFFSET ??_C@_0CA@DPGKPPOE@Empty?5escape?5sequence?5in?5string?$AA@
 	lea	ecx, DWORD PTR $T5[ebp]
@@ -35044,8 +30976,6 @@ $LN1178@decodeStri:
 	cmp	DWORD PTR $T5[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
 
@@ -35062,22 +30992,12 @@ $LN1178@decodeStri:
 $LN60@decodeStri:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 671  :             return addError( "Empty escape sequence in string", token, current );
-
 	mov	al, bl
 	jmp	SHORT $LN21@decodeStri
 $LN19@decodeStri:
 
-; 696  :       {
-; 697  :          decoded += c;
-; 698  :       }
-; 699  :    }
-; 700  :    return true;
-
 	mov	al, 1
 $LN21@decodeStri:
-
-; 701  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -35236,8 +31156,6 @@ _unicode$ = 20						; size = 4
 ?decodeUnicodeCodePoint@Reader@Json@@AAE_NAAVToken@12@AAPBDPBDAAI@Z PROC ; Json::Reader::decodeUnicodeCodePoint, COMDAT
 ; _this$ = ecx
 
-; 708  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -35259,9 +31177,6 @@ _unicode$ = 20						; size = 4
 	mov	eax, DWORD PTR _token$[ebp]
 	mov	esi, DWORD PTR _current$[ebp]
 
-; 709  : 
-; 710  :    if ( !decodeUnicodeEscapeSequence( token, current, end, unicode ) )
-
 	push	edi
 	push	DWORD PTR _end$[ebp]
 	mov	DWORD PTR _token$GSCopy$1$[ebp], eax
@@ -35272,13 +31187,9 @@ _unicode$ = 20						; size = 4
 	jne	SHORT $LN7@decodeUnic
 $LN3@decodeUnic:
 
-; 711  :       return false;
-
 	xor	al, al
 	jmp	$LN8@decodeUnic
 $LN7@decodeUnic:
-
-; 712  :    if (unicode >= 0xD800 && unicode <= 0xDBFF)
 
 	mov	eax, DWORD PTR [edi]
 	cmp	eax, 55296				; 0000d800H
@@ -35286,17 +31197,11 @@ $LN7@decodeUnic:
 	cmp	eax, 56319				; 0000dbffH
 	ja	$LN1@decodeUnic
 
-; 713  :    {
-; 714  :       // surrogate pairs
-; 715  :       if (end - current < 6)
-
 	mov	ecx, DWORD PTR [esi]
 	mov	eax, DWORD PTR _end$[ebp]
 	sub	eax, ecx
 	cmp	eax, 6
 	jge	SHORT $LN5@decodeUnic
-
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
 
 	push	OFFSET ??_C@_0EE@LMPEHADE@additional?5six?5characters?5expect@
 	lea	ecx, DWORD PTR $T4[ebp]
@@ -35315,8 +31220,6 @@ $LN7@decodeUnic:
 	cmp	DWORD PTR $T4[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
 
@@ -35333,14 +31236,9 @@ $LN7@decodeUnic:
 $LN32@decodeUnic:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 716  :          return addError( "additional six characters expected to parse unicode surrogate pair.", token, current );
-
 	mov	al, bl
 	jmp	SHORT $LN8@decodeUnic
 $LN5@decodeUnic:
-
-; 717  :       unsigned int surrogatePair;
-; 718  :       if (*(current++) == '\\' && *(current++)== 'u')
 
 	mov	al, BYTE PTR [ecx]
 	lea	edx, DWORD PTR [ecx+1]
@@ -35353,9 +31251,6 @@ $LN5@decodeUnic:
 	cmp	cl, 117					; 00000075H
 	jne	SHORT $LN4@decodeUnic
 
-; 719  :       {
-; 720  :          if (decodeUnicodeEscapeSequence( token, current, end, surrogatePair ))
-
 	lea	eax, DWORD PTR _surrogatePair$2[ebp]
 	push	eax
 	push	DWORD PTR _end$[ebp]
@@ -35365,9 +31260,6 @@ $LN5@decodeUnic:
 	call	?decodeUnicodeEscapeSequence@Reader@Json@@AAE_NAAVToken@12@AAPBDPBDAAI@Z ; Json::Reader::decodeUnicodeEscapeSequence
 	test	al, al
 	je	$LN3@decodeUnic
-
-; 721  :          {
-; 722  :             unicode = 0x10000 + ((unicode & 0x3FF) << 10) + (surrogatePair & 0x3FF);
 
 	mov	ecx, DWORD PTR [edi]
 	mov	eax, DWORD PTR _surrogatePair$2[ebp]
@@ -35379,13 +31271,8 @@ $LN5@decodeUnic:
 	mov	DWORD PTR [edi], ecx
 $LN1@decodeUnic:
 
-; 729  :    }
-; 730  :    return true;
-
 	mov	al, 1
 $LN8@decodeUnic:
-
-; 731  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -35400,13 +31287,6 @@ $LN8@decodeUnic:
 	pop	ebp
 	ret	16					; 00000010H
 $LN4@decodeUnic:
-
-; 723  :          } 
-; 724  :          else
-; 725  :             return false;
-; 726  :       } 
-; 727  :       else
-; 728  :          return addError( "expecting another \\u token to begin the second half of a unicode surrogate pair", token, current );
 
 	push	OFFSET ??_C@_0FA@BGMMPLKB@expecting?5another?5?2u?5token?5to?5be@
 	lea	ecx, DWORD PTR $T3[ebp]
@@ -35490,8 +31370,6 @@ _unicode$ = 20						; size = 4
 ?decodeUnicodeEscapeSequence@Reader@Json@@AAE_NAAVToken@12@AAPBDPBDAAI@Z PROC ; Json::Reader::decodeUnicodeEscapeSequence, COMDAT
 ; _this$ = ecx
 
-; 738  : {
-
 	push	ebp
 	mov	ebp, esp
 	push	-1
@@ -35510,8 +31388,6 @@ _unicode$ = 20						; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$GSCopy$1$[ebp], ecx
 	mov	ebx, DWORD PTR _current$[ebp]
-
-; 739  :    if ( end - current < 4 )
 
 	mov	eax, DWORD PTR _end$[ebp]
 	sub	eax, DWORD PTR [ebx]
@@ -36620,8 +32496,6 @@ _unicode$ = 20						; size = 4
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-
 	mov	ecx, DWORD PTR _this$GSCopy$1$[ebp]
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 	push	DWORD PTR [ebx]
@@ -36635,8 +32509,6 @@ _unicode$ = 20						; size = 4
 
 	cmp	DWORD PTR $T4[ebp+20], 16		; 00000010H
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
 
 	mov	bl, al
 ; File f:\program_files\vc\include\xstring
@@ -36654,35 +32526,22 @@ _unicode$ = 20						; size = 4
 $LN79@decodeUnic:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 740  :       return addError( "Bad unicode escape sequence in string: four digits expected.", token, current );
-
 	mov	al, bl
 	jmp	$LN11@decodeUnic
 $LN10@decodeUnic:
 
-; 741  :    unicode = 0;
-
 	mov	DWORD PTR [esi], 0
-
-; 742  :    for ( int index =0; index < 4; ++index )
 
 	xor	edi, edi
 	npad	3
 $LL9@decodeUnic:
-
-; 743  :    {
-; 744  :       Char c = *current++;
 
 	mov	eax, DWORD PTR [ebx]
 	inc	eax
 	mov	cl, BYTE PTR [eax-1]
 	mov	DWORD PTR [ebx], eax
 
-; 745  :       unicode *= 16;
-
 	mov	edx, DWORD PTR [esi]
-
-; 746  :       if ( c >= '0'  &&  c <= '9' )
 
 	mov	al, cl
 	shl	edx, 4
@@ -36691,35 +32550,25 @@ $LL9@decodeUnic:
 	cmp	al, 9
 	ja	SHORT $LN6@decodeUnic
 
-; 747  :          unicode += c - '0';
-
 	movsx	eax, cl
 	add	eax, -48				; ffffffd0H
 	jmp	SHORT $LN302@decodeUnic
 $LN6@decodeUnic:
-
-; 748  :       else if ( c >= 'a'  &&  c <= 'f' )
 
 	mov	al, cl
 	sub	al, 97					; 00000061H
 	cmp	al, 5
 	ja	SHORT $LN4@decodeUnic
 
-; 749  :          unicode += c - 'a' + 10;
-
 	movsx	eax, cl
 	add	eax, -87				; ffffffa9H
 	jmp	SHORT $LN302@decodeUnic
 $LN4@decodeUnic:
 
-; 750  :       else if ( c >= 'A'  &&  c <= 'F' )
-
 	mov	al, cl
 	sub	al, 65					; 00000041H
 	cmp	al, 5
 	ja	SHORT $LN2@decodeUnic
-
-; 751  :          unicode += c - 'A' + 10;
 
 	movsx	eax, cl
 	add	eax, -55				; ffffffc9H
@@ -36729,9 +32578,6 @@ $LN302@decodeUnic:
 	mov	DWORD PTR [esi], eax
 	cmp	edi, 4
 	jl	SHORT $LL9@decodeUnic
-
-; 754  :    }
-; 755  :    return true;
 
 	mov	al, 1
 	jmp	$LN11@decodeUnic
@@ -37836,8 +33682,6 @@ $LN2@decodeUnic:
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
 	mov	esi, DWORD PTR [ebx]
 ; File f:\program_files\vc\include\xstring
@@ -38929,8 +34773,6 @@ $LN2@decodeUnic:
 	mov	BYTE PTR _info$2[ebp+12], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 765  :    info.token_ = token;
-
 	mov	eax, DWORD PTR _token$GSCopy$1$[ebp]
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
 	movq	xmm0, QWORD PTR [eax]
@@ -38941,8 +34783,6 @@ $LN2@decodeUnic:
 
 	push	-1
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 765  :    info.token_ = token;
 
 	mov	DWORD PTR _info$2[ebp+8], eax
 ; File f:\program_files\vc\include\xstring
@@ -38955,8 +34795,6 @@ $LN2@decodeUnic:
 	lea	ecx, DWORD PTR _info$2[ebp+12]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 765  :    info.token_ = token;
-
 	movq	QWORD PTR _info$2[ebp], xmm0
 ; File f:\program_files\vc\include\xstring
 
@@ -38964,8 +34802,6 @@ $LN2@decodeUnic:
 
 	call	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 768  :    errors_.push_back( info );
 
 	mov	ecx, DWORD PTR _this$GSCopy$1$[ebp]
 	lea	eax, DWORD PTR _info$2[ebp]
@@ -39003,12 +34839,8 @@ $LN254@decodeUnic:
 $LN286@decodeUnic:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 753  :          return addError( "Bad unicode escape sequence in string: hexadecimal digit expected.", token, current );
-
 	xor	al, al
 $LN11@decodeUnic:
-
-; 756  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -39069,8 +34901,6 @@ _token$ = 12						; size = 4
 _extra$ = 16						; size = 4
 ?addError@Reader@Json@@AAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVToken@12@PBD@Z PROC ; Json::Reader::addError, COMDAT
 ; _this$ = ecx
-
-; 763  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -40225,11 +36055,7 @@ _extra$ = 16						; size = 4
 	mov	BYTE PTR _info$[ebp+12], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 764  :    ErrorInfo info;
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
-
-; 765  :    info.token_ = token;
 
 	movq	xmm0, QWORD PTR [eax]
 	mov	eax, DWORD PTR [eax+8]
@@ -40240,8 +36066,6 @@ _extra$ = 16						; size = 4
 
 	lea	eax, DWORD PTR _info$[ebp+12]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 765  :    info.token_ = token;
 
 	movq	QWORD PTR _info$[ebp], xmm0
 ; File f:\program_files\vc\include\xstring
@@ -40388,8 +36212,6 @@ _extra$ = 16						; size = 4
 $LN96@addError:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 768  :    errors_.push_back( info );
-
 	lea	eax, DWORD PTR _info$[ebp]
 	push	eax
 	lea	ecx, DWORD PTR [esi+20]
@@ -40411,11 +36233,7 @@ $LN96@addError:
 $LN132@addError:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 769  :    return false;
-
 	xor	al, al
-
-; 770  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -40481,14 +36299,10 @@ _skipUntilToken$ = 8					; size = 4
 ?recoverFromError@Reader@Json@@AAE_NW4TokenType@12@@Z PROC ; Json::Reader::recoverFromError, COMDAT
 ; _this$ = ecx
 
-; 775  : {
-
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 16					; 00000010H
 	push	ebx
-
-; 776  :    int errorCount = int(errors_.size());
 
 	mov	ebx, DWORD PTR _skipUntilToken$[ebp]
 	push	esi
@@ -40497,11 +36311,6 @@ _skipUntilToken$ = 8					; size = 4
 	mov	edi, DWORD PTR [esi+36]
 $LL5@recoverFro:
 
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
-
 	lea	eax, DWORD PTR _skip$[ebp]
 	push	eax
 	mov	ecx, esi
@@ -40509,14 +36318,10 @@ $LL5@recoverFro:
 	test	al, al
 	jne	SHORT $LN3@recoverFro
 
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-
 	push	edi
 	lea	ecx, DWORD PTR [esi+20]
 	call	?resize@?$deque@VErrorInfo@Reader@Json@@V?$allocator@VErrorInfo@Reader@Json@@@std@@@std@@QAEXI@Z ; std::deque<Json::Reader::ErrorInfo,std::allocator<Json::Reader::ErrorInfo> >::resize
 $LN3@recoverFro:
-
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
 
 	mov	eax, DWORD PTR _skip$[ebp]
 	cmp	eax, ebx
@@ -40525,16 +36330,9 @@ $LN3@recoverFro:
 	jne	SHORT $LL5@recoverFro
 $LN11@recoverFro:
 
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-
 	push	edi
 	lea	ecx, DWORD PTR [esi+20]
 	call	?resize@?$deque@VErrorInfo@Reader@Json@@V?$allocator@VErrorInfo@Reader@Json@@@std@@@std@@QAEXI@Z ; std::deque<Json::Reader::ErrorInfo,std::allocator<Json::Reader::ErrorInfo> >::resize
-
-; 786  :    return false;
-; 787  : }
 
 	pop	edi
 	pop	esi
@@ -40568,8 +36366,6 @@ _token$ = 12						; size = 4
 _skipUntilToken$ = 16					; size = 4
 ?addErrorAndRecover@Reader@Json@@AAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVToken@12@W4TokenType@12@@Z PROC ; Json::Reader::addErrorAndRecover, COMDAT
 ; _this$ = ecx
-
-; 794  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -41724,11 +37520,7 @@ _skipUntilToken$ = 16					; size = 4
 	mov	BYTE PTR _info$3[ebp+12], 0
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 764  :    ErrorInfo info;
-
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
-
-; 765  :    info.token_ = token;
 
 	movq	xmm0, QWORD PTR [eax]
 	mov	eax, DWORD PTR [eax+8]
@@ -41739,8 +37531,6 @@ _skipUntilToken$ = 16					; size = 4
 
 	lea	eax, DWORD PTR _info$3[ebp+12]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
-
-; 765  :    info.token_ = token;
 
 	movq	QWORD PTR _info$3[ebp], xmm0
 ; File f:\program_files\vc\include\xstring
@@ -41887,15 +37677,11 @@ _skipUntilToken$ = 16					; size = 4
 $LN98@addErrorAn:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 768  :    errors_.push_back( info );
-
 	lea	eax, DWORD PTR _info$3[ebp]
 	push	eax
 	lea	ecx, DWORD PTR [ebx+20]
 	mov	DWORD PTR _info$3[ebp+36], 0
 	call	?push_back@?$deque@VErrorInfo@Reader@Json@@V?$allocator@VErrorInfo@Reader@Json@@@std@@@std@@QAEXABVErrorInfo@Reader@Json@@@Z ; std::deque<Json::Reader::ErrorInfo,std::allocator<Json::Reader::ErrorInfo> >::push_back
-
-; 769  :    return false;
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 ; File f:\program_files\vc\include\xstring
@@ -41914,16 +37700,9 @@ $LN98@addErrorAn:
 $LN122@addErrorAn:
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 776  :    int errorCount = int(errors_.size());
-
 	mov	edi, DWORD PTR [ebx+36]
 	npad	4
 $LL138@addErrorAn:
-
-; 777  :    Token skip;
-; 778  :    while ( true )
-; 779  :    {
-; 780  :       if ( !readToken(skip) )
 
 	lea	eax, DWORD PTR _skip$2[ebp]
 	push	eax
@@ -41932,14 +37711,10 @@ $LL138@addErrorAn:
 	test	al, al
 	jne	SHORT $LN136@addErrorAn
 
-; 781  :          errors_.resize( errorCount ); // discard errors caused by recovery
-
 	push	edi
 	lea	ecx, DWORD PTR [ebx+20]
 	call	?resize@?$deque@VErrorInfo@Reader@Json@@V?$allocator@VErrorInfo@Reader@Json@@@std@@@std@@QAEXI@Z ; std::deque<Json::Reader::ErrorInfo,std::allocator<Json::Reader::ErrorInfo> >::resize
 $LN136@addErrorAn:
-
-; 782  :       if ( skip.type_ == skipUntilToken  ||  skip.type_ == tokenEndOfStream )
 
 	mov	eax, DWORD PTR _skip$2[ebp]
 	cmp	eax, DWORD PTR _skipUntilToken$[ebp]
@@ -41948,20 +37723,11 @@ $LN136@addErrorAn:
 	jne	SHORT $LL138@addErrorAn
 $LN144@addErrorAn:
 
-; 783  :          break;
-; 784  :    }
-; 785  :    errors_.resize( errorCount );
-
 	push	edi
 	lea	ecx, DWORD PTR [ebx+20]
 	call	?resize@?$deque@VErrorInfo@Reader@Json@@V?$allocator@VErrorInfo@Reader@Json@@@std@@@std@@QAEXI@Z ; std::deque<Json::Reader::ErrorInfo,std::allocator<Json::Reader::ErrorInfo> >::resize
 
-; 795  :    addError( message, token );
-; 796  :    return recoverFromError( skipUntilToken );
-
 	xor	al, al
-
-; 797  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -42009,8 +37775,6 @@ $T2 = -12						; size = 12
 ?currentValue@Reader@Json@@AAEAAVValue@2@XZ PROC	; Json::Reader::currentValue, COMDAT
 ; _this$ = ecx
 
-; 802  : {
-
 	push	ebp
 	mov	ebp, esp
 	sub	esp, 24					; 00000018H
@@ -42046,8 +37810,6 @@ $LN14@currentVal:
 	mov	ecx, DWORD PTR [eax+8]
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 803  :    return *(nodes_.top());
-
 	mov	eax, DWORD PTR [eax+4]
 ; File f:\program_files\vc\include\deque
 
@@ -42063,13 +37825,9 @@ $LN14@currentVal:
 	and	esi, 3
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
-; 803  :    return *(nodes_.top());
-
 	mov	eax, DWORD PTR [eax+edx*4]
 	mov	eax, DWORD PTR [eax+esi*4]
 	pop	esi
-
-; 804  : }
 
 	mov	esp, ebp
 	pop	ebp
@@ -42083,32 +37841,20 @@ _TEXT	SEGMENT
 ?getNextChar@Reader@Json@@AAEDXZ PROC			; Json::Reader::getNextChar, COMDAT
 ; _this$ = ecx
 
-; 809  : {
-
 	mov	edx, ecx
-
-; 810  :    if ( current_ == end_ )
 
 	mov	ecx, DWORD PTR [edx+72]
 	cmp	ecx, DWORD PTR [edx+68]
 	jne	SHORT $LN1@getNextCha
 
-; 811  :       return 0;
-
 	xor	al, al
-
-; 813  : }
 
 	ret	0
 $LN1@getNextCha:
 
-; 812  :    return *current_++;
-
 	mov	al, BYTE PTR [ecx]
 	inc	ecx
 	mov	DWORD PTR [edx+72], ecx
-
-; 813  : }
 
 	ret	0
 ?getNextChar@Reader@Json@@AAEDXZ ENDP			; Json::Reader::getNextChar
