@@ -3,7 +3,6 @@
 #include"include\MyJson.h"
 #include<mutex>
 
-extern mutex mtx;
 extern string myName;
 char Client::HEAD_CHAR[2] = {'\x32','\xA0'};
 char Client::RARE_CHAR[2] = {'\x42','\xF0'};
@@ -108,11 +107,6 @@ void Client::sendData(string input)
 	{
 		cout<<e.what();
 	}
-	//while(mtx_cout.try_lock()!=1);
-	//cout<<"Client send:"<<endl;
-	//info.showJson_in_console();
-	//cout<<endl;
-	//mtx_cout.unlock();
 	delete[] ch;
 	delete[] lenth;
 }

@@ -20,5 +20,4 @@
    
 using namespace std; 
 
-extern mutex mtx;
 string myName="New User";

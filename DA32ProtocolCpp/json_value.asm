@@ -504,10 +504,10 @@ PUBLIC	?_Swap_all@_Container_base0@std@@QAEXAAU12@@Z	; std::_Container_base0::_S
 PUBLIC	??AValue@Json@@QAEAAV01@PBD@Z			; Json::Value::operator[]
 PUBLIC	?asInt@Value@Json@@QBEHXZ			; Json::Value::asInt
 PUBLIC	?asString@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ ; Json::Value::asString
-PUBLIC	??4Value@Json@@QAEAAV01@ABV01@@Z		; Json::Value::operator=
 PUBLIC	??0Value@Json@@QAE@W4ValueType@1@@Z		; Json::Value::Value
 PUBLIC	??1Value@Json@@QAE@XZ				; Json::Value::~Value
 PUBLIC	??0Value@Json@@QAE@ABV01@@Z			; Json::Value::Value
+PUBLIC	??4Value@Json@@QAEAAV01@ABV01@@Z		; Json::Value::operator=
 PUBLIC	?null@Value@Json@@2V12@B			; Json::Value::null
 EXTRN	??_EStyledWriter@Json@@UAEPAXI@Z:PROC		; Json::StyledWriter::`vector deleting destructor'
 EXTRN	??_EDefaultValueAllocator@Json@@UAEPAXI@Z:PROC	; Json::DefaultValueAllocator::`vector deleting destructor'
@@ -961,6 +961,93 @@ xdata$x	ENDS
 	ORG $+16
 ?null$initializer$@Value@Json@@2P6AXXZA DD FLAT:??__E?null@Value@Json@@2V12@B@@YAXXZ ; Json::Value::null$initializer$
 _dummyValueAllocatorInitializer$initializer$ DD FLAT:??__EdummyValueAllocatorInitializer@Json@@YAXXZ
+; Function compile flags: /Ogtp
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+; File f:\program_files\vc\include\utility
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+; File f:\program_files\vc\include\utility
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+;	COMDAT ??4Value@Json@@QAEAAV01@ABV01@@Z
+_TEXT	SEGMENT
+_temp$ = -16						; size = 16
+_other$ = 8						; size = 4
+??4Value@Json@@QAEAAV01@ABV01@@Z PROC			; Json::Value::operator=, COMDAT
+; _this$ = ecx
+
+	push	ebp
+	mov	ebp, esp
+	and	esp, -8					; fffffff8H
+	sub	esp, 16					; 00000010H
+	push	ebx
+	push	esi
+
+	push	DWORD PTR _other$[ebp]
+	mov	esi, ecx
+	lea	ecx, DWORD PTR _temp$[esp+28]
+	call	??0Value@Json@@QAE@ABV01@@Z		; Json::Value::Value
+
+	movsx	eax, BYTE PTR [esi+8]
+
+	mov	ebx, DWORD PTR _temp$[esp+32]
+
+	xor	eax, ebx
+	mov	BYTE PTR [esi+8], bl
+; File f:\program_files\vc\include\utility
+
+; 47   : 	_Ty _Tmp = _Move(_Left);
+
+	mov	ecx, DWORD PTR [esi]
+	mov	edx, DWORD PTR [esi+4]
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+
+	and	eax, 255				; 000000ffH
+	xor	ebx, eax
+; File f:\program_files\vc\include\utility
+
+; 48   : 	_Left = _Move(_Right);
+
+	mov	eax, DWORD PTR _temp$[esp+24]
+	mov	DWORD PTR [esi], eax
+	mov	eax, DWORD PTR _temp$[esp+28]
+	mov	DWORD PTR [esi+4], eax
+
+; 49   : 	_Right = _Move(_Tmp);
+
+	mov	DWORD PTR _temp$[esp+28], edx
+	mov	DWORD PTR _temp$[esp+24], ecx
+; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
+
+	mov	ecx, DWORD PTR [esi+8]
+	mov	edx, ecx
+	shl	edx, 23					; 00000017H
+	sar	edx, 31					; 0000001fH
+
+	mov	eax, ecx
+
+	shl	edx, 8
+	xor	eax, ebx
+	xor	edx, ebx
+	and	eax, 256				; 00000100H
+	and	edx, 256				; 00000100H
+	xor	eax, ecx
+	xor	ebx, edx
+
+	lea	ecx, DWORD PTR _temp$[esp+24]
+
+	mov	DWORD PTR [esi+8], eax
+
+	mov	DWORD PTR _temp$[esp+32], ebx
+
+	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
+	mov	eax, esi
+
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??4Value@Json@@QAEAAV01@ABV01@@Z ENDP			; Json::Value::operator=
+_TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ; File f:\program_files\vc\include\map
@@ -1563,93 +1650,6 @@ __ehhandler$??0Value@Json@@QAE@W4ValueType@1@@Z:
 	jmp	___CxxFrameHandler3
 text$x	ENDS
 ??0Value@Json@@QAE@W4ValueType@1@@Z ENDP		; Json::Value::Value
-; Function compile flags: /Ogtp
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-; File f:\program_files\vc\include\utility
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-; File f:\program_files\vc\include\utility
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-;	COMDAT ??4Value@Json@@QAEAAV01@ABV01@@Z
-_TEXT	SEGMENT
-_temp$ = -16						; size = 16
-_other$ = 8						; size = 4
-??4Value@Json@@QAEAAV01@ABV01@@Z PROC			; Json::Value::operator=, COMDAT
-; _this$ = ecx
-
-	push	ebp
-	mov	ebp, esp
-	and	esp, -8					; fffffff8H
-	sub	esp, 16					; 00000010H
-	push	ebx
-	push	esi
-
-	push	DWORD PTR _other$[ebp]
-	mov	esi, ecx
-	lea	ecx, DWORD PTR _temp$[esp+28]
-	call	??0Value@Json@@QAE@ABV01@@Z		; Json::Value::Value
-
-	movsx	eax, BYTE PTR [esi+8]
-
-	mov	ebx, DWORD PTR _temp$[esp+32]
-
-	xor	eax, ebx
-	mov	BYTE PTR [esi+8], bl
-; File f:\program_files\vc\include\utility
-
-; 47   : 	_Ty _Tmp = _Move(_Left);
-
-	mov	ecx, DWORD PTR [esi]
-	mov	edx, DWORD PTR [esi+4]
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-	and	eax, 255				; 000000ffH
-	xor	ebx, eax
-; File f:\program_files\vc\include\utility
-
-; 48   : 	_Left = _Move(_Right);
-
-	mov	eax, DWORD PTR _temp$[esp+24]
-	mov	DWORD PTR [esi], eax
-	mov	eax, DWORD PTR _temp$[esp+28]
-	mov	DWORD PTR [esi+4], eax
-
-; 49   : 	_Right = _Move(_Tmp);
-
-	mov	DWORD PTR _temp$[esp+28], edx
-	mov	DWORD PTR _temp$[esp+24], ecx
-; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
-
-	mov	ecx, DWORD PTR [esi+8]
-	mov	edx, ecx
-	shl	edx, 23					; 00000017H
-	sar	edx, 31					; 0000001fH
-
-	mov	eax, ecx
-
-	shl	edx, 8
-	xor	eax, ebx
-	xor	edx, ebx
-	and	eax, 256				; 00000100H
-	and	edx, 256				; 00000100H
-	xor	eax, ecx
-	xor	ebx, edx
-
-	lea	ecx, DWORD PTR _temp$[esp+24]
-
-	mov	DWORD PTR [esi+8], eax
-
-	mov	DWORD PTR _temp$[esp+32], ebx
-
-	call	??1Value@Json@@QAE@XZ			; Json::Value::~Value
-	mov	eax, esi
-
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??4Value@Json@@QAEAAV01@ABV01@@Z ENDP			; Json::Value::operator=
-_TEXT	ENDS
 ; Function compile flags: /Ogtp
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp
 ; File f:\program_files\vc\include\xstring
