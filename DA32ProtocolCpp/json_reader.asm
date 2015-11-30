@@ -899,10 +899,10 @@ _collectComments$dead$ = 16				; size = 1
 ; 971  : 		if (this != &_Right)
 
 	mov	eax, DWORD PTR _document$[ebp]
-	push	esi
-	push	edi
 ; File g:\bighomework\cn_bhw\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp
 
+	push	esi
+	push	edi
 	mov	edi, ecx
 
 	lea	esi, DWORD PTR [edi+40]
@@ -1052,13 +1052,13 @@ $LN55@parse:
 ; 524  : 			: this->_Bx._Buf);
 
 	cmp	DWORD PTR [esi+20], 16			; 00000010H
-	jb	SHORT $LN61@parse
+	jb	SHORT $LN62@parse
 ; File f:\program_files\vc\include\xstddef
 
 ; 88   : 		reinterpret_cast<const volatile char&>(_Val)))));
 
 	mov	esi, DWORD PTR [esi]
-$LN61@parse:
+$LN62@parse:
 ; File f:\program_files\vc\include\xstring
 
 ; 1728 : 		return (this->_Mysize);
@@ -1073,9 +1073,9 @@ $LN61@parse:
 	push	esi
 	mov	ecx, edi
 	call	?parse@Reader@Json@@QAE_NPBD0AAVValue@2@_N@Z ; Json::Reader::parse
+
 	pop	edi
 	pop	esi
-
 	pop	ebp
 	ret	12					; 0000000cH
 ?parse@Reader@Json@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVValue@2@_N@Z ENDP ; Json::Reader::parse

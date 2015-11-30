@@ -14,16 +14,33 @@ bool findClient(Client *tofind)
 }
 ///主线程，事实上不是一个线程，就是一个函数。
 void mainThread()
+{
+	string input,context;
+	Client *newClient;
+	int pass=0;
+	while(1)
 	{
-		string input,context;
-		Client *newClient=new Client();
-		int pass=0;
-		while(1)
+		newClient=new Client();
+		pass=0;//这个Client是否存在的flag
+		cout<<"请输如“对方IP 内容(用空格分开)”："<<endl;
+		cin>>input;//TODO:这里的输入机制决定了，你不能输入了空格之后又后悔输入·backspace回来改ip···
+		cin>>context;
+		for(int i=0;i<clientList.size();i++)
+		{
+			string temp=inet_ntoa(clientList[i].getAddr().sin_addr);
+			if(temp==input)
 			{
-				pass=0;//这个Client是否存在的flag
-				cout<<"请输如“对方IP 内容(用空格分开)”："<<endl;
-				cin>>input;//TODO:这里的输入机制决定了，你不能输入了空格之后又后悔输入·backspace回来改ip···
-				cin>>context;
+				pass=1;
+				newClient=&clientList[i];
+				break;
+			}
+		}
+		if(pass==0)//不存在就新建之！
+		{
+			while(newClient->newClient(input)==false)
+			{
+				cout<<"链接失败！请输入正确的IP号："<<endl;
+				cin>>input;
 				for(int i=0;i<clientList.size();i++)
 				{
 					string temp=inet_ntoa(clientList[i].getAddr().sin_addr);
@@ -34,37 +51,21 @@ void mainThread()
 						break;
 					}
 				}
-				if(pass==0)//不存在就新建之！
-				{
-					while(newClient->newClient(input)==false)
-					{
-						cout<<"链接失败！请输入正确的IP号："<<endl;
-						cin>>input;
-						for(int i=0;i<clientList.size();i++)
-						{
-							string temp=inet_ntoa(clientList[i].getAddr().sin_addr);
-							if(temp==input)
-							{
-								pass=1;
-								newClient=&clientList[i];
-								break;
-							}
-						}
-						if(pass==1) break;
-					}
-					if(pass==0) clientList.push_back(*newClient);
-				}
-				if(context=="exit") break;
-				c_mtx.lock();
-				if(findClient(newClient)) newClient->sendData(context);	
-				else
-				{
-					c_mtx.unlock();
-					break;
-				}
-				c_mtx.unlock();
+				if(pass==1) break;
 			}
+			if(pass==0) clientList.push_back(*newClient);
+		}
+		if(context=="exit") break;
+		c_mtx.lock();
+		if(findClient(newClient)) newClient->sendData(context);	
+		else
+		{
+			c_mtx.unlock();
+			break;
+		}
+		c_mtx.unlock();
 	}
+}
 ///安全退出所需要的操作
 void quitFunction()
 {
