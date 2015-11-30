@@ -42,7 +42,7 @@ bool MyJson::getJson(std::string charflow)
 	p=(char*)&id;
 	md5_check=*p;
 	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
-	md5_check=md5_check+type_s+time_s+name+GBKToUTF8(text);
+	md5_check=md5_check+type_s+time_s+GBKToUTF8(name)+GBKToUTF8(text);
 	MD5 md5(md5_check);
 	string result = md5.md5();
 	if (result!=md5_s)
@@ -118,7 +118,7 @@ char* MyJson::PackJson(std::string input)
 	p=(char*)&id;
 	md5_check=*p;
 	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
-	md5_check=md5_check+type_s+time_s+name+temp;
+	md5_check=md5_check+type_s+time_s+GBKToUTF8(name)+temp;
 	MD5 md5(md5_check);
 	md5_s=md5.md5();
 	//this->showJson_in_console();

@@ -25,7 +25,7 @@ namespace usinginmain
 		{
 			newClient=new Client();
 			pass=0;//这个Client是否存在的flag
-			cout<<"请输如“对方IP 内容(用空格分开)”："<<endl;
+			cout<<"请输入“对方IP 内容(用空格分开)”："<<endl;
 			cin>>input;//TODO:这里的输入机制决定了，你不能输入了空格之后又后悔输入·backspace回来改ip···
 			cin>>context;
 			for(int i=0;i<clientList.size();i++)
