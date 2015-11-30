@@ -53,12 +53,11 @@ MyJson Message::getContent(string dataflow)
 	info.getJson(dataflow);
 	return info;
 }
-//HELP！！！字段长度是一个八位的正数，直接用数值表示。这样就不能用char、string来传递参数了！！！因为0x00会自动认为其截止！
+
 char* Message::getWrap(char* tosend)
 {
 	string data=GBKToUTF8(tosend);
-	/**/
-	char *pointer=new char[data.length()];
-	for(int i=0;i<data.length();i++)pointer[i]=data[i];
+	char *pointer=new char[data.size()];
+	strcpy(pointer,data.c_str());
 	return pointer;
 }

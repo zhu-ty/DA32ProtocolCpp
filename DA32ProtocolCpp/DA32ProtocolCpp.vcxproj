@@ -91,6 +91,7 @@
     <ClInclude Include="include\Message.h" />
     <ClInclude Include="include\MyJson.h" />
     <ClInclude Include="include\Server.h" />
+    <ClInclude Include="usinginmain.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\lib_json.lib" />

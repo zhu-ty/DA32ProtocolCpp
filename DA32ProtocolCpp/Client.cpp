@@ -9,7 +9,7 @@ const char Client::RARE_CHAR[2] = {'\x42','\xF0'};
 
 byte* get_data_length(string data)
 {
-	UINT64 len=data.length();
+	UINT64 len=data.size()+Client::HEAD_LENTH+Client::RARE_LENTH+Client::WIEDTH_LENTH;
 	char *pointer=(char*)&len;
 	byte *temp=new byte[8];
 	for(int i=0;i<8;i++)
@@ -78,10 +78,10 @@ void Client::sendData(string input)
 	string tosend;
 	char *ch;
 	tosend=info.PackJson(input);
-	ch=new char[tosend.length()];
+	ch=new char[tosend.size()];
 	strcpy(ch,tosend.c_str());
 	tosend=mess.getWrap(ch);
-	ch=new char[tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH];
+	ch=new char[tosend.size()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH];
 	for(int i=0;i<HEAD_LENTH;i++)
 	{
 		ch[i]=Client::HEAD_CHAR[i];
@@ -91,17 +91,17 @@ void Client::sendData(string input)
 	{
 		ch[i+HEAD_LENTH]=lenth[i];
 	}
-	for(int i=0;i<tosend.length();i++)
+	for(int i=0;i<tosend.size();i++)
 	{
 		ch[i+HEAD_LENTH+WIEDTH_LENTH]=tosend.c_str()[i];
 	}
 	for(int i=0;i<RARE_LENTH;i++)
 	{
-		ch[i+HEAD_LENTH+WIEDTH_LENTH+tosend.length()]=RARE_CHAR[i];
+		ch[i+HEAD_LENTH+WIEDTH_LENTH+tosend.size()]=RARE_CHAR[i];
 	}
 	try
 	{
-		send(sockClient,ch,tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
+		send(sockClient,ch,tosend.size()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
 	}
 	catch(exception e)
 	{
@@ -121,10 +121,10 @@ void Client::exit()
 	string tosend;
 	char *ch;
 	tosend=info.PackJson("");
-	ch=new char[tosend.length()];
+	ch=new char[tosend.size()];
 	strcpy(ch,tosend.c_str());
 	tosend=mess.getWrap(ch);
-	ch=new char[tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH];
+	ch=new char[tosend.size()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH];
 	for(int i=0;i<HEAD_LENTH;i++)
 	{
 		ch[i]=Client::HEAD_CHAR[i];
@@ -134,15 +134,15 @@ void Client::exit()
 	{
 		ch[i+HEAD_LENTH]=lenth[i];
 	}
-	for(int i=0;i<tosend.length();i++)
+	for(int i=0;i<tosend.size();i++)
 	{
 		ch[i+HEAD_LENTH+WIEDTH_LENTH]=tosend.c_str()[i];
 	}
 	for(int i=0;i<RARE_LENTH;i++)
 	{
-		ch[i+HEAD_LENTH+WIEDTH_LENTH+tosend.length()]=RARE_CHAR[i];
+		ch[i+HEAD_LENTH+WIEDTH_LENTH+tosend.size()]=RARE_CHAR[i];
 	}
-	send(sockClient,ch,tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
+	send(sockClient,ch,tosend.size()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
 	delete[] ch;
 	delete[] lenth;
 	closesocket(this->sockClient);
@@ -158,10 +158,10 @@ void Client::respend()
 	string tosend;
 	char *ch;
 	tosend=info.PackJson("");
-	ch=new char[tosend.length()];
+	ch=new char[tosend.size()];
 	strcpy(ch,tosend.c_str());
 	tosend=mess.getWrap(ch);
-	ch=new char[tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH];
+	ch=new char[tosend.size()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH];
 	for(int i=0;i<HEAD_LENTH;i++)
 	{
 		ch[i]=Client::HEAD_CHAR[i];
@@ -171,15 +171,15 @@ void Client::respend()
 	{
 		ch[i+HEAD_LENTH]=lenth[i];
 	}
-	for(int i=0;i<tosend.length();i++)
+	for(int i=0;i<tosend.size();i++)
 	{
 		ch[i+HEAD_LENTH+WIEDTH_LENTH]=tosend.c_str()[i];
 	}
 	for(int i=0;i<RARE_LENTH;i++)
 	{
-		ch[i+HEAD_LENTH+WIEDTH_LENTH+tosend.length()]=RARE_CHAR[i];
+		ch[i+HEAD_LENTH+WIEDTH_LENTH+tosend.size()]=RARE_CHAR[i];
 	}
-	send(sockClient,ch,tosend.length()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
+	send(sockClient,ch,tosend.size()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH+1,0);  
 	delete[] ch;
 	delete[] lenth;
 }

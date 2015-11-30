@@ -10,6 +10,7 @@ tm convert_string_to_time_t(const std::string & time_string)
 	int i = sscanf(time_string.c_str(), "%d.%d.%d %d:%d:%d" , &(tm1.tm_year), &(tm1.tm_mon), &(tm1.tm_mday),  &(tm1.tm_hour),&(tm1.tm_min),&(tm1.tm_sec));              
     return tm1;  
 }  
+extern string GBKToUTF8(const std::string& strGBK);
 
 MyJson::MyJson(void)
 {
@@ -41,7 +42,7 @@ bool MyJson::getJson(std::string charflow)
 	p=(char*)&id;
 	md5_check=*p;
 	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
-	md5_check=md5_check+type_s+time_s+name+text;
+	md5_check=md5_check+type_s+time_s+name+GBKToUTF8(text);
 	MD5 md5(md5_check);
 	string result = md5.md5();
 	if (result!=md5_s)
@@ -112,11 +113,12 @@ char* MyJson::PackJson(std::string input)
 	time_s=t;
 	//this->showJson_in_console();
 	root="{\"id\":1,\"type\":\""+this->type_s+"\",\"time\":\""+this->time_s+"\",\"else\":{},\"data\":{\"name\":\""+this->name+"\",\"text\":\"";
-	this->text=input;
+	text=input;
+	string temp=GBKToUTF8(input);
 	p=(char*)&id;
 	md5_check=*p;
 	md5_check=md5_check+*(p+1)+*(p+2)+*(p+3);
-	md5_check=md5_check+type_s+time_s+name+text;
+	md5_check=md5_check+type_s+time_s+name+temp;
 	MD5 md5(md5_check);
 	md5_s=md5.md5();
 	//this->showJson_in_console();
@@ -154,7 +156,7 @@ char* MyJson::PackJson(std::string input)
 	}
 	//this->showJson_in_console();
 	root=root+text+"\"},\"md5\":\""+md5_s+"\"}";
-	p=new char[root.length()];
+	p=new char[root.size()];
 	strcpy(p,root.c_str());
 	return p;
 }

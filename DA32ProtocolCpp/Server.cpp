@@ -99,9 +99,9 @@ string Server::receiveData(SOCKET torcv)
 	char rare[2];
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
 	{
-		bytesRecv = recv(torcv, recvbuf, Client::HEAD_LENTH, 0);
 		try
 		{
+			bytesRecv = recv(torcv, recvbuf, Client::HEAD_LENTH, 0);
 			if (recvbuf[0]!='\x32' || recvbuf[1]!='\xA0') bytesRecv=-1;//server运行到此处会阻塞，直到接收信息或触发异常
 		}
 		catch(exception e)
@@ -123,7 +123,8 @@ string Server::receiveData(SOCKET torcv)
 		x=(unsigned char)(recvbuf[i])*x;
 		length+=x;
 	}
-	recvbuf=new char[length];
+	length=length-Client::HEAD_LENTH-Client::RARE_LENTH-Client::WIEDTH_LENTH;
+	recvbuf=new char[length+1];
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
 	{
 		bytesRecv = recv(torcv, recvbuf, length, 0);
@@ -133,6 +134,7 @@ string Server::receiveData(SOCKET torcv)
 	{
 		bytesRecv = recv(torcv, rare, Client::RARE_LENTH, 0);
 	}
+	recvbuf[length]=0;
 	return recvbuf;
 }
 //关闭一个socket，并注销它的一切信息，需要外部锁

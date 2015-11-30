@@ -77,6 +77,9 @@
     <ClInclude Include="include\Client.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="usinginmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\lib_json.lib" />
