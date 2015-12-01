@@ -112,7 +112,7 @@ string MyJson::PackJson(std::string input)
 	strftime(t, 20 , "%Y.%m.%d %H:%M:%S", &time_tm);
 	time_s=t;
 	//this->showJson_in_console();
-	root="{\"id\":1,\"type\":\""+this->type_s+"\",\"time\":\""+this->time_s+"\",\"else\":{},\"data\":{\"name\":\""+this->name+"\",\"text\":\"";
+	root="{\"id\":1,\"type\":\""+this->type_s+"\",\"time\":\""+this->time_s+"\",\"else\":{},\"data\":{\"name\":\"";
 	text=input;
 	string temp=GBKToUTF8(input);
 	p=(char*)&id;
@@ -156,12 +156,43 @@ string MyJson::PackJson(std::string input)
 			text.replace(pos-1,1,"\\\"");
 			pos++;
 		}
+		//
+		while(pos=this->name.find("\\",pos)+1)
+		{	
+			name.replace(pos-1,1,"\\\\");
+			pos++;
+		}
+		pos=0;
+		while(pos=this->name.find("\r",pos)+1)
+		{	
+			name.replace(pos-1,1,"\\r");
+			pos++;
+		}
+		pos=0;
+		while(pos=this->name.find("\n",pos)+1)
+		{	
+			name.replace(pos-1,1,"\\n");
+			pos++;
+		}
+		pos=0;
+		//while(pos=this->name.find("\'",pos)+1)
+		//{	
+		//	name.replace(pos-1,1,"\\\'");
+		//	pos++;
+		//}
+		pos=0;
+		while(pos=this->name.find("\"",pos)+1)
+		{	
+			name.replace(pos-1,1,"\\\"");
+			pos++;
+		}
 	}
 	catch(exception e)
 	{
 		cout<<"zhuanyi Error:"<<e.what()<<endl;
 	}
 	//this->showJson_in_console();
+	root=root+this->name+"\",\"text\":\"";
 	root=root+text+"\"},\"md5\":\""+md5_s+"\"}";
 	return root;
 }

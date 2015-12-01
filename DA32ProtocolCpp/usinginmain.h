@@ -59,7 +59,7 @@ namespace usinginmain
 				if(pass==0) clientList.push_back(*newClient);
 			}
 			if(context=="exit") break;
-			context=context+"\n"+"有一回车！";
+			context=context+"\r\n"+"有一回车！";
 			c_mtx.lock();
 			if(findClient(newClient)) newClient->sendData(context);	
 			else
@@ -81,11 +81,13 @@ namespace usinginmain
 			c_mtx.unlock();
 		}
 		_sleep(1000);
+		//system("pause");
 	}
 
 	Client* checkClientList(SOCKADDR_IN add)
 	{
 		Client * respond_client=NULL;
+		c_mtx.lock();
 		for(int i=0;i<clientList.size();i++)
 		{
 			if(inet_ntoa(clientList[i].getAddr().sin_addr)==inet_ntoa(add.sin_addr))
@@ -94,7 +96,7 @@ namespace usinginmain
 				break;
 			}
 		}
-		//此部分应由回调函数完成
+		c_mtx.unlock();
 		if(respond_client==NULL)//如果不在，就新建一个客户端
 		{
 			respond_client=new Client();

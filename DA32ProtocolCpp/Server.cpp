@@ -95,6 +95,7 @@ int Server::isSocketAlreadyInVector(SOCKADDR_IN addr)
 string Server::receiveData(SOCKET torcv)
 {
 	int bytesRecv=-1;
+	const int BIGNUM=10000000; 
 	char *recvbuf=new char[8];
 	char rare[2];
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
@@ -107,6 +108,8 @@ string Server::receiveData(SOCKET torcv)
 		catch(exception e)
 		{
 			//TODO:可能会有断线异常。
+			cout<<"when try to receive:"<<e.what();
+			system("pause");
 			break;
 		}
 	}
@@ -124,7 +127,16 @@ string Server::receiveData(SOCKET torcv)
 		length+=x;
 	}
 	length=length-Client::HEAD_LENTH-Client::RARE_LENTH-Client::WIEDTH_LENTH;
-	recvbuf=new char[length+1];
+	try
+	{
+		if(length<BIGNUM) recvbuf=new char[length+1];
+		//else throw exception();
+	}
+	catch(exception e)
+	{
+		cout<<"when new a char*:"<<e.what()<<"length is"<<length;
+		system("pause");
+	}
 	while(bytesRecv == SOCKET_ERROR || bytesRecv==0)
 	{
 		bytesRecv = recv(torcv, recvbuf, length, 0);
@@ -135,7 +147,9 @@ string Server::receiveData(SOCKET torcv)
 		bytesRecv = recv(torcv, rare, Client::RARE_LENTH, 0);
 	}
 	recvbuf[length]=0;
-	return recvbuf;
+	string toreturn=recvbuf;
+	delete[] recvbuf;
+	return toreturn;
 }
 //关闭一个socket，并注销它的一切信息，需要外部锁
 void Server::exitSocket(SOCKET &toclose)
@@ -183,49 +197,50 @@ void Server::ReceiveThread(LPVOID lparam)
 
 	while(1)
 	{
+		Message mess=Message();
+		MyJson infomation=MyJson();
 		try
 		{
-			Message mess=Message();
-			MyJson infomation=MyJson();
 			rcv=this->receiveData(*ReceiveSocket);//接收信息，在这里线程会等待到接收到为止
-			infomation=mess.getContent(rcv);//这里完成了从字节层到信息层的解包
-			if(infomation.type_s=="exit")
-			{	
-				mtx->lock();
-				//注销这个客户端，应当由回调函数完成
-				this->exitSocket(*ReceiveSocket);//在acceptsocket中删除这个socket
-				deleteClient(respond_client);
-				mtx->unlock();
-				cout<<inet_ntoa(dest_add.sin_addr)<<"下线了！"<<endl;
-				respond_client=NULL;//它只是一个无辜的指针，告诉你内容在哪里，但请不要再本函数内操作它的内容。
-				return ;
-			}
-			else
-			{
-				if(infomation.type_s=="text")
-				{
-					mtx->lock();
-					respendClient(respond_client);
-					infomation.showJson_in_console();
-					cout<<endl;
-					mtx->unlock();
-				}
-				else
-				{
-					//TODO:对其他的包类型进行处理，如果需要操作Client，依旧请使用回调函数。
-					elsefunction(respond_client);
-				}
-			}
 		}
 		catch(exception e)//TODO：应当处理此类异常！
 		{
-			cout<<e.what();
-			mtx->lock();
-			this->exitSocket(*ReceiveSocket);
-			mtx->unlock();
-			deleteClient(respond_client);
-			respond_client=NULL;
+			cout<<"when Receive:"<<e.what();
+			system("pause");
+			//mtx->lock();
+			//this->exitSocket(*ReceiveSocket);
+			//deleteClient(respond_client);
+			//mtx->unlock();
+			//respond_client=NULL;
 			return;
+		}
+		infomation=mess.getContent(rcv);//这里完成了从字节层到信息层的解包
+		if(infomation.type_s=="exit")
+		{	
+			mtx->lock();
+			//注销这个客户端，应当由回调函数完成
+			this->exitSocket(*ReceiveSocket);//在acceptsocket中删除这个socket
+			deleteClient(respond_client);
+			mtx->unlock();
+			cout<<inet_ntoa(dest_add.sin_addr)<<"下线了！"<<endl;
+			respond_client=NULL;//它只是一个无辜的指针，告诉你内容在哪里，但请不要再本函数内操作它的内容。
+			return ;
+		}
+		else
+		{
+			if(infomation.type_s=="text")
+			{
+				mtx->lock();
+				respendClient(respond_client);
+				infomation.showJson_in_console();
+				cout<<endl;
+				mtx->unlock();
+			}
+			else
+			{
+				//TODO:对其他的包类型进行处理，如果需要操作Client，依旧请使用回调函数。
+				elsefunction(respond_client);
+			}
 		}
 	}
 	mtx->lock();

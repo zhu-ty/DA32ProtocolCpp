@@ -48,9 +48,9 @@ public:
 	//Server(int port_id=3232);
 	void set_max_binner(int n){max_binner=n;}//设置最大链接数
 	int begin();//将返回开始监听后的线程，在hThread中的索引号
-	vector<SOCKET> get_AcceptList(){return sockAccept;}
+	vector<SOCKET>& get_AcceptList(){return sockAccept;}
 	SOCKET get_SockSrv(){return sockSrv;}
-	vector<thread*> get_hThread(){return mThread;}
+	vector<thread*>& get_hThread(){return mThread;}
 	int isSocketAlreadyInVector(SOCKADDR_IN addr);
 	string receiveData(SOCKET torcv);
 	void exitSocket(SOCKET &toclose);
