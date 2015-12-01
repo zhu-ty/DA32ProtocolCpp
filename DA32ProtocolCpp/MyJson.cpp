@@ -133,21 +133,21 @@ char* MyJson::PackJson(std::string input)
 	pos=0;
 	while(pos=this->text.find("\r",pos)+1)
 	{	
-		text.replace(pos-1,1,"\\\r");
+		text.replace(pos-1,1,"\\r");
 		pos++;
 	}
 	pos=0;
 	while(pos=this->text.find("\n",pos)+1)
 	{	
-		text.replace(pos-1,1,"\\\n");
+		text.replace(pos-1,1,"\\n");
 		pos++;
 	}
 	pos=0;
-	while(pos=this->text.find("\'",pos)+1)
-	{	
-		text.replace(pos-1,1,"\\\'");
-		pos++;
-	}
+	//while(pos=this->text.find("\'",pos)+1)
+	//{	
+	//	text.replace(pos-1,1,"\\\'");
+	//	pos++;
+	//}
 	pos=0;
 	while(pos=this->text.find("\"",pos)+1)
 	{	

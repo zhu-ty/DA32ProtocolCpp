@@ -59,7 +59,7 @@ namespace usinginmain
 				if(pass==0) clientList.push_back(*newClient);
 			}
 			if(context=="exit") break;
-			//context=context+"\n"+"有一回车！";
+			context=context+"\n"+"有一回车！";
 			c_mtx.lock();
 			if(findClient(newClient)) newClient->sendData(context);	
 			else
