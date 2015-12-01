@@ -5,7 +5,7 @@ string GBKToUTF8(const std::string& strGBK)
 {  
     string strOutUTF8 = "";  
     WCHAR * str1;  
-    int n = MultiByteToWideChar(CP_ACP, 0, strGBK.c_str(), -1, NULL, 0);  
+    int n = MultiByteToWideChar(CP_ACP, 0, strGBK.c_str(), -1, NULL, 0); 
     str1 = new WCHAR[n];  
     MultiByteToWideChar(CP_ACP, 0, strGBK.c_str(), -1, str1, n);  
     n = WideCharToMultiByte(CP_UTF8, 0, str1, -1, NULL, 0, NULL, NULL);  
@@ -54,10 +54,15 @@ MyJson Message::getContent(string dataflow)
 	return info;
 }
 
-char* Message::getWrap(char* tosend)
+string Message::getWrap(string tosend)
 {
 	string data=GBKToUTF8(tosend);
-	char *pointer=new char[data.size()];
-	strcpy(pointer,data.c_str());
-	return pointer;
+	try
+	{
+		return data;
+	}
+	catch(exception e)
+	{
+		cout<<"WarpError:"<<e.what();
+	}
 }

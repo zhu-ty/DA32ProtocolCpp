@@ -11,8 +11,6 @@ PUBLIC	??_C@_06ECBCCLMB@?$CF?$CD?416g?$AA@		; `string'
 PUBLIC	??_C@_07FKPPGBGM@?$CC?2?$AI?$AM?6?$AN?7?$AA@	; `string'
 PUBLIC	??_C@_02DCNDPIBM@?2b?$AA@			; `string'
 PUBLIC	??_C@_02FGLPDNBI@?2f?$AA@			; `string'
-PUBLIC	??_C@_02JOGGLHBA@?2n?$AA@			; `string'
-PUBLIC	??_C@_02HIBBOKEN@?2r?$AA@			; `string'
 PUBLIC	??_C@_02COELENML@?2t?$AA@			; `string'
 PUBLIC	??_C@_02DHFAHMIK@?2u?$AA@			; `string'
 PUBLIC	??_C@_04MLLLIHIP@null?$AA@			; `string'
@@ -582,14 +580,6 @@ CONST	ENDS
 ;	COMDAT ??_C@_02COELENML@?2t?$AA@
 CONST	SEGMENT
 ??_C@_02COELENML@?2t?$AA@ DB '\t', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02HIBBOKEN@?2r?$AA@
-CONST	SEGMENT
-??_C@_02HIBBOKEN@?2r?$AA@ DB '\r', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02JOGGLHBA@?2n?$AA@
-CONST	SEGMENT
-??_C@_02JOGGLHBA@?2n?$AA@ DB '\n', 00H			; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_02FGLPDNBI@?2f?$AA@
 CONST	SEGMENT

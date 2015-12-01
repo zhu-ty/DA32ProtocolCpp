@@ -8,6 +8,6 @@ public:
 	Message(void);
 	~Message(void);
 	MyJson getContent(string dataflow);
-	char* getWrap(char* tosend);
+	string getWrap(string tosend);
 };
 

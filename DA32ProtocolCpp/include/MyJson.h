@@ -27,6 +27,6 @@ public:
 	bool getJson(istream& charflow);
 
 	//编码Json信息到一个Json包中。input是文本内容，需要预置type_s、_else其余信息都不需要设置，返回的char*是用UTF-8编码JSON包
-	char* PackJson(std::string input);
+	string PackJson(std::string input);
 };
 

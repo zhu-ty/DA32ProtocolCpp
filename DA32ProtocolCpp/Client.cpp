@@ -78,9 +78,14 @@ void Client::sendData(string input)
 	string tosend;
 	char *ch;
 	tosend=info.PackJson(input);
-	ch=new char[tosend.size()];
-	strcpy(ch,tosend.c_str());
-	tosend=mess.getWrap(ch);
+	try
+	{
+		tosend=mess.getWrap(tosend);
+	}
+	catch(exception e)
+	{
+		cout<<e.what();
+	}
 	ch=new char[tosend.size()+HEAD_LENTH+RARE_LENTH+WIEDTH_LENTH];
 	for(int i=0;i<HEAD_LENTH;i++)
 	{
@@ -105,7 +110,7 @@ void Client::sendData(string input)
 	}
 	catch(exception e)
 	{
-		cout<<e.what();
+		cout<<"sendError!"<<e.what();
 	}
 	delete[] ch;
 	delete[] lenth;

@@ -101,7 +101,7 @@ void MyJson::showJson_in_console()
 	//system("pause");
 }
 //打包一个Json
-char* MyJson::PackJson(std::string input)
+string MyJson::PackJson(std::string input)
 {
 	std::string root;
 	std::string md5_check;
@@ -125,38 +125,43 @@ char* MyJson::PackJson(std::string input)
 	/*进行输入处理
 	*/
 	int pos=0;
-	while(pos=this->text.find("\\",pos)+1)
-	{	
-		text.replace(pos-1,1,"\\\\");
-		pos++;
+	try
+	{
+		while(pos=this->text.find("\\",pos)+1)
+		{	
+			text.replace(pos-1,1,"\\\\");
+			pos++;
+		}
+		pos=0;
+		while(pos=this->text.find("\r",pos)+1)
+		{	
+			text.replace(pos-1,1,"\\r");
+			pos++;
+		}
+		pos=0;
+		while(pos=this->text.find("\n",pos)+1)
+		{	
+			text.replace(pos-1,1,"\\n");
+			pos++;
+		}
+		pos=0;
+		//while(pos=this->text.find("\'",pos)+1)
+		//{	
+		//	text.replace(pos-1,1,"\\\'");
+		//	pos++;
+		//}
+		pos=0;
+		while(pos=this->text.find("\"",pos)+1)
+		{	
+			text.replace(pos-1,1,"\\\"");
+			pos++;
+		}
 	}
-	pos=0;
-	while(pos=this->text.find("\r",pos)+1)
-	{	
-		text.replace(pos-1,1,"\\r");
-		pos++;
-	}
-	pos=0;
-	while(pos=this->text.find("\n",pos)+1)
-	{	
-		text.replace(pos-1,1,"\\n");
-		pos++;
-	}
-	pos=0;
-	//while(pos=this->text.find("\'",pos)+1)
-	//{	
-	//	text.replace(pos-1,1,"\\\'");
-	//	pos++;
-	//}
-	pos=0;
-	while(pos=this->text.find("\"",pos)+1)
-	{	
-		text.replace(pos-1,1,"\\\"");
-		pos++;
+	catch(exception e)
+	{
+		cout<<"zhuanyi Error:"<<e.what()<<endl;
 	}
 	//this->showJson_in_console();
 	root=root+text+"\"},\"md5\":\""+md5_s+"\"}";
-	p=new char[root.size()];
-	strcpy(p,root.c_str());
-	return p;
+	return root;
 }
