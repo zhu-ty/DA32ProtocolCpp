@@ -1,0 +1,7 @@
+include/json拷贝到工程目录
+lib拷贝到工程目录
+工程属性页->常规->MFC使用：静态库
+	->c/c++->代码生成->运行库：MT（release）或MTD(debug)
+	->连接器->输入->依赖项：选出自己的lib，debug和release
+
+vs2012下实测有效
