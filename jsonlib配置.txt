@@ -1,7 +1,11 @@
-include/json拷贝到工程目录
-lib拷贝到工程目录
+如果需要将工程文件转移到工程中使用
+include拷贝到工程目录，包括了所需头文件和json包解析用的头文件
+lib拷贝到工程目录，包括了json包解析用的静态连接库
+json_reader.asm json_value.asm json_writer.asm拷贝到工程目录，其是由静态链接库汇编产生的文件
+根目录下的cpp，包括了所需的源文件和部分头文件。
+
 工程属性页->常规->MFC使用：静态库
 	->c/c++->代码生成->运行库：MT（release）或MTD(debug)
 	->连接器->输入->依赖项：选出自己的lib，debug和release
 
-vs2012下实测有效
+vs2012下实测有效。
